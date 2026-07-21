@@ -1,0 +1,81 @@
+{
+  "weights": [
+    { "key": "elig", "label": "Eligibility for an Australian founder", "pct": 20 },
+    { "key": "value", "label": "Non-dilutive financial value", "pct": 15 },
+    { "key": "align", "label": "Alignment with your projects", "pct": 20 },
+    { "key": "early", "label": "Openness to early-stage ideas", "pct": 10 },
+    { "key": "infra", "label": "Practical infrastructure and partnership value", "pct": 10 },
+    { "key": "ip", "label": "Founder-friendly IP terms", "pct": 10 },
+    { "key": "reloc", "label": "Low relocation or incorporation burden", "pct": 5 },
+    { "key": "cred", "label": "Likelihood of a credible application", "pct": 10 }
+  ],
+  "phases": [
+    {
+      "window": "Days 1 to 15",
+      "title": "Set the base and the reusable kit",
+      "detail": "Do the write-once work that every later application reuses, so no program starts from a blank page.",
+      "tasks": [
+        "Write a one-page founder bio and a portfolio one-pager (repos, live sites, track record).",
+        "Draft three reusable project briefs: Aura, a civic-tech pilot, and a creative or Minjerribah project.",
+        "Prepare a plain-English budget template and a short impact-and-outcomes statement.",
+        "Confirm your entity options: sole trader now, plus an Estonia e-Residency EU company as a future unlock.",
+        "Open the Atlas, sort by score, and star the fifteen shortlist programs."
+      ]
+    },
+    {
+      "window": "Days 16 to 40",
+      "title": "Win the easy, non-dilutive wins first",
+      "detail": "Lodge the light, remote, individual-friendly applications where the paperwork is proportionate to the prize.",
+      "tasks": [
+        "Submit to NGI Zero (NLnet) with an open-sourceable Aura or Sensorium component.",
+        "Submit Epic MegaGrants for the Infinity Engine immersive pipeline (rolling, so no deadline risk).",
+        "Prepare a National Geographic Level I proposal for a community-led Minjerribah story.",
+        "Match Aura to the current Mozilla round theme and a live Protocol Labs RFP.",
+        "Lodge an Austrade Landing Pads expression of interest for one target hub."
+      ]
+    },
+    {
+      "window": "Days 41 to 65",
+      "title": "Line up relocation and pilot pathways",
+      "detail": "Set up the optional-relocation and paid-pilot routes that need a bit more groundwork.",
+      "tasks": [
+        "Decide your preferred part-year base (Estonia or Portugal for EU, Abu Dhabi for resourced AI, Singapore for Asia health).",
+        "Apply for e-Residency to unlock EU grant eligibility (EIC, NGI, Horizon).",
+        "Watch for a matching Dubai Future government challenge and draft a solution-fit brief.",
+        "Approach a Chilean or Gulf soft-landing team with a one-page sector-fit case.",
+        "Contact a QLD university about hosting a Wellcome or MSCA health-research proposal."
+      ]
+    },
+    {
+      "window": "Days 66 to 90",
+      "title": "Aim the big swings and set the rhythm",
+      "detail": "Position the high-value, longer-lead opportunities and turn the search into a repeatable habit.",
+      "tasks": [
+        "Draft the Halcyon fellowship social-impact narrative for GAJRA Earth.",
+        "Scope an XPRIZE or Earthshot fit and identify a nominator or team.",
+        "If pursuing EU growth capital, begin building TRL evidence for a future EIC Accelerator cut-off.",
+        "Book a monthly two-hour review to re-check statuses and refresh live dates at source.",
+        "Retire any program where the paperwork clearly outweighs the prize."
+      ]
+    }
+  ],
+  "buckets": [
+    { "title": "Five easiest credible applications", "ids": ["nlnet-ngi", "epic-megagrants", "natgeo-grants", "austrade-landing-pads", "mozilla-technology-fund"] },
+    { "title": "Five largest potential funding", "ids": ["eic-accelerator", "earthshot-prize", "xprize", "neom", "wellcome-trust"] },
+    { "title": "Five strongest relocation / expansion packages", "ids": ["austrade-landing-pads", "hub71", "startup-chile", "estonia-startup-visa", "portugal-startup-visa"] },
+    { "title": "Five best for Aura of Intelligence", "ids": ["nlnet-ngi", "mozilla-technology-fund", "astera-residency", "cdl", "hub71"] },
+    { "title": "Five best civic / community-technology", "ids": ["dubai-future-accelerators", "start-qatar", "nlnet-ngi", "undp-unleash-sdg", "austrade-landing-pads"] },
+    { "title": "Five best health, longevity or dementia", "ids": ["wellcome-trust", "grand-challenges", "horizon-msca", "singapore-entrepass", "cdl"] },
+    { "title": "Five best creative and immersive-media", "ids": ["epic-megagrants", "natgeo-grants", "immersive-festival-labs", "french-tech-ticket", "hub71"] },
+    { "title": "Five best for G.A.J.R.A. Earth / nonprofit", "ids": ["halcyon-incubator", "undp-unleash-sdg", "gef-sgp", "earthshot-prize", "natgeo-grants"] },
+    { "title": "Could fund an on-island Minjerribah pilot", "ids": ["gef-sgp", "natgeo-grants", "earthshot-prize", "undp-unleash-sdg", "xprize"] }
+  ],
+  "reusable": [
+    "Founder bio (one page) and portfolio one-pager",
+    "Three project briefs: Aura, civic-tech pilot, creative / Minjerribah",
+    "Plain-English budget template",
+    "Impact-and-outcomes statement mapped to the SDGs",
+    "Two-minute demo video and a vertical-slice prototype",
+    "Standing list of referees and potential community partners"
+  ]
+}

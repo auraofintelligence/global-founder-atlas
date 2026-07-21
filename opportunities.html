@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The full searchable atlas of verified international funding, visa, residency, research and pilot opportunities, ranked by a weighted score.">
+    <title>The Atlas | Global Founder Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nunito+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css?v=1">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  </head>
+  <body data-page="opportunities">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"></header>
+    <main id="main" class="page-shell">
+      <p class="eyebrow">The full atlas</p>
+      <h1>Every verified opportunity, searchable and scored.</h1>
+      <p class="lede">Filter by category, project theme or keyword. Each card carries a 0 to 100 weighted score and expands to the full field set: dates, eligibility, funding, IP, benefits, risks and a verify note. Confirm live details at the official source before applying.</p>
+
+      <div class="toolbar">
+        <div class="search-row">
+          <div>
+            <label class="search-label" for="oppSearch">Search</label>
+            <input class="search-input" id="oppSearch" type="search" placeholder="country, program, theme, project...">
+          </div>
+          <div>
+            <label class="search-label" for="catFilter">Category</label>
+            <select class="search-input" id="catFilter">
+              <option value="All">All categories</option>
+              <option value="open">A &middot; Open / rolling</option>
+              <option value="recurring">C &middot; Recurring</option>
+              <option value="D">D &middot; Relocation packages</option>
+              <option value="E">E &middot; Research and labs</option>
+              <option value="F">F &middot; Paid pilots</option>
+              <option value="G">G &middot; Social impact</option>
+              <option value="H">H &middot; Creative and immersive</option>
+              <option value="I">I &middot; Wildcards</option>
+            </select>
+          </div>
+          <div>
+            <label class="search-label" for="themeFilter">Project theme</label>
+            <select class="search-input" id="themeFilter">
+              <option value="All">All themes</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter-bar">
+          <button type="button" data-sort="score" class="is-active">Sort: highest score</button>
+          <button type="button" data-sort="name">Sort: A to Z</button>
+          <span class="result-count" id="resultCount" style="margin-left:auto"></span>
+        </div>
+      </div>
+
+      <div class="data-grid two" id="oppGrid"></div>
+    </main>
+    <footer class="site-footer"></footer>
+    <button class="to-top" type="button" data-to-top aria-label="Back to top">Top</button>
+    <script src="assets/app.js?v=1"></script>
+  </body>
+</html>

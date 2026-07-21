@@ -1,0 +1,69 @@
+{
+  "projectAreas": [
+    { "key": "xr-spatial", "label": "Extended reality, spatial computing and embodied AI" },
+    { "key": "digital-twin", "label": "Personal digital twins of the body and mind" },
+    { "key": "ai-assistants", "label": "Human-centred AI assistants and cognitive architecture" },
+    { "key": "privacy-data", "label": "Privacy-preserving personal data systems" },
+    { "key": "generative-ai", "label": "Generative AI, blockchain and IoT integration" },
+    { "key": "blockchain", "label": "Blockchain and decentralised systems" },
+    { "key": "iot", "label": "Internet of Things and connected devices" },
+    { "key": "health", "label": "Health, wellbeing, ageing and preventative health" },
+    { "key": "dementia", "label": "Dementia support and measured self-development" },
+    { "key": "civic-tech", "label": "Civic technology, participatory democracy and governance" },
+    { "key": "smart-communities", "label": "Smart communities, digital noticeboards and public information" },
+    { "key": "disaster-resilience", "label": "Disaster resilience and community trust-building" },
+    { "key": "sustainable-dev", "label": "Sustainable development and regenerative systems" },
+    { "key": "indigenous", "label": "Indigenous, island and remote-community innovation" },
+    { "key": "film-music", "label": "Film, music, immersive storytelling and festivals" },
+    { "key": "immersive-media", "label": "Immersive and mixed media" },
+    { "key": "creative-tech", "label": "Creative technology" },
+    { "key": "museums-archives", "label": "Museums, cultural archives and preservation" },
+    { "key": "climate", "label": "Climate adaptation and environmental monitoring" },
+    { "key": "island-biosecurity", "label": "Island biosecurity and Country care" },
+    { "key": "environment-monitoring", "label": "Environmental monitoring and citizen science" }
+  ],
+  "lenses": [
+    {
+      "key": "aura",
+      "title": "Best for Aura of Intelligence",
+      "blurb": "Human-centred, privacy-first personal AI, cognitive architecture and personal digital twins.",
+      "themes": ["ai-assistants", "privacy-data", "generative-ai", "digital-twin"],
+      "ids": ["nlnet-ngi", "mozilla-technology-fund", "astera-residency", "cdl", "hub71"]
+    },
+    {
+      "key": "civic",
+      "title": "Best civic and community-technology",
+      "blurb": "Decentralised municipal AI, digital noticeboards, participatory governance and public information.",
+      "themes": ["civic-tech", "smart-communities", "disaster-resilience"],
+      "ids": ["dubai-future-accelerators", "start-qatar", "nlnet-ngi", "undp-unleash-sdg", "austrade-landing-pads"]
+    },
+    {
+      "key": "health",
+      "title": "Best health, longevity and dementia",
+      "blurb": "Ageing, dementia support, preventative and measured health, hyperbaric and self-development research.",
+      "themes": ["health", "dementia"],
+      "ids": ["wellcome-trust", "grand-challenges", "horizon-msca", "singapore-entrepass", "cdl"]
+    },
+    {
+      "key": "creative",
+      "title": "Best creative and immersive-media",
+      "blurb": "Immersive storytelling, the Infinity Engine music-visuals pipeline, cultural archives and festivals.",
+      "themes": ["film-music", "immersive-media", "creative-tech", "museums-archives", "xr-spatial"],
+      "ids": ["epic-megagrants", "natgeo-grants", "immersive-festival-labs", "french-tech-ticket"]
+    },
+    {
+      "key": "gajra",
+      "title": "Best for G.A.J.R.A. Earth or a nonprofit",
+      "blurb": "Mission-driven, regenerative and social-enterprise work aligned to the SDGs.",
+      "themes": ["sustainable-dev", "disaster-resilience", "indigenous", "climate"],
+      "ids": ["halcyon-incubator", "undp-unleash-sdg", "gef-sgp", "earthshot-prize", "natgeo-grants"]
+    },
+    {
+      "key": "minjerribah",
+      "title": "Could fund an on-island Minjerribah pilot",
+      "blurb": "Programs that could support a pilot or research facility on North Stradbroke Island / Minjerribah through a community-led, culturally appropriate vehicle.",
+      "themes": ["island-biosecurity", "environment-monitoring", "indigenous", "climate"],
+      "ids": ["gef-sgp", "natgeo-grants", "earthshot-prize", "undp-unleash-sdg", "xprize"]
+    }
+  ]
+}
