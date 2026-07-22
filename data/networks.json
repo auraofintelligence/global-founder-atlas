@@ -1,0 +1,202 @@
+{
+  "groups": [
+    {
+      "key": "communities",
+      "eyebrow": "Belong somewhere",
+      "title": "Communities and fellowships to join",
+      "blurb": "Membership networks and fellowships that put a solo, interdisciplinary founder among peers, mentors and funders. Belonging often opens more doors than any single grant.",
+      "items": [
+        {
+          "name": "Edmund Hillary Fellowship",
+          "kind": "Impact-founder fellowship",
+          "place": "New Zealand (global members)",
+          "url": "https://www.ehf.org/",
+          "why": "A curated community of global entrepreneurs and innovators building positive impact from New Zealand, a short hop from Minjerribah, with a real residency pathway attached.",
+          "themes": ["sustainable-dev", "civic-tech", "climate"]
+        },
+        {
+          "name": "Foresight Institute",
+          "kind": "Transformative-tech community and fellowship",
+          "place": "San Francisco (global, remote-friendly)",
+          "url": "https://foresight.org/engage/",
+          "why": "Fellows and members work on secure AI, longevity, neuro and nanotech, the exact register of your most ambitious Aura and health thinking. Seminars, grants and a serious peer circle.",
+          "themes": ["ai-assistants", "health", "generative-ai"]
+        },
+        {
+          "name": "Hello Tomorrow Deep Tech Pioneers",
+          "kind": "Deep-tech network",
+          "place": "Paris (global)",
+          "url": "https://hello-tomorrow.org/",
+          "why": "Entering the Global Challenge names roughly 800 ventures a year as Deep Tech Pioneers, unlocking an investor day with 300+ VCs and a global science-into-product community.",
+          "themes": ["generative-ai", "digital-twin", "climate"]
+        },
+        {
+          "name": "MIT Solve community",
+          "kind": "Solver community",
+          "place": "Cambridge, Massachusetts (global)",
+          "url": "https://solve.mit.edu/",
+          "why": "Solver teams join a nine-month supported community of peers, funders and MIT experts across health, climate, AI and economic opportunity. Access and introductions beyond the prize money.",
+          "themes": ["health", "civic-tech", "sustainable-dev"]
+        },
+        {
+          "name": "South Park Commons",
+          "kind": "Founder community and fellowship",
+          "place": "San Francisco, New York, Bangalore",
+          "url": "https://www.southparkcommons.com/",
+          "why": "A talent-dense community built for strong technologists at the idea-search stage, before the company is clear. Useful company and a funded fellowship if you decide to commit to one venture.",
+          "themes": ["generative-ai", "ai-assistants"]
+        },
+        {
+          "name": "NEW INC (New Museum)",
+          "kind": "Art, technology and design incubator",
+          "place": "New York City",
+          "url": "https://www.newinc.org/",
+          "why": "A museum-led incubator for people working at the seam of art, technology and design, a natural home for immersive-media and creative-technology work. Verify current membership cycle.",
+          "themes": ["immersive-media", "creative-tech", "xr-spatial"]
+        }
+      ]
+    },
+    {
+      "key": "home-ground",
+      "eyebrow": "Allies close to home",
+      "title": "Australian and First Nations allies",
+      "blurb": "Home-ground networks that help an Australian founder go global, plus the right first contacts for any work touching Country. Approach island and First Nations work as an invitation to partner, led by the community, never assumed.",
+      "items": [
+        {
+          "name": "Barayamal",
+          "kind": "First Nations startup accelerator (charity)",
+          "place": "Australia (national)",
+          "url": "https://barayamal.com.au/",
+          "why": "Australia's leading First Nations startup accelerator, 100% First Nations owned and run, with education, mentoring and (in 2026) a pre-accelerator and micro-grants. A natural ally and doorway for culturally-led island innovation.",
+          "themes": ["indigenous", "civic-tech", "sustainable-dev"]
+        },
+        {
+          "name": "Advance (Global Australians)",
+          "kind": "Diaspora and expansion network",
+          "place": "Australia and worldwide",
+          "url": "https://advance.org/",
+          "why": "A network of globally-minded Australians and expats that can warm up introductions in the very hubs you might test, so an overseas move starts with people rather than cold outreach.",
+          "themes": ["ai-assistants", "civic-tech", "climate"]
+        },
+        {
+          "name": "Startmate",
+          "kind": "Accelerator and founder community",
+          "place": "Australia and New Zealand",
+          "url": "https://www.startmate.com/",
+          "why": "A leading Australasian accelerator and community. Even outside a cohort, its network and events are a strong domestic base that pairs with the international programs in this atlas.",
+          "themes": ["generative-ai", "health", "civic-tech"]
+        },
+        {
+          "name": "Quandamooka Country (QYAC)",
+          "kind": "Cultural authority and first contact",
+          "place": "Minjerribah / North Stradbroke Island",
+          "url": "https://www.qyac.net.au/",
+          "why": "For anything on or about Minjerribah, the Quandamooka Yoolooburrabee Aboriginal Corporation is the proper doorway for land and sea decisions. Any on-island pilot begins here, community-led, with consent and benefit-sharing settled first.",
+          "themes": ["indigenous", "island-biosecurity", "climate"]
+        }
+      ]
+    },
+    {
+      "key": "events",
+      "eyebrow": "Be in the room",
+      "title": "Events and summits to time a trip around",
+      "blurb": "Synchronous moments where founders, funders, governments and collaborators gather. Timing an overseas trip around one turns travel into introductions. Confirm exact dates and locations at each official site before booking.",
+      "items": [
+        {
+          "name": "Slush",
+          "kind": "Founder-focused startup event",
+          "cadence": "Helsinki, 18-19 November 2026",
+          "place": "Helsinki, Finland",
+          "url": "https://slush.org/",
+          "why": "The world's most founder-focused event: 13,000+ attendees, curated 1:1 matchmaking with investors before you arrive, and the Slush 100 pitch. A dense place to meet European capital and peers.",
+          "themes": ["generative-ai", "climate", "health"]
+        },
+        {
+          "name": "Hello Tomorrow Summit",
+          "kind": "Deep-tech summit",
+          "cadence": "Annual; verify next dates",
+          "place": "Amsterdam / Paris",
+          "url": "https://hello-tomorrow.org/",
+          "why": "Where the Global Challenge finals and Investor Day happen. The best single gathering for science-driven, deep-tech founders and the funds that back them.",
+          "themes": ["generative-ai", "digital-twin", "health"]
+        },
+        {
+          "name": "Web Summit",
+          "kind": "Global technology conference",
+          "cadence": "Lisbon, annually in November; verify dates",
+          "place": "Lisbon, Portugal",
+          "url": "https://websummit.com/",
+          "why": "One of the largest tech gatherings on earth, and a natural pairing with a Portugal StartUP Visa scouting trip. Broad, but strong for serendipitous introductions across every theme you work in.",
+          "themes": ["generative-ai", "civic-tech", "creative-tech"]
+        },
+        {
+          "name": "SXSW",
+          "kind": "Tech, film, music and culture festival",
+          "cadence": "Austin, annually in March; verify dates",
+          "place": "Austin, Texas",
+          "url": "https://www.sxsw.com/",
+          "why": "The rare event that spans your whole portfolio at once: AI and XR, film and music, civic and creative tech. Ideal for immersive-media and cross-disciplinary work, with a growing Sydney edition too.",
+          "themes": ["immersive-media", "film-music", "xr-spatial"]
+        },
+        {
+          "name": "GITEX and Expand North Star",
+          "kind": "Tech and startup expo",
+          "cadence": "Dubai, annually around October; verify dates",
+          "place": "Dubai, UAE",
+          "url": "https://www.gitex.com/",
+          "why": "The Gulf's flagship tech gathering and a fast route to the region's government and corporate innovation buyers, pairing well with Hub71, DIFC and Dubai Future pathways.",
+          "themes": ["smart-communities", "generative-ai", "civic-tech"]
+        },
+        {
+          "name": "Venice Immersive",
+          "kind": "Immersive art and XR showcase",
+          "cadence": "Venice, annually around August-September; verify dates",
+          "place": "Venice, Italy",
+          "url": "https://www.labiennale.org/en/cinema",
+          "why": "The world stage for immersive and XR storytelling. A selection is both funding-adjacent and a global credibility marker for the Infinity Engine and immersive work.",
+          "themes": ["immersive-media", "xr-spatial", "creative-tech"]
+        }
+      ]
+    },
+    {
+      "key": "circles",
+      "eyebrow": "For the Aura thesis",
+      "title": "Research and open-tech circles",
+      "blurb": "Communities that fund and gather people building trustworthy, sovereign and open technology, the natural intellectual home for Aura's privacy-first, human-centred approach.",
+      "items": [
+        {
+          "name": "NGI / NLnet community",
+          "kind": "Open internet grantee community",
+          "place": "Europe (global grantees)",
+          "url": "https://nlnet.nl/",
+          "why": "The people and projects behind the Next Generation Internet: privacy-respecting, decentralised, open technology. Funded grantees join a community that shares your data-sovereignty values.",
+          "themes": ["privacy-data", "blockchain", "civic-tech"]
+        },
+        {
+          "name": "Mozilla community",
+          "kind": "Trustworthy-tech and responsible-AI network",
+          "place": "Global (remote)",
+          "url": "https://foundation.mozilla.org/",
+          "why": "A movement of technologists working on a healthier internet and responsible AI. Strong narrative and peer fit for Aura's ethics, with awards and events beyond the grants.",
+          "themes": ["privacy-data", "ai-assistants", "generative-ai"]
+        },
+        {
+          "name": "Protocol Labs network",
+          "kind": "Decentralised-tech builder community",
+          "place": "Global (remote)",
+          "url": "https://protocol.ai/",
+          "why": "The community behind IPFS and Filecoin: builders of decentralised storage and open Web3 infrastructure, relevant to the sovereign-data and Sensorium layers of your stack.",
+          "themes": ["blockchain", "iot", "privacy-data"]
+        },
+        {
+          "name": "Astera Institute community",
+          "kind": "Independent-research community",
+          "place": "Berkeley, California (distributed)",
+          "url": "https://astera.org/",
+          "why": "Backs independent technologists building public-good tools with no requirement to form a startup. A rare home for an unconventional, long-horizon Aura research agenda.",
+          "themes": ["ai-assistants", "generative-ai", "digital-twin"]
+        }
+      ]
+    }
+  ]
+}

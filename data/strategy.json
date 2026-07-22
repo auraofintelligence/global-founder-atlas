@@ -60,12 +60,12 @@
     }
   ],
   "buckets": [
-    { "title": "Five easiest credible applications", "ids": ["nlnet-ngi", "epic-megagrants", "natgeo-grants", "austrade-landing-pads", "mozilla-technology-fund"] },
+    { "title": "Five easiest credible applications", "ids": ["microsoft-startups", "nvidia-inception", "nlnet-ngi", "epic-megagrants", "natgeo-grants"] },
     { "title": "Five largest potential funding", "ids": ["eic-accelerator", "earthshot-prize", "xprize", "neom", "wellcome-trust"] },
-    { "title": "Five strongest relocation / expansion packages", "ids": ["austrade-landing-pads", "hub71", "startup-chile", "estonia-startup-visa", "portugal-startup-visa"] },
-    { "title": "Five best for Aura of Intelligence", "ids": ["nlnet-ngi", "mozilla-technology-fund", "astera-residency", "cdl", "hub71"] },
-    { "title": "Five best civic / community-technology", "ids": ["dubai-future-accelerators", "start-qatar", "nlnet-ngi", "undp-unleash-sdg", "austrade-landing-pads"] },
-    { "title": "Five best health, longevity or dementia", "ids": ["wellcome-trust", "grand-challenges", "horizon-msca", "singapore-entrepass", "cdl"] },
+    { "title": "Five strongest relocation / expansion packages", "ids": ["austrade-landing-pads", "hub71", "startup-chile", "estonia-startup-visa", "ehf-giv"] },
+    { "title": "Five best for Aura of Intelligence", "ids": ["nlnet-ngi", "microsoft-startups", "nvidia-inception", "astera-residency", "foresight-fellowship"] },
+    { "title": "Five best civic / community-technology", "ids": ["dubai-future-accelerators", "start-qatar", "mit-solve", "undp-unleash-sdg", "austrade-landing-pads"] },
+    { "title": "Five best health, longevity or dementia", "ids": ["wellcome-trust", "challenge-works", "grand-challenges", "mit-solve", "foresight-fellowship"] },
     { "title": "Five best creative and immersive-media", "ids": ["epic-megagrants", "natgeo-grants", "immersive-festival-labs", "french-tech-ticket", "hub71"] },
     { "title": "Five best for G.A.J.R.A. Earth / nonprofit", "ids": ["halcyon-incubator", "undp-unleash-sdg", "gef-sgp", "earthshot-prize", "natgeo-grants"] },
     { "title": "Could fund an on-island Minjerribah pilot", "ids": ["gef-sgp", "natgeo-grants", "earthshot-prize", "undp-unleash-sdg", "xprize"] }

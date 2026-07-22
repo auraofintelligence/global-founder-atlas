@@ -7,6 +7,7 @@
     { "key": "generative-ai", "label": "Generative AI, blockchain and IoT integration" },
     { "key": "blockchain", "label": "Blockchain and decentralised systems" },
     { "key": "iot", "label": "Internet of Things and connected devices" },
+    { "key": "compute", "label": "Cloud, AI compute and technical credits" },
     { "key": "health", "label": "Health, wellbeing, ageing and preventative health" },
     { "key": "dementia", "label": "Dementia support and measured self-development" },
     { "key": "civic-tech", "label": "Civic technology, participatory democracy and governance" },
@@ -27,8 +28,8 @@
       "key": "aura",
       "title": "Best for Aura of Intelligence",
       "blurb": "Human-centred, privacy-first personal AI, cognitive architecture and personal digital twins.",
-      "themes": ["ai-assistants", "privacy-data", "generative-ai", "digital-twin"],
-      "ids": ["nlnet-ngi", "mozilla-technology-fund", "astera-residency", "cdl", "hub71"]
+      "themes": ["ai-assistants", "privacy-data", "generative-ai", "digital-twin", "compute"],
+      "ids": ["nlnet-ngi", "microsoft-startups", "nvidia-inception", "astera-residency", "foresight-fellowship", "mozilla-technology-fund", "cdl"]
     },
     {
       "key": "civic",
@@ -42,7 +43,7 @@
       "title": "Best health, longevity and dementia",
       "blurb": "Ageing, dementia support, preventative and measured health, hyperbaric and self-development research.",
       "themes": ["health", "dementia"],
-      "ids": ["wellcome-trust", "grand-challenges", "horizon-msca", "singapore-entrepass", "cdl"]
+      "ids": ["wellcome-trust", "challenge-works", "grand-challenges", "mit-solve", "horizon-msca", "foresight-fellowship"]
     },
     {
       "key": "creative",
@@ -56,7 +57,7 @@
       "title": "Best for G.A.J.R.A. Earth or a nonprofit",
       "blurb": "Mission-driven, regenerative and social-enterprise work aligned to the SDGs.",
       "themes": ["sustainable-dev", "disaster-resilience", "indigenous", "climate"],
-      "ids": ["halcyon-incubator", "undp-unleash-sdg", "gef-sgp", "earthshot-prize", "natgeo-grants"]
+      "ids": ["halcyon-incubator", "undp-unleash-sdg", "gef-sgp", "ehf-giv", "earthshot-prize", "natgeo-grants"]
     },
     {
       "key": "minjerribah",

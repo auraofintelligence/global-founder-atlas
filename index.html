@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A travelling Australian founder's atlas of verified, non-dilutive-first international funding, startup visas, residencies, research placements and paid pilots.">
     <title>Global Founder Atlas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nunito+Sans:wght@700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css?v=1">
+    <script>document.documentElement.classList.add('js')</script>
+    <meta name="theme-color" content="#0a1420">
+    <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/styles.css?v=2">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   </head>
   <body data-page="home">
@@ -16,7 +17,8 @@
     <header class="site-header"></header>
     <main id="main">
       <section class="hero">
-        <div class="hero-copy">
+        <canvas class="hero-canvas" data-sand-canvas aria-hidden="true"></canvas>
+        <div class="hero-copy reveal">
           <p class="eyebrow">For an Australian founder on the move &middot; Minjerribah to the world</p>
           <h1>Non-dilutive treasure, not grant-shaped compost.</h1>
           <p class="hero-lede">A working atlas of funding, startup visas, residencies, research placements and paid pilots that actively want foreign founders, ideas and experimental projects. Searchable, scored and honest about what still needs checking.</p>
@@ -26,7 +28,7 @@
           </div>
           <div class="stat-strip" id="homeStats"></div>
         </div>
-        <div class="hero-panel" aria-label="How to use this atlas">
+        <div class="hero-panel reveal" aria-label="How to use this atlas">
           <div class="workflow-step"><strong>1</strong><span>Search across countries, zones, funds and universities</span></div>
           <div class="workflow-step"><strong>2</strong><span>Rank by a weighted score tuned to your priorities</span></div>
           <div class="workflow-step"><strong>3</strong><span>Match the best project and framing to each program</span></div>
@@ -41,30 +43,40 @@
       </section>
 
       <section class="section">
-        <div class="section-heading">
+        <div class="section-heading reveal">
           <p class="eyebrow">Nine ways to read the map</p>
           <h2>The categories, A to I</h2>
           <p>Every opportunity is filed by status (open, recurring, soon) and by type (relocation, research, pilots, social impact, creative, wildcard). Jump into any bucket.</p>
         </div>
-        <div class="link-card-grid" id="homeCategories"></div>
+        <div class="link-card-grid reveal" id="homeCategories"></div>
       </section>
 
+      <div class="kintsugi-seam" aria-hidden="true">
+        <svg viewBox="0 0 1200 46" preserveAspectRatio="none" focusable="false">
+          <defs><linearGradient id="seamA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffcf6e"/><stop offset=".5" stop-color="#fff3d6"/><stop offset="1" stop-color="#2be3c2"/></linearGradient></defs>
+          <path class="seam-path" pathLength="1" stroke="url(#seamA)" d="M0 24 L130 21 L210 27 L300 13 L352 25 L470 19 L525 31 L640 17 L735 23 L805 11 L885 27 L995 19 L1085 25 L1200 21"/>
+          <path class="seam-path seam-branch" pathLength="1" stroke="url(#seamA)" d="M300 13 L318 3"/>
+          <path class="seam-path seam-branch" pathLength="1" stroke="url(#seamA)" d="M805 11 L791 2"/>
+          <path class="seam-light" pathLength="1" d="M0 24 L130 21 L210 27 L300 13 L352 25 L470 19 L525 31 L640 17 L735 23 L805 11 L885 27 L995 19 L1085 25 L1200 21"/>
+        </svg>
+      </div>
+
       <section class="section split">
-        <div>
+        <div class="reveal">
           <p class="eyebrow">Strongest right now</p>
           <h2>Top three by weighted score</h2>
           <p>Scored across eligibility for an Australian, non-dilutive value, project alignment, early-stage openness, practical infrastructure, IP terms, relocation burden and application credibility.</p>
           <div class="data-grid two" id="homeTop" style="margin-top:1.4rem"></div>
         </div>
-        <aside class="note-panel">
+        <aside class="note-panel reveal">
           <h3>Public boundary</h3>
           <p>This atlas holds public program pathways and honest project framings. Private budgets, sensitive personal work and cultural permissions stay in private working files until deliberately shared. Any on-island Minjerribah pilot is approached community-led and culturally appropriate.</p>
-          <p style="margin-top:0.8rem"><a href="minjerribah.html" style="color:var(--atlas-aqua)">See on-island opportunities &rarr;</a></p>
+          <p style="margin-top:0.8rem"><a href="minjerribah.html" style="color:var(--teal)">See on-island opportunities &rarr;</a></p>
         </aside>
       </section>
 
       <section class="section split">
-        <div>
+        <div class="reveal">
           <p class="eyebrow">Built to be reused</p>
           <h2>The atlas is also a prompt</h2>
           <p>The research brief that generated this map is surfaced in full so you can re-run or extend the search whenever you like, then fold new finds back into the same scored structure.</p>
@@ -73,14 +85,14 @@
             <a class="button secondary" href="strategy.html">See the 90-day plan</a>
           </div>
         </div>
-        <aside class="note-panel warn">
+        <aside class="note-panel warn reveal">
           <h3>Read the confidence flags</h3>
           <p>Each entry carries a confidence rating and a "verify at source" note. Where an exact deadline is not confirmed, the atlas says so rather than guessing. Treat recurring programs as a pipeline and check the current round before you plan around it.</p>
         </aside>
       </section>
     </main>
     <footer class="site-footer"></footer>
-    <button class="to-top" type="button" data-to-top aria-label="Back to top">Top</button>
-    <script src="assets/app.js?v=1"></script>
+    <script src="assets/app.js?v=2"></script>
+    <script src="assets/cinematic.js?v=2" defer></script>
   </body>
 </html>

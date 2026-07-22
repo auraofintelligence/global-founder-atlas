@@ -8,25 +8,35 @@ const NAV_LINKS = [
   ["relocation.html", "Relocation"],
   ["themes.html", "By Project"],
   ["minjerribah.html", "Minjerribah"],
+  ["people.html", "People"],
   ["strategy.html", "90-Day Plan"],
-  ["brief.html", "Research Brief"],
+  ["brief.html", "Brief"],
 ];
 
 const WEIGHTS = { elig: 20, value: 15, align: 20, early: 10, infra: 10, ip: 10, reloc: 5, cred: 10 };
 
 const navHtml = `
-  <nav class="nav" aria-label="Main navigation">
-    <a class="brand-mark" href="index.html"><span>Global Founder</span><span>Atlas</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-    <div class="nav-links" id="nav-links">
-      ${NAV_LINKS.map(([href, label]) => `<a href="${href}">${label}</a>`).join("")}
-    </div>
+  <a class="brand" href="index.html" aria-label="Global Founder Atlas home">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-text"><strong>Global Founder Atlas</strong><span>Non-dilutive treasure worldwide</span></span>
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav class="site-nav" id="site-nav" aria-label="Primary">
+    ${NAV_LINKS.map(([href, label]) => `<a href="${href}">${label}</a>`).join("")}
   </nav>`;
 
 const footerHtml = `
-  <p>Global Founder Atlas. A travelling Australian founder's map of non-dilutive-first international funding, visas, residencies and pilots.</p>
-  <p>A Luke &times; Claude build. Curated first pass to author knowledge (to January 2026): verify every live date, amount and eligibility at the official source before applying.</p>
-  <p><a href="brief.html">Reusable research brief</a> | <a href="strategy.html">90-day strategy</a></p>`;
+  <div>
+    <p>Global Founder Atlas. A travelling Australian founder's map of non-dilutive-first international funding, visas, residencies and pilots.</p>
+    <p>A Luke &times; Claude build. Curated first pass to author knowledge (to January 2026): verify every live date, amount and eligibility at the official source before applying.</p>
+  </div>
+  <nav class="footer-links" aria-label="Ecosystem">
+    <a href="brief.html">Research brief</a>
+    <a href="strategy.html">90-day plan</a>
+    <a href="https://auraofintelligence.github.io/" rel="noopener">Aura of Intelligence</a>
+    <a href="https://auraofintelligence.github.io/stradbroke-grants-lab/" rel="noopener">Stradbroke Grants Lab</a>
+    <a href="https://auraofintelligence.github.io/grain-by-grain/" rel="noopener">Grain by Grain</a>
+  </nav>`;
 
 function mountChrome() {
   document.querySelectorAll(".site-header").forEach((header) => {
@@ -36,24 +46,23 @@ function mountChrome() {
     if (!footer.children.length) footer.innerHTML = footerHtml;
   });
   const toggle = document.querySelector(".nav-toggle");
-  const navLinks = document.querySelector("#nav-links");
-  if (toggle && navLinks) {
+  const nav = document.querySelector("#site-nav");
+  if (toggle && nav) {
     toggle.addEventListener("click", () => {
-      const isOpen = navLinks.classList.toggle("is-open");
+      const isOpen = nav.classList.toggle("is-open");
       toggle.setAttribute("aria-expanded", String(isOpen));
     });
+    nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => {
+      nav.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    }));
   }
-  const currentFile = window.location.pathname.split("/").pop() || "index.html";
-  document.querySelectorAll(".nav-links a").forEach((link) => {
-    if (link.getAttribute("href") === currentFile) link.setAttribute("aria-current", "page");
-  });
-  const topButton = document.querySelector("[data-to-top]");
-  if (topButton) {
-    const update = () => topButton.classList.toggle("is-visible", window.scrollY > 560);
-    update();
-    window.addEventListener("scroll", update, { passive: true });
-    topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-  }
+  if (window.gfaMarkNav) window.gfaMarkNav();
+}
+
+function refreshCinematic() {
+  if (window.gfaScanReveals) window.gfaScanReveals();
+  if (window.gfaScanSeams) window.gfaScanSeams();
 }
 
 async function loadJson(path) {
@@ -246,7 +255,7 @@ async function renderCategories() {
       ? `<div class="data-grid">${items.map((o) => oppCard(o)).join("")}</div>`
       : `<div class="note-panel"><p>No verified entries sit in this bucket in the current first pass. It fills out on a live-date refresh. In the meantime, use the recurring programs and confirm reopen dates at source.</p></div>`;
     return `
-      <section class="section compact" id="cat-${c.letter}">
+      <section class="section compact reveal" id="cat-${c.letter}">
         <div class="section-heading">
           <p class="eyebrow">Category ${c.letter} &middot; ${items.length} listed</p>
           <h2>${esc(c.title)}</h2>
@@ -271,7 +280,7 @@ async function renderThemes() {
   root.innerHTML = themes.lenses.filter((l) => l.key !== "minjerribah").map((lens) => {
     const items = lens.ids.map((id) => byId[id]).filter(Boolean).sort(byScoreDesc);
     return `
-      <section class="section compact" id="lens-${lens.key}">
+      <section class="section compact reveal" id="lens-${lens.key}">
         <div class="section-heading">
           <p class="eyebrow">Focus</p>
           <h2>${esc(lens.title)}</h2>
@@ -328,6 +337,31 @@ async function renderStrategy() {
   }
 }
 
+async function renderPeople() {
+  const data = await loadJson("data/networks.json");
+  const root = document.querySelector("#peopleSections");
+  if (!root) return;
+  root.innerHTML = data.groups.map((g) => `
+    <section class="section compact reveal" id="net-${g.key}">
+      <div class="section-heading">
+        <p class="eyebrow">${esc(g.eyebrow || "Network")}</p>
+        <h2>${esc(g.title)}</h2>
+        <p>${esc(g.blurb)}</p>
+      </div>
+      <div class="data-grid">
+        ${g.items.map((it) => `
+          <article class="data-card person-card">
+            <p class="role">${esc(it.kind)}${it.cadence ? " &middot; " + esc(it.cadence) : ""}</p>
+            <h3>${esc(it.name)}</h3>
+            <p class="place">${esc(it.place)}</p>
+            <p class="why">${esc(it.why)}</p>
+            <div class="chips">${(it.themes || []).slice(0, 4).map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+            ${it.url ? `<div class="card-actions"><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Visit</a></div>` : ""}
+          </article>`).join("")}
+      </div>
+    </section>`).join("");
+}
+
 function wireCopyButtons() {
   document.querySelectorAll("[data-copy-target]").forEach((btn) => {
     btn.addEventListener("click", async () => {
@@ -358,7 +392,9 @@ async function boot() {
     if (page === "themes") await renderThemes();
     if (page === "minjerribah") await renderMinjerribah();
     if (page === "strategy") await renderStrategy();
+    if (page === "people") await renderPeople();
     if (page === "brief") wireCopyButtons();
+    refreshCinematic();
   } catch (error) {
     const main = document.querySelector("main");
     if (main) main.insertAdjacentHTML("beforeend", `<p class="load-error">${esc(error.message)}. If you opened the file directly, run a local server first (see the README).</p>`);
