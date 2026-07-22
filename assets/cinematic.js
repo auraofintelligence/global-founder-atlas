@@ -64,8 +64,11 @@
   const markNav = () => {
     const here = (location.pathname.split('/').pop() || 'index.html');
     document.querySelectorAll('.site-nav a').forEach((link) => {
-      const href = link.getAttribute('href');
-      if (href === here) { link.setAttribute('aria-current', 'page'); }
+      if (link.getAttribute('href') === here) {
+        link.setAttribute('aria-current', 'page');
+        const menu = link.closest('.nav-menu');
+        if (menu) { const s = menu.querySelector('summary'); if (s) s.setAttribute('data-active', ''); }
+      }
     });
   };
   window.gfaMarkNav = markNav;

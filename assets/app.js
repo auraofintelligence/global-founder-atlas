@@ -1,18 +1,20 @@
 /* Global Founder Atlas - shared render engine.
    Data-driven, no build step. One script drives every page via body[data-page]. */
 
-const NAV_LINKS = [
-  ["territory.html", "Territory"],
-  ["opportunities.html", "Atlas"],
-  ["shortlist.html", "Shortlist"],
-  ["categories.html", "Categories"],
-  ["relocation.html", "Relocation"],
-  ["themes.html", "By Project"],
-  ["minjerribah.html", "Minjerribah"],
-  ["people.html", "People"],
-  ["strategy.html", "90-Day Plan"],
-  ["brief.html", "Brief"],
+const NAV = [
+  { href: "territory.html", label: "Territory" },
+  { href: "opportunities.html", label: "Atlas" },
+  { href: "shortlist.html", label: "Shortlist" },
+  { label: "Explore", items: [["categories.html", "Categories"], ["relocation.html", "Relocation"], ["themes.html", "By Project"], ["minjerribah.html", "Minjerribah"], ["people.html", "People"]] },
+  { label: "Guide", items: [["strategy.html", "90-Day Plan"], ["brief.html", "Research Brief"]] },
 ];
+
+function navItemsHtml() {
+  return NAV.map((n) => {
+    if (n.href) return `<a href="${n.href}">${n.label}</a>`;
+    return `<details class="nav-menu"><summary>${n.label}</summary><div class="nav-drop">${n.items.map(([h, l]) => `<a href="${h}">${l}</a>`).join("")}</div></details>`;
+  }).join("");
+}
 
 const WEIGHTS = { elig: 20, value: 15, align: 20, early: 10, infra: 10, ip: 10, reloc: 5, cred: 10 };
 
@@ -23,7 +25,7 @@ const navHtml = `
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
   <nav class="site-nav" id="site-nav" aria-label="Primary">
-    ${NAV_LINKS.map(([href, label]) => `<a href="${href}">${label}</a>`).join("")}
+    ${navItemsHtml()}
   </nav>`;
 
 const footerHtml = `
