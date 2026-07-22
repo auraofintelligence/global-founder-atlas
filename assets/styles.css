@@ -329,6 +329,28 @@ select.search-input { appearance: none; }
 .person-card p { color: var(--muted); }
 .person-card .why { color: #e7ecf4; font-size: .92rem; }
 
+/* ---------- Territory map ---------- */
+.threat-grid { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.2rem; }
+.threat { border: 1px solid rgba(255, 126, 138, .4); background: rgba(255, 126, 138, .08); color: #ffb3ba; border-radius: 999px; font-family: var(--fm); font-size: .74rem; font-weight: 600; letter-spacing: .03em; padding: .32rem .72rem; }
+.gem { color: var(--gold-soft); border-left: 3px solid var(--gold); padding-left: 1rem; margin-top: 1.1rem; }
+.territory-legend { display: flex; flex-wrap: wrap; gap: .8rem 1.6rem; list-style: none; margin: 1.4rem 0 0; padding: 0; }
+.territory-legend li { display: flex; align-items: center; gap: .5rem; color: var(--muted); font-size: .88rem; }
+.territory-legend strong { color: var(--text); font-family: var(--fd); }
+.stage-dot { width: .8rem; height: .8rem; border-radius: 50%; flex: none; }
+.stage-dot.live { background: var(--teal); box-shadow: 0 0 10px rgba(43, 227, 194, .6); }
+.stage-dot.building { background: var(--gold); box-shadow: 0 0 10px rgba(255, 207, 110, .6); }
+.stage-dot.surveyed { background: var(--violet); }
+.project-card { display: grid; gap: .55rem; align-content: start; }
+.badge.stage-live { color: var(--teal); background: rgba(43, 227, 194, .1); }
+.badge.stage-building { color: var(--gold); background: rgba(255, 207, 110, .1); }
+.badge.stage-surveyed { color: var(--amethyst); background: rgba(138, 99, 255, .12); }
+.match-links { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-top: .4rem; }
+.match-label { color: var(--gold-soft); font-family: var(--fm); font-size: .66rem; text-transform: uppercase; letter-spacing: .08em; width: 100%; }
+.match-links a { display: inline-flex; align-items: center; gap: .35rem; border: 1px solid var(--line); border-radius: 999px; padding: .3rem .62rem; font-family: var(--fm); font-size: .72rem; color: var(--muted); text-decoration: none; transition: border-color var(--dur-fast), color var(--dur-fast), background var(--dur-fast); }
+.match-links a:hover { border-color: var(--teal); color: #fff; background: rgba(43, 227, 194, .1); }
+.match-links a b { color: var(--gold); font-weight: 760; }
+.opp-card.is-highlight, .data-card.is-highlight { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), 0 20px 50px rgba(255, 207, 110, .15); }
+
 /* ---------- Kintsugi seams ---------- */
 .kintsugi-seam { position: relative; width: min(100%, var(--max)); height: 2.4rem; margin: clamp(1rem, 3vw, 2rem) auto; }
 .kintsugi-seam svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 0 6px rgba(255, 207, 110, .45)); }

@@ -2,6 +2,7 @@
    Data-driven, no build step. One script drives every page via body[data-page]. */
 
 const NAV_LINKS = [
+  ["territory.html", "Territory"],
   ["opportunities.html", "Atlas"],
   ["shortlist.html", "Shortlist"],
   ["categories.html", "Categories"],
@@ -235,6 +236,17 @@ async function renderOpportunities() {
     });
   });
   draw();
+
+  const focus = new URLSearchParams(window.location.search).get("focus");
+  if (focus) {
+    const el = grid.querySelector(`[data-id="${focus}"]`);
+    if (el) {
+      el.classList.add("is-highlight");
+      const details = el.querySelector("details");
+      if (details) details.open = true;
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }
 }
 
 async function renderShortlist() {
@@ -337,6 +349,53 @@ async function renderStrategy() {
   }
 }
 
+function projectCard(p, byId) {
+  const stageLabels = { live: "Live site", building: "In build", surveyed: "Surveyed" };
+  const matches = (p.match || []).map((id) => byId[id]).filter(Boolean);
+  const matchLinks = matches.length
+    ? `<div class="match-links"><span class="match-label">Funding fits</span>${matches.map((o) => `<a href="opportunities.html?focus=${esc(o.id)}">${esc(o.name.split(" (")[0])} <b>${scoreOf(o)}</b></a>`).join("")}</div>`
+    : "";
+  const actions = [
+    p.repo ? `<a href="${esc(p.repo)}" target="_blank" rel="noopener noreferrer">Open project</a>` : "",
+    `<a href="https://auraofintelligence.github.io/stradbroke-grants-lab/" target="_blank" rel="noopener noreferrer">Local grants</a>`,
+  ].join("");
+  return `
+    <article class="data-card project-card">
+      <div class="opp-badges"><span class="badge stage-${esc(p.stage)}">${stageLabels[p.stage] || esc(p.stage)}</span></div>
+      <h3>${esc(p.name)}</h3>
+      <p class="opp-summary">${esc(p.oneliner)}</p>
+      <div class="chips">${(p.themes || []).slice(0, 4).map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>
+      ${matchLinks}
+      <div class="card-actions">${actions}</div>
+    </article>`;
+}
+
+async function renderTerritory() {
+  const [eco, opps] = await Promise.all([loadJson("data/ecosystem.json"), loadJson("data/opportunities.json")]);
+  const byId = Object.fromEntries(opps.map((o) => [o.id, o]));
+  const why = document.querySelector("#territoryWhy");
+  if (why) {
+    why.innerHTML = `
+      <p>${esc(eco.why.threatsIntro)}</p>
+      <div class="threat-grid">${eco.why.threats.map((t) => `<span class="threat">${esc(t)}</span>`).join("")}</div>
+      <p class="gem">${esc(eco.why.gem)}</p>`;
+  }
+  const legend = document.querySelector("#territoryLegend");
+  if (legend) legend.innerHTML = eco.legend.map((l) => `<li><span class="stage-dot ${l.key}"></span><strong>${esc(l.label)}</strong> ${esc(l.desc)}</li>`).join("");
+  const root = document.querySelector("#territoryLayers");
+  if (root) {
+    root.innerHTML = eco.layers.map((layer) => `
+      <section class="section compact reveal" id="layer-${esc(layer.key)}">
+        <div class="section-heading">
+          <p class="eyebrow">Layer ${esc(layer.num)}</p>
+          <h2>${esc(layer.title)}</h2>
+          <p>${esc(layer.blurb)}</p>
+        </div>
+        <div class="data-grid">${layer.projects.map((p) => projectCard(p, byId)).join("")}</div>
+      </section>`).join("");
+  }
+}
+
 async function renderPeople() {
   const data = await loadJson("data/networks.json");
   const root = document.querySelector("#peopleSections");
@@ -392,6 +451,7 @@ async function boot() {
     if (page === "themes") await renderThemes();
     if (page === "minjerribah") await renderMinjerribah();
     if (page === "strategy") await renderStrategy();
+    if (page === "territory") await renderTerritory();
     if (page === "people") await renderPeople();
     if (page === "brief") wireCopyButtons();
     refreshCinematic();

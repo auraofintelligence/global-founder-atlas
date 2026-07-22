@@ -1,0 +1,115 @@
+{
+  "why": {
+    "eyebrow": "Joyful responsible abundance",
+    "title": "One territory, many rungs.",
+    "lede": "This is the map behind the map. The Global Founder Atlas funds the parts; this page shows how the parts fit. It starts with one sole trader growing trust on Minjerribah and reaches toward a resilient civilisation that keeps the lights on through anything. Most of it is described ahead of being built, on purpose: putting the thinking in the open is how the trust and the momentum are earned. A published page here means the plan is public, not that the venture is trading.",
+    "threatsIntro": "The deepest reason for all of it is resilience. The largest unsolved threats to life on Earth are not the ones in the daily news; they are the slow and the celestial, and mainstream comms tends to soften them. This map holds them plainly, and holds the specifics loosely, because the one honest response to almost all of them is the same: distributed energy, distributed compute, shelter, stored knowledge, and communities that trust each other. Meeting them well asks humanity and Other Intelligence, whether artificial or otherwise, to cooperate rather than compete.",
+    "threats": [
+      "Asteroid and comet impact",
+      "Solar micronova and Carrington-scale space weather",
+      "Geomagnetic pole shift and field collapse",
+      "Ocean washover and rapid sea change",
+      "Supervolcano and volcanic winter",
+      "Snowball Earth and abrupt climate flips"
+    ],
+    "gem": "The gem under all of them: one preparation serves almost every threat. Energy you own, compute you own, a way underground, knowledge that survives, and neighbours who trust each other. Build that on one island well, and it becomes a pattern anywhere."
+  },
+  "legend": [
+    { "key": "live", "label": "Live site", "desc": "a public page you can read now" },
+    { "key": "building", "label": "In build", "desc": "actively worked, site not yet public" },
+    { "key": "surveyed", "label": "Surveyed", "desc": "named and scoped, awaiting momentum" }
+  ],
+  "layers": [
+    {
+      "num": "0",
+      "key": "core",
+      "title": "The core engine",
+      "blurb": "The intelligence and the alignment that everything else runs on.",
+      "projects": [
+        { "name": "Aura of Intelligence", "repo": "https://auraofintelligence.github.io/", "stage": "live", "oneliner": "The core engine: a human-centred, privacy-first way to build software you own, that evolves with you rather than renting you back to big tech.", "themes": ["ai-assistants", "privacy-data", "generative-ai"], "match": ["nlnet-ngi", "microsoft-startups", "nvidia-inception", "astera-residency", "foresight-fellowship"] },
+        { "name": "GAJRA Earth", "repo": "https://auraofintelligence.github.io/GAJRA-earth/", "stage": "live", "oneliner": "The Global Association for Joyful Responsible Abundance on Earth: the alignment pitch and the values compass for the whole territory.", "themes": ["sustainable-dev", "civic-tech", "climate"], "match": ["halcyon-incubator", "undp-unleash-sdg", "mit-solve", "earthshot-prize"] }
+      ]
+    },
+    {
+      "num": "1",
+      "key": "anchor",
+      "title": "Trust and compute anchor",
+      "blurb": "The first real move: a sole trader that grows trust, a co-op it builds, and the compute that anchors it.",
+      "projects": [
+        { "name": "Strange but True", "repo": "https://auraofintelligence.github.io/strange-but-true/", "stage": "live", "oneliner": "The sole-trader starting point that grows trust and holds the community ledger, where every project card in this map opens from.", "themes": ["civic-tech", "creative-tech"], "match": ["austrade-landing-pads", "microsoft-startups"] },
+        { "name": "Ready S.E.T. Co-op Trust Hub (9 Ballow Rd)", "repo": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/", "stage": "live", "oneliner": "The compute and trust anchor. The near-term grant target is a serious AI compute rack (in the order of A$4-6M) that everything downstream can share.", "themes": ["compute", "generative-ai", "smart-communities"], "match": ["nvidia-inception", "google-for-startups", "saudi-sez", "hub71"] },
+        { "name": "Ballow Rd Sand & Screen Hub (10-12)", "repo": "https://auraofintelligence.github.io/ballow-road-sand-screen-hub/", "stage": "live", "oneliner": "The build-and-screen companion next door: evidence mapping and the cinema lane for what the island is made of.", "themes": ["creative-tech", "immersive-media", "civic-tech"], "match": ["epic-megagrants", "natgeo-grants", "sundance-institute"] },
+        { "name": "Decentralised and edge compute", "stage": "surveyed", "oneliner": "Single racks and edge compute in postcodes and municipal buildings, complementary to data centres, for disaster resilience and local data sovereignty.", "themes": ["compute", "iot", "privacy-data"], "match": ["nvidia-inception", "saudi-sez", "ethereum-esp", "nlnet-ngi"] }
+      ]
+    },
+    {
+      "num": "2",
+      "key": "capital",
+      "title": "The capital architecture",
+      "blurb": "How it funds itself without being captured: venture, community wealth, a volunteer-hour carve-out, and monetised care in its proper place. These are proposals, not financial advice.",
+      "projects": [
+        { "name": "500 Queens Venture", "repo": "https://auraofintelligence.github.io/Queens_Venture/", "stage": "live", "oneliner": "The venture arm: patient capital to help the strongest project cards stand up.", "themes": ["generative-ai", "civic-tech"], "match": ["antler", "hub71", "eic-accelerator"] },
+        { "name": "Community sovereign wealth funds", "repo": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/", "stage": "live", "oneliner": "Community-owned wealth and mutuals. A first fund is envisioned to be seeded through a faith-community partnership and grown alongside the co-op.", "themes": ["sustainable-dev", "civic-tech"], "match": ["gef-sgp", "undp-unleash-sdg", "halcyon-incubator"] },
+        { "name": "C-hours carve-out", "stage": "surveyed", "oneliner": "A proposed carve-out in crypto and tax rules to mobilise volunteer economies without monetising them for extraction: a precursor to a universal adequate income.", "themes": ["blockchain", "civic-tech", "privacy-data"], "match": ["ethereum-esp", "gift-city", "nlnet-ngi"] },
+        { "name": "Aura for dementia, NDIS and aged care", "repo": "https://auraofintelligence.github.io/aura-dementia/", "stage": "live", "oneliner": "The monetised-care side of the braided economy, correct in its place: dementia support and preventative health across NDIS and My Aged Care.", "themes": ["health", "dementia", "ai-assistants"], "match": ["wellcome-trust", "challenge-works", "grand-challenges", "foresight-fellowship"] }
+      ]
+    },
+    {
+      "num": "3",
+      "key": "subterranean",
+      "title": "The subterranean build (Grain by Grain)",
+      "blurb": "The physical spine: from the jetty to a city under the dunes, with the spoil growing infrastructure topside.",
+      "projects": [
+        { "name": "Grain by Grain", "repo": "https://auraofintelligence.github.io/grain-by-grain/", "stage": "live", "oneliner": "The spine that ties it together: one ladder from the Gumpi jetty to a civilisation that endures, two lanes and honest evidence labels all the way down.", "themes": ["climate", "sustainable-dev", "island-biosecurity"], "match": ["gef-sgp", "earthshot-prize", "xprize", "natgeo-grants"] },
+        { "name": "Gumpi ferry terminal upgrade", "repo": "https://auraofintelligence.github.io/dunwich-gumpi-ferry-terminal-open-data-lab/", "stage": "live", "oneliner": "An open data lab keeping the community in the conversation as the island's front door is redeveloped.", "themes": ["civic-tech", "smart-communities"], "match": ["gef-sgp", "undp-unleash-sdg"] },
+        { "name": "Makerspace lab", "repo": "https://auraofintelligence.github.io/straddie-makerspace-lab/", "stage": "live", "oneliner": "The hands-on workshop where island materials and skills are learned and prototyped.", "themes": ["creative-tech", "civic-tech"], "match": ["epic-megagrants", "mit-solve"] },
+        { "name": "Sandworm subterranean systems", "repo": "https://auraofintelligence.github.io/sandworm-subterranean-systems/", "stage": "live", "oneliner": "The honest frontier: tunnelling saturated sand is solved, making rooms down there is not. The toolkit and the aquifer-first rule, on their own registers.", "themes": ["climate", "compute", "sustainable-dev"], "match": ["xprize", "eic-accelerator", "hello-tomorrow"] },
+        { "name": "Clean energy superpower", "repo": "https://auraofintelligence.github.io/straddie-clean-energy-superpower/", "stage": "live", "oneliner": "The arithmetic for harvesting several times what the island uses from rooftops, structures, swell, tide and rip, without clearing new ground.", "themes": ["climate", "environment-monitoring", "sustainable-dev"], "match": ["earthshot-prize", "xprize", "eic-accelerator", "gef-sgp"] },
+        { "name": "Wellness hub and tunnel entrance", "stage": "surveyed", "oneliner": "A wellness hub envisioned on community-facilities-zoned land, with a tunnel entrance that ties into the subterranean ecosystem. Kept non-specific until confirmed.", "themes": ["health", "sustainable-dev", "climate"], "match": ["gef-sgp", "wellcome-trust", "mit-solve"] }
+      ]
+    },
+    {
+      "num": "4",
+      "key": "culture",
+      "title": "The cultural bridge",
+      "blurb": "How local people, especially kids, get inside the story and carry it.",
+      "projects": [
+        { "name": "Quandamooka Film Festival", "repo": "https://auraofintelligence.github.io/quandamooka-film-festival/", "stage": "live", "oneliner": "The narrative builder that brings local kids into the making, community-led and on Country.", "themes": ["film-music", "immersive-media", "indigenous"], "match": ["natgeo-grants", "sundance-institute", "epic-megagrants"] },
+        { "name": "i-C-infinity Music Universe", "repo": "https://auraofintelligence.github.io/i-C-infinity-music-universe/", "stage": "live", "oneliner": "The music universe that anchors the cinematic world and gives the vault its songs.", "themes": ["film-music", "immersive-media", "creative-tech"], "match": ["epic-megagrants", "sundance-institute"] },
+        { "name": "AI-native indie music", "repo": "https://auraofintelligence.github.io/ai-native-indie-distribution/", "stage": "live", "oneliner": "Craft-informed, AI-native indie production and distribution: the tooling behind the cultural bridge.", "themes": ["film-music", "creative-tech", "generative-ai"], "match": ["epic-megagrants", "mozilla-technology-fund"] },
+        { "name": "Infinity Engine", "repo": "https://auraofintelligence.github.io/infinity-engine/", "stage": "live", "oneliner": "The music-to-visuals pipeline: a well-signposted city for turning songs into immersive worlds, with a local film community around it.", "themes": ["immersive-media", "xr-spatial", "creative-tech"], "match": ["epic-megagrants", "sundance-institute", "immersive-festival-labs", "natgeo-grants"] }
+      ]
+    },
+    {
+      "num": "5",
+      "key": "governance",
+      "title": "Fractal governance",
+      "blurb": "Self-similar governance that nests the same pattern from a street to the world.",
+      "projects": [
+        { "name": "P4A", "repo": "https://auraofintelligence.github.io/p4a-xyz-cinema/", "stage": "live", "oneliner": "The peace-first, protopian governance layer, told cinematically, that the Oceania and Native Nations chapters branch from.", "themes": ["civic-tech", "smart-communities", "sustainable-dev"], "match": ["undp-unleash-sdg", "mit-solve"] },
+        { "name": "P4O (Oceania)", "repo": "https://auraofintelligence.github.io/p4a-oceania-cinema/", "stage": "live", "oneliner": "The Oceania chapter of the same self-similar governance pattern.", "themes": ["civic-tech", "climate", "indigenous"], "match": ["undp-unleash-sdg"] },
+        { "name": "P4NN (Native Nations)", "repo": "https://auraofintelligence.github.io/p4a-native-nations-cinema/", "stage": "live", "oneliner": "The Native Nations chapter, with a two-register kintsugi system and self-onboarding for communities.", "themes": ["indigenous", "civic-tech", "sustainable-dev"], "match": ["natgeo-grants", "undp-unleash-sdg"] }
+      ]
+    },
+    {
+      "num": "6",
+      "key": "truth",
+      "title": "The Truth Engine",
+      "blurb": "The part that grows from many others until it can hold contested ideas honestly.",
+      "projects": [
+        { "name": "Web3 Sensorium", "repo": "https://github.com/auraofintelligence/web3-sensorium", "stage": "building", "oneliner": "A fractal, self-similar twin system that grows a piece from many projects, aiming to become a Truth Engine: one that entertains fringe theory and clears obfuscation and grant-fear-entrenched error, without surveillance.", "themes": ["privacy-data", "blockchain", "civic-tech"], "match": ["nlnet-ngi", "ethereum-esp", "protocol-labs-grants", "mozilla-technology-fund"] }
+      ]
+    },
+    {
+      "num": "7",
+      "key": "cosmos",
+      "title": "Travel and cosmos (runs through all)",
+      "blurb": "The thread that connects the island to the world and the deep sky: an Australian world-travel strategy across 256+ countries.",
+      "projects": [
+        { "name": "Australian world travel", "repo": "https://auraofintelligence.github.io/Australian-world-travel/", "stage": "live", "oneliner": "The travel strategy that carries the whole map outward and brings partnerships home.", "themes": ["civic-tech", "creative-tech"], "match": ["austrade-landing-pads", "ehf-giv", "hub71"] },
+        { "name": "Cosmic Nexus", "repo": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/", "stage": "live", "oneliner": "The deep-sky and deep-time thread: the existential why, told so it can be faced rather than sanitised.", "themes": ["climate", "sustainable-dev"], "match": ["xprize", "natgeo-grants"] },
+        { "name": "Travel Oracle", "repo": "https://auraofintelligence.github.io/strange-but-true-travel-oracle/", "stage": "live", "oneliner": "The wayfinder for visiting 256+ countries: where to be, when, and who to meet.", "themes": ["civic-tech", "creative-tech"], "match": ["austrade-landing-pads"] }
+      ]
+    }
+  ]
+}
