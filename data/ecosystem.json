@@ -48,12 +48,11 @@
       "num": "2",
       "key": "capital",
       "title": "The capital architecture",
-      "blurb": "How it funds itself without being captured: venture, community wealth, a volunteer-hour carve-out, and monetised care in its proper place. These are proposals, not financial advice.",
+      "blurb": "How it funds itself without being captured: venture, community wealth, and a volunteer-hour carve-out. These are proposals, not financial advice.",
       "projects": [
         { "name": "500 Queens Venture", "repo": "https://auraofintelligence.github.io/Queens_Venture/", "stage": "live", "oneliner": "The venture arm, built to correct a stark imbalance: women-led companies still draw under 3 per cent of venture capital. 500 Queens funds female founders first, scaling from 500 companies in one region to 10,000 across the G20 and 50,000 in 100-plus countries, with an arm envisioned in India's GIFT City. Patient capital for long-horizon, regenerative ventures.", "themes": ["generative-ai", "civic-tech", "sustainable-dev"], "match": ["gift-city", "antler", "hub71", "eic-accelerator"] },
         { "name": "Community sovereign wealth funds", "repo": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/", "stage": "live", "oneliner": "Community-owned wealth and mutuals. A first fund is envisioned to be seeded through a faith-community partnership and grown alongside the co-op.", "themes": ["sustainable-dev", "civic-tech"], "match": ["gef-sgp", "undp-unleash-sdg", "halcyon-incubator"] },
-        { "name": "C-hours carve-out", "stage": "surveyed", "oneliner": "A proposed carve-out in crypto and tax rules to mobilise volunteer economies without monetising them for extraction: a precursor to a universal adequate income.", "themes": ["blockchain", "civic-tech", "privacy-data"], "match": ["ethereum-esp", "gift-city", "nlnet-ngi"] },
-        { "name": "Aura for dementia, NDIS and aged care", "repo": "https://auraofintelligence.github.io/aura-dementia/", "stage": "live", "oneliner": "The monetised-care side of the braided economy, correct in its place: dementia support and preventative health across NDIS and My Aged Care.", "themes": ["health", "dementia", "ai-assistants"], "match": ["wellcome-trust", "challenge-works", "grand-challenges", "foresight-fellowship"] }
+        { "name": "C-hours carve-out", "stage": "surveyed", "oneliner": "A proposed carve-out in crypto and tax rules to mobilise volunteer economies without monetising them for extraction: a precursor to a universal adequate income.", "themes": ["blockchain", "civic-tech", "privacy-data"], "match": ["ethereum-esp", "gift-city", "nlnet-ngi"] }
       ]
     },
     {
