@@ -19,10 +19,19 @@
       });
     }, { threshold: .12, rootMargin: '0px 0px -6% 0px' });
   }
+  const show = (el) => el.classList.add('is-visible');
   const scanReveals = (root = document) => {
-    const nodes = root.querySelectorAll('.reveal:not(.is-visible)');
-    if (revealObserver) { nodes.forEach((el) => revealObserver.observe(el)); }
-    else { nodes.forEach((el) => el.classList.add('is-visible')); }
+    const nodes = [...root.querySelectorAll('.reveal:not(.is-visible)')];
+    if (!nodes.length) return;
+    if (revealObserver) {
+      nodes.forEach((el) => revealObserver.observe(el));
+      // Safety net: never leave content hidden if IntersectionObserver
+      // fails to fire (some embedded browsers, blocked observers). Content
+      // correctness beats the scroll animation.
+      setTimeout(() => nodes.forEach(show), 1500);
+    } else {
+      nodes.forEach(show);
+    }
   };
   window.gfaScanReveals = scanReveals;
   scanReveals();
@@ -39,9 +48,14 @@
     }, { threshold: 0.55 });
   }
   const scanSeams = (root = document) => {
-    const seams = root.querySelectorAll('.kintsugi-seam:not(.is-drawn)');
-    if (seamObserver) { seams.forEach((el) => seamObserver.observe(el)); }
-    else { seams.forEach((el) => el.classList.add('is-drawn')); }
+    const seams = [...root.querySelectorAll('.kintsugi-seam:not(.is-drawn)')];
+    if (!seams.length) return;
+    if (seamObserver) {
+      seams.forEach((el) => seamObserver.observe(el));
+      setTimeout(() => seams.forEach((el) => el.classList.add('is-drawn')), 1800);
+    } else {
+      seams.forEach((el) => el.classList.add('is-drawn'));
+    }
   };
   window.gfaScanSeams = scanSeams;
   scanSeams();
