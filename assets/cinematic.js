@@ -7,58 +7,45 @@
   document.documentElement.classList.add('js');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ---------- Reveal on scroll (with a rescan hook for injected content) ---------- */
-  let revealObserver = null;
-  if ('IntersectionObserver' in window && !reduced) {
-    revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: .12, rootMargin: '0px 0px -6% 0px' });
-  }
-  const show = (el) => el.classList.add('is-visible');
-  const scanReveals = (root = document) => {
-    const nodes = [...root.querySelectorAll('.reveal:not(.is-visible)')];
-    if (!nodes.length) return;
-    if (revealObserver) {
-      nodes.forEach((el) => revealObserver.observe(el));
-      // Safety net: never leave content hidden if IntersectionObserver
-      // fails to fire (some embedded browsers, blocked observers). Content
-      // correctness beats the scroll animation.
-      setTimeout(() => nodes.forEach(show), 1500);
-    } else {
-      nodes.forEach(show);
-    }
+  /* ---------- Reveal on scroll + kintsugi seams ----------
+     Deliberately NOT IntersectionObserver. Content visibility must never
+     depend on an observer callback arriving: browsers throttle or delay IO
+     in background tabs, prerendered pages and low-power modes, and the old
+     version also used a fractional threshold that a block taller than the
+     viewport could never meet, leaving whole sections at opacity 0 forever.
+     A plain geometry sweep on scroll/resize gives the same staggered effect
+     with nothing that can strand content. The scan hooks stay, so pages that
+     inject cards (the atlas filters) still fade them in. */
+  const pending = new Set();
+  const show = (el) => el.classList.add(el.classList.contains('kintsugi-seam') ? 'is-drawn' : 'is-visible');
+  const sweep = () => {
+    if (!pending.size) { return; }
+    /* Only the top edge is tested, so anything scrolled past stays revealed:
+       an anchor jump or a restored scroll position cannot skip a block. */
+    const line = window.innerHeight * 0.92;
+    pending.forEach((el) => {
+      const r = el.getBoundingClientRect();
+      if (r.top < line) { show(el); pending.delete(el); }
+    });
   };
+  const collect = (root, selector) => {
+    [...root.querySelectorAll(selector)].forEach((el) => {
+      if (reduced) { show(el); } else { pending.add(el); }
+    });
+    sweep();
+  };
+  const scanReveals = (root = document) => collect(root, '.reveal:not(.is-visible)');
+  const scanSeams = (root = document) => collect(root, '.kintsugi-seam:not(.is-drawn)');
   window.gfaScanReveals = scanReveals;
-  scanReveals();
-
-  /* ---------- Kintsugi seams draw themselves on approach ---------- */
-  let seamObserver = null;
-  if ('IntersectionObserver' in window && !reduced) {
-    seamObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) { return; }
-        entry.target.classList.add('is-drawn');
-        seamObserver.unobserve(entry.target);
-      });
-    }, { threshold: 0.55 });
-  }
-  const scanSeams = (root = document) => {
-    const seams = [...root.querySelectorAll('.kintsugi-seam:not(.is-drawn)')];
-    if (!seams.length) return;
-    if (seamObserver) {
-      seams.forEach((el) => seamObserver.observe(el));
-      setTimeout(() => seams.forEach((el) => el.classList.add('is-drawn')), 1800);
-    } else {
-      seams.forEach((el) => el.classList.add('is-drawn'));
-    }
-  };
   window.gfaScanSeams = scanSeams;
+  scanReveals();
   scanSeams();
+  window.addEventListener('scroll', sweep, { passive: true });
+  window.addEventListener('resize', sweep, { passive: true });
+  window.addEventListener('load', sweep);
+  /* Late-layout safety net (fonts/images shifting geometry after first paint). */
+  setTimeout(sweep, 400);
+  setTimeout(sweep, 1500);
 
   /* ---------- Mark current page in nav (runs after app.js injects the header) ---------- */
   const markNav = () => {

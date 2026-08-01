@@ -31,7 +31,8 @@ const navHtml = `
 const footerHtml = `
   <div>
     <p>Global Founder Atlas. A travelling Australian founder's map of non-dilutive-first international funding, visas, residencies and pilots.</p>
-    <p>A Luke &times; Claude build. Curated first pass to author knowledge (to January 2026): verify every live date, amount and eligibility at the official source before applying.</p>
+    <p>Curated first pass to author knowledge (to January 2026): verify every live date, amount and eligibility at the official source before applying.</p>
+    <p><a href="LICENCE.md">Strange But True Public Source Licence</a> &#183; Luke Hayes &#215; Claude, Minjerribah.</p>
   </div>
   <nav class="footer-links" aria-label="Ecosystem">
     <a href="brief.html">Research brief</a>
