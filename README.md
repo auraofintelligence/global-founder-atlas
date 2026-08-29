@@ -1,6 +1,35 @@
 # Global Founder Atlas
 
+<!-- github-organisation:start -->
+
+## Project links and history
+
+- First substantive build: 22 July 2026.
+- GitHub repository: [global-founder-atlas](https://github.com/auraofintelligence/global-founder-atlas).
+- Public site: [visit the public site](https://auraofintelligence.github.io/global-founder-atlas/).
+
+## Related public projects
+
+Each link below reflects an evidenced family, lineage or direct connection. This project has 7 relevant public connections.
+
+### Australian travel, opportunity and story atlases
+
+- [australian-sire-story-forge](https://github.com/auraofintelligence/australian-sire-story-forge) - [public page](https://auraofintelligence.github.io/australian-sire-story-forge/) - shared tooling suite.
+- [Australian-visa-activity-atlas](https://github.com/auraofintelligence/Australian-visa-activity-atlas) - [public page](https://auraofintelligence.github.io/Australian-visa-activity-atlas/) - explicit cross-reference, shared tooling suite.
+- [Australian-world-travel](https://github.com/auraofintelligence/Australian-world-travel) - [public page](https://auraofintelligence.github.io/Australian-world-travel/) - explicit cross-reference, shared tooling suite.
+- [event-search-QLD](https://github.com/auraofintelligence/event-search-QLD) - [public page](https://auraofintelligence.github.io/event-search-QLD/) - shared tooling suite.
+- [strange-but-true-desire-atlas](https://github.com/auraofintelligence/strange-but-true-desire-atlas) - [public page](https://auraofintelligence.github.io/strange-but-true-desire-atlas/) - shared tooling suite.
+- [strange-but-true-travel-oracle](https://github.com/auraofintelligence/strange-but-true-travel-oracle) - [public page](https://auraofintelligence.github.io/strange-but-true-travel-oracle/) - explicit cross-reference, shared tooling suite.
+
+### Direct and other supported connections
+
+- [stradbroke-grants-lab](https://github.com/auraofintelligence/stradbroke-grants-lab) - [public page](https://auraofintelligence.github.io/stradbroke-grants-lab/) - explicit cross-reference.
+
+<!-- github-organisation:end -->
+
 A travelling Australian founder's atlas of verified, non-dilutive-first international funding, startup visas, residencies, research placements and paid pilots. Built for a multidisciplinary creator based on North Stradbroke Island / Minjerribah who may stay in Australia, establish an entity abroad, partner locally, license IP, run a pilot, or base part of the year overseas where the opportunity justifies it.
+
+**Public atlas:** <https://auraofintelligence.github.io/global-founder-atlas/>
 
 A Luke x Claude build.
 
@@ -48,6 +77,13 @@ python -m http.server 4190
 ```
 
 Then open `http://localhost:4190/`. A local server is needed because the pages fetch JSON (opening the files directly will show a load error).
+
+## Related public pages
+
+- [Australian World Travel](https://auraofintelligence.github.io/Australian-world-travel/) - the broader travel, mission and logistics planner.
+- [Australian Visa and Activity Atlas](https://auraofintelligence.github.io/Australian-visa-activity-atlas/) - country-by-country entry and activity pathways.
+- [Stradbroke Grants Lab](https://auraofintelligence.github.io/stradbroke-grants-lab/) - a separate local funding workbench.
+- [Strange But True Travel Oracle](https://auraofintelligence.github.io/strange-but-true-travel-oracle/) - neighbouring travel-planning context.
 
 ## Licence
 
