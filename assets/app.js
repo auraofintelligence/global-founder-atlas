@@ -6,7 +6,7 @@ const NAV = [
   { href: "opportunities.html", label: "Atlas" },
   { href: "shortlist.html", label: "Shortlist" },
   { label: "Explore", items: [["categories.html", "Categories"], ["relocation.html", "Relocation"], ["themes.html", "By Project"], ["minjerribah.html", "Minjerribah"], ["people.html", "People"]] },
-  { label: "Guide", items: [["strategy.html", "90-Day Plan"], ["brief.html", "Research Brief"]] },
+  { label: "Guide", items: [["strategy.html", "90-Day Plan"], ["brief.html", "Research Brief"], ["archive.html", "Round archive"]] },
 ];
 
 function navItemsHtml() {
@@ -31,7 +31,7 @@ const navHtml = `
 const footerHtml = `
   <div>
     <p>Global Founder Atlas. A travelling Australian founder's map of non-dilutive-first international funding, visas, residencies and pilots.</p>
-    <p>Curated first pass to author knowledge (to January 2026): verify every live date, amount and eligibility at the official source before applying.</p>
+    <p id="refreshSummary">Source checks are dated on each record. Unverified fields remain research leads; check the official call before applying. <a href="archive.html">Closed rounds and paused programmes</a>.</p>
     <p><a href="LICENCE.md">Strange But True Public Source Licence</a> &#183; Luke Hayes &#215; Claude, Minjerribah.</p>
   </div>
   <nav class="footer-links" aria-label="Ecosystem">
@@ -70,9 +70,24 @@ function refreshCinematic() {
 }
 
 async function loadJson(path) {
-  const response = await fetch(path);
+  const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) throw new Error(`Could not load ${path}`);
   return response.json();
+}
+
+function isActive(opp) { return opp.status_class !== "closed"; }
+function isShortlistCandidate(opp) {
+  return isActive(opp) && opp.status_class !== "unknown"
+    && opp.verification?.result === "partial";
+}
+async function loadOpportunities() {
+  return (await loadJson("data/opportunities.json")).filter(isActive);
+}
+
+async function renderRefreshSummary() {
+  const data = await loadJson("data/funding-refresh.json");
+  const target = document.querySelector("#refreshSummary");
+  if (target) target.innerHTML = `Funding source check: <time datetime="${esc(data.checked_on)}">${esc(data.checked_on)}</time>. ${data.new_ids.length} new records; ${data.archived_round_ids.length} confirmed closed intakes archived. Unverified terms are labelled. <a href="archive.html">Round archive</a> · <a href="docs/FUNDING-REFRESH-${esc(data.checked_on)}.md">Source audit and remaining checks</a>.`;
 }
 
 function scoreOf(opp) {
@@ -82,15 +97,17 @@ function scoreOf(opp) {
   return Math.round(total / 5); // scores are 0-5, weights sum to 100 -> 0-100
 }
 
-const STATUS_LABEL = { open: "Open / rolling", soon: "Opening soon", recurring: "Recurring", closed: "Round closed" };
+const STATUS_LABEL = { open: "Open / application route", soon: "Opening soon", recurring: "Recurring / check round", closed: "Closed / paused", unknown: "Window unverified" };
 
 function esc(value) {
   return String(value == null ? "" : value)
-    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 }
 
 function auBadge(opp) {
-  const yes = /^yes/i.test(opp.au_eligible || "");
+  const yes = /^yes/i.test(opp.au_eligible || "")
+    && (opp.verification?.confirmed_fields || []).includes("au_eligible");
   return `<span class="badge ${yes ? "au-yes" : "au-check"}">${yes ? "AU eligible" : "AU: verify"}</span>`;
 }
 
@@ -100,6 +117,11 @@ function detailRow(label, value, muted) {
 }
 
 function oppCard(opp, options = {}) {
+  const verification = opp.verification;
+  const labels = { status: "application status", opens: "opening date", closes: "closing date", eligibility: "applicant requirements", au_eligible: "Australian access", requires_local: "local presence", stage: "project stage", funding_amount: "funding amount", support_type: "support type", equity: "equity", ip_conditions: "IP conditions", matching_required: "co-funding", other_benefits: "other benefits", key_documents: "application documents" };
+  const row = (label, key, muted) => detailRow(
+    label + (verification?.unverified_fields.includes(key) ? " (unverified)" : ""), opp[key], muted);
+  const evidence = verification ? `<details class="opp-details"><summary>Source check: ${esc(verification.checked_on)}</summary><p>${esc(verification.notes)}</p><p>Confirmed in this check: ${esc(verification.confirmed_fields.map((k) => labels[k] || k).join(", ") || "source access only")}. Other terms below are marked unverified.</p>${verification.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Source and current conditions</a>`).join(" · ")}</details>` : "";
   const score = scoreOf(opp);
   const cat = opp.category ? `<span class="badge cat">Cat ${opp.category}</span>` : "";
   const status = `<span class="badge status-${opp.status_class}">${STATUS_LABEL[opp.status_class] || "Status"}</span>`;
@@ -116,24 +138,25 @@ function oppCard(opp, options = {}) {
     <details class="opp-details">
       <summary>Full opportunity detail</summary>
       <dl class="detail-grid">
+        ${detailRow("Verification date", verification?.checked_on)}
         ${detailRow("Organisation", opp.org)}
         ${detailRow("Location", opp.city_region)}
-        ${detailRow("Status", opp.status)}
-        ${detailRow("Opens", opp.opens)}
-        ${detailRow("Closes", opp.closes)}
+        ${row("Status", "status")}
+        ${row("Opens", "opens")}
+        ${row("Closes", "closes")}
         ${detailRow("Recurring", opp.recurring ? "Yes" : "No")}
-        ${detailRow("Eligibility", opp.eligibility)}
-        ${detailRow("Australians eligible", opp.au_eligible)}
-        ${detailRow("Local entity / relocation", opp.requires_local)}
-        ${detailRow("Stage accepted", opp.stage)}
-        ${detailRow("Funding amount", opp.funding_amount)}
+        ${row("Eligibility", "eligibility")}
+        ${row("Australians eligible", "au_eligible")}
+        ${row("Local entity / relocation", "requires_local")}
+        ${row("Stage accepted", "stage")}
+        ${row("Funding amount", "funding_amount")}
         ${detailRow("Currency", opp.funding_currency)}
-        ${detailRow("Support type", opp.support_type)}
-        ${detailRow("Equity requested", opp.equity)}
-        ${detailRow("Other benefits", opp.other_benefits)}
-        ${detailRow("IP conditions", opp.ip_conditions)}
-        ${detailRow("Matching / co-funding", opp.matching_required)}
-        ${detailRow("Key documents", opp.key_documents)}
+        ${row("Support type", "support_type")}
+        ${row("Equity requested", "equity")}
+        ${row("Other benefits", "other_benefits")}
+        ${row("IP conditions", "ip_conditions")}
+        ${row("Matching / co-funding", "matching_required")}
+        ${row("Key documents", "key_documents")}
         ${detailRow("Difficulty", opp.difficulty)}
         ${detailRow("Best project match", opp.project_match)}
         ${detailRow("Why relevant", opp.why_relevant)}
@@ -161,6 +184,7 @@ function oppCard(opp, options = {}) {
       <p class="opp-summary">${esc(opp.why_relevant)}</p>
       <div class="chips">${conf}${themes}</div>
       ${pitch}
+      ${evidence}
       ${details}
       ${actions}
     </article>`;
@@ -171,16 +195,13 @@ function byScoreDesc(a, b) { return scoreOf(b) - scoreOf(a); }
 /* ---------- pages ---------- */
 
 async function renderHome() {
-  const [opps, cats] = await Promise.all([loadJson("data/opportunities.json"), loadJson("data/categories.json")]);
+  const [opps, cats] = await Promise.all([loadOpportunities(), loadJson("data/categories.json")]);
   const stats = document.querySelector("#homeStats");
   if (stats) {
-    const auYes = opps.filter((o) => /^yes/i.test(o.au_eligible)).length;
-    const nonDilutive = opps.filter((o) => /grant|prize|fellowship|in-kind|reimburse/i.test(o.support_type)).length;
-    const remote = opps.filter((o) => /^no/i.test(o.requires_local) || /remote|rolling/i.test(o.requires_local)).length;
     stats.innerHTML = [
-      [opps.length, "verified opportunities"],
-      [auYes, "open to Australians"],
-      [nonDilutive, "non-dilutive by design"],
+      [opps.length, "programme pathways"],
+      [opps.filter((o) => /^yes/i.test(o.au_eligible) && o.verification.confirmed_fields.includes("au_eligible")).length, "AU access confirmed"],
+      [opps.filter((o) => o.status_class === "open").length, "application routes open"],
       ["9", "categories A to I"],
     ].map(([big, small]) => `<div class="stat-card"><div class="big">${big}</div><div class="small">${small}</div></div>`).join("");
   }
@@ -195,13 +216,13 @@ async function renderHome() {
   }
   const topGrid = document.querySelector("#homeTop");
   if (topGrid) {
-    topGrid.innerHTML = [...opps].sort(byScoreDesc).slice(0, 3)
+    topGrid.innerHTML = opps.filter(isShortlistCandidate).sort(byScoreDesc).slice(0, 3)
       .map((o, i) => oppCard(o, { rank: i + 1 })).join("");
   }
 }
 
 async function renderOpportunities() {
-  const data = await loadJson("data/opportunities.json");
+  const data = await loadOpportunities();
   const grid = document.querySelector("#oppGrid");
   const count = document.querySelector("#resultCount");
   const search = document.querySelector("#oppSearch");
@@ -218,7 +239,9 @@ async function renderOpportunities() {
       const catMatch = state.cat === "All"
         || o.category === state.cat
         || (state.cat === "open" && o.status_class === "open")
-        || (state.cat === "recurring" && o.status_class === "recurring");
+        || (state.cat === "recurring" && o.status_class === "recurring")
+        || (state.cat === "unknown" && o.status_class === "unknown")
+        || (state.cat === "soon" && o.status_class === "soon");
       const themeMatch = state.theme === "All" || (o.themes || []).includes(state.theme);
       const hay = `${o.name} ${o.org} ${o.country} ${o.why_relevant} ${o.project_match} ${(o.themes || []).join(" ")}`.toLowerCase();
       return catMatch && themeMatch && (!q || hay.includes(q));
@@ -253,14 +276,36 @@ async function renderOpportunities() {
 }
 
 async function renderShortlist() {
-  const data = await loadJson("data/opportunities.json");
+  const data = await loadOpportunities();
   const grid = document.querySelector("#shortlistGrid");
-  const top = [...data].sort(byScoreDesc).slice(0, 15);
+  const top = data.filter(isShortlistCandidate).sort(byScoreDesc).slice(0, 15);
   grid.innerHTML = top.map((o, i) => oppCard(o, { rank: i + 1, showPitch: true })).join("");
 }
 
+async function renderArchive() {
+  const [archive, programmes] = await Promise.all([
+    loadJson("data/opportunity-archive.json"), loadJson("data/opportunities.json"),
+  ]);
+  const rounds = document.querySelector("#archivedRounds");
+  if (rounds) rounds.innerHTML = archive.rounds.map((round) => `
+    <section class="section compact" id="${esc(round.id)}">
+      <div class="section-heading"><h2>${esc(round.round_name)}</h2>
+        <p>Closed: ${esc(round.closed_on)}. Archived: ${esc(round.archived_on)}.</p>
+        <p>${esc(round.reason)}</p>
+        <p>Descriptions and scores below are historical. They do not describe a current offer. The complete original record is retained in the archive data.</p>
+      </div>
+      ${oppCard({ ...round.record, confidence: "Historical snapshot", status_class: "closed", status: round.reason,
+        why_relevant: round.reason, opens: round.round_name, closes: round.closed_on,
+        source_url: round.sources[0].url })}
+      <p><a href="data/opportunity-archive.json">Full original record and closure evidence</a></p>
+    </section>`).join("");
+  const paused = document.querySelector("#pausedProgrammes");
+  if (paused) paused.innerHTML = programmes.filter((o) => !isActive(o))
+    .map((o) => oppCard({ ...o, why_relevant: o.status })).join("");
+}
+
 async function renderCategories() {
-  const [opps, cats] = await Promise.all([loadJson("data/opportunities.json"), loadJson("data/categories.json")]);
+  const [opps, cats] = await Promise.all([loadOpportunities(), loadJson("data/categories.json")]);
   const root = document.querySelector("#categorySections");
   root.innerHTML = cats.map((c) => {
     const items = opps
@@ -282,14 +327,14 @@ async function renderCategories() {
 }
 
 async function renderRelocation() {
-  const data = await loadJson("data/opportunities.json");
+  const data = await loadOpportunities();
   const grid = document.querySelector("#relocationGrid");
   const items = data.filter((o) => o.category === "D" || /visa|residency|relocat|soft-landing|free-zone/i.test(`${o.support_type} ${o.other_benefits}`)).sort(byScoreDesc);
   grid.innerHTML = items.map((o) => oppCard(o, { showPitch: true })).join("");
 }
 
 async function renderThemes() {
-  const [opps, themes] = await Promise.all([loadJson("data/opportunities.json"), loadJson("data/themes.json")]);
+  const [opps, themes] = await Promise.all([loadOpportunities(), loadJson("data/themes.json")]);
   const byId = Object.fromEntries(opps.map((o) => [o.id, o]));
   const root = document.querySelector("#themeSections");
   root.innerHTML = themes.lenses.filter((l) => l.key !== "minjerribah").map((lens) => {
@@ -307,7 +352,7 @@ async function renderThemes() {
 }
 
 async function renderMinjerribah() {
-  const [opps, themes] = await Promise.all([loadJson("data/opportunities.json"), loadJson("data/themes.json")]);
+  const [opps, themes] = await Promise.all([loadOpportunities(), loadJson("data/themes.json")]);
   const byId = Object.fromEntries(opps.map((o) => [o.id, o]));
   const lens = themes.lenses.find((l) => l.key === "minjerribah");
   const grid = document.querySelector("#minjerribahGrid");
@@ -319,7 +364,7 @@ async function renderMinjerribah() {
 
 async function renderStrategy() {
   const strat = await loadJson("data/strategy.json");
-  const opps = await loadJson("data/opportunities.json");
+  const opps = await loadOpportunities();
   const byId = Object.fromEntries(opps.map((o) => [o.id, o]));
 
   const weightBox = document.querySelector("#weightBox");
@@ -345,9 +390,10 @@ async function renderStrategy() {
   const buckets = document.querySelector("#bucketGrid");
   if (buckets) {
     buckets.innerHTML = strat.buckets.map((b) => {
-      const names = b.ids.map((id) => byId[id]).filter(Boolean)
+      const available = b.ids.map((id) => byId[id]).filter(Boolean);
+      const names = available
         .map((o) => `<li><a href="opportunities.html?focus=${o.id}">${esc(o.name)}</a> <span class="chip gold">${scoreOf(o)}</span></li>`).join("");
-      return `<article class="data-card"><h3>${esc(b.title)}</h3><ul class="checklist">${names}</ul></article>`;
+      return `<article class="data-card"><h3>${esc(b.title.replace(/^Five /, `${available.length} `))}</h3><ul class="checklist">${names}</ul></article>`;
     }).join("");
   }
 }
@@ -374,7 +420,7 @@ function projectCard(p, byId) {
 }
 
 async function renderTerritory() {
-  const [eco, opps] = await Promise.all([loadJson("data/ecosystem.json"), loadJson("data/opportunities.json")]);
+  const [eco, opps] = await Promise.all([loadJson("data/ecosystem.json"), loadOpportunities()]);
   const byId = Object.fromEntries(opps.map((o) => [o.id, o]));
   const why = document.querySelector("#territoryWhy");
   if (why) {
@@ -457,6 +503,8 @@ async function boot() {
     if (page === "territory") await renderTerritory();
     if (page === "people") await renderPeople();
     if (page === "brief") wireCopyButtons();
+    if (page === "archive") await renderArchive();
+    await renderRefreshSummary();
     refreshCinematic();
   } catch (error) {
     const main = document.querySelector("main");

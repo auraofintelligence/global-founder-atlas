@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "policy": "Archive only officially confirmed closed dated intakes. Keep recurring programme profiles. Inaccessible sources and unknown or indicative dates do not establish expiry. Snapshots preserve the full pre-refresh record.",
+  "rounds": [
+    {
+      "id": "epic-megagrants-2026-cycle-2",
+      "programme_id": "epic-megagrants",
+      "round_name": "Epic MegaGrants 2026 Cycle 2",
+      "closed_on": "2026-09-04 23:59 America/New_York",
+      "archived_on": "2026-10-18",
+      "reason": "Official timeline confirms Cycle 2 submissions ended on 4 September 2026. Review and award notices continue; the recurring programme is retained.",
+      "sources": [
+        {
+          "url": "https://www.unrealengine.com/megagrants",
+          "checked_on": "2026-10-18",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "epic-megagrants",
+        "name": "Epic MegaGrants",
+        "org": "Epic Games",
+        "country": "Global",
+        "city_region": "Remote",
+        "source_url": "https://www.unrealengine.com/en-US/megagrants",
+        "status": "Ongoing rolling program",
+        "status_class": "open",
+        "category": "H",
+        "opens": "Rolling, always open",
+        "closes": "Rolling",
+        "recurring": true,
+        "eligibility": "Creators, developers, students and researchers doing notable work with Unreal Engine, 3D or the metaverse",
+        "au_eligible": "Yes, global applicants including individuals",
+        "requires_local": "No; remote",
+        "stage": "Concept to production",
+        "themes": ["xr-spatial", "creative-tech", "immersive-media", "film-music", "generative-ai", "museums-archives"],
+        "funding_amount": "Grants historically from about USD 5k to USD 500k, no cap stated",
+        "funding_currency": "USD",
+        "support_type": "Grant (non-dilutive)",
+        "equity": "None",
+        "other_benefits": "No obligation to use Epic products commercially; you keep everything you build",
+        "ip_conditions": "You keep all your IP; no exclusivity",
+        "matching_required": "No",
+        "key_documents": "Project description, portfolio, budget, how it advances the ecosystem",
+        "difficulty": "Low to moderate (light application)",
+        "project_match": "XR / spatial computing, immersive storytelling, Infinity Engine music-visuals, museums",
+        "why_relevant": "Among the most founder-friendly creative grants: no equity, keep your IP, individuals eligible, up to substantial sums. Ideal for the Infinity Engine and immersive-media work.",
+        "risks": "Should involve Unreal / 3D / real-time tech meaningfully; competitive at the top end",
+        "confidence": "High",
+        "verify": "Confirm the program is still accepting and current scope",
+        "scores": { "elig": 5, "value": 4, "align": 4, "early": 5, "infra": 3, "ip": 5, "reloc": 5, "cred": 4 },
+        "pitch": {
+          "project": "Infinity Engine music-visuals pipeline / immersive storytelling",
+          "framing": "A real-time, Unreal-powered pipeline turning music into immersive worlds for a local film community.",
+          "next_step": "Package a demo reel and technical description, submit the rolling application."
+        }
+      }
+    },
+    {
+      "id": "canada-startup-visa-2025-certificate-intake",
+      "programme_id": "canada-startup-visa",
+      "round_name": "Canada Start-up Visa special 2025-certificate intake",
+      "closed_on": "2026-06-30",
+      "archived_on": "2026-10-18",
+      "reason": "Official IRCC page requires a valid 2025 commitment certificate and application by 30 June 2026, and states that other applications are closed. The programme is paused.",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa.html",
+          "checked_on": "2026-10-18",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "canada-startup-visa",
+        "name": "Start-up Visa Program",
+        "org": "Immigration, Refugees and Citizenship Canada",
+        "country": "Canada",
+        "city_region": "Nationwide (designated organisations)",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-up-visa.html",
+        "status": "Ongoing permanent-residency pathway (subject to annual caps)",
+        "status_class": "open",
+        "category": "D",
+        "opens": "Rolling, subject to intake caps, verify at source",
+        "closes": "Rolling / capped",
+        "recurring": true,
+        "eligibility": "Founders with a qualifying business supported by a designated VC, angel group or incubator",
+        "au_eligible": "Yes",
+        "requires_local": "Leads to Canadian permanent residency; requires a designated-organisation commitment",
+        "stage": "Early, scalable",
+        "themes": ["generative-ai", "ai-assistants", "health", "climate", "civic-tech"],
+        "funding_amount": "No direct government cash; the designated organisation may invest; PR is the core benefit",
+        "funding_currency": "CAD",
+        "support_type": "Residency pathway plus potential private investment",
+        "equity": "Depends on the designated backer (often equity)",
+        "other_benefits": "Permanent residency, strong AI research ecosystem (Toronto, Montreal, Vancouver)",
+        "ip_conditions": "You keep your IP; investor terms vary",
+        "matching_required": "Needs a Letter of Support from a designated organisation",
+        "key_documents": "Letter of Support, business plan, language test, settlement funds",
+        "difficulty": "High",
+        "project_match": "AI research-heavy ventures, health, climate",
+        "why_relevant": "A rare startup route straight to permanent residency in a top AI-research country. Best if a long-term North American base appeals.",
+        "risks": "Requires securing a designated backer first; capped intake; genuine relocation",
+        "confidence": "High",
+        "verify": "Confirm current cap status, designated-organisation list and processing times",
+        "scores": { "elig": 4, "value": 2, "align": 4, "early": 3, "infra": 4, "ip": 4, "reloc": 1, "cred": 3 },
+        "pitch": {
+          "project": "Deep AI cognitive-architecture venture",
+          "framing": "A research-driven AI company that fits Canada's AI-institute ecosystem.",
+          "next_step": "Pitch a designated incubator or angel group for a Letter of Support."
+        }
+      }
+    }
+  ]
+}

@@ -17,8 +17,10 @@
     <header class="site-header"></header>
     <main id="main" class="page-shell">
       <p class="eyebrow">The full atlas</p>
-      <h1>Every verified opportunity, searchable and scored.</h1>
+      <h1>Funding pathways, searchable and scored.</h1>
       <p class="lede">Filter by category, project theme or keyword. Each card carries a 0 to 100 weighted score and expands to the full field set: dates, eligibility, funding, IP, benefits, risks and a verify note. Confirm live details at the official source before applying.</p>
+
+      <p><a href="archive.html">Confirmed closed intakes and paused programmes</a>. Unverified details are labelled on each card.</p>
 
       <div class="toolbar">
         <div class="search-row">
@@ -30,7 +32,9 @@
             <label class="search-label" for="catFilter">Category</label>
             <select class="search-input" id="catFilter">
               <option value="All">All categories</option>
-              <option value="open">A &middot; Open / rolling</option>
+              <option value="open">A &middot; Application routes open</option>
+              <option value="soon">B &middot; Opening soon</option>
+              <option value="unknown">Window unverified</option>
               <option value="recurring">C &middot; Recurring</option>
               <option value="D">D &middot; Relocation packages</option>
               <option value="E">E &middot; Research and labs</option>
@@ -57,7 +61,7 @@
       <div class="data-grid two" id="oppGrid"></div>
     </main>
     <footer class="site-footer"></footer>
-    <script src="assets/app.js?v=4"></script>
+    <script src="assets/app.js?v=20261018"></script>
     <script src="assets/cinematic.js?v=4" defer></script>
   </body>
 </html>

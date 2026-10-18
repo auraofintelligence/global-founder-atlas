@@ -43,7 +43,7 @@ A Luke x Claude build.
 
 ## Honesty stance
 
-This is a first pass to author knowledge (to January 2026). It does not invent deadlines, eligibility or funding values. Where an exact date is not confirmed, the entry says "verify at source" and carries a confidence rating. Verify every live date, amount and eligibility rule at the official program source before applying. The next step is a live-date refresh (run the brief in `brief.html` through a web-research pass and update the data file).
+Funding source catch-up: **18 October 2026**. Each opportunity distinguishes confirmed fields from unverified terms. Closed dated intakes are preserved in the [round archive](archive.html); recurring programmes remain available between rounds. See the [source audit and remaining checks](docs/FUNDING-REFRESH-2026-10-18.md).
 
 ## Pages
 
@@ -56,6 +56,7 @@ This is a first pass to author knowledge (to January 2026). It does not invent d
 - `minjerribah.html` - programs that could fund an on-island pilot, approached community-led
 - `strategy.html` - the weighted scoring method and the 90-day plan
 - `brief.html` - the reusable research prompt and the per-opportunity field spec
+- `archive.html` - confirmed closed intakes and paused programme profiles
 
 ## Data
 
@@ -65,6 +66,8 @@ All content is data-driven. Edit these files and every page updates itself:
 - `data/categories.json` - the A to I category definitions
 - `data/themes.json` - project-area labels and the by-project and Minjerribah lenses
 - `data/strategy.json` - weighting, 90-day phases, reusable kit and the five-best buckets
+- `data/opportunity-archive.json` - full snapshots of confirmed closed dated intakes
+- `data/funding-refresh.json` - latest check date, scope and run counts
 
 The weighted score is computed in `assets/app.js` from the sub-scores using these weights: eligibility for an Australian 20, non-dilutive value 15, project alignment 20, early-stage openness 10, infrastructure and partnership 10, IP terms 10, low relocation burden 5, credible application 10.
 
@@ -73,7 +76,7 @@ The weighted score is computed in `assets/app.js` from the sub-scores using thes
 From this folder:
 
 ```powershell
-python -m http.server 4190
+python -m http.server 4190 --bind 127.0.0.1
 ```
 
 Then open `http://localhost:4190/`. A local server is needed because the pages fetch JSON (opening the files directly will show a load error).
