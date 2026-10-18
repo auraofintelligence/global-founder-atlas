@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-10-18",
+  "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
+  "programmes_before": 49,
+  "programmes_after": 54,
+  "active_programmes": 52,
+  "new_ids": [
+    "emergent-ventures",
+    "awesome-foundation",
+    "transformative-ai-fund",
+    "innovate-uk-efficient-ai-2026",
+    "innovate-uk-bridgeai-assurance-2026"
+  ],
+  "archived_round_ids": [
+    "epic-megagrants-2026-cycle-2",
+    "canada-startup-visa-2025-certificate-intake"
+  ],
+  "closed_programme_ids": [
+    "canada-startup-visa",
+    "ehf-giv"
+  ],
+  "scope": "Funding refresh of the existing approved project themes. No portfolio additions or project-keyword mapping.",
+  "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry."
+}

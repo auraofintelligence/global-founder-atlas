@@ -33,7 +33,14 @@
         "au_eligible": "Yes, global applicants including individuals",
         "requires_local": "No; remote",
         "stage": "Concept to production",
-        "themes": ["xr-spatial", "creative-tech", "immersive-media", "film-music", "generative-ai", "museums-archives"],
+        "themes": [
+          "xr-spatial",
+          "creative-tech",
+          "immersive-media",
+          "film-music",
+          "generative-ai",
+          "museums-archives"
+        ],
         "funding_amount": "Grants historically from about USD 5k to USD 500k, no cap stated",
         "funding_currency": "USD",
         "support_type": "Grant (non-dilutive)",
@@ -48,7 +55,16 @@
         "risks": "Should involve Unreal / 3D / real-time tech meaningfully; competitive at the top end",
         "confidence": "High",
         "verify": "Confirm the program is still accepting and current scope",
-        "scores": { "elig": 5, "value": 4, "align": 4, "early": 5, "infra": 3, "ip": 5, "reloc": 5, "cred": 4 },
+        "scores": {
+          "elig": 5,
+          "value": 4,
+          "align": 4,
+          "early": 5,
+          "infra": 3,
+          "ip": 5,
+          "reloc": 5,
+          "cred": 4
+        },
         "pitch": {
           "project": "Infinity Engine music-visuals pipeline / immersive storytelling",
           "framing": "A real-time, Unreal-powered pipeline turning music into immersive worlds for a local film community.",
@@ -87,7 +103,13 @@
         "au_eligible": "Yes",
         "requires_local": "Leads to Canadian permanent residency; requires a designated-organisation commitment",
         "stage": "Early, scalable",
-        "themes": ["generative-ai", "ai-assistants", "health", "climate", "civic-tech"],
+        "themes": [
+          "generative-ai",
+          "ai-assistants",
+          "health",
+          "climate",
+          "civic-tech"
+        ],
         "funding_amount": "No direct government cash; the designated organisation may invest; PR is the core benefit",
         "funding_currency": "CAD",
         "support_type": "Residency pathway plus potential private investment",
@@ -102,11 +124,220 @@
         "risks": "Requires securing a designated backer first; capped intake; genuine relocation",
         "confidence": "High",
         "verify": "Confirm current cap status, designated-organisation list and processing times",
-        "scores": { "elig": 4, "value": 2, "align": 4, "early": 3, "infra": 4, "ip": 4, "reloc": 1, "cred": 3 },
+        "scores": {
+          "elig": 4,
+          "value": 2,
+          "align": 4,
+          "early": 3,
+          "infra": 4,
+          "ip": 4,
+          "reloc": 1,
+          "cred": 3
+        },
         "pitch": {
           "project": "Deep AI cognitive-architecture venture",
           "framing": "A research-driven AI company that fits Canada's AI-institute ecosystem.",
           "next_step": "Pitch a designated incubator or angel group for a Letter of Support."
+        }
+      }
+    },
+    {
+      "id": "msca-postdoctoral-2026",
+      "programme_id": "horizon-msca",
+      "round_name": "MSCA Postdoctoral Fellowships 2026",
+      "closed_on": "2026-09-09 17:00 Europe/Brussels",
+      "archived_on": "2026-10-19",
+      "reason": "Official call component identifies HORIZON-MSCA-2026-PF-01 as closed with deadline 9 September 2026 at 17:00 CEST.",
+      "snapshot_commit": "3a9809599c9a0c413324888bf14fbdc4f82546ec",
+      "sources": [
+        {
+          "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2026",
+          "checked_on": "2026-10-19",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "horizon-msca",
+        "name": "Horizon Europe and Marie Sklodowska-Curie Actions",
+        "org": "European Commission",
+        "country": "European Union (plus associated countries)",
+        "city_region": "Host institutions across Europe",
+        "source_url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2026",
+        "status": "2026 Postdoctoral Fellowships page lists an indicative 9 September deadline; definitive portal status could not be read",
+        "status_class": "recurring",
+        "category": "E",
+        "opens": "Indicative launch 2026-04-09, marked TBC by the publisher",
+        "closes": "Indicative 2026-09-09, marked TBC; not independently confirmed",
+        "recurring": true,
+        "eligibility": "Researchers holding a PhD, applying jointly with an eligible beneficiary; detailed host and mobility conditions must be verified in the definitive call",
+        "au_eligible": "European fellowships accept any nationality; Global fellowships require European nationality or long-term residence. Individual host and mobility eligibility remains unverified",
+        "requires_local": "Requires a European (or associated) host institution; mobility rules apply",
+        "stage": "Research-stage; needs an academic or research host",
+        "themes": [
+          "ai-assistants",
+          "health",
+          "privacy-data",
+          "climate",
+          "civic-tech",
+          "xr-spatial"
+        ],
+        "funding_amount": "Salary, mobility and research costs (MSCA fellowships are well funded); consortia grants far larger",
+        "funding_currency": "EUR",
+        "support_type": "Grant (research funding)",
+        "equity": "None",
+        "other_benefits": "Salaried research placement, European lab access, publications, network",
+        "ip_conditions": "IP terms set with the host; negotiable, generally researcher-respecting",
+        "matching_required": "Typically no cash match for MSCA; host provides environment",
+        "key_documents": "Research proposal, host agreement, CV, ethics",
+        "difficulty": "High (competitive, academic proposal)",
+        "project_match": "Hyperbaric / measured self-development research, dementia, privacy AI",
+        "why_relevant": "A route to salaried, credible research funding on your health, AI and privacy questions with a European host. Turns a long-horizon idea into fundable science.",
+        "risks": "Needs an academic host and formal proposal; not for a company; success rates are low",
+        "confidence": "Partial source check",
+        "verify": "Confirm current MSCA call, host eligibility and Australia participation route",
+        "scores": {
+          "elig": 3,
+          "value": 4,
+          "align": 4,
+          "early": 3,
+          "infra": 4,
+          "ip": 4,
+          "reloc": 2,
+          "cred": 2
+        },
+        "pitch": {
+          "project": "Digitally measured self-development / hyperbaric research or privacy-AI",
+          "framing": "A rigorous research question needing a European host and instrumentation.",
+          "next_step": "Find a willing European lab / supervisor, co-write an MSCA Postdoctoral proposal."
+        },
+        "verification": {
+          "checked_on": "2026-10-18",
+          "result": "partial",
+          "confirmed_fields": [
+            "status",
+            "eligibility"
+          ],
+          "unverified_fields": [
+            "opens",
+            "closes",
+            "au_eligible",
+            "requires_local",
+            "stage",
+            "funding_amount",
+            "support_type",
+            "equity",
+            "ip_conditions",
+            "matching_required",
+            "other_benefits",
+            "key_documents"
+          ],
+          "notes": "Not archived: the source labels its dates TBC and the linked Funding & Tenders page was unavailable. A past indicative date alone is insufficient evidence of closure.",
+          "sources": [
+            {
+              "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2026",
+              "checked_on": "2026-10-18",
+              "access": "read"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wellcome-discovery-september-2026",
+      "programme_id": "wellcome-trust",
+      "round_name": "Wellcome Discovery Awards September 2026 round",
+      "closed_on": "2026-09-22 15:00 Europe/London",
+      "archived_on": "2026-10-19",
+      "reason": "Official Closed round section gives 22 September 2026 at 15:00 BST, no late applications. Rolling intake from 23 September remains available.",
+      "snapshot_commit": "3a9809599c9a0c413324888bf14fbdc4f82546ec",
+      "sources": [
+        {
+          "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+          "checked_on": "2026-10-19",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "wellcome-trust",
+        "name": "Wellcome Trust research funding (incl. Mental Health)",
+        "org": "Wellcome Trust",
+        "country": "United Kingdom (funds global research)",
+        "city_region": "London (global reach)",
+        "source_url": "https://wellcome.org/research-funding",
+        "status": "Discovery, mental health, infectious disease, and climate-and-health funding directory available; eligibility and dates vary by scheme",
+        "status_class": "recurring",
+        "category": "E",
+        "opens": "Current intake not confirmed",
+        "closes": "Current deadline not confirmed",
+        "recurring": true,
+        "eligibility": "Researchers, often needing an eligible host organisation; some schemes accept international applicants",
+        "au_eligible": "Not established generally: Australian citizenship, host location and each scheme must be checked separately",
+        "requires_local": "Host organisation usually required; not a company grant",
+        "stage": "Research-stage",
+        "themes": [
+          "health",
+          "dementia",
+          "ai-assistants",
+          "privacy-data"
+        ],
+        "funding_amount": "Scheme-dependent; no universal award amount",
+        "funding_currency": "GBP",
+        "support_type": "Grant (research)",
+        "equity": "None",
+        "other_benefits": "Prestige, multi-year support, global health-research network",
+        "ip_conditions": "Open-access and data-sharing expectations; IP terms via host",
+        "matching_required": "Often no cash match; host provides environment",
+        "key_documents": "Research proposal, host support, ethics, team",
+        "difficulty": "High",
+        "project_match": "Dementia support, preventative health, mental health, measured self-development",
+        "why_relevant": "A premier funder for your health, ageing and dementia interests, including digital mental-health tools. Turns a wellbeing idea into serious funded research.",
+        "risks": "Requires an eligible research host and rigorous proposal; open-access expectations; low success rates",
+        "confidence": "Partial source check",
+        "verify": "Confirm current Mental Health / Discovery calls and host-eligibility rules for Australia",
+        "scores": {
+          "elig": 3,
+          "value": 5,
+          "align": 4,
+          "early": 2,
+          "infra": 4,
+          "ip": 3,
+          "reloc": 4,
+          "cred": 2
+        },
+        "pitch": {
+          "project": "Dementia-support digital twin / preventative-health measurement",
+          "framing": "A digitally measured, privacy-respecting approach to dementia support and prevention.",
+          "next_step": "Partner an eligible research host (a QLD university) and target a Mental Health or Discovery call."
+        },
+        "verification": {
+          "checked_on": "2026-10-18",
+          "result": "partial",
+          "confirmed_fields": [
+            "status",
+            "au_eligible",
+            "funding_amount"
+          ],
+          "unverified_fields": [
+            "opens",
+            "closes",
+            "eligibility",
+            "requires_local",
+            "stage",
+            "support_type",
+            "equity",
+            "ip_conditions",
+            "matching_required",
+            "other_benefits",
+            "key_documents"
+          ],
+          "notes": "The funding directory confirms the research themes. It does not establish that an Australian university is an eligible administering host for every scheme.",
+          "sources": [
+            {
+              "url": "https://wellcome.org/research-funding",
+              "checked_on": "2026-10-18",
+              "access": "read"
+            }
+          ]
         }
       }
     }

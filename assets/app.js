@@ -87,7 +87,7 @@ async function loadOpportunities() {
 async function renderRefreshSummary() {
   const data = await loadJson("data/funding-refresh.json");
   const target = document.querySelector("#refreshSummary");
-  if (target) target.innerHTML = `Funding source check: <time datetime="${esc(data.checked_on)}">${esc(data.checked_on)}</time>. ${data.new_ids.length} new records; ${data.archived_round_ids.length} confirmed closed intakes archived. Unverified terms are labelled. <a href="archive.html">Round archive</a> · <a href="docs/FUNDING-REFRESH-${esc(data.checked_on)}.md">Source audit and remaining checks</a>.`;
+  if (target) target.innerHTML = `Funding source check: <time datetime="${esc(data.checked_on)}">${esc(data.checked_on)}</time>. ${(data.latest_new_ids || data.new_ids).length} new records in this pass; ${(data.latest_archived_round_ids || data.archived_round_ids).length} newly archived intakes (${data.archived_round_ids.length} total). Unverified terms are labelled. <a href="archive.html">Round archive</a> · <a href="docs/FUNDING-REFRESH-${esc(data.checked_on)}.md">Source audit and remaining checks</a>.`;
 }
 
 function scoreOf(opp) {

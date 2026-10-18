@@ -19,6 +19,8 @@ assert meta['programmes_after'] == len(data)
 assert meta['active_programmes'] == sum(o['status_class'] != 'closed' for o in data)
 assert set(meta['closed_programme_ids']) == {o['id'] for o in data if o['status_class'] == 'closed'}
 assert set(meta['archived_round_ids']) == {r['id'] for r in archive['rounds']}
+assert set(meta.get('latest_new_ids', [])) <= set(meta['new_ids'])
+assert set(meta.get('latest_archived_round_ids', [])) <= set(meta['archived_round_ids'])
 baseline = json.loads(subprocess.check_output(
     ['git', 'show', meta['baseline_commit'] + ':data/opportunities.json'], cwd=ROOT))
 old = {o['id']: o for o in baseline}
@@ -34,7 +36,7 @@ for o in data:
     assert o['status_class'] in {'open','soon','recurring','unknown','closed'}
     assert set(o['themes']) <= theme_keys, 'Unapproved theme: ' + o['id']
     v = o['verification']
-    assert v['checked_on'] == meta['checked_on']
+    assert datetime.date.fromisoformat(v['checked_on']) <= datetime.date.fromisoformat(meta['checked_on']), 'Future verification date'
     confirmed, unverified = set(v['confirmed_fields']), set(v['unverified_fields'])
     assert not confirmed & unverified
     assert confirmed | unverified == critical, 'Missing verification coverage: ' + o['id']
@@ -48,7 +50,8 @@ for o in data:
     assert not re.search('[\u2013\u2014]', json.dumps(o, ensure_ascii=False)), 'Unwanted dash: ' + o['id']
 for r in archive['rounds']:
     assert r['programme_id'] in ids
-    assert r['record'] == old[r['programme_id']], 'Historical snapshot was altered'
+    snapshot = old if not r.get('snapshot_commit') else {o['id']: o for o in json.loads(subprocess.check_output(['git','show',r['snapshot_commit'] + ':data/opportunities.json'],cwd=ROOT))}
+    assert r['record'] == snapshot[r['programme_id']], 'Historical snapshot was altered'
     assert r['reason'] and r['sources']
     assert datetime.date.fromisoformat(r['closed_on'][:10]) < datetime.date.fromisoformat(r['archived_on'])
 assert sum(w['pct'] for w in load('data/strategy.json')['weights']) == 100

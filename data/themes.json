@@ -89,6 +89,7 @@
         "digital-twin"
       ],
       "ids": [
+        "csiro-kick-start",
         "astera-residency",
         "eic-accelerator"
       ],
@@ -113,7 +114,7 @@
         "Who would lead the engineering review and provide the actual test facility and emergency-egress evidence?",
         "Which applicant entity, IP permissions, maturity level and co-funding are required? Do open-licensing conditions fit the retained licence?"
       ],
-      "funding_note": "Astera has open-first research conditions. EIC requires an eligible applicant and demonstrated technology maturity. Match the specific work package and evidence to the call.",
+      "funding_note": "CSIRO Kick-Start requires an eligible Australian entity and cash match for genuine research. Astera has open-first research conditions. EIC requires an eligible applicant and demonstrated technology maturity. Match the specific work package and evidence to the call.",
       "sources": [
         {
           "label": "Four hardware pathways",
@@ -142,6 +143,7 @@
         "civic-tech"
       ],
       "ids": [
+        "frrr-prepare-recover",
         "awesome-foundation"
       ],
       "stage": "Public planning pages and pitch material. No operational kiosk network, venue agreement or emergency-warning service is established.",
@@ -166,7 +168,7 @@
         "Who approves public information, keeps official emergency sources current and manages privacy and corrections?",
         "Does the call accept an individual or require a council, incorporated organisation, research host or auspice? What power, connectivity and electrical-review evidence is needed?"
       ],
-      "funding_note": "Awesome Foundation is a small community-test lead, subject to chapter fit. A microgrant would not establish funding for the full kiosk or a national rollout.",
+      "funding_note": "FRRR requires an eligible community organisation or auspice and confirmed location fit. Awesome Foundation is a small community-test lead, subject to chapter fit. A microgrant would not establish funding for the full kiosk or a national rollout.",
       "sources": [
         {
           "label": "Kiosk project overview",
@@ -216,7 +218,7 @@
       "title": "Could fund an on-island Minjerribah pilot",
       "blurb": "Programs that could support a pilot or research facility on North Stradbroke Island / Minjerribah through a community-led, culturally appropriate vehicle.",
       "themes": ["island-biosecurity", "environment-monitoring", "indigenous", "climate"],
-      "ids": ["gef-sgp", "natgeo-grants", "earthshot-prize", "undp-unleash-sdg", "xprize"]
+      "ids": ["frrr-prepare-recover", "natgeo-grants", "earthshot-prize", "undp-unleash-sdg", "xprize"]
     }
   ]
 }
