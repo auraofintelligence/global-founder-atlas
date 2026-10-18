@@ -16,14 +16,7 @@
     "au_eligible": "Yes, this is an Australian export programme",
     "requires_local": "No local entity needed to apply; you operate temporarily from the host hub",
     "stage": "Market-ready / early-scale (some tolerance for strong pre-revenue)",
-    "themes": [
-      "civic-tech",
-      "ai-assistants",
-      "xr-spatial",
-      "health",
-      "climate",
-      "smart-communities"
-    ],
+    "themes": ["civic-tech", "ai-assistants", "xr-spatial", "health", "climate", "smart-communities"],
     "funding_amount": "Advice and virtual or in-market experiences; no cash amount advertised",
     "funding_currency": "AUD (in-kind)",
     "support_type": "In-kind export and market-entry support",
@@ -38,16 +31,7 @@
     "risks": "In-kind only, no capital; competitive; expects some commercial readiness rather than pure concept stage",
     "confidence": "Partial source check",
     "verify": "Confirm the FY2026/27 activity dates and eligibility bar for your target market (US, UK, Singapore, Indonesia or Vietnam)",
-    "scores": {
-      "elig": 5,
-      "value": 2,
-      "align": 4,
-      "early": 3,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 2, "align": 4, "early": 3, "infra": 4, "ip": 5, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "Aura of Intelligence (human-centred AI assistant) or a civic-tech pilot",
       "framing": "An Australian-built, privacy-first personal AI platform ready to test a specific overseas market and channel.",
@@ -56,24 +40,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "funding_amount",
-        "support_type"
-      ],
-      "unverified_fields": [
-        "requires_local",
-        "stage",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount", "support_type"],
+      "unverified_fields": ["requires_local", "stage", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The official page confirms programme-level access, not that every calendar activity remains open.",
       "sources": [
         {
@@ -101,14 +69,7 @@
     "au_eligible": "Yes, open to Australian founders",
     "requires_local": "Requires forming or operating a Chilean entity during the program and time in Chile",
     "stage": "Seed / early, some pre-revenue tracks",
-    "themes": [
-      "ai-assistants",
-      "civic-tech",
-      "climate",
-      "health",
-      "generative-ai",
-      "iot"
-    ],
+    "themes": ["ai-assistants", "civic-tech", "climate", "health", "generative-ai", "iot"],
     "funding_amount": "Equity-free: Build about US$12k, Ignite about US$31k, Growth larger (verify current amounts)",
     "funding_currency": "USD (paid in CLP)",
     "support_type": "Grant (equity-free)",
@@ -123,16 +84,7 @@
     "risks": "Requires meaningful time in Chile and local incorporation during the program; batch timing may not suit",
     "confidence": "Partial source check",
     "verify": "Confirm current track amounts, residency-days requirement and next batch dates",
-    "scores": {
-      "elig": 5,
-      "value": 4,
-      "align": 4,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 4, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 2, "cred": 4 },
     "pitch": {
       "project": "Aura personal AI or a decentralised civic infrastructure prototype",
       "framing": "A working prototype with a clear Latin American public-sector or community use case.",
@@ -141,24 +93,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "equity",
-        "status"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["equity", "status"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The official homepage confirms equity-free support. The former 2-23 November 2026 BIG 7 dates and track amounts could not be verified and are no longer presented as current.",
       "sources": [
         {
@@ -186,13 +122,7 @@
     "au_eligible": "Yes in principle, subject to sector fit",
     "requires_local": "Establishing a Qatari presence is typically expected as part of the package",
     "stage": "Early to growth",
-    "themes": [
-      "ai-assistants",
-      "smart-communities",
-      "health",
-      "civic-tech",
-      "xr-spatial"
-    ],
+    "themes": ["ai-assistants", "smart-communities", "health", "civic-tech", "xr-spatial"],
     "funding_amount": "Package of incentives (varies): incorporation support, residency, potential funding access",
     "funding_currency": "QAR",
     "support_type": "In-kind support, incorporation and residency package, funding access",
@@ -207,16 +137,7 @@
     "risks": "Expects establishing a local presence; sector priorities and terms need direct confirmation",
     "confidence": "Unverified",
     "verify": "Confirm current Start Qatar intake, exact incentives and any relocation expectation",
-    "scores": {
-      "elig": 4,
-      "value": 4,
-      "align": 3,
-      "early": 3,
-      "infra": 5,
-      "ip": 3,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 4, "align": 3, "early": 3, "infra": 5, "ip": 3, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "Smart-community / decentralised municipal AI infrastructure",
       "framing": "A digital-noticeboard and civic AI stack ready to pilot in a fast-building smart city.",
@@ -226,22 +147,7 @@
       "checked_on": "2026-10-18",
       "result": "source_unavailable",
       "confirmed_fields": [],
-      "unverified_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "unverified_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Source could not be read reliably. Existing terms are unverified; this access failure is not evidence of expiry.",
       "sources": [
         {
@@ -269,14 +175,7 @@
     "au_eligible": "Yes, open to international founders",
     "requires_local": "At least one founder must commit to relocating long-term and building a team in Abu Dhabi",
     "stage": "Pre-seed to Series A",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "climate",
-      "blockchain",
-      "iot",
-      "health"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "climate", "blockchain", "iot", "health"],
     "funding_amount": "AED 250,000 in services plus AED 250,000 cash through a SAFE; possible additional AED 250,000 cash for further equity",
     "funding_currency": "AED",
     "support_type": "In-kind incentives plus equity investment",
@@ -291,16 +190,7 @@
     "risks": "Cash is dilutive. The in-kind package does not establish that the full programme is equity-free. Confirm the SAFE and IP terms.",
     "confidence": "Partial source check",
     "verify": "Confirm current cohort track, incentive specifics and founder-presence requirement",
-    "scores": {
-      "elig": 4,
-      "value": 1,
-      "align": 4,
-      "early": 3,
-      "infra": 5,
-      "ip": 3,
-      "reloc": 1,
-      "cred": 4
-    },
+    "scores": { "elig": 4, "value": 1, "align": 4, "early": 3, "infra": 5, "ip": 3, "reloc": 1, "cred": 4 },
     "pitch": {
       "project": "Aura generative-AI / digital-twin platform or Web3 Sensorium",
       "framing": "A privacy-preserving AI and decentralised-data platform seeking a well-resourced base in a pro-AI jurisdiction.",
@@ -309,24 +199,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "requires_local"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "stage", "funding_amount", "support_type", "equity", "requires_local"],
+      "unverified_fields": ["eligibility", "au_eligible", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Corrects the earlier non-dilutive description. Month-only deadline retained without inventing a day.",
       "sources": [
         {
@@ -354,14 +228,7 @@
     "au_eligible": "Yes",
     "requires_local": "Residency in France for the visa; incubation may require a French base",
     "stage": "Early to growth",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "xr-spatial",
-      "creative-tech",
-      "health",
-      "civic-tech"
-    ],
+    "themes": ["ai-assistants", "generative-ai", "xr-spatial", "creative-tech", "health", "civic-tech"],
     "funding_amount": "Visa and incubation routes; no current French Tech Ticket cash award verified",
     "funding_currency": "EUR",
     "support_type": "Residency and incubation pathway; cash support unverified",
@@ -376,16 +243,7 @@
     "risks": "Best value needs a French base; grant components have changed over time and must be confirmed",
     "confidence": "Partial source check",
     "verify": "Confirm current French Tech Visa route, any active French Tech Ticket cash and endorsing incubators",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 4,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 3,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 3, "cred": 3 },
     "pitch": {
       "project": "Immersive storytelling / creative-tech or an AI-assistant venture",
       "framing": "A European launchpad for an interdisciplinary AI-and-culture venture aiming at the EU market.",
@@ -394,24 +252,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "funding_amount",
-        "support_type"
-      ],
-      "unverified_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["funding_amount", "support_type"],
+      "unverified_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The current La French Tech site was reviewed. Historical French Tech Ticket funding is not an active award and the specific visa and incubator conditions still need checking.",
       "sources": [
         {
@@ -439,14 +281,7 @@
     "au_eligible": "Yes",
     "requires_local": "Startup Visa concerns living and working in Estonia. e-Residency alone gives neither immigration nor tax residency.",
     "stage": "Concept to growth (must pass a startup-committee innovation check)",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "blockchain",
-      "iot",
-      "privacy-data",
-      "civic-tech"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "blockchain", "iot", "privacy-data", "civic-tech"],
     "funding_amount": "No cash grant attached to this visa or digital-identity record",
     "funding_currency": "EUR",
     "support_type": "Residency pathway and digital company formation",
@@ -461,16 +296,7 @@
     "risks": "Company substance, tax, immigration and grant eligibility are separate questions; e-Residency does not settle them.",
     "confidence": "Partial source check",
     "verify": "Confirm current startup-committee criteria and e-Residency fees",
-    "scores": {
-      "elig": 5,
-      "value": 2,
-      "align": 4,
-      "early": 4,
-      "infra": 3,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 2, "align": 4, "early": 4, "infra": 3, "ip": 5, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "Privacy-preserving personal data system or Web3 Sensorium",
       "framing": "A sovereignty-of-data platform incorporated as a lean EU digital company.",
@@ -479,24 +305,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "requires_local",
-        "funding_amount",
-        "other_benefits"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "requires_local", "funding_amount", "other_benefits"],
+      "unverified_fields": ["eligibility", "au_eligible", "stage", "support_type", "equity", "ip_conditions", "matching_required", "key_documents"],
       "notes": "Corrected the dead source URL and removed automatic EU-grant eligibility claims.",
       "sources": [
         {
@@ -524,14 +334,7 @@
     "au_eligible": "Yes",
     "requires_local": "Requires a certified incubator relationship and the applicable Portuguese residence process",
     "stage": "Concept to early",
-    "themes": [
-      "ai-assistants",
-      "creative-tech",
-      "climate",
-      "health",
-      "civic-tech",
-      "xr-spatial"
-    ],
+    "themes": ["ai-assistants", "creative-tech", "climate", "health", "civic-tech", "xr-spatial"],
     "funding_amount": "Residence and incubation pathway; no direct cash grant stated",
     "funding_currency": "EUR",
     "support_type": "Residency pathway and incubation",
@@ -546,16 +349,7 @@
     "risks": "No cash component; requires a certified incubator to host the application",
     "confidence": "Partial source check",
     "verify": "Confirm current certified incubator list and residency conditions",
-    "scores": {
-      "elig": 5,
-      "value": 2,
-      "align": 4,
-      "early": 5,
-      "infra": 3,
-      "ip": 5,
-      "reloc": 3,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 2, "align": 4, "early": 5, "infra": 3, "ip": 5, "reloc": 3, "cred": 4 },
     "pitch": {
       "project": "Any early Aura or creative-tech concept",
       "framing": "An interdisciplinary founder seeking an affordable EU base to build and access European funding.",
@@ -564,24 +358,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "requires_local",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "requires_local", "funding_amount"],
+      "unverified_fields": ["eligibility", "au_eligible", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Tech Visa is a separate employer route. Fees, financial means, contracts and grant eligibility must be checked independently.",
       "sources": [
         {
@@ -609,14 +387,7 @@
     "au_eligible": "Yes for EntrePass nationality access; no Startup SG Founder grant eligibility is established",
     "requires_local": "Operate a Singapore private limited company registered with ACRA; pass holder must hold at least 30%",
     "stage": "Early, innovative and scalable",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "health",
-      "smart-communities",
-      "iot",
-      "civic-tech"
-    ],
+    "themes": ["ai-assistants", "generative-ai", "health", "smart-communities", "iot", "civic-tech"],
     "funding_amount": "EntrePass is a work pass, not a grant. Current Startup SG Founder amount and eligibility remain unverified.",
     "funding_currency": "SGD",
     "support_type": "Work-pass pathway; separate grant not confirmed",
@@ -631,16 +402,7 @@
     "risks": "Best grant value tied to local incorporation and shareholding rules; competitive assessment",
     "confidence": "Partial source check",
     "verify": "Confirm current Startup SG Founder amount, eligibility and shareholding conditions",
-    "scores": {
-      "elig": 3,
-      "value": 3,
-      "align": 4,
-      "early": 4,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 3, "value": 3, "align": 4, "early": 4, "infra": 5, "ip": 5, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "Dementia-support / preventative-health digital twin or smart-community stack",
       "framing": "An ageing-population health platform aligned to Singapore's smart-nation priorities.",
@@ -649,24 +411,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "funding_amount",
-        "support_type",
-        "equity"
-      ],
-      "unverified_fields": [
-        "stage",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "funding_amount", "support_type", "equity"],
+      "unverified_fields": ["stage", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The grant page returned only a JavaScript shell. The verified MOM pass route must not be conflated with grant eligibility.",
       "sources": [
         {
@@ -694,13 +440,7 @@
     "au_eligible": "Yes",
     "requires_local": "Leads to Canadian permanent residency; requires a designated-organisation commitment",
     "stage": "Early, scalable",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "civic-tech"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "civic-tech"],
     "funding_amount": "No direct government cash; the designated organisation may invest; PR is the core benefit",
     "funding_currency": "CAD",
     "support_type": "Residency pathway plus potential private investment",
@@ -715,16 +455,7 @@
     "risks": "Requires securing a designated backer first; capped intake; genuine relocation",
     "confidence": "Partial source check",
     "verify": "Confirm current cap status, designated-organisation list and processing times",
-    "scores": {
-      "elig": 4,
-      "value": 2,
-      "align": 4,
-      "early": 3,
-      "infra": 4,
-      "ip": 4,
-      "reloc": 1,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 2, "align": 4, "early": 3, "infra": 4, "ip": 4, "reloc": 1, "cred": 3 },
     "pitch": {
       "project": "Deep AI cognitive-architecture venture",
       "framing": "A research-driven AI company that fits Canada's AI-institute ecosystem.",
@@ -733,24 +464,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility"],
+      "unverified_fields": ["au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The official page explicitly confirms the pause and deadline. Programme profile retained, closed intake preserved in the round archive.",
       "sources": [
         {
@@ -778,13 +493,7 @@
     "au_eligible": "Yes",
     "requires_local": "Relocation to the UK; no company or job offer required",
     "stage": "Any (talent-based, not company-stage-based)",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "xr-spatial",
-      "civic-tech",
-      "creative-tech"
-    ],
+    "themes": ["ai-assistants", "generative-ai", "xr-spatial", "civic-tech", "creative-tech"],
     "funding_amount": "No grant; application fee GBP 766 plus applicable healthcare surcharge",
     "funding_currency": "GBP",
     "support_type": "Residency pathway (talent visa)",
@@ -799,16 +508,7 @@
     "risks": "Endorsement needs a strong evidence portfolio; no funding attached; relocation required for full value",
     "confidence": "Partial source check",
     "verify": "Confirm current endorsing-body criteria and evidence requirements",
-    "scores": {
-      "elig": 4,
-      "value": 1,
-      "align": 4,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 1, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "Whole portfolio, framed as a track record",
       "framing": "A multidisciplinary technologist with a body of published work across AI, XR and civic systems.",
@@ -817,24 +517,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The official page confirms the application route and fees. Digital-technology endorsement evidence and individual suitability remain unverified.",
       "sources": [
         {
@@ -862,14 +546,7 @@
     "au_eligible": "Yes, remote participation possible for some sites",
     "requires_local": "No incorporation abroad required; some in-person sessions",
     "stage": "Seed / early with a defensible technical edge",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "iot",
-      "privacy-data"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "iot", "privacy-data"],
     "funding_amount": "No fee and no equity taken by CDL; access to world-class mentors and investors",
     "funding_currency": "CAD",
     "support_type": "In-kind mentoring and investor access (equity-free)",
@@ -884,16 +561,7 @@
     "risks": "Selective and demanding; expects a scalable, science-based venture; some travel",
     "confidence": "Partial source check",
     "verify": "Confirm current streams, sites accepting remote founders and cohort dates",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 5,
-      "early": 3,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 4,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 5, "early": 3, "infra": 4, "ip": 5, "reloc": 4, "cred": 3 },
     "pitch": {
       "project": "Aura cognitive-architecture / personal digital twin",
       "framing": "A defensible technical thesis on privacy-preserving personal AI, ready for objective-driven scaling.",
@@ -902,24 +570,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility"],
+      "unverified_fields": ["au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "An advertised application route is not confirmation that every stream or location still accepts applications.",
       "sources": [
         {
@@ -943,18 +595,11 @@
     "opens": "Indicative launch 2026-04-09, marked TBC by the publisher",
     "closes": "Indicative 2026-09-09, marked TBC; not independently confirmed",
     "recurring": true,
-    "eligibility": "Postdoctoral research route; degree or equivalent experience, host and mobility conditions must be verified in the call",
-    "au_eligible": "Australians can participate; Australia is a strong MSCA and Horizon partner (often via a host or consortium)",
+    "eligibility": "Researchers holding a PhD, applying jointly with an eligible beneficiary; detailed host and mobility conditions must be verified in the definitive call",
+    "au_eligible": "European fellowships accept any nationality; Global fellowships require European nationality or long-term residence. Individual host and mobility eligibility remains unverified",
     "requires_local": "Requires a European (or associated) host institution; mobility rules apply",
     "stage": "Research-stage; needs an academic or research host",
-    "themes": [
-      "ai-assistants",
-      "health",
-      "privacy-data",
-      "climate",
-      "civic-tech",
-      "xr-spatial"
-    ],
+    "themes": ["ai-assistants", "health", "privacy-data", "climate", "civic-tech", "xr-spatial"],
     "funding_amount": "Salary, mobility and research costs (MSCA fellowships are well funded); consortia grants far larger",
     "funding_currency": "EUR",
     "support_type": "Grant (research funding)",
@@ -969,16 +614,7 @@
     "risks": "Needs an academic host and formal proposal; not for a company; success rates are low",
     "confidence": "Partial source check",
     "verify": "Confirm current MSCA call, host eligibility and Australia participation route",
-    "scores": {
-      "elig": 3,
-      "value": 4,
-      "align": 4,
-      "early": 3,
-      "infra": 4,
-      "ip": 4,
-      "reloc": 2,
-      "cred": 2
-    },
+    "scores": { "elig": 3, "value": 4, "align": 4, "early": 3, "infra": 4, "ip": 4, "reloc": 2, "cred": 2 },
     "pitch": {
       "project": "Digitally measured self-development / hyperbaric research or privacy-AI",
       "framing": "A rigorous research question needing a European host and instrumentation.",
@@ -987,24 +623,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "eligibility"],
+      "unverified_fields": ["opens", "closes", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Not archived: the source labels its dates TBC and the linked Funding & Tenders page was unavailable. A past indicative date alone is insufficient evidence of closure.",
       "sources": [
         {
@@ -1032,14 +652,7 @@
     "au_eligible": "Verify international eligibility; historically open to strong global applicants",
     "requires_local": "Dedicated workspace is at the Emeryville hub; remote participation and immigration arrangements are unverified",
     "stage": "Concept to prototype; idea-led",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "privacy-data",
-      "health",
-      "civic-tech",
-      "iot"
-    ],
+    "themes": ["ai-assistants", "generative-ai", "privacy-data", "health", "civic-tech", "iot"],
     "funding_amount": "Salary and research budget; no fixed individual award amount published on the reviewed page",
     "funding_currency": "USD",
     "support_type": "Funded research residency",
@@ -1054,16 +667,7 @@
     "risks": "Very selective; public-good / openness leanings may conflict with proprietary plans; confirm eligibility for non-US applicants",
     "confidence": "Partial source check",
     "verify": "Confirm current residency call, stipend, IP terms and international eligibility",
-    "scores": {
-      "elig": 3,
-      "value": 4,
-      "align": 5,
-      "early": 5,
-      "infra": 3,
-      "ip": 2,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 3, "value": 4, "align": 5, "early": 5, "infra": 3, "ip": 2, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "Aura cognitive architecture as public-good infrastructure",
       "framing": "An independent researcher building a privacy-first cognitive architecture as public infrastructure.",
@@ -1072,24 +676,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount",
-        "support_type",
-        "ip_conditions",
-        "requires_local"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "stage",
-        "equity",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount", "support_type", "ip_conditions", "requires_local"],
+      "unverified_fields": ["eligibility", "au_eligible", "stage", "equity", "matching_required", "other_benefits", "key_documents"],
       "notes": "The page supports the residency and open-first conditions. It does not support the earlier remote-friendly promise or a current open intake.",
       "sources": [
         {
@@ -1117,12 +705,7 @@
     "au_eligible": "Not established generally: Australian citizenship, host location and each scheme must be checked separately",
     "requires_local": "Host organisation usually required; not a company grant",
     "stage": "Research-stage",
-    "themes": [
-      "health",
-      "dementia",
-      "ai-assistants",
-      "privacy-data"
-    ],
+    "themes": ["health", "dementia", "ai-assistants", "privacy-data"],
     "funding_amount": "Scheme-dependent; no universal award amount",
     "funding_currency": "GBP",
     "support_type": "Grant (research)",
@@ -1137,16 +720,7 @@
     "risks": "Requires an eligible research host and rigorous proposal; open-access expectations; low success rates",
     "confidence": "Partial source check",
     "verify": "Confirm current Mental Health / Discovery calls and host-eligibility rules for Australia",
-    "scores": {
-      "elig": 3,
-      "value": 5,
-      "align": 4,
-      "early": 2,
-      "infra": 4,
-      "ip": 3,
-      "reloc": 4,
-      "cred": 2
-    },
+    "scores": { "elig": 3, "value": 5, "align": 4, "early": 2, "infra": 4, "ip": 3, "reloc": 4, "cred": 2 },
     "pitch": {
       "project": "Dementia-support digital twin / preventative-health measurement",
       "framing": "A digitally measured, privacy-respecting approach to dementia support and prevention.",
@@ -1155,24 +729,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "au_eligible",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "au_eligible", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The funding directory confirms the research themes. It does not establish that an Australian university is an eligible administering host for every scheme.",
       "sources": [
         {
@@ -1200,14 +758,7 @@
     "au_eligible": "Yes, international startups accepted",
     "requires_local": "Temporary presence in Dubai during the program; pilots may lead to local setup",
     "stage": "Prototype to growth (working solution preferred)",
-    "themes": [
-      "smart-communities",
-      "civic-tech",
-      "generative-ai",
-      "health",
-      "climate",
-      "iot"
-    ],
+    "themes": ["smart-communities", "civic-tech", "generative-ai", "health", "climate", "iot"],
     "funding_amount": "No guaranteed pilot payment or grant amount verified",
     "funding_currency": "AED",
     "support_type": "Paid pilot / procurement pathway plus in-kind",
@@ -1222,16 +773,7 @@
     "risks": "Requires a demonstrable solution and time in Dubai; challenges are defined by government, not by you",
     "confidence": "Partial source check",
     "verify": "Confirm current challenge calls, entity requirements and pilot terms",
-    "scores": {
-      "elig": 4,
-      "value": 4,
-      "align": 4,
-      "early": 3,
-      "infra": 5,
-      "ip": 4,
-      "reloc": 3,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 4, "align": 4, "early": 3, "infra": 5, "ip": 4, "reloc": 3, "cred": 3 },
     "pitch": {
       "project": "Digital-noticeboard / decentralised municipal AI infrastructure",
       "framing": "A distributed civic-information and municipal-AI stack ready to pilot against a live city challenge.",
@@ -1240,24 +782,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Homepage access does not confirm a procurement offer, current intake or paid contract.",
       "sources": [
         {
@@ -1285,13 +811,7 @@
     "au_eligible": "Yes",
     "requires_local": "DIFC free-zone company setup (subsidised licences available)",
     "stage": "Early to growth",
-    "themes": [
-      "blockchain",
-      "generative-ai",
-      "ai-assistants",
-      "iot",
-      "privacy-data"
-    ],
+    "themes": ["blockchain", "generative-ai", "ai-assistants", "iot", "privacy-data"],
     "funding_amount": "Subsidised licences, potential grants and access to capital via the ecosystem",
     "funding_currency": "USD",
     "support_type": "In-kind (subsidised setup) plus investor access",
@@ -1306,16 +826,7 @@
     "risks": "Requires DIFC setup and presence; strongest fit is fintech / Web3 rather than pure creative work",
     "confidence": "Unverified",
     "verify": "Confirm current subsidised-licence offers and sector scope",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 3,
-      "early": 3,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 3, "early": 3, "infra": 5, "ip": 5, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "Web3 Sensorium / decentralised data infrastructure",
       "framing": "A privacy-preserving decentralised-data platform seeking a sandbox-friendly free-zone base.",
@@ -1325,22 +836,7 @@
       "checked_on": "2026-10-18",
       "result": "source_unavailable",
       "confirmed_fields": [],
-      "unverified_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "unverified_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Source could not be read reliably. Existing terms are unverified; this access failure is not evidence of expiry.",
       "sources": [
         {
@@ -1368,14 +864,7 @@
     "au_eligible": "Conditional: an Australian applicant outside Horizon Europe-eligible countries must explain the required European dimension",
     "requires_local": "No; fully remote, no incorporation required",
     "stage": "Concept to prototype",
-    "themes": [
-      "privacy-data",
-      "blockchain",
-      "iot",
-      "ai-assistants",
-      "civic-tech",
-      "generative-ai"
-    ],
+    "themes": ["privacy-data", "blockchain", "iot", "ai-assistants", "civic-tech", "generative-ai"],
     "funding_amount": "EUR 5,000 to EUR 50,000 for a first grant",
     "funding_currency": "EUR",
     "support_type": "Grant (non-dilutive, milestone-based)",
@@ -1390,16 +879,7 @@
     "risks": "NLnet rejects AI-generated projects or proposals. Its policy requires disclosure and retained interaction logs where assistance is needed. European-dimension and licensing conditions are material gates.",
     "confidence": "Partial source check",
     "verify": "Confirm current NGI Zero fund themes and next deadline",
-    "scores": {
-      "elig": 2,
-      "value": 3,
-      "align": 5,
-      "early": 5,
-      "infra": 3,
-      "ip": 3,
-      "reloc": 5,
-      "cred": 2
-    },
+    "scores": { "elig": 2, "value": 3, "align": 5, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 2 },
     "pitch": {
       "project": "An open, privacy-preserving component of Aura or the Sensorium",
       "framing": "A self-contained open-source module for sovereign personal data or decentralised civic infrastructure.",
@@ -1408,24 +888,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "funding_amount",
-        "ip_conditions"
-      ],
-      "unverified_fields": [
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount", "ip_conditions"],
+      "unverified_fields": ["requires_local", "stage", "support_type", "equity", "matching_required", "other_benefits", "key_documents"],
       "notes": "Official form reviewed, with Restack as a second source. No licence change or eligibility assurance is implied.",
       "sources": [
         {
@@ -1458,12 +922,7 @@
     "au_eligible": "Yes, global applicants",
     "requires_local": "No; remote",
     "stage": "Concept to working prototype",
-    "themes": [
-      "privacy-data",
-      "ai-assistants",
-      "generative-ai",
-      "civic-tech"
-    ],
+    "themes": ["privacy-data", "ai-assistants", "generative-ai", "civic-tech"],
     "funding_amount": "Call-dependent; no current award amount verified",
     "funding_currency": "USD",
     "support_type": "Grant / award (non-dilutive)",
@@ -1478,16 +937,7 @@
     "risks": "Funding follows the round's theme, which changes; must fit that year's focus",
     "confidence": "Partial source check",
     "verify": "Confirm the current round theme and whether your project fits it",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 5,
-      "early": 4,
-      "infra": 3,
-      "ip": 4,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 3, "align": 5, "early": 4, "infra": 3, "ip": 4, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "Aura as human-centred, privacy-preserving AI",
       "framing": "A trustworthy-by-design personal AI that keeps data sovereign to the user.",
@@ -1496,24 +946,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The former URL redirects to the grantmaking directory. Do not assume the historical Technology Fund name identifies an open round.",
       "sources": [
         {
@@ -1541,13 +975,7 @@
     "au_eligible": "Not confirmed for the current geographically restricted call; check a specific programme",
     "requires_local": "Residential phase in Washington D.C.; no incorporation abroad required",
     "stage": "Early concept to early venture",
-    "themes": [
-      "civic-tech",
-      "health",
-      "climate",
-      "smart-communities",
-      "disaster-resilience"
-    ],
+    "themes": ["civic-tech", "health", "climate", "smart-communities", "disaster-resilience"],
     "funding_amount": "Programme-dependent; no universal stipend or cash award verified",
     "funding_currency": "USD",
     "support_type": "Fellowship (stipend, housing, non-dilutive)",
@@ -1562,16 +990,7 @@
     "risks": "Residential phase requires time in the US; competitive; social-mission framing essential",
     "confidence": "Partial source check",
     "verify": "Confirm current cohort, stipend, residency length and international eligibility",
-    "scores": {
-      "elig": 3,
-      "value": 4,
-      "align": 4,
-      "early": 5,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 3,
-      "cred": 3
-    },
+    "scores": { "elig": 3, "value": 4, "align": 4, "early": 5, "infra": 4, "ip": 5, "reloc": 3, "cred": 3 },
     "pitch": {
       "project": "GAJRA Earth or a community-trust / disaster-resilience venture",
       "framing": "A mission-led initiative rebuilding community trust and resilience, ready to formalise.",
@@ -1580,24 +999,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "au_eligible",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "au_eligible", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The former domain redirects to the new accelerator site. The historical residential fellowship package is not treated as a universal current offer.",
       "sources": [
         {
@@ -1625,14 +1028,7 @@
     "au_eligible": "Yes, global participation",
     "requires_local": "No incorporation; some in-person innovation-lab travel (often supported)",
     "stage": "Concept to early prototype",
-    "themes": [
-      "climate",
-      "civic-tech",
-      "health",
-      "disaster-resilience",
-      "smart-communities",
-      "sustainable-dev"
-    ],
+    "themes": ["climate", "civic-tech", "health", "disaster-resilience", "smart-communities", "sustainable-dev"],
     "funding_amount": "Programme-specific support; no universal cash award verified",
     "funding_currency": "USD",
     "support_type": "In-kind plus challenge prizes and partner pathways",
@@ -1647,16 +1043,7 @@
     "risks": "Often light on direct cash; value is network and follow-on, not a big cheque",
     "confidence": "Partial source check",
     "verify": "Confirm current UNLEASH / UNDP calls and any prize or funding pathway",
-    "scores": {
-      "elig": 5,
-      "value": 2,
-      "align": 4,
-      "early": 5,
-      "infra": 3,
-      "ip": 5,
-      "reloc": 4,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 2, "align": 4, "early": 5, "infra": 3, "ip": 5, "reloc": 4, "cred": 4 },
     "pitch": {
       "project": "GAJRA Earth aligned to specific SDGs",
       "framing": "A regenerative-community initiative mapped cleanly to the SDGs, seeking global partners.",
@@ -1665,24 +1052,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The source supports UNLEASH, not a combined UNDP funding instrument. Age, nationality, residence, travel and regional criteria require a specific call.",
       "sources": [
         {
@@ -1710,14 +1081,7 @@
     "au_eligible": "Depends on the active country program; often channelled via community / NGO structures",
     "requires_local": "Community organisation or NGO vehicle usually required; local delivery",
     "stage": "Community project stage",
-    "themes": [
-      "climate",
-      "environment-monitoring",
-      "island-biosecurity",
-      "sustainable-dev",
-      "indigenous",
-      "disaster-resilience"
-    ],
+    "themes": ["climate", "environment-monitoring", "island-biosecurity", "sustainable-dev", "indigenous", "disaster-resilience"],
     "funding_amount": "Typically up to about USD 50k per grant (about A$75k)",
     "funding_currency": "USD",
     "support_type": "Grant (non-dilutive)",
@@ -1732,16 +1096,7 @@
     "risks": "Needs a community / NGO structure and co-financing; depends on the active Australian country program",
     "confidence": "Unverified",
     "verify": "Confirm whether the Australian country program is active and its current call",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 4,
-      "early": 4,
-      "infra": 3,
-      "ip": 4,
-      "reloc": 5,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 4, "early": 4, "infra": 3, "ip": 4, "reloc": 5, "cred": 3 },
     "pitch": {
       "project": "Minjerribah island biosecurity and environmental-monitoring pilot",
       "framing": "A community-led, culturally appropriate environmental-monitoring project on Minjerribah.",
@@ -1751,22 +1106,7 @@
       "checked_on": "2026-10-18",
       "result": "source_unavailable",
       "confirmed_fields": [],
-      "unverified_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "unverified_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Source could not be read reliably. Existing terms are unverified; this access failure is not evidence of expiry.",
       "sources": [
         {
@@ -1794,13 +1134,7 @@
     "au_eligible": "Yes, global applicants; some calls open to individuals and small teams",
     "requires_local": "No; remote proposals",
     "stage": "Concept (some calls fund bold early ideas at Phase I)",
-    "themes": [
-      "health",
-      "dementia",
-      "generative-ai",
-      "climate",
-      "sustainable-dev"
-    ],
+    "themes": ["health", "dementia", "generative-ai", "climate", "sustainable-dev"],
     "funding_amount": "Phase I grants often around USD 100k with follow-on for success",
     "funding_currency": "USD",
     "support_type": "Grant (non-dilutive)",
@@ -1815,16 +1149,7 @@
     "risks": "Must match a specific challenge theme; global-access IP conditions; health framing essential",
     "confidence": "Partial source check",
     "verify": "Confirm current open challenges and whether one fits your health work",
-    "scores": {
-      "elig": 4,
-      "value": 4,
-      "align": 3,
-      "early": 5,
-      "infra": 3,
-      "ip": 3,
-      "reloc": 5,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 4, "align": 3, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 3 },
     "pitch": {
       "project": "AI-assisted dementia support / preventative health",
       "framing": "A bold, testable idea for measurable dementia support that could scale to low-resource settings.",
@@ -1833,24 +1158,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The current directory contains limited readable call detail. Treat every historical amount, applicant and IP condition below as unverified until the chosen RFP is read.",
       "sources": [
         {
@@ -1878,14 +1187,7 @@
     "au_eligible": "Yes, global applicants including individuals",
     "requires_local": "No; remote",
     "stage": "Concept to production",
-    "themes": [
-      "xr-spatial",
-      "creative-tech",
-      "immersive-media",
-      "film-music",
-      "generative-ai",
-      "museums-archives"
-    ],
+    "themes": ["xr-spatial", "creative-tech", "immersive-media", "film-music", "generative-ai", "museums-archives"],
     "funding_amount": "Grants historically from about USD 5k to USD 500k, no cap stated",
     "funding_currency": "USD",
     "support_type": "Grant (non-dilutive)",
@@ -1900,16 +1202,7 @@
     "risks": "Should involve Unreal / 3D / real-time tech meaningfully; competitive at the top end",
     "confidence": "Partial source check",
     "verify": "Confirm the program is still accepting and current scope",
-    "scores": {
-      "elig": 5,
-      "value": 4,
-      "align": 4,
-      "early": 5,
-      "infra": 3,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 4, "align": 4, "early": 5, "infra": 3, "ip": 5, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "Infinity Engine music-visuals pipeline / immersive storytelling",
       "framing": "A real-time, Unreal-powered pipeline turning music into immersive worlds for a local film community.",
@@ -1918,24 +1211,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility"],
+      "unverified_fields": ["au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The programme is not always open. Only Cycle 2 is archived; the recurring programme remains in the atlas.",
       "sources": [
         {
@@ -1963,15 +1240,7 @@
     "au_eligible": "Conditional on the selected RFP; Australian nationality alone does not establish eligibility",
     "requires_local": "No incorporation required; individual grants",
     "stage": "Concept to project",
-    "themes": [
-      "climate",
-      "environment-monitoring",
-      "indigenous",
-      "immersive-media",
-      "film-music",
-      "island-biosecurity",
-      "museums-archives"
-    ],
+    "themes": ["climate", "environment-monitoring", "indigenous", "immersive-media", "film-music", "island-biosecurity", "museums-archives"],
     "funding_amount": "RFP-specific; historical Level I and Level II amounts are not current universal tiers",
     "funding_currency": "USD",
     "support_type": "Grant (non-dilutive)",
@@ -1986,16 +1255,7 @@
     "risks": "Storytelling / conservation framing needed; cultural work must be community-led and appropriate",
     "confidence": "Partial source check",
     "verify": "Confirm current grant levels, deadlines and eligible project types",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 4,
-      "early": 5,
-      "infra": 3,
-      "ip": 4,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 3, "align": 4, "early": 5, "infra": 3, "ip": 4, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "Minjerribah cultural archive / conservation storytelling (community-led)",
       "framing": "A community-led immersive record of island Country, wildlife and story.",
@@ -2004,24 +1264,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount"],
+      "unverified_fields": ["requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "A local story must match an actual RFP; none of the listed calls is assumed to fund any Minjerribah proposal automatically.",
       "sources": [
         {
@@ -2049,13 +1293,7 @@
     "au_eligible": "Yes, international creators",
     "requires_local": "No; selection-based, with travel to the festival",
     "stage": "Development to finished work",
-    "themes": [
-      "immersive-media",
-      "xr-spatial",
-      "film-music",
-      "creative-tech",
-      "museums-archives"
-    ],
+    "themes": ["immersive-media", "xr-spatial", "film-music", "creative-tech", "museums-archives"],
     "funding_amount": "No current lab production award verified on this festival page",
     "funding_currency": "EUR / USD",
     "support_type": "Grant / in-kind development and exhibition",
@@ -2070,16 +1308,7 @@
     "risks": "Very competitive; needs a strong prototype and treatment; travel required",
     "confidence": "Partial source check",
     "verify": "Confirm each festival's current immersive call, funding and deadlines",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 4,
-      "early": 3,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 4,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 4, "early": 3, "infra": 4, "ip": 5, "reloc": 4, "cred": 3 },
     "pitch": {
       "project": "An immersive Infinity Engine piece or Minjerribah XR story",
       "framing": "A distinctive immersive work with a clear artistic voice and technical ambition.",
@@ -2088,24 +1317,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "This source does not verify the separate Venice, Tribeca, Sundance or SXSW lab terms. No festival or lab is declared expired merely from this page.",
       "sources": [
         {
@@ -2133,13 +1346,7 @@
     "au_eligible": "Yes, international teams",
     "requires_local": "No; team-based, no incorporation abroad required to register",
     "stage": "Prototype to demonstrated solution",
-    "themes": [
-      "climate",
-      "health",
-      "generative-ai",
-      "environment-monitoring",
-      "sustainable-dev"
-    ],
+    "themes": ["climate", "health", "generative-ai", "environment-monitoring", "sustainable-dev"],
     "funding_amount": "Large prize purses (often USD millions across a competition) plus milestone awards",
     "funding_currency": "USD",
     "support_type": "Prize (non-dilutive)",
@@ -2154,16 +1361,7 @@
     "risks": "Long, resource-heavy commitment; winner-takes-most; needs a capable team",
     "confidence": "Partial source check",
     "verify": "Confirm which competitions are open for registration and their themes",
-    "scores": {
-      "elig": 4,
-      "value": 5,
-      "align": 3,
-      "early": 3,
-      "infra": 3,
-      "ip": 4,
-      "reloc": 5,
-      "cred": 2
-    },
+    "scores": { "elig": 4, "value": 5, "align": 3, "early": 3, "infra": 3, "ip": 4, "reloc": 5, "cred": 2 },
     "pitch": {
       "project": "A climate or environmental-monitoring solution (island-tested)",
       "framing": "A team tackling a defined grand challenge with a Minjerribah proving ground.",
@@ -2172,24 +1370,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "An active multi-year competition is not necessarily open to new teams. No universal current award, registration fee, IP rule or deadline is confirmed.",
       "sources": [
         {
@@ -2217,14 +1399,7 @@
     "au_eligible": "Only via an EU (or associated country) entity, for example an Estonian or Portuguese company",
     "requires_local": "Eligible EU or associated-country company requirements apply before full proposal; digital e-Residency alone is insufficient",
     "stage": "Prototype to scale (TRL-based)",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "privacy-data",
-      "iot"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "privacy-data", "iot"],
     "funding_amount": "Grant component below EUR 2.5 million; optional investment EUR 1 million to EUR 10 million",
     "funding_currency": "EUR",
     "support_type": "Grant plus optional equity (blended finance)",
@@ -2239,16 +1414,7 @@
     "risks": "Requires an EU entity and a mature deep-tech case; extremely competitive and slow; not concept-stage",
     "confidence": "Partial source check",
     "verify": "Confirm current cut-off dates, thematic priorities and entity requirements",
-    "scores": {
-      "elig": 2,
-      "value": 5,
-      "align": 4,
-      "early": 2,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 3,
-      "cred": 2
-    },
+    "scores": { "elig": 2, "value": 5, "align": 4, "early": 2, "infra": 4, "ip": 5, "reloc": 3, "cred": 2 },
     "pitch": {
       "project": "A matured Aura deep-tech component with an EU entity behind it",
       "framing": "A high-impact European deep-tech company advancing sovereign personal AI.",
@@ -2257,24 +1423,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "requires_local",
-        "funding_amount",
-        "matching_required"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "requires_local", "funding_amount", "matching_required"],
+      "unverified_fields": ["au_eligible", "stage", "support_type", "equity", "ip_conditions", "other_benefits", "key_documents"],
       "notes": "The full-proposal date is not an entry deadline for someone without a GO. Registration and grant eligibility are separate.",
       "sources": [
         {
@@ -2302,13 +1452,7 @@
     "au_eligible": "Yes, global, individuals and teams",
     "requires_local": "No; remote",
     "stage": "Concept to prototype",
-    "themes": [
-      "blockchain",
-      "iot",
-      "privacy-data",
-      "generative-ai",
-      "civic-tech"
-    ],
+    "themes": ["blockchain", "iot", "privacy-data", "generative-ai", "civic-tech"],
     "funding_amount": "FIL Builder Next Step: USD 5,000-10,000; Open Grants and RFP amounts vary",
     "funding_currency": "USD (sometimes crypto)",
     "support_type": "Grant (non-dilutive)",
@@ -2323,16 +1467,7 @@
     "risks": "Funded work is open-source; tied to the Web3 storage ecosystem; keep proprietary layers separate",
     "confidence": "Partial source check",
     "verify": "Confirm current open rounds, RFP themes and terms",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 4,
-      "early": 5,
-      "infra": 3,
-      "ip": 3,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 3, "align": 4, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "A decentralised-storage layer for sovereign personal data",
       "framing": "An open component that lets people store and control their own digital-twin data.",
@@ -2341,24 +1476,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Foundation directory read. Repository-specific acceptance, open-source and payment conditions remain unverified.",
       "sources": [
         {
@@ -2386,14 +1505,7 @@
     "au_eligible": "Yes in principle, via investment or partnership routes",
     "requires_local": "Local partnership or presence typically expected for deep engagement",
     "stage": "Prototype to scale; ambitious ventures",
-    "themes": [
-      "smart-communities",
-      "generative-ai",
-      "xr-spatial",
-      "climate",
-      "iot",
-      "civic-tech"
-    ],
+    "themes": ["smart-communities", "generative-ai", "xr-spatial", "climate", "iot", "civic-tech"],
     "funding_amount": "Potentially very large via investment and partnership rather than open grants",
     "funding_currency": "USD / SAR",
     "support_type": "Investment / partnership / in-kind (bespoke)",
@@ -2408,16 +1520,7 @@
     "risks": "Opaque, relationship-driven, equity / JV likely; do careful due diligence on terms and ethics",
     "confidence": "Unverified",
     "verify": "Confirm any current open partnership or investment programs and terms",
-    "scores": {
-      "elig": 3,
-      "value": 5,
-      "align": 4,
-      "early": 2,
-      "infra": 5,
-      "ip": 2,
-      "reloc": 2,
-      "cred": 1
-    },
+    "scores": { "elig": 3, "value": 5, "align": 4, "early": 2, "infra": 5, "ip": 2, "reloc": 2, "cred": 1 },
     "pitch": {
       "project": "Decentralised municipal / cognitive-city AI infrastructure",
       "framing": "A distributed civic-AI operating layer for a next-generation city.",
@@ -2427,22 +1530,7 @@
       "checked_on": "2026-10-18",
       "result": "source_unavailable",
       "confirmed_fields": [],
-      "unverified_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "unverified_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Source could not be read reliably. Existing terms are unverified; this access failure is not evidence of expiry.",
       "sources": [
         {
@@ -2470,14 +1558,7 @@
     "au_eligible": "Yes, international startups accepted (program-dependent)",
     "requires_local": "Program-dependent; some remote participation, some hub presence",
     "stage": "Early, pre-seed to seed",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "civic-tech",
-      "smart-communities"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "civic-tech", "smart-communities"],
     "funding_amount": "Zero-equity program; cash prizes awarded to top teams (varies by program)",
     "funding_currency": "USD",
     "support_type": "Accelerator (equity-free) plus prizes",
@@ -2492,16 +1573,7 @@
     "risks": "Prizes go to top performers, not everyone; best programs may want hub presence",
     "confidence": "Partial source check",
     "verify": "Confirm which MassChallenge program suits, its location model and dates",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 3,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 4,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 3, "early": 4, "infra": 4, "ip": 5, "reloc": 4, "cred": 3 },
     "pitch": {
       "project": "A health or civic-AI venture with a clear early product",
       "framing": "An early venture with social upside and a credible team, ready to accelerate.",
@@ -2510,24 +1582,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Official site reached through the web research tool after the direct fetch was blocked. Individual accelerator dates, prize amounts, fees and equity conditions still need checking.",
       "sources": [
         {
@@ -2555,14 +1611,7 @@
     "au_eligible": "Yes, global",
     "requires_local": "Program is location-based; some hybrid; investment terms apply",
     "stage": "Pre-seed to seed",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "civic-tech",
-      "iot"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "civic-tech", "iot"],
     "funding_amount": "USD 220,000: USD 20,000 fixed-percentage CEA and USD 200,000 uncapped MFN SAFE",
     "funding_currency": "USD",
     "support_type": "Dilutive investment and accelerator support",
@@ -2577,16 +1626,7 @@
     "risks": "Takes equity; intensive and location-based; a big commitment for a solo founder",
     "confidence": "Partial source check",
     "verify": "Confirm which program fits and current terms",
-    "scores": {
-      "elig": 4,
-      "value": 1,
-      "align": 3,
-      "early": 3,
-      "infra": 4,
-      "ip": 4,
-      "reloc": 3,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 1, "align": 3, "early": 3, "infra": 4, "ip": 4, "reloc": 3, "cred": 3 },
     "pitch": {
       "project": "The single most investable venture in your portfolio",
       "framing": "A focused, fundable company (not the whole ecosystem) with a clear market.",
@@ -2595,24 +1635,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "funding_amount",
-        "equity",
-        "support_type"
-      ],
-      "unverified_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["funding_amount", "equity", "support_type"],
+      "unverified_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Current published investment terms replace the historical USD 120,000 figure. Programme-specific application dates remain unverified.",
       "sources": [
         {
@@ -2640,13 +1664,7 @@
     "au_eligible": "Yes, global; usually requires an official nominator",
     "requires_local": "No; solution and impact-based",
     "stage": "Working solution with demonstrable impact potential",
-    "themes": [
-      "climate",
-      "environment-monitoring",
-      "island-biosecurity",
-      "sustainable-dev",
-      "disaster-resilience"
-    ],
+    "themes": ["climate", "environment-monitoring", "island-biosecurity", "sustainable-dev", "disaster-resilience"],
     "funding_amount": "GBP 1 million for each of five 2026 winners",
     "funding_currency": "GBP",
     "support_type": "Prize (non-dilutive)",
@@ -2661,16 +1679,7 @@
     "risks": "Extremely selective; usually needs an official nominator; needs demonstrated impact",
     "confidence": "Partial source check",
     "verify": "Confirm the current nomination route and whether direct entry is possible",
-    "scores": {
-      "elig": 3,
-      "value": 5,
-      "align": 3,
-      "early": 2,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 2
-    },
+    "scores": { "elig": 3, "value": 5, "align": 3, "early": 2, "infra": 4, "ip": 5, "reloc": 5, "cred": 2 },
     "pitch": {
       "project": "A Minjerribah regenerative / island-resilience model",
       "framing": "A replicable island model for restoring and protecting Country.",
@@ -2679,24 +1688,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount", "eligibility"],
+      "unverified_fields": ["opens", "closes", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The 2026 finalist stage is not a new open application window. Preserve the recurring programme without inventing a nomination date.",
       "sources": [
         {
@@ -2724,13 +1717,7 @@
     "au_eligible": "Yes, global; many Australian alumni",
     "requires_local": "In-person batch in the Bay Area; company restructures under US parent typically",
     "stage": "Idea to early traction (team-led)",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "civic-tech",
-      "iot"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "civic-tech", "iot"],
     "funding_amount": "Standard deal (historically USD 500k across two instruments)",
     "funding_currency": "USD",
     "support_type": "Investment (dilutive)",
@@ -2745,16 +1732,7 @@
     "risks": "Takes equity and expects a US-parent restructure and relocation for the batch; single-company focus, not an ecosystem",
     "confidence": "Partial source check",
     "verify": "Confirm current batch dates and deal terms",
-    "scores": {
-      "elig": 4,
-      "value": 1,
-      "align": 3,
-      "early": 5,
-      "infra": 4,
-      "ip": 3,
-      "reloc": 1,
-      "cred": 2
-    },
+    "scores": { "elig": 4, "value": 1, "align": 3, "early": 5, "infra": 4, "ip": 3, "reloc": 1, "cred": 2 },
     "pitch": {
       "project": "One flagship AI venture, sharply defined",
       "framing": "A focused, fast-growing AI company with an exceptional founder story.",
@@ -2763,24 +1741,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Late consideration means the on-time deadline must not automatically archive the whole programme.",
       "sources": [
         {
@@ -2808,13 +1770,7 @@
     "au_eligible": "Yes, via an incorporated startup (an Australian company qualifies)",
     "requires_local": "Incorporation required; no overseas company is specified",
     "stage": "Any stage with a working AI product direction",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "compute",
-      "digital-twin",
-      "iot"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "compute", "digital-twin", "iot"],
     "funding_amount": "In-kind: Deep Learning Institute training credits, preferred hardware and software pricing, and access to partner cloud credits (for example up to US$100k AWS Activate)",
     "funding_currency": "USD (in-kind)",
     "support_type": "In-kind (compute, training, discounts) plus VC introductions",
@@ -2829,16 +1785,7 @@
     "risks": "Requires an incorporated entity and a working site; excludes pure consulting and crypto companies; cloud credits come via partners, not direct cash",
     "confidence": "Partial source check",
     "verify": "Confirm current partner cloud-credit offers and eligibility checks",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 4,
-      "early": 3,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 4,
-      "cred": 5
-    },
+    "scores": { "elig": 5, "value": 3, "align": 4, "early": 3, "infra": 5, "ip": 5, "reloc": 4, "cred": 5 },
     "pitch": {
       "project": "Aura generative-AI / digital-twin platform",
       "framing": "An incorporated Australian AI venture that needs compute and GPU access to build.",
@@ -2847,24 +1794,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "requires_local",
-        "equity"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "requires_local", "equity"],
+      "unverified_fields": ["au_eligible", "stage", "funding_amount", "support_type", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The official FAQ confirms incorporation is mandatory. Partner cloud-credit amounts remain unverified.",
       "sources": [
         {
@@ -2892,12 +1823,7 @@
     "au_eligible": "Yes, an Australian entity qualifies",
     "requires_local": "No relocation; needs a business to verify, not a local one",
     "stage": "Any early stage",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "compute",
-      "privacy-data"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "compute", "privacy-data"],
     "funding_amount": "Up to USD 150,000 in eligible startup credits; approval and current tier conditions apply",
     "funding_currency": "USD (in-kind)",
     "support_type": "In-kind (cloud, AI, software) plus mentor network",
@@ -2912,16 +1838,7 @@
     "risks": "Credits expire 12 months after issuance; top tiers need an investor-network referral",
     "confidence": "Partial source check",
     "verify": "Confirm current credit tiers and the funding cap at signup",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 4,
-      "early": 4,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 5
-    },
+    "scores": { "elig": 5, "value": 3, "align": 4, "early": 4, "infra": 5, "ip": 5, "reloc": 5, "cred": 5 },
     "pitch": {
       "project": "Any Aura AI component needing cloud and model access",
       "framing": "An early Australian AI venture ready to build on Azure and Azure OpenAI.",
@@ -2930,24 +1847,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The headline ceiling is confirmed. Previous self-serve tiers, referral rules, included software and credit expiry were not reverified.",
       "sources": [
         {
@@ -2975,12 +1876,7 @@
     "au_eligible": "Yes, an Australian entity qualifies",
     "requires_local": "No relocation; needs a startup, not a local entity",
     "stage": "Any early stage",
-    "themes": [
-      "compute",
-      "generative-ai",
-      "iot",
-      "ai-assistants"
-    ],
+    "themes": ["compute", "generative-ai", "iot", "ai-assistants"],
     "funding_amount": "Up to USD 200,000 in Activate credits; higher AI support may have separate conditions",
     "funding_currency": "USD (in-kind)",
     "support_type": "In-kind promotional cloud credits",
@@ -2995,16 +1891,7 @@
     "risks": "Self-serve Founders tier is only about US$1k; the large tiers require an affiliated Activate provider",
     "confidence": "Partial source check",
     "verify": "Confirm current tier amounts and the 2026 AI-tier terms",
-    "scores": {
-      "elig": 5,
-      "value": 2,
-      "align": 4,
-      "early": 4,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 5
-    },
+    "scores": { "elig": 5, "value": 2, "align": 4, "early": 4, "infra": 5, "ip": 5, "reloc": 5, "cred": 5 },
     "pitch": {
       "project": "Aura or Sensorium infrastructure needing scalable cloud",
       "framing": "An Australian AI/IoT venture ready to deploy on AWS.",
@@ -3013,24 +1900,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount",
-        "support_type"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount", "support_type"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Current headline ceiling confirmed. Provider affiliation, individual tier amounts, credit expiry and overage billing must be checked before use.",
       "sources": [
         {
@@ -3058,14 +1929,7 @@
     "au_eligible": "Yes, open globally",
     "requires_local": "No; remote application, no incorporation required",
     "stage": "Concept to early venture",
-    "themes": [
-      "health",
-      "climate",
-      "civic-tech",
-      "generative-ai",
-      "sustainable-dev",
-      "dementia"
-    ],
+    "themes": ["health", "climate", "civic-tech", "generative-ai", "sustainable-dev", "dementia"],
     "funding_amount": "Challenge-specific; historical 2026 partner-prize figures are not a current offer",
     "funding_currency": "USD",
     "support_type": "Prize (non-dilutive) plus fellowship-style support",
@@ -3080,16 +1944,7 @@
     "risks": "Must match a specific Global Challenge theme; selective; prize funding via partners varies",
     "confidence": "Partial source check",
     "verify": "Confirm the current open challenge, its themes and deadline",
-    "scores": {
-      "elig": 5,
-      "value": 4,
-      "align": 4,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 3
-    },
+    "scores": { "elig": 5, "value": 4, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 5, "cred": 3 },
     "pitch": {
       "project": "Aura human-centred AI, or an AI-for-dementia solution",
       "framing": "A human-centred AI solution to a defined global challenge, with measurable impact.",
@@ -3098,24 +1953,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Homepage and challenge directory do not expose enough current call detail. Not expired and not archived; excluded from open-only and executive shortlist views.",
       "sources": [
         {
@@ -3143,14 +1982,7 @@
     "au_eligible": "Yes, open globally",
     "requires_local": "No; remote entry, travel only for the Summit",
     "stage": "Prototype to early, science-based",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "iot",
-      "digital-twin"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "iot", "digital-twin"],
     "funding_amount": "EUR 200,000 equity prize advertised; other awards and conditions need verification",
     "funding_currency": "EUR",
     "support_type": "Equity prize and deep-tech network access",
@@ -3165,16 +1997,7 @@
     "risks": "Investment terms require review. The published timeline also contains an inconsistent April 2026 finalist date; that milestone is not relied on.",
     "confidence": "Partial source check",
     "verify": "Confirm the current cycle's application window and Summit dates",
-    "scores": {
-      "elig": 5,
-      "value": 1,
-      "align": 5,
-      "early": 3,
-      "infra": 4,
-      "ip": 3,
-      "reloc": 4,
-      "cred": 3
-    },
+    "scores": { "elig": 5, "value": 1, "align": 5, "early": 3, "infra": 4, "ip": 3, "reloc": 4, "cred": 3 },
     "pitch": {
       "project": "The most science-grounded Aura component (spatial/embodied AI or digital twin)",
       "framing": "A deep-tech breakthrough turning a scientific insight into a human-centred tool.",
@@ -3183,24 +2006,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount",
-        "support_type",
-        "equity"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount", "support_type", "equity"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Corrected the old EUR 100,000 equity-free claim. Official application deadline is 30 November, not the previous unverified October estimate.",
       "sources": [
         {
@@ -3228,13 +2035,7 @@
     "au_eligible": "Yes, global fellowship",
     "requires_local": "No; remote-friendly, no company required",
     "stage": "Concept to prototype; idea and research led",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "health",
-      "digital-twin",
-      "privacy-data"
-    ],
+    "themes": ["ai-assistants", "generative-ai", "health", "digital-twin", "privacy-data"],
     "funding_amount": "Mentoring, network and paid travel to one technical workshop and one Vision Weekend; no general cash stipend stated",
     "funding_currency": "USD",
     "support_type": "Fellowship and in-kind travel support; research grants are separate",
@@ -3249,16 +2050,7 @@
     "risks": "Selective, vision-led; no fixed deadline is published, so confirm timing via the application form",
     "confidence": "Partial source check",
     "verify": "Confirm the fellowship application window and node-grant themes at the official site",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 5,
-      "early": 5,
-      "infra": 4,
-      "ip": 4,
-      "reloc": 4,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 5, "early": 5, "infra": 4, "ip": 4, "reloc": 4, "cred": 3 },
     "pitch": {
       "project": "Aura cognitive architecture / measured self-development research",
       "framing": "An independent technologist advancing secure, human-centred AI and measured wellbeing.",
@@ -3267,24 +2059,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount",
-        "support_type"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount", "support_type"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The published cohort label is 2028. It is reported as displayed, without inventing a 2027 deadline or merging separate node grants into the fellowship.",
       "sources": [
         {
@@ -3312,13 +2088,7 @@
     "au_eligible": "Usually yes; several prizes accept global entrants",
     "requires_local": "No; remote, prize-based",
     "stage": "Prototype to demonstrated solution",
-    "themes": [
-      "health",
-      "dementia",
-      "ai-assistants",
-      "climate",
-      "disaster-resilience"
-    ],
+    "themes": ["health", "dementia", "ai-assistants", "climate", "disaster-resilience"],
     "funding_amount": "Current advertised purses include GBP 6.25 million for snakebite and GBP 7.5 million for ALS; these are total purses, not individual grant promises",
     "funding_currency": "GBP",
     "support_type": "Challenge prize (non-dilutive) with staged seed grants",
@@ -3333,16 +2103,7 @@
     "risks": "Prizes are theme-specific and periodic; the current dementia round is closed, so watch for the next relevant prize",
     "confidence": "Partial source check",
     "verify": "Confirm which Challenge Works prizes are open now and their entry rules",
-    "scores": {
-      "elig": 4,
-      "value": 4,
-      "align": 4,
-      "early": 3,
-      "infra": 4,
-      "ip": 4,
-      "reloc": 5,
-      "cred": 2
-    },
+    "scores": { "elig": 4, "value": 4, "align": 4, "early": 3, "infra": 4, "ip": 4, "reloc": 5, "cred": 2 },
     "pitch": {
       "project": "AI-assisted dementia support / measured preventative health",
       "framing": "A staged, evidence-led approach to a defined health challenge.",
@@ -3351,24 +2112,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "A generic dementia proposal is not assumed eligible for a current prize. Prior dementia award-history claims were not independently reverified.",
       "sources": [
         {
@@ -3396,14 +2141,7 @@
     "au_eligible": "Yes; Australians are eligible to apply to the fellowship",
     "requires_local": "Acceptance into the fellowship, then relocation to New Zealand on a 3-year visa (path to residency)",
     "stage": "Concept to growth; impact-led",
-    "themes": [
-      "civic-tech",
-      "climate",
-      "health",
-      "sustainable-dev",
-      "generative-ai",
-      "disaster-resilience"
-    ],
+    "themes": ["civic-tech", "climate", "health", "sustainable-dev", "generative-ai", "disaster-resilience"],
     "funding_amount": "No current fellowship or visa package available through this record",
     "funding_currency": "NZD",
     "support_type": "Residency pathway plus impact-founder community",
@@ -3418,16 +2156,7 @@
     "risks": "No cash; the visa is a pilot-style program, so confirm it is still running; requires maintenance funds and relocation",
     "confidence": "Partial source check",
     "verify": "Confirm the fellowship and Global Impact Visa are currently open and the next intake",
-    "scores": {
-      "elig": 4,
-      "value": 2,
-      "align": 4,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 2, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "GAJRA Earth or a civic / island-resilience venture",
       "framing": "A regenerative, community-first venture seeking an impact base close to home.",
@@ -3436,24 +2165,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Official homepage explicitly states organisation closure. Profile retained as history; no dated round is invented or archived.",
       "sources": [
         {
@@ -3481,14 +2194,7 @@
     "au_eligible": "Yes; Antler runs Australian cohorts (Sydney, Melbourne)",
     "requires_local": "Full-time in-person cohort; can be done in an Australian hub (low relocation)",
     "stage": "Day zero to pre-seed",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "health",
-      "climate",
-      "civic-tech",
-      "iot"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "health", "climate", "civic-tech", "iot"],
     "funding_amount": "No universal current investment amount verified for an Australian or overseas cohort",
     "funding_currency": "USD",
     "support_type": "Venture-builder residency plus investment (dilutive)",
@@ -3503,16 +2209,7 @@
     "risks": "Dilutive and highly selective; full-time and single-company focused, not an ecosystem play",
     "confidence": "Partial source check",
     "verify": "Confirm the next Australian cohort dates and current terms",
-    "scores": {
-      "elig": 5,
-      "value": 2,
-      "align": 3,
-      "early": 5,
-      "infra": 4,
-      "ip": 3,
-      "reloc": 4,
-      "cred": 2
-    },
+    "scores": { "elig": 5, "value": 2, "align": 3, "early": 5, "infra": 4, "ip": 3, "reloc": 4, "cred": 2 },
     "pitch": {
       "project": "One investable venture, or a search for a co-founder",
       "framing": "A capable technical founder ready to build one focused company from day zero.",
@@ -3521,24 +2218,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The public page includes a generic receipt template; it is not evidence that an application was submitted. Location-specific terms need review.",
       "sources": [
         {
@@ -3566,13 +2247,7 @@
     "au_eligible": "Yes, an Australian entity qualifies",
     "requires_local": "No relocation; needs a company and (for the full tier) an accelerator or VC link",
     "stage": "Ideation to Series A",
-    "themes": [
-      "generative-ai",
-      "ai-assistants",
-      "compute",
-      "iot",
-      "digital-twin"
-    ],
+    "themes": ["generative-ai", "ai-assistants", "compute", "iot", "digital-twin"],
     "funding_amount": "Start: USD 2,000; funded tiers: up to USD 200,000-350,000 in credits",
     "funding_currency": "USD (in-kind)",
     "support_type": "In-kind (cloud, AI credits) plus technical support",
@@ -3587,16 +2262,7 @@
     "risks": "Nonprofits, consultancies and several other business types are excluded. Google says high volumes of AI-generated website content may lead to rejection. Credits have usage and billing conditions.",
     "confidence": "Partial source check",
     "verify": "Confirm current credit tiers and the accelerator or VC requirement",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 4,
-      "early": 3,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 3, "align": 4, "early": 3, "infra": 5, "ip": 5, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "Aura AI platform built on Google Cloud with Claude",
       "framing": "An AI-first Australian venture ready to build on cloud and frontier models.",
@@ -3605,24 +2271,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount", "eligibility"],
+      "unverified_fields": ["au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Corrected the previous blanket accelerator or VC association claim. Funding evidence, website quality, current credit terms and billing exposure require review.",
       "sources": [
         {
@@ -3650,13 +2300,7 @@
     "au_eligible": "Yes, individuals and teams worldwide",
     "requires_local": "No; fully remote, no entity required",
     "stage": "Concept to prototype (technical public goods)",
-    "themes": [
-      "blockchain",
-      "privacy-data",
-      "iot",
-      "civic-tech",
-      "generative-ai"
-    ],
+    "themes": ["blockchain", "privacy-data", "iot", "civic-tech", "generative-ai"],
     "funding_amount": "No universal current grant bands verified; use the selected call",
     "funding_currency": "USD",
     "support_type": "Grant (non-dilutive)",
@@ -3671,16 +2315,7 @@
     "risks": "Funded work must be open-source public goods tied to Ethereum; keep proprietary layers separate; needs a fit with a current Wishlist or RFP",
     "confidence": "Partial source check",
     "verify": "Confirm current Wishlist and RFP items and whether direct applications are open",
-    "scores": {
-      "elig": 5,
-      "value": 3,
-      "align": 4,
-      "early": 5,
-      "infra": 3,
-      "ip": 3,
-      "reloc": 5,
-      "cred": 4
-    },
+    "scores": { "elig": 5, "value": 3, "align": 4, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 4 },
     "pitch": {
       "project": "An open, sovereign personal-data component of the Sensorium",
       "framing": "A public-good building block that lets people own and control their own digital-twin data.",
@@ -3689,24 +2324,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount",
-        "ip_conditions"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount", "ip_conditions"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "matching_required", "other_benefits", "key_documents"],
       "notes": "Current homepage confirms the public-goods remit. Old award bands and historical total funding are not treated as an active offer.",
       "sources": [
         {
@@ -3734,13 +2353,7 @@
     "au_eligible": "Yes; Sundance supports international artists",
     "requires_local": "No incorporation; labs are mostly in the USA (some online)",
     "stage": "Development to production",
-    "themes": [
-      "film-music",
-      "immersive-media",
-      "creative-tech",
-      "xr-spatial",
-      "museums-archives"
-    ],
+    "themes": ["film-music", "immersive-media", "creative-tech", "xr-spatial", "museums-archives"],
     "funding_amount": "Fellowships, labs and grants (non-dilutive artist support); amounts vary by program",
     "funding_currency": "USD",
     "support_type": "Fellowship / lab / grant (non-dilutive)",
@@ -3755,16 +2368,7 @@
     "risks": "Very competitive; mostly US-based labs; needs a strong sample and artistic voice",
     "confidence": "Partial source check",
     "verify": "Confirm current open labs, deadlines and international eligibility",
-    "scores": {
-      "elig": 4,
-      "value": 3,
-      "align": 4,
-      "early": 4,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 4,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 3, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 4, "cred": 3 },
     "pitch": {
       "project": "An immersive Infinity Engine piece or a Minjerribah story with music",
       "framing": "A distinctive immersive work with a clear voice, ready for a development lab.",
@@ -3773,24 +2377,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "eligibility"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "eligibility"],
+      "unverified_fields": ["opens", "closes", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Current listings include Merata Mita, Graton and an Episodic Sloan grant. Their presence does not establish eligibility for Luke or a current New Frontier intake.",
       "sources": [
         {
@@ -3818,14 +2406,7 @@
     "au_eligible": "Yes; 100% foreign ownership, no local sponsor needed",
     "requires_local": "Free-zone company setup and adequate local substance; no relocation required to incorporate, but the 0% rate needs genuine substance in the zone",
     "stage": "Any stage",
-    "themes": [
-      "generative-ai",
-      "compute",
-      "blockchain",
-      "creative-tech",
-      "smart-communities",
-      "iot"
-    ],
+    "themes": ["generative-ai", "compute", "blockchain", "creative-tech", "smart-communities", "iot"],
     "funding_amount": "Paid company formation, not a grant. Tax rates, qualifying income, fees and substance conditions require separate current verification.",
     "funding_currency": "AED",
     "support_type": "Tax incentive and special-economic-zone benefits (in-kind)",
@@ -3840,16 +2421,7 @@
     "risks": "The 0% rate needs a Qualifying Free Zone Person with real substance and limited UAE-mainland revenue, and is confirmed only until at least mid-2027; OECD Pillar Two applies to large groups; substance and residency have real cost",
     "confidence": "Partial source check",
     "verify": "Confirm the current Qualifying Free Zone Person rules, substance tests and which zone fits your activity",
-    "scores": {
-      "elig": 4,
-      "value": 4,
-      "align": 3,
-      "early": 4,
-      "infra": 5,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 4
-    },
+    "scores": { "elig": 4, "value": 4, "align": 3, "early": 4, "infra": 5, "ip": 5, "reloc": 2, "cred": 4 },
     "pitch": {
       "project": "A low-tax base for Aura or the Web3 Sensorium",
       "framing": "An AI and decentralised-data venture seeking a fast, tech-friendly 0% base.",
@@ -3858,24 +2430,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "funding_amount"],
+      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Removed the unsupported mid-2027 tax assurance. A RAKEZ page does not verify IFZA, ADGM or Dubai Internet City terms.",
       "sources": [
         {
@@ -3903,12 +2459,7 @@
     "au_eligible": "Yes; 100% foreign ownership, foreign-currency denominated",
     "requires_local": "IFSC unit in GIFT City; substance expected",
     "stage": "Early to growth (financial and fintech focus)",
-    "themes": [
-      "blockchain",
-      "generative-ai",
-      "compute",
-      "privacy-data"
-    ],
+    "themes": ["blockchain", "generative-ai", "compute", "privacy-data"],
     "funding_amount": "No current award or tax-holiday entitlement verified for this applicant",
     "funding_currency": "USD (foreign-currency IFSC)",
     "support_type": "Tax holiday, special-zone benefits and early-stage grants",
@@ -3923,16 +2474,7 @@
     "risks": "Framed for financial-services activity; substance and Indian regulatory compliance required; best fit is a finance or fintech entity",
     "confidence": "Partial source check",
     "verify": "Confirm current IFSCA rules, eligible activities and the sandbox entry route",
-    "scores": {
-      "elig": 4,
-      "value": 4,
-      "align": 3,
-      "early": 3,
-      "infra": 4,
-      "ip": 5,
-      "reloc": 2,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 4, "align": 3, "early": 3, "infra": 4, "ip": 5, "reloc": 2, "cred": 3 },
     "pitch": {
       "project": "A finance or crypto layer (C-hours, community-finance rails)",
       "framing": "A compliant fintech vehicle for community-finance and sovereign-wealth mechanics.",
@@ -3941,24 +2483,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "The former 20-year tax-holiday claim was not substantiated in this check and is not repeated as a current entitlement.",
       "sources": [
         {
@@ -3986,13 +2512,7 @@
     "au_eligible": "Yes; full foreign ownership in the zones",
     "requires_local": "Establish in a Saudi SEZ; substance and presence expected",
     "stage": "Growth (some early for the Cloud Computing SEZ)",
-    "themes": [
-      "compute",
-      "generative-ai",
-      "smart-communities",
-      "iot",
-      "climate"
-    ],
+    "themes": ["compute", "generative-ai", "smart-communities", "iot", "climate"],
     "funding_amount": "No general cash grant verified; zone-specific tax, customs and licensing terms require current official rules",
     "funding_currency": "SAR",
     "support_type": "Tax incentive and special-economic-zone benefits",
@@ -4007,16 +2527,7 @@
     "risks": "Zone-specific rules, substance and presence needed; do careful due diligence on terms, ethics and repatriation",
     "confidence": "Partial source check",
     "verify": "Confirm the specific zone's tax period, eligible activities and foreign-ownership terms",
-    "scores": {
-      "elig": 3,
-      "value": 4,
-      "align": 3,
-      "early": 3,
-      "infra": 5,
-      "ip": 4,
-      "reloc": 2,
-      "cred": 2
-    },
+    "scores": { "elig": 3, "value": 4, "align": 3, "early": 3, "infra": 5, "ip": 4, "reloc": 2, "cred": 2 },
     "pitch": {
       "project": "Decentralised / edge AI compute infrastructure",
       "framing": "A distributed-compute venture that fits the Cloud Computing SEZ agenda.",
@@ -4025,24 +2536,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Authority homepage access alone does not establish an open funded programme or a particular tax rate.",
       "sources": [
         {
@@ -4070,13 +2565,7 @@
     "au_eligible": "Yes in principle, via e-residency or on-site setup",
     "requires_local": "Register under the charter; physical presence optional at some sites (e-residency)",
     "stage": "Any; frontier-tolerant",
-    "themes": [
-      "civic-tech",
-      "smart-communities",
-      "blockchain",
-      "sustainable-dev",
-      "generative-ai"
-    ],
+    "themes": ["civic-tech", "smart-communities", "blockchain", "sustainable-dev", "generative-ai"],
     "funding_amount": "No cash grant verified",
     "funding_currency": "USD",
     "support_type": "Special-jurisdiction and tax benefits (experimental)",
@@ -4091,16 +2580,7 @@
     "risks": "High legal and political risk: Prospera's enabling law was repealed in Honduras (2022) and it is in multibillion-dollar arbitration; several network-state projects have raised large sums yet built little. Treat as experimental, do serious due diligence, and never rely on the regime holding",
     "confidence": "Partial source check",
     "verify": "Confirm the current legal status and real operating conditions of any specific site before engaging",
-    "scores": {
-      "elig": 3,
-      "value": 3,
-      "align": 3,
-      "early": 4,
-      "infra": 2,
-      "ip": 4,
-      "reloc": 2,
-      "cred": 1
-    },
+    "scores": { "elig": 3, "value": 3, "align": 3, "early": 4, "infra": 2, "ip": 4, "reloc": 2, "cred": 1 },
     "pitch": {
       "project": "A fractal-governance or C-hours prototype",
       "framing": "A governance experiment testing self-similar rules in a willing jurisdiction.",
@@ -4109,24 +2589,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "funding_amount"
-      ],
-      "unverified_fields": [
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "funding_amount"],
+      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Retained as an explicitly unverified wildcard, not an open grant or legal assurance.",
       "sources": [
         {
@@ -4154,11 +2618,7 @@
     "au_eligible": "Yes, the general programme supports applicants worldwide",
     "requires_local": "No overseas incorporation requirement stated",
     "stage": "Idea to early project",
-    "themes": [
-      "ai-assistants",
-      "civic-tech",
-      "sustainable-dev"
-    ],
+    "themes": ["ai-assistants", "civic-tech", "sustainable-dev"],
     "funding_amount": "Individual award amount not published; request must be justified",
     "funding_currency": "USD",
     "support_type": "Grant / fellowship",
@@ -4173,16 +2633,7 @@
     "risks": "AI-written applications are rejected; only proofreading assistance is allowed. Award size and agreement terms remain unspecified.",
     "confidence": "Partial source check",
     "verify": "Confirm fit, budget and award terms. Luke must write any eventual application himself under the published policy.",
-    "scores": {
-      "elig": 4,
-      "value": 2,
-      "align": 4,
-      "early": 4,
-      "infra": 1,
-      "ip": 3,
-      "reloc": 5,
-      "cred": 3
-    },
+    "scores": { "elig": 4, "value": 2, "align": 4, "early": 4, "infra": 1, "ip": 3, "reloc": 5, "cred": 3 },
     "pitch": {
       "project": "One defined Aura or civic-technology experiment",
       "framing": "Explain the original idea, evidence of initiative and a concrete result that could scale.",
@@ -4191,24 +2642,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "funding_amount",
-        "support_type",
-        "key_documents"
-      ],
-      "unverified_fields": [
-        "requires_local",
-        "stage",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount", "support_type", "key_documents"],
+      "unverified_fields": ["requires_local", "stage", "equity", "ip_conditions", "matching_required", "other_benefits"],
       "notes": "Official programme page confirms global access and the no-AI-writing rule. No fixed award amount or detailed IP agreement was published.",
       "sources": [
         {
@@ -4236,12 +2671,7 @@
     "au_eligible": "Yes for applicant type; chapter geography and project fit still apply",
     "requires_local": "No overseas incorporation requirement stated",
     "stage": "Idea to early project",
-    "themes": [
-      "civic-tech",
-      "creative-tech",
-      "smart-communities",
-      "environment-monitoring"
-    ],
+    "themes": ["civic-tech", "creative-tech", "smart-communities", "environment-monitoring"],
     "funding_amount": "Typically USD 1,000 or local equivalent; confirm the chosen chapter amount and currency",
     "funding_currency": "USD",
     "support_type": "Microgrant, not investment or loan",
@@ -4256,16 +2686,7 @@
     "risks": "Most chapters prefer their own communities. Private personal projects and routine existing costs are generally weak fits.",
     "confidence": "Partial source check",
     "verify": "Choose a chapter with a genuine community or thematic fit and verify its current award schedule and currency.",
-    "scores": {
-      "elig": 3,
-      "value": 2,
-      "align": 4,
-      "early": 4,
-      "infra": 1,
-      "ip": 4,
-      "reloc": 5,
-      "cred": 3
-    },
+    "scores": { "elig": 3, "value": 2, "align": 4, "early": 4, "infra": 1, "ip": 4, "reloc": 5, "cred": 3 },
     "pitch": {
       "project": "One public-benefit community activity",
       "framing": "Describe what a small grant would make happen and who benefits.",
@@ -4274,24 +2695,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "funding_amount",
-        "support_type",
-        "equity",
-        "ip_conditions",
-        "key_documents"
-      ],
-      "unverified_fields": [
-        "requires_local",
-        "stage",
-        "matching_required",
-        "other_benefits"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount", "support_type", "equity", "ip_conditions", "key_documents"],
+      "unverified_fields": ["requires_local", "stage", "matching_required", "other_benefits"],
       "notes": "Current official programme page and application route reviewed; award agreement details still need checking.",
       "sources": [
         {
@@ -4324,11 +2729,7 @@
     "au_eligible": "Australian access not explicitly confirmed on the fund page; verify the applicant jurisdiction and payment conditions",
     "requires_local": "No overseas incorporation requirement stated",
     "stage": "Idea to early project",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "privacy-data"
-    ],
+    "themes": ["ai-assistants", "generative-ai", "privacy-data"],
     "funding_amount": "Typical grants USD 10,000-150,000; rarely above USD 300,000",
     "funding_currency": "USD",
     "support_type": "Research and project grant",
@@ -4343,16 +2744,7 @@
     "risks": "Ordinary AI product development is insufficient. A convincing connection to the fund remit and applicant eligibility is required.",
     "confidence": "Partial source check",
     "verify": "Establish a real research fit and Australian applicant route before preparing a proposal.",
-    "scores": {
-      "elig": 2,
-      "value": 3,
-      "align": 2,
-      "early": 4,
-      "infra": 1,
-      "ip": 2,
-      "reloc": 4,
-      "cred": 2
-    },
+    "scores": { "elig": 2, "value": 3, "align": 2, "early": 4, "infra": 1, "ip": 2, "reloc": 4, "cred": 2 },
     "pitch": {
       "project": "A defined AI-safety or alignment question",
       "framing": "State the risk or neglected implication, proposed method and checkable output.",
@@ -4361,24 +2753,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "funding_amount",
-        "support_type"
-      ],
-      "unverified_fields": [
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "equity",
-        "ip_conditions",
-        "matching_required",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "funding_amount", "support_type"],
+      "unverified_fields": ["au_eligible", "requires_local", "stage", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
       "notes": "Current official programme page and application route reviewed; award agreement details still need checking.",
       "sources": [
         {
@@ -4410,12 +2786,8 @@
     "eligibility": "Single UK-registered SME; no subcontractors; one lead application per organisation",
     "au_eligible": "Only through an eligible UK-registered SME and UK project; Australian residence alone does not qualify",
     "requires_local": "UK-registered SME, UK delivery and UK exploitation; most funding spent in the UK",
-    "stage": "Experimental validation of new reusable core AI or ML mechanisms",
-    "themes": [
-      "ai-assistants",
-      "generative-ai",
-      "privacy-data"
-    ],
+    "stage": "TRL 1-3 at application; experimental validation of new reusable core AI or ML mechanisms",
+    "themes": ["ai-assistants", "generative-ai", "privacy-data"],
     "funding_amount": "Eligible project costs GBP 50,000-150,000; total competition budget up to GBP 1.66 million",
     "funding_currency": "GBP",
     "support_type": "Industrial research grant",
@@ -4430,16 +2802,7 @@
     "risks": "UK entity and co-funding are hard gates. General AI applications and routine integrations do not establish scope fit.",
     "confidence": "Partial source check",
     "verify": "Check novelty, UK delivery, financial viability and the contribution before considering an application.",
-    "scores": {
-      "elig": 1,
-      "value": 4,
-      "align": 4,
-      "early": 3,
-      "infra": 2,
-      "ip": 3,
-      "reloc": 1,
-      "cred": 1
-    },
+    "scores": { "elig": 1, "value": 4, "align": 4, "early": 3, "infra": 2, "ip": 3, "reloc": 1, "cred": 1 },
     "pitch": {
       "project": "A novel core AI research component",
       "framing": "Experimental evidence for a new architecture, learning process, representation or control mechanism.",
@@ -4448,24 +2811,8 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "matching_required"
-      ],
-      "unverified_fields": [
-        "equity",
-        "ip_conditions",
-        "other_benefits",
-        "key_documents"
-      ],
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "matching_required"],
+      "unverified_fields": ["equity", "ip_conditions", "other_benefits", "key_documents"],
       "notes": "Current official programme page and application route reviewed; award agreement details still need checking.",
       "sources": [
         {
@@ -4489,22 +2836,18 @@
     "opens": "2026-10-21",
     "closes": "2026-12-08 at 11:00 UK time",
     "recurring": false,
-    "eligibility": "UK-registered AI SME lead at TRL 5-6 with a UK medium or large deployer; consortium of two or three organisations",
+    "eligibility": "UK-registered AI SME lead at TRL 5-6 with a UK medium/large business or public-sector deployer in an eligible sector; consortium of two or three organisations; no subcontractors",
     "au_eligible": "Conditional on eligible UK organisations and delivery; no direct Australian solo-applicant route established",
     "requires_local": "Eligible UK lead and UK deployer; do not assume a partnership exists",
     "stage": "Existing AI/ML solution at TRL 5-6 for real-world deployment",
-    "themes": [
-      "ai-assistants",
-      "privacy-data",
-      "civic-tech"
-    ],
-    "funding_amount": "Phase 1 competition pool up to GBP 5 million; individual award requires project-cost assessment",
+    "themes": ["ai-assistants", "privacy-data", "civic-tech"],
+    "funding_amount": "Phase 1 grant request GBP 100,000-200,000 per consortium; competition pool up to GBP 5 million",
     "funding_currency": "GBP",
-    "support_type": "Collaborative deployment grant; not a procurement contract",
+    "support_type": "Collaborative feasibility grant for deployment readiness, Phase 1 Define; not a procurement contract",
     "equity": "Grant, not advertised as equity investment",
     "other_benefits": "Potential later phases are conditional and not an awarded entitlement",
     "ip_conditions": "Detailed consortium and award IP terms require review",
-    "matching_required": "Up to 70% for micro/small organisations, 60% medium, 50% large; confirm cost-category and partner rules",
+    "matching_required": "Commercial activities: up to 70% micro/small, 60% medium or 50% large; research activities have separate rates. Lead takes 40-70% of costs, deployer 30-50%; confirm the full cost rules",
     "key_documents": "Consortium, deployer, technical deployment, costs and impact evidence",
     "difficulty": "Moderate",
     "project_match": "A mature AI assurance or evidence component from the approved project areas",
@@ -4512,16 +2855,7 @@
     "risks": "UK lead, deployer, maturity and co-funding are unresolved. No named partner or eligibility is assumed.",
     "confidence": "Partial source check",
     "verify": "Read scope and consortium rules before treating it as an application candidate.",
-    "scores": {
-      "elig": 1,
-      "value": 4,
-      "align": 3,
-      "early": 1,
-      "infra": 4,
-      "ip": 3,
-      "reloc": 1,
-      "cred": 1
-    },
+    "scores": { "elig": 1, "value": 4, "align": 3, "early": 1, "infra": 4, "ip": 3, "reloc": 1, "cred": 1 },
     "pitch": {
       "project": "A proven AI assurance component",
       "framing": "Test a defined assurance outcome with a real and willing deployer.",
@@ -4530,25 +2864,9 @@
     "verification": {
       "checked_on": "2026-10-18",
       "result": "partial",
-      "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
-        "eligibility",
-        "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
-        "support_type",
-        "matching_required"
-      ],
-      "unverified_fields": [
-        "equity",
-        "ip_conditions",
-        "other_benefits",
-        "key_documents"
-      ],
-      "notes": "Current official programme page and application route reviewed; award agreement details still need checking.",
+      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "matching_required"],
+      "unverified_fields": ["equity", "ip_conditions", "other_benefits", "key_documents"],
+      "notes": "Published dates, Phase 1 grant band and UK consortium gates checked. Award IP terms and detailed application documents still need review; later phases are conditional.",
       "sources": [
         {
           "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",

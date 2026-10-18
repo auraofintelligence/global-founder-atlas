@@ -38,6 +38,9 @@ for o in data:
     confirmed, unverified = set(v['confirmed_fields']), set(v['unverified_fields'])
     assert not confirmed & unverified
     assert confirmed | unverified == critical, 'Missing verification coverage: ' + o['id']
+    for date_field in ('opens', 'closes'):
+        if date_field in confirmed:
+            assert 'TBC' not in o[date_field], 'Indicative date marked confirmed: ' + o['id']
     assert v['notes'] and v['sources']
     assert all(urlsplit(s['url']).scheme == 'https' for s in v['sources'])
     assert all(0 <= score <= 5 for score in o['scores'].values())

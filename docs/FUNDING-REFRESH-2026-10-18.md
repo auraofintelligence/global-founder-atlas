@@ -13,7 +13,7 @@ Initial catch-up from the July funding dataset. Existing approved project themes
 
 ## What verification means
 
-Every record contains a source-check date, URLs, confirmed fields and unverified fields. Reaching a homepage does not verify a live application, award agreement, Australian eligibility, IP or co-funding. Unverified conditions are labelled in the rendered detail. Scores remain assessments under the existing weights, not eligibility decisions.
+The 49 original records were screened, not fully verified: 45 received partial source reviews and four sources were inaccessible. With the five additions, 50 records have partial checks and four remain source-unavailable. Every record contains a source-check date, URLs, confirmed fields and unverified fields. Reaching a homepage does not verify a live application, award agreement, Australian eligibility, IP or co-funding. Unverified conditions are labelled in the rendered detail. Scores remain assessments under the existing weights, not eligibility decisions.
 
 ## Main corrections
 
@@ -35,6 +35,24 @@ Every record contains a source-check date, URLs, confirmed fields and unverified
 | Transformative AI Fund | Always open to applications; replaces the closed Long-Term Future Fund; Australian access not explicitly confirmed on the fund page; verify the applicant jurisdiction and payment conditions | [Source](https://funds.effectivealtruism.org/funds/transformative-ai) |
 | Innovate UK: Efficient, Structured and Controllable AI Systems | 2026 Phase 1 application window open; Only through an eligible UK-registered SME and UK project; Australian residence alone does not qualify | [Source](https://apply-for-innovation-funding.service.gov.uk/competition/2582/overview/9fdb47a5-011c-4c47-ac5e-c426e295fe89) |
 | BridgeAI Deployment Catalyst: AI for Assurance and Compliance | Announced application window; not open on 18 October 2026; Conditional on eligible UK organisations and delivery; no direct Australian solo-applicant route established | [Source](https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3) |
+
+## Upcoming published dates
+
+These dates do not establish applicant or project eligibility. Closing times are stated only where checked.
+
+| Programme or call | Published date | Material gate |
+| --- | --- | --- |
+| [National Geographic: Ocean Exploration and Discovery; Southern Ocean visiting scientists](https://www.nationalgeographic.org/explore/grants-investments) | Close 21 October 2026 | Specific scientist and research requirements; not a generic technology grant |
+| [National Geographic: Trebek Initiative](https://www.nationalgeographic.org/explore/grants-investments) | Close 28 October 2026 | Distinct impact in Canada |
+| [YC Winter 2027](https://www.ycombinator.com/apply) | On-time deadline 2 November 2026, 20:00 Pacific; late applications considered | Equity investment and San Francisco attendance |
+| [NLnet](https://nlnet.nl/propose/) | Close 3 November 2026, 12:00 CET | Open licences, European dimension and proposal AI policy |
+| [EIC Accelerator](https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en) | Full-proposal batch 4 November 2026, 17:00 Brussels time | Prior short-proposal GO and eligible applicant location |
+| [Efficient, Structured and Controllable AI Systems](https://apply-for-innovation-funding.service.gov.uk/competition/2582/overview/9fdb47a5-011c-4c47-ac5e-c426e295fe89) | Open; closes 18 November 2026, 11:00 UK time | UK SME, TRL 1-3 core mechanism, UK delivery and contribution |
+| [Hello Tomorrow Global Challenge](https://hello-tomorrow.org/global-challenge/) | Close 30 November 2026 | Deep-tech fit; headline prize involves equity |
+| [National Geographic: The Human Thread](https://www.nationalgeographic.org/explore/grants-investments) | Close 1 December 2026 | Specific storytelling RFP |
+| [BridgeAI Deployment Catalyst: AI for Assurance and Compliance](https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3) | Opens 21 October; closes 8 December 2026, 11:00 UK time | UK SME, TRL 5-6 solution and eligible UK deployer; Phase 1 grant request GBP 100,000-200,000 per consortium |
+
+Hub71 publishes February 2027 for Cohort 21 without an exact closing day. MSCA dates remain indicative and are excluded from this confirmed-date list.
 
 ## Record-by-record audit
 
