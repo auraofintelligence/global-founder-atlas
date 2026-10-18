@@ -1,11 +1,13 @@
-# Funding brief: six new project sites
+# Funding brief: five project sites
 **Applicant:** Luke Nathan Hayes, solo founder, Minjerribah (North Stradbroke Island), Queensland. Non-dilutive only. Prepared 3 September 2026.
 
-## 1. What these six unlock
+Historical research dated 3 September 2026. This is not a current grant calendar or approval of further portfolio additions. Use the current research brief and dated opportunity records for a new search.
 
-The existing atlas covers the international, travel-and-visa lane for a founder willing to move. These six sites open the domestic one, and they open it at three levels the atlas did not reach: Redland City local government, where island residence settles eligibility before a word is written; Queensland state programs that a sole trader with an ABN can hold in his own name; and two Commonwealth doors that name an individual over 18 as an eligible applicant with no ABN, no entity and no institution required. They also add a rolling screen-agency development grant that takes no copyright at all, and in-kind platform sponsorship for the tooling. The most useful thing the six reveal collectively is not a program: it is the gate. What decides most of these is not merit but an ABN, A$20 million public liability cover, ACNC registration, or an incorporated island auspice. Three of those four can be solved in a week; one cannot.
+## 1. What these five unlock
 
-**Collision warning.** Four projects point at the same Queensland STEM Engagement round (closes 29 September) and four at the same National Science Week round (closes 6 October); three point at the same RADF Redland round (closes 28 September). One project has to carry each. Confirmed one-application limits in the data: Creative Australia allows one application per closing date, and FRRR allows one per SRC stream per organisation per round.
+The existing atlas covers the international, travel-and-visa lane for a founder willing to move. These five sites open the domestic one, and they open it at three levels the atlas did not reach: Redland City local government, where island residence settles eligibility before a word is written; Queensland state programs that a sole trader with an ABN can hold in his own name; and two Commonwealth doors that name an individual over 18 as an eligible applicant with no ABN, no entity and no institution required. They also add a rolling screen-agency development grant that takes no copyright at all, and in-kind platform sponsorship for the tooling. The most useful thing the five reveal collectively is not a program: it is the gate. What decides most of these is not merit but an ABN, A$20 million public liability cover, ACNC registration, or an incorporated island auspice. Three of those four can be solved in a week; one cannot.
+
+**Collision warning.** Three projects point at the same Queensland STEM Engagement round (closes 29 September) and three at the same National Science Week round (closes 6 October); three point at the same RADF Redland round (closes 28 September). One project has to carry each. Confirmed one-application limits in the data: Creative Australia allows one application per closing date, and FRRR allows one per SRC stream per organisation per round.
 
 ---
 
@@ -27,23 +29,6 @@ An eleven-page public prospectus for rack-scale compute sited at Dunwich, carryi
 | **AWS Open Data Sponsorship** `confirmed` | In-kind: storage and egress | Hosting sponsorship | No stated country or entity restriction | Open, rolling, ~2 week decisions | Hosts the civic and environmental layers indefinitely; cultural material stays outside it by design |
 
 **Read:** one clean open door (CSIRO, and it pays no cash). Every cash option here needs an entity, an auspice or a partner that does not exist yet.
-
----
-
-### Project Atlas
-A working navigation layer over 145 public repos: earliest substantive build date with the commit cited, confidence bands, an honest "no evidence" state, 1,348 evidence-backed relationships, 145 locally generated QR codes.
-**Honest stage:** published and functional, three days old, no adoption, audit inputs not published where the README points, six projects with no public page.
-
-| Program | Amount | Type | AU eligible | Status / deadline | Why it fits |
-|---|---|---|---|---|---|
-| **Digital Science Catalyst Grant 2026** `confirmed` | Up to GBP 25,000, equity-free | Grant (cash) | Yes; open to individuals globally, no affiliation needed | Open, closes **5 Oct 2026, 17:00 BST** | The 2026 theme is agentic workflows with audit trails and provenance; the date-honesty method is a working answer to a slice of it |
-| **SSI Fellowship 2027** `confirmed` | GBP 4,000 over 15 months | Fellowship (activity budget) | Yes; up to three international places, no UK affiliation required | Open, closes **5 Oct 2026** | Gets the confidence-band method peer-tested and cited; will not fund the generator rebuild |
-| **Codex for Open Source** `confirmed` | Up to US$25,000 API credits + 6 months ChatGPT Pro | Platform credits | Likely yes; no country restriction published | Open, rolling; **two separate intake forms** | Bulk agent credits suit the 108 weak or missing READMEs; weak point is zero adoption |
-| **Sovereign Tech Fellowship** `plausible` | Negotiated hourly, 6 to 32 h/week, 3 to 12 months | Paid contract for maintainer hours | Freelance track only (employment track is Germany-resident) | Closed; 2026 round closed 6 Apr; no 2027 date | Only program that pays a solo maintainer for maintenance and docs; remit is public digital infrastructure, not a portfolio atlas |
-| **Qld STEM Engagement Grants** `confirmed` | Up to A$25,000 ex GST | Grant (cash) | Yes; Qld address, ABN, A$20m PL cover | Open, closes **4pm 29 Sep 2026** | Funds delivery of the printed QR directory to islanders and councillors; software capped at 50% of the ask |
-| **National Science Week Public Event Grants 2027-30** `confirmed` | A$5,000 to A$20,000 | Commonwealth grant | Yes; **individual 18+, no ABN required** | Open, closes **6 Oct 2026, 5pm AEDT** | Self-guided QR trail needs no connection and no third-party service; funds delivery, not the generator |
-
-**Read:** the strongest fits are all overseas or in-kind. No Australian program was found that pays for the tool itself.
 
 ---
 
@@ -112,9 +97,9 @@ An eighteen-page mission design studio: 384-body catalogue, numerically solved L
 
 ---
 
-## 3. The five fastest moves
+## 3. Four moves from the original brief
 
-**Prerequisite for four of these five: an active ABN.** It gates Screen Australia, RADF, QAPF, Qld STEM and CSIRO. It is free and same-day. Do it before anything else this week.
+**Prerequisite for three of these four: an active ABN.** It gates Screen Australia, RADF, QAPF, Qld STEM and CSIRO. It is free and same-day. Do it before anything else this week.
 
 1. **Screen Australia Documentary Development, for Grain by Grain. Up to A$30,000, always open.**
    The largest cheque he can hold in his own name with no round to miss, no director required, no broadcaster required, no video pitch, and no copyright taken. Repayable only if the film goes into production. Screen Australia expects everyone in development to be paid, so paid Quandamooka cultural adviser time is a legitimate budget line rather than an unfunded precondition.
@@ -125,20 +110,16 @@ An eighteen-page mission design studio: 384-body catalogue, numerically solved L
    *First step:* download the current 2026-27 RADF Information Kit for the co-contribution ratio and the acquittal and IP clauses, confirm the closing time, and open the SmartyGrants form. Council funding will not cover 100% of a project, so the in-kind contribution has to be in the budget.
 
 3. **National Science Week Public Event Grants, closes 6 October, 5pm AEDT. A$5,000 to A$20,000.**
-   The cleanest federal door in the whole set: an individual aged 18 or over may apply, with no ABN, no incorporation, no insurance and no institutional host. Four projects can carry it; **Extreme Matter Atlas** is the strongest, because the simulators run on any school laptop with no install and no account, and the activity produces the audience evidence every other application currently lacks.
+   The cleanest federal door in the whole set: an individual aged 18 or over may apply, with no ABN, no incorporation, no insurance and no institutional host. Three projects can carry it; **Extreme Matter Atlas** is the strongest, because the simulators run on any school laptop with no install and no account, and the activity produces the audience evidence every other application currently lacks.
    *First step:* read the GO8515 guidelines on GrantConnect for the IP clause, then design the activity around participation numbers, not display. It must be delivered during National Science Week 2027.
 
 4. **CSIRO Innovate to Grow (Queensland Digitech and AI), closes 20 September, for Ready S.E.T.**
    No cash, and it is still the right move: it costs A$0, takes no equity, leaves all IP with him, and its declared outputs are the R&D project plan, roadmap and funding strategy that the Ready S.E.T. site openly says it does not have. Sole traders and partnerships are accepted per the FAQ.
    *First step:* ABN with a Queensland business address, then submit the expression of interest. Block out 15 October for the compulsory half-day workshop before applying, because it is not optional.
 
-5. **Digital Science Catalyst Grant, closes 5 October, 17:00 BST, for Project Atlas. GBP 25,000, equity-free.**
-   The 2026 theme is agentic workflows with governance, audit trails and provenance, including research integrity and trusted authorship. Project Atlas is already a working answer to a narrow slice of it, and the funder accepts a prototype or a well-formed concept from an individual anywhere, with no institutional affiliation.
-   *First step:* publish the 29 August 2026 audit CSV and relations JSON at the path the README names, so an outsider can reproduce the evidence chain. Without that the central claim is unverifiable, and it is a day's work.
+**Date order for the diary:** 17 Sep (FRRR, blocked without an auspice) · **20 Sep CSIRO** · **21 Sep QAPF, 2pm** · **28 Sep RADF** · **29 Sep Qld STEM, 4pm** · **6 Oct National Science Week** · **9 Oct Cesium** · **14 Oct ANAT Synapse** · rolling: Screen Australia, Screen Queensland, AWS, FUTO, Codex.
 
-**Date order for the diary:** 17 Sep (FRRR, blocked without an auspice) · **20 Sep CSIRO** · **21 Sep QAPF, 2pm** · **28 Sep RADF** · **29 Sep Qld STEM, 4pm** · **5 Oct Digital Science and SSI** · **6 Oct National Science Week** · **9 Oct Cesium** · **14 Oct ANAT Synapse** · rolling: Screen Australia, Screen Queensland, AWS, FUTO, Codex.
-
-**Two contested rounds still need a decision.** Queensland Arts Project Fund on 21 September must go to either GAJRA Earth or Virtual Solar Swarm, not both. Queensland STEM on 29 September must go to one of four, and the A$20 million public liability policy is an explicitly ineligible cost, so it comes out of pocket before the grant exists; that alone may be reason to let this round pass in favour of National Science Week.
+**Two contested rounds still need a decision.** Queensland Arts Project Fund on 21 September must go to either GAJRA Earth or Virtual Solar Swarm, not both. Queensland STEM on 29 September must go to one of three, and the A$20 million public liability policy is an explicitly ineligible cost, so it comes out of pocket before the grant exists; that alone may be reason to let this round pass in favour of National Science Week.
 
 ---
 
@@ -154,7 +135,6 @@ Nothing in this research set was rejected outright, and importantly **nothing tr
 - **Churchill Fellowship** and the **auDA Churchill stream**: closed until approximately late February 2027 (2027 dates unpublished; the pattern is an inference).
 - **ACCAN Research Stream**: between rounds; the 2027 priority themes are unpublished, so a resilience-framed application has no confirmed door yet.
 - **Prix Ars Electronica**: next open call January 2027, and the 2027 category list is not yet published.
-- **Sovereign Tech Fellowship**: 2026 round closed 6 April, no 2027 round announced, and the Agency's remit is open source underpinning public digital infrastructure, which a portfolio atlas does not obviously sit inside.
 - **IAU OAD**: Stage 2 for the 2026 cycle is invitation-only, so a new applicant cannot enter at all this year. It also states plainly that it does not fund education or outreach without a compelling sustainable-development case. Needs a real Indian partner first.
 
 **Fails on a hard precondition:**
@@ -178,8 +158,6 @@ Nothing in this research set was rejected outright, and importantly **nothing tr
 
 **GAJRA Earth's only genuinely produced asset has no funder.** The watch and doors calendar is five and a half weeks of dated, source-cited, machine-readable output committed daily, and it is the strongest evidence in the whole set. Not one program found funds it. RADF and QAPF fund the listening stations; Churchill funds travel; FRRR and auDA fund community work he cannot currently apply for. No monitoring, accountability or civic-infrastructure funder surfaced. Expanding coverage and adding a subscription layer over the corpus remains unfunded, and that should be treated as an open search, not a solved problem.
 
-**Project Atlas has no Australian door of its own.** Its two Australian options (Queensland STEM and National Science Week) fund delivery of the printed directory, not the generator, and both are contested by three other projects. Its real fits are all overseas or in-kind: Digital Science, SSI, Codex credits, and a Sovereign Tech round that has not been announced. If the generator rebuild is the priority, Digital Science on 5 October is currently the only cash route.
-
-**The structural gap across all six: nothing found pays a solo Australian developer to build software.** Every Australian program here funds delivery, engagement, arts activity or screen development. Screen Australia comes closest to paying for his own time, and only for documentary development. Sovereign Tech is the one program in the set designed to pay maintainer hours directly, and it is closed with no next date.
+**The structural gap across all five: nothing found pays a solo Australian developer to build software.** Every Australian program here funds delivery, engagement, arts activity or screen development. Screen Australia comes closest to paying for his own time, and only for documentary development. Sovereign Tech is the one program in the set designed to pay maintainer hours directly, and it is closed with no next date.
 
 **The licence is a live constraint on two projects.** Extreme Matter Atlas and Virtual Solar Swarm both carry a Public Source Licence reserving commercial rights, which is fine for arts, council, state and Commonwealth engagement funders and for Cesium (open source preferred, not required), but rules out any funder requiring an OSI-approved or Creative Commons licence, including AWS Open Data and the IAU OAD's distributable-materials condition. Settle whether specific datasets or teaching materials get carved out under CC-BY or CC0 before approaching those, rather than during.

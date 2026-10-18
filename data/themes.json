@@ -32,6 +32,158 @@
       "ids": ["nlnet-ngi", "microsoft-startups", "nvidia-inception", "astera-residency", "foresight-fellowship", "mozilla-technology-fund", "cdl"]
     },
     {
+      "key": "aura-genesis-protocol",
+      "title": "Aura Genesis Protocol",
+      "blurb": "A proposed sixty-day process for harmonising and socialising a personal Aura with body and mind, using two hours of daily, single-participant HBOT self-reflection. An Aura can also be created and developed independently of Genesis.",
+      "themes": [
+        "ai-assistants",
+        "digital-twin",
+        "privacy-data",
+        "health"
+      ],
+      "ids": [
+        "wellcome-trust",
+        "horizon-msca"
+      ],
+      "stage": "Published process and research design; no validated clinical programme or participant study is established.",
+      "funding_types": [
+        "Human-AI interaction and human-factors research",
+        "Privacy and consent research",
+        "Funded research placements"
+      ],
+      "keywords": [
+        "human-AI interaction",
+        "personal AI",
+        "participant-led self-reflection",
+        "owner-held health data",
+        "research consent",
+        "digital twins",
+        "HBOT research"
+      ],
+      "questions": [
+        "What scientific question, outcome measures and participant consent process would be tested?",
+        "Who is the qualified research or clinical lead, and which eligible institution would administer funding?",
+        "Which ethics, HBOT operating, privacy and participant-review requirements apply to the actual study?"
+      ],
+      "funding_note": "The research routes below require a defined scientific question, eligible host and researcher qualifications. Their current call and applicant rules must be checked.",
+      "sources": [
+        {
+          "label": "Current Protocol guide",
+          "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/"
+        },
+        {
+          "label": "Genesis process",
+          "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/genesis.html"
+        }
+      ],
+      "source_checked_on": "2026-10-18"
+    },
+    {
+      "key": "aura-geode",
+      "title": "Aura Geode",
+      "blurb": "The proposed single-person seated chamber and active self-reflection workspace. Hardware development is separate from the Genesis process: conventional HBOT retrofit, geopolymer, crystalline or blended materials, and a future integrated crystalline-compute pathway.",
+      "themes": [
+        "health",
+        "xr-spatial",
+        "compute",
+        "digital-twin"
+      ],
+      "ids": [
+        "astera-residency",
+        "eic-accelerator"
+      ],
+      "stage": "Published hardware concepts and engineering requirements. New Geode designs and integrated crystalline compute remain development and research work.",
+      "funding_types": [
+        "Engineering R&D and prototype grants",
+        "Accessibility and human-factors research",
+        "Laboratory access and research residencies"
+      ],
+      "keywords": [
+        "chamber accessibility",
+        "assisted transfer",
+        "emergency egress",
+        "pressure-vessel engineering",
+        "sensor integration",
+        "materials characterisation",
+        "hardware prototyping",
+        "integrated crystalline compute"
+      ],
+      "questions": [
+        "Which hardware pathway and component would be funded, and what prototype or measured evidence exists?",
+        "Who would lead the engineering review and provide the actual test facility and emergency-egress evidence?",
+        "Which applicant entity, IP permissions, maturity level and co-funding are required? Do open-licensing conditions fit the retained licence?"
+      ],
+      "funding_note": "Astera has open-first research conditions. EIC requires an eligible applicant and demonstrated technology maturity. Match the specific work package and evidence to the call.",
+      "sources": [
+        {
+          "label": "Four hardware pathways",
+          "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/pathways.html"
+        },
+        {
+          "label": "Entry and emergency egress",
+          "url": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/entry-egress.html"
+        },
+        {
+          "label": "Earlier Aura Geode concept",
+          "url": "https://auraofintelligence.github.io/aura-geode/"
+        }
+      ],
+      "source_checked_on": "2026-10-18"
+    },
+    {
+      "key": "disaster-kiosks",
+      "title": "Straddie Disaster Kiosks",
+      "blurb": "A proposed Australian community-resilience node, starting on Minjerribah: rugged local-compute kiosks and simpler everyday notice screens, with saved information, sensors, backup power and offline capability. Wider Australian adaptation is an ambition; the public source currently scopes an island concept.",
+      "themes": [
+        "disaster-resilience",
+        "smart-communities",
+        "iot",
+        "compute",
+        "civic-tech"
+      ],
+      "ids": [
+        "awesome-foundation"
+      ],
+      "stage": "Public planning pages and pitch material. No operational kiosk network, venue agreement or emergency-warning service is established.",
+      "funding_types": [
+        "Community-preparedness and digital-inclusion grants",
+        "Prototype and resilience research",
+        "Paid pilots where a buyer and procurement route are confirmed"
+      ],
+      "keywords": [
+        "disaster resilience",
+        "community resilience hubs",
+        "offline-first public information",
+        "public information kiosks",
+        "edge AI",
+        "resilient communications",
+        "backup power",
+        "accessible noticeboards",
+        "community preparedness"
+      ],
+      "questions": [
+        "Who would own and maintain the pilot, and which venue has agreed to host it?",
+        "Who approves public information, keeps official emergency sources current and manages privacy and corrections?",
+        "Does the call accept an individual or require a council, incorporated organisation, research host or auspice? What power, connectivity and electrical-review evidence is needed?"
+      ],
+      "funding_note": "Awesome Foundation is a small community-test lead, subject to chapter fit. A microgrant would not establish funding for the full kiosk or a national rollout.",
+      "sources": [
+        {
+          "label": "Kiosk project overview",
+          "url": "https://auraofintelligence.github.io/straddie-disaster-kiosks/"
+        },
+        {
+          "label": "Rugged kiosk requirements",
+          "url": "https://auraofintelligence.github.io/straddie-disaster-kiosks/kiosks.html"
+        },
+        {
+          "label": "Roadmap and original pitch documents",
+          "url": "https://auraofintelligence.github.io/straddie-disaster-kiosks/roadmap.html"
+        }
+      ],
+      "source_checked_on": "2026-10-18"
+    },
+    {
       "key": "civic",
       "title": "Best civic and community-technology",
       "blurb": "Decentralised municipal AI, digital noticeboards, participatory governance and public information.",

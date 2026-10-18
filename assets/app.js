@@ -333,6 +333,21 @@ async function renderRelocation() {
   grid.innerHTML = items.map((o) => oppCard(o, { showPitch: true })).join("");
 }
 
+function projectResearchContext(lens) {
+  if (!lens.sources) return "";
+  return `<div class="note-panel" data-project-focus="${esc(lens.key)}" style="margin-bottom:1.6rem">
+    <dl class="detail-grid">
+      ${detailRow("Current stage", lens.stage)}
+      ${detailRow("Funding types to research", lens.funding_types.join("; "))}
+      ${detailRow("Keywords and related terms", lens.keywords.join("; "))}
+    </dl>
+    <h3>Applicant and project questions</h3>
+    <ul class="checklist">${lens.questions.map((q) => `<li>${esc(q)}</li>`).join("")}</ul>
+    <p><strong>Project sources:</strong> ${lens.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`).join(" · ")}. Checked <time datetime="${esc(lens.source_checked_on)}">${esc(lens.source_checked_on)}</time>.</p>
+    <p>${esc(lens.funding_note)}</p>
+  </div>`;
+}
+
 async function renderThemes() {
   const [opps, themes] = await Promise.all([loadOpportunities(), loadJson("data/themes.json")]);
   const byId = Object.fromEntries(opps.map((o) => [o.id, o]));
@@ -346,6 +361,7 @@ async function renderThemes() {
           <h2>${esc(lens.title)}</h2>
           <p>${esc(lens.blurb)}</p>
         </div>
+        ${projectResearchContext(lens)}
         <div class="data-grid">${items.map((o) => oppCard(o)).join("")}</div>
       </section>`;
   }).join("");
@@ -402,10 +418,11 @@ function projectCard(p, byId) {
   const stageLabels = { live: "Live site", building: "In build", surveyed: "Surveyed" };
   const matches = (p.match || []).map((id) => byId[id]).filter(Boolean);
   const matchLinks = matches.length
-    ? `<div class="match-links"><span class="match-label">Funding fits</span>${matches.map((o) => `<a href="opportunities.html?focus=${esc(o.id)}">${esc(o.name.split(" (")[0])} <b>${scoreOf(o)}</b></a>`).join("")}</div>`
+    ? `<div class="match-links"><span class="match-label">${p.research_focus ? "Funding leads to check" : "Funding fits"}</span>${matches.map((o) => `<a href="opportunities.html?focus=${esc(o.id)}">${esc(o.name.split(" (")[0])} <b>${scoreOf(o)}</b></a>`).join("")}</div>`
     : "";
   const actions = [
     p.repo ? `<a href="${esc(p.repo)}" target="_blank" rel="noopener noreferrer">Open project</a>` : "",
+    p.research_focus ? `<a href="themes.html#lens-${esc(p.research_focus)}">Research terms and requirements</a>` : "",
     `<a href="https://auraofintelligence.github.io/stradbroke-grants-lab/" target="_blank" rel="noopener noreferrer">Local grants</a>`,
   ].join("");
   return `
