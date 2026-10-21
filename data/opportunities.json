@@ -914,7 +914,14 @@
     "au_eligible": "Conditional: an Australian applicant outside Horizon Europe-eligible countries must explain the required European dimension",
     "requires_local": "No; fully remote, no incorporation required",
     "stage": "Concept to prototype",
-    "themes": ["privacy-data", "blockchain", "iot", "ai-assistants", "civic-tech", "generative-ai"],
+    "themes": [
+      "privacy-data",
+      "blockchain",
+      "iot",
+      "ai-assistants",
+      "civic-tech",
+      "generative-ai"
+    ],
     "funding_amount": "EUR 5,000 to EUR 50,000 for a first grant",
     "funding_currency": "EUR",
     "support_type": "Grant (non-dilutive, milestone-based)",
@@ -925,22 +932,47 @@
     "key_documents": "Short technical proposal, budget, milestones",
     "difficulty": "Low to moderate (refreshingly light application)",
     "project_match": "Privacy-preserving personal data, decentralised municipal AI, Sensorium",
-    "why_relevant": "Genuinely non-dilutive, individual-friendly, remote and light to apply. Ideal for the privacy-preserving and decentralised parts of your stack. A rare grant you can win solo.",
-    "risks": "NLnet rejects AI-generated projects or proposals. Its policy requires disclosure and retained interaction logs where assistance is needed. European-dimension and licensing conditions are material gates.",
+    "why_relevant": "A possible open infrastructure component route, only after the European-dimension, licensing and revised AI-development rules are satisfied.",
+    "risks": "Policy version 2.0, announced 20 October 2026, bars generative-AI proposal writing except accessibility support and limits LLM/diffusion-model project development to read-only use. It applies to the 3 November calls. European-dimension and open-licence requirements also apply.",
     "confidence": "Partial source check",
     "verify": "Confirm current NGI Zero fund themes and next deadline",
-    "scores": { "elig": 2, "value": 3, "align": 5, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 2 },
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 5,
+      "early": 5,
+      "infra": 3,
+      "ip": 3,
+      "reloc": 5,
+      "cred": 2
+    },
     "pitch": {
       "project": "An open, privacy-preserving component of Aura or the Sensorium",
       "framing": "A self-contained open-source module for sovereign personal data or decentralised civic infrastructure.",
-      "next_step": "Carve out an open-sourceable component and submit to the next NGI Zero call."
+      "next_step": "Read the revised AI policy and check the actual component and licence before any proposal work. No relicensing or application is authorised."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount", "ip_conditions"],
-      "unverified_fields": ["requires_local", "stage", "support_type", "equity", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Official form reviewed, with Restack as a second source. No licence change or eligibility assurance is implied.",
+      "confirmed_fields": [
+        "status",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "funding_amount",
+        "ip_conditions"
+      ],
+      "unverified_fields": [
+        "requires_local",
+        "stage",
+        "support_type",
+        "equity",
+        "matching_required",
+        "other_benefits",
+        "key_documents",
+        "opens"
+      ],
+      "notes": "Deadline and form rechecked. New 20 October official policy notice materially tightens AI use. The policy page itself returned no readable body; the linked official announcement is the evidence, not a complete agreement review. Historical opening date was not rechecked.",
       "sources": [
         {
           "url": "https://nlnet.nl/propose/",
@@ -951,58 +983,128 @@
           "url": "https://nlnet.nl/restack/",
           "checked_on": "2026-10-18",
           "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/propose/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+          "checked_on": "2026-10-22",
+          "access": "no readable content"
         }
       ]
     }
   },
   {
     "id": "mozilla-technology-fund",
-    "name": "Mozilla Foundation grantmaking",
+    "name": "Mozilla Foundation Human-Scale AI Incubator",
     "org": "Mozilla Foundation",
     "country": "United States (funds globally)",
     "city_region": "Distributed / remote",
-    "source_url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/",
-    "status": "Grantmaking directory available; no matching current Technology Fund round verified",
-    "status_class": "recurring",
+    "source_url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/",
+    "status": "Human-Scale AI applications open",
+    "status_class": "open",
     "category": "G",
-    "opens": "Current intake not confirmed",
-    "closes": "Current deadline not confirmed",
+    "opens": "Open at source check; opening date not confirmed",
+    "closes": "2026-11-20 at 23:59 PST (2026-11-21 at 17:59 Brisbane AEST)",
     "recurring": true,
-    "eligibility": "Technologists, researchers and projects advancing a trustworthy, open internet and responsible AI",
-    "au_eligible": "Yes, global applicants",
-    "requires_local": "No; remote",
-    "stage": "Concept to working prototype",
-    "themes": ["privacy-data", "ai-assistants", "generative-ai", "civic-tech"],
-    "funding_amount": "Call-dependent; no current award amount verified",
+    "eligibility": "Individuals, informal groups, nonprofits and companies with a charitable project; functioning deployed AI technology and early community evidence required",
+    "au_eligible": "Worldwide applicants including Australians, subject to legal receipt of US charitable funds and programme review",
+    "requires_local": "Global cohort; virtual sessions advertised, travel obligations not fully verified",
+    "stage": "Working deployed technology with users or other community evidence; not concept-only research or a generic chatbot",
+    "themes": [
+      "privacy-data",
+      "ai-assistants",
+      "generative-ai",
+      "civic-tech"
+    ],
+    "funding_amount": "USD 300,000 initially; up to USD 200,000 conditional follow-on over two further years",
     "funding_currency": "USD",
     "support_type": "Grant / award (non-dilutive)",
     "equity": "None",
-    "other_benefits": "Open-internet community, credibility, publication and events",
-    "ip_conditions": "Open / responsible-tech leaning; verify per call",
-    "matching_required": "No",
-    "key_documents": "Project description, approach, impact on trustworthy tech",
+    "other_benefits": "Twelve months of coaching and cohort support from April 2027",
+    "ip_conditions": "Ownership retained; public outputs expected. Detailed grant licence terms remain unreviewed; existing project licence unchanged.",
+    "matching_required": "No matching requirement identified; award agreement not reviewed",
+    "key_documents": "English initial proposal, technical/community evidence, public-benefit case, team, milestones and repository/demo; optional two-minute video",
     "difficulty": "Moderate",
-    "project_match": "Privacy-preserving personal data, human-centred AI, responsible AI",
-    "why_relevant": "Directly aligned with your privacy-first, human-centred AI values, and it funds mission-led builders without taking equity. Strong narrative fit for Aura's ethics.",
-    "risks": "Funding follows the round's theme, which changes; must fit that year's focus",
+    "project_match": "Aura of Intelligence; community-controlled local AI where working deployment exists",
+    "why_relevant": "Potential fit for a proven privacy-first Aura or local AI component, not evidence that any current concept meets the maturity gate.",
+    "risks": "Charitable purpose required. For-profit equipment spending is restricted, including valuable servers and GPUs. Do not assume this funds a kiosk rack or chamber. AI-assisted applications still need the applicant’s own ideas and voice.",
     "confidence": "Partial source check",
-    "verify": "Confirm the current round theme and whether your project fits it",
-    "scores": { "elig": 5, "value": 3, "align": 5, "early": 4, "infra": 3, "ip": 4, "reloc": 5, "cred": 4 },
+    "verify": "Confirm actual deployment evidence, grant agreement and permitted expenditure before preparing an application.",
+    "scores": {
+      "elig": 4,
+      "value": 5,
+      "align": 5,
+      "early": 2,
+      "infra": 3,
+      "ip": 3,
+      "reloc": 5,
+      "cred": 2
+    },
     "pitch": {
-      "project": "Aura as human-centred, privacy-preserving AI",
-      "framing": "A trustworthy-by-design personal AI that keeps data sovereign to the user.",
-      "next_step": "Match Aura to the current round theme and submit a focused proposal."
+      "project": "A working privacy-first, purpose-built Aura component",
+      "framing": "Demonstrable local AI that serves a defined community with meaningful user control.",
+      "next_step": "Assess deployed technology and community evidence against the call; concepts alone are ineligible."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "funding_amount"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "The former URL redirects to the grantmaking directory. Do not assume the historical Technology Fund name identifies an open round.",
+      "confirmed_fields": [
+        "status",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "equity",
+        "other_benefits",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "opens",
+        "requires_local",
+        "ip_conditions",
+        "matching_required"
+      ],
+      "notes": "Specific call and eligibility PDF reviewed; follow-on funding is conditional, not a USD 500,000 upfront award. This replaces a generic Mozilla directory entry without duplicating the programme. Opening date, complete IP agreement, matching and travel remain unresolved.",
       "sources": [
         {
           "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/faqs/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://assets.mofoprod.net/network/documents/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://mozillafoundation.tfaforms.net/f/humanscaleai",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -1012,50 +1114,101 @@
     "id": "halcyon-incubator",
     "name": "Halcyon impact accelerators",
     "org": "Halcyon",
-    "country": "United States",
-    "city_region": "Washington, D.C.",
-    "source_url": "https://halcyonaccelerator.org/",
-    "status": "Climate, health and EquityTech accelerators advertised; current featured application is Africa-focused",
+    "country": "International; programme-specific geography",
+    "city_region": "Hybrid; residency cities depend on the programme",
+    "source_url": "https://halcyonaccelerator.org/applicants/",
+    "status": "Year-round eligibility form open; invitations depend on venture fit. Featured Africa 2027 call is geographically restricted.",
     "status_class": "recurring",
     "category": "G",
-    "opens": "Current intake not confirmed",
-    "closes": "Current deadline not confirmed",
+    "opens": "General eligibility form accepted year-round",
+    "closes": "No general form deadline. Africa 2027 initial consideration: 2026-10-23; invitational application: 2026-10-30. Times and timezones not published.",
     "recurring": true,
-    "eligibility": "Early-stage social entrepreneurs solving a significant social or environmental problem",
-    "au_eligible": "Not confirmed for the current geographically restricted call; check a specific programme",
-    "requires_local": "Residential phase in Washington D.C.; no incorporation abroad required",
-    "stage": "Early concept to early venture",
-    "themes": ["civic-tech", "health", "climate", "smart-communities", "disaster-resilience"],
-    "funding_amount": "Programme-dependent; no universal stipend or cash award verified",
-    "funding_currency": "USD",
-    "support_type": "Fellowship (stipend, housing, non-dilutive)",
-    "equity": "None",
-    "other_benefits": "Housing, stipend, mentorship, legal and strategy support, funder network",
-    "ip_conditions": "You keep your IP",
-    "matching_required": "No",
-    "key_documents": "Application, problem and solution, founder story, impact model",
+    "eligibility": "For-profit, scalable impact venture with an MVP and users or paying customers; founder works full-time. Additional geographic and stage rules apply to each programme.",
+    "au_eligible": "Some programmes accept global founders; no upcoming matched Australian-accessible cohort verified. The current Africa 2027 call requires a Sub-Saharan Africa base.",
+    "requires_local": "Full participation in virtual work and required in-person residencies; location, incorporation and immigration conditions must be checked for the selected programme.",
+    "stage": "MVP with users or paying customers, not concept-only. The featured Africa 2027 call requires paid-pilot or post-revenue traction.",
+    "themes": [
+      "civic-tech",
+      "health",
+      "climate",
+      "smart-communities",
+      "disaster-resilience"
+    ],
+    "funding_amount": "Programme-dependent. Africa 2027 advertises a $10,000 equity-free stipend and $10,000 AWS credits per venture; currency is not spelled out on the page and these are not universal entitlements.",
+    "funding_currency": "Unspecified on reviewed call",
+    "support_type": "Accelerator training, network and programme-specific stipend or in-kind support",
+    "equity": "Featured Africa 2027 stipend is explicitly equity-free; no universal investment or participation terms verified.",
+    "other_benefits": "Business training, professional advice and founder networks; residency, travel and accommodation support must be checked for the selected programme.",
+    "ip_conditions": "Current programme IP and publicity terms not verified; no blanket retention guarantee.",
+    "matching_required": "Programme-specific participant contributions and travel-cost coverage not verified.",
+    "key_documents": "Initial eligibility form, followed by an invitation-only application if matched; final submission materials depend on the selected programme.",
     "difficulty": "Moderate to high",
-    "project_match": "GAJRA Earth, civic-tech, disaster resilience, community trust",
-    "why_relevant": "Backs mission-driven founders with housing and a stipend, not just mentoring. Strong for GAJRA Earth or a community-trust venture with a clear social mission.",
-    "risks": "Residential phase requires time in the US; competitive; social-mission framing essential",
+    "project_match": "A mature, for-profit disaster-resilience, climate-adaptation or community-health venture within the approved project areas",
+    "why_relevant": "Potential future accelerator route once a venture has a working product, real users and a scalable impact model. Not a general nonprofit or idea-stage fellowship.",
+    "risks": "Full-time founder, commercial traction and programme geography are material gates. The old long residential fellowship is historical; current financial and IP terms cannot be assumed from it.",
     "confidence": "Partial source check",
-    "verify": "Confirm current cohort, stipend, residency length and international eligibility",
-    "scores": { "elig": 3, "value": 4, "align": 4, "early": 5, "infra": 4, "ip": 5, "reloc": 3, "cred": 3 },
+    "verify": "Establish venture maturity and an eligible future cohort before assessing the programme-specific stipend, travel, IP and participation terms.",
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 4,
+      "early": 2,
+      "infra": 3,
+      "ip": 2,
+      "reloc": 3,
+      "cred": 2
+    },
     "pitch": {
-      "project": "GAJRA Earth or a community-trust / disaster-resilience venture",
-      "framing": "A mission-led initiative rebuilding community trust and resilience, ready to formalise.",
-      "next_step": "Craft the social-impact narrative and apply to the next fellowship cohort."
+      "project": "A demonstrated climate-resilience or community-health venture",
+      "framing": "Show real user demand and measurable impact within a sustainable for-profit model.",
+      "next_step": "Check MVP, users, founder commitment and an eligible cohort before considering the initial form; no application is being sent."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "au_eligible", "funding_amount"],
-      "unverified_fields": ["opens", "closes", "eligibility", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "The former domain redirects to the new accelerator site. The historical residential fellowship package is not treated as a universal current offer.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "eligibility",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "closes",
+        "au_eligible",
+        "requires_local",
+        "equity",
+        "ip_conditions",
+        "matching_required",
+        "other_benefits"
+      ],
+      "notes": "General applicant FAQ confirms year-round screening, for-profit/MVP/user and full-time founder gates, and hybrid delivery. Africa 2027 source confirms its own dates, Sub-Saharan Africa base, paid-pilot/post-revenue stage, stipend, credits and Accra/Nairobi residencies. Exact deadline times and all terms of a suitable Australian-accessible cohort remain unresolved. Scores are editorial assessments, not official eligibility decisions.",
       "sources": [
         {
           "url": "https://halcyonaccelerator.org/",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://halcyonaccelerator.org/applicants/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://halcyonaccelerator.org/programs/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://halcyonaccelerator.org/insights/why-climate-adaptation-resilience/",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -1068,47 +1221,104 @@
     "country": "Global (rotating host countries)",
     "city_region": "Varies by program",
     "source_url": "https://unleash.org/",
-    "status": "UNLEASH regional programmes and innovation hub advertised; specific current applicant windows unverified",
+    "status": "Local Hacks and alumni Innovation Hub active; no matching open global funding call verified",
     "status_class": "recurring",
     "category": "G",
-    "opens": "Current intake not confirmed",
-    "closes": "Current deadline not confirmed",
+    "opens": "No suitable current applicant opening verified",
+    "closes": "No suitable current deadline verified; the completed Europe 2026 round closed 2026-03-03 at 23:59 CET",
     "recurring": true,
-    "eligibility": "Young talents, innovators and teams working on the UN Sustainable Development Goals",
-    "au_eligible": "Yes, global participation",
-    "requires_local": "No incorporation; some in-person innovation-lab travel (often supported)",
-    "stage": "Concept to early prototype",
-    "themes": ["climate", "civic-tech", "health", "disaster-resilience", "smart-communities", "sustainable-dev"],
-    "funding_amount": "Programme-specific support; no universal cash award verified",
+    "eligibility": "Young participants in programme-specific innovation activities; age, residence, prior participation and application rules require a selected call.",
+    "au_eligible": "Programme-specific; no current suitable Australian-resident intake verified. Europe 2026 required European residence, regardless of nationality.",
+    "requires_local": "Local Hacks address local challenges; in-person Lab participation and geographic eligibility vary. No universal travel or incorporation terms verified.",
+    "stage": "Learning, problem-framing and co-creation activities; not a verified funding route for an existing venture",
+    "themes": [
+      "climate",
+      "civic-tech",
+      "health",
+      "disaster-resilience",
+      "smart-communities",
+      "sustainable-dev"
+    ],
+    "funding_amount": "No current universal cash award verified; participation support and any prizes depend on a specific call",
     "funding_currency": "USD",
-    "support_type": "In-kind plus challenge prizes and partner pathways",
-    "equity": "None",
-    "other_benefits": "Global SDG network, UN visibility, partner and funder introductions",
-    "ip_conditions": "You keep your IP",
-    "matching_required": "No",
-    "key_documents": "Application, SDG-alignment case, solution outline",
+    "support_type": "Innovation training, local sprints and alumni community resources; not a verified general grant",
+    "equity": "No universal current participation or investment terms verified",
+    "other_benefits": "Alumni Innovation Hub offers learning resources, workshops and community connections; access depends on programme participation.",
+    "ip_conditions": "Call-specific. Europe 2026 left resulting IP ownership for teams to determine and retained publicity-use rights; do not assume sole-founder ownership.",
+    "matching_required": "Call-specific. Europe 2026 charged EUR 130 and required travel funding unless needs-based support was granted; these are historical, not universal terms.",
+    "key_documents": "Programme-specific application and eligibility information; no current matching application checklist verified",
     "difficulty": "Low to moderate",
-    "project_match": "GAJRA Earth, climate, island resilience, sustainable community systems",
-    "why_relevant": "A credible on-ramp to the UN SDG ecosystem and international partnerships for your mission-led, long-horizon work. Good for relationships and visibility even when cash is modest.",
-    "risks": "Often light on direct cash; value is network and follow-on, not a big cheque",
+    "project_match": "Potential learning and peer-network route for approved civic, resilience and sustainable-development interests",
+    "why_relevant": "May support innovation skills and relationships where age, location and programme aims fit. No direct funding for G.A.J.R.A. Earth or an island pilot is established.",
+    "risks": "Local or regional restrictions, age limits, participant costs and co-created IP may apply. Innovation Labs are not necessarily designed to advance an existing venture. UNLEASH is not a combined UNDP funding instrument.",
     "confidence": "Partial source check",
-    "verify": "Confirm current UNLEASH / UNDP calls and any prize or funding pathway",
-    "scores": { "elig": 5, "value": 2, "align": 4, "early": 5, "infra": 3, "ip": 5, "reloc": 4, "cred": 4 },
+    "verify": "Find a suitable current call, then check residence, age, costs, participant-created IP and whether existing-project development is allowed.",
+    "scores": {
+      "elig": 2,
+      "value": 1,
+      "align": 3,
+      "early": 3,
+      "infra": 2,
+      "ip": 2,
+      "reloc": 2,
+      "cred": 2
+    },
     "pitch": {
-      "project": "GAJRA Earth aligned to specific SDGs",
-      "framing": "A regenerative-community initiative mapped cleanly to the SDGs, seeking global partners.",
-      "next_step": "Enter the next UNLEASH talent call with a tight SDG-aligned solution."
+      "project": "An approved civic or sustainability problem suited to collaborative learning",
+      "framing": "Explain relevant experience and what the applicant can contribute to a local, multidisciplinary innovation process.",
+      "next_step": "Identify an eligible current programme before preparing anything; the completed Europe 2026 round is not an application opportunity."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "funding_amount"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "The source supports UNLEASH, not a combined UNDP funding instrument. Age, nationality, residence, travel and regional criteria require a specific call.",
+      "confirmed_fields": [
+        "status",
+        "support_type",
+        "other_benefits"
+      ],
+      "unverified_fields": [
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "equity",
+        "ip_conditions",
+        "matching_required",
+        "key_documents"
+      ],
+      "notes": "Hacks and Innovation Hub pages confirm current activity, not a cash-funding intake. The Europe page confirms its June-July 2026 programme has completed; its FAQ supplies the March 3 23:59 CET deadline, age 18-35/European-residence criteria, costs, team IP and publicity terms. Those historical conditions are scoped to Europe only. No matching current Australian funding route is verified, and no Europe archive is created because that round was absent from the baseline record.",
       "sources": [
         {
           "url": "https://unleash.org/",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://unleash.org/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://unleash.org/hacks/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://unleash.org/innovation-hub/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://unleash.org/europe/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://unleash.org/europe-faq/",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -1192,48 +1402,89 @@
     "org": "Gates Foundation and partners",
     "country": "Global",
     "city_region": "Distributed / remote",
-    "source_url": "https://www.grandchallenges.org/",
-    "status": "Grant-opportunity directory available; no specific matching call terms verified",
+    "source_url": "https://gcgh.grandchallenges.org/grant-opportunities",
+    "status": "Gates Grand Challenges lists no open grant opportunities; no matching Australian-accessible call verified in the partner directory",
     "status_class": "recurring",
     "category": "G",
-    "opens": "Current intake not confirmed",
-    "closes": "Current deadline not confirmed",
+    "opens": "No current matching application opening verified",
+    "closes": "No current matching application deadline verified",
     "recurring": true,
-    "eligibility": "Researchers, innovators and organisations tackling defined global-health and development challenges",
-    "au_eligible": "Yes, global applicants; some calls open to individuals and small teams",
-    "requires_local": "No; remote proposals",
-    "stage": "Concept (some calls fund bold early ideas at Phase I)",
-    "themes": ["health", "dementia", "generative-ai", "climate", "sustainable-dev"],
-    "funding_amount": "Phase I grants often around USD 100k with follow-on for success",
+    "eligibility": "Call-specific organisation, investigator, scientific-scope and geography requirements; no generic individual-applicant route established",
+    "au_eligible": "Australian individual or entity eligibility must be established for a specific call",
+    "requires_local": "Call-specific host, partner and delivery-location conditions not currently verified",
+    "stage": "Call-specific; no current matching early-stage funding route verified",
+    "themes": [
+      "health",
+      "dementia",
+      "generative-ai",
+      "climate",
+      "sustainable-dev"
+    ],
+    "funding_amount": "Call-specific; no current matching award amount verified",
     "funding_currency": "USD",
-    "support_type": "Grant (non-dilutive)",
-    "equity": "None",
-    "other_benefits": "Global-health network, follow-on funding, credibility",
-    "ip_conditions": "Global-access conditions apply (affordable access in developing countries)",
-    "matching_required": "Usually no",
-    "key_documents": "Short bold proposal, feasibility, impact case",
+    "support_type": "Challenge-specific research or innovation grants; no current matched award verified",
+    "equity": "Selected RFP and award agreement must be reviewed; no universal terms verified",
+    "other_benefits": "Any research networks, follow-on funding or partner support depend on the selected initiative",
+    "ip_conditions": "Review the selected RFP and global-access or award conditions; no universal IP licence verified",
+    "matching_required": "Not verified for a current matching call",
+    "key_documents": "Selected RFP, eligibility rules, proposal and budget instructions; no current matching document set identified",
     "difficulty": "Moderate to high",
-    "project_match": "Dementia / ageing, preventative health, AI-for-health",
-    "why_relevant": "Funds bold, early, unproven health ideas with real Phase I money and a path to more. Fits your dementia, ageing and AI-for-health interests.",
-    "risks": "Must match a specific challenge theme; global-access IP conditions; health framing essential",
+    "project_match": "Potential future route only where a specific challenge genuinely matches approved health or AI-health work",
+    "why_relevant": "A credible global-health funding watch source, not a presently available general dementia, ageing or AI-for-health seed grant.",
+    "risks": "No matching open call established. Applicant geography, legal-entity requirements, scientific scope and global-access terms may exclude the proposed work; historical Phase I amounts are not universal.",
     "confidence": "Partial source check",
-    "verify": "Confirm current open challenges and whether one fits your health work",
-    "scores": { "elig": 4, "value": 4, "align": 3, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 3 },
+    "verify": "Wait for a matching official RFP, then verify applicant, geography, scientific fit, funding and award terms before proposal work.",
+    "scores": {
+      "elig": 1,
+      "value": 2,
+      "align": 2,
+      "early": 3,
+      "infra": 2,
+      "ip": 2,
+      "reloc": 4,
+      "cred": 1
+    },
     "pitch": {
-      "project": "AI-assisted dementia support / preventative health",
-      "framing": "A bold, testable idea for measurable dementia support that could scale to low-resource settings.",
-      "next_step": "Find a matching open challenge and submit a Phase I proposal."
+      "project": "A defined health research question that matches a future challenge",
+      "framing": "Demonstrate a specific scientific problem and feasible method only after a relevant call appears.",
+      "next_step": "Recheck official challenge directories; no application candidate or Phase I proposal is established."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "The current directory contains limited readable call detail. Treat every historical amount, applicant and IP condition below as unverified until the chosen RFP is read.",
+      "confirmed_fields": [
+        "status"
+      ],
+      "unverified_fields": [
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "equity",
+        "ip_conditions",
+        "matching_required",
+        "other_benefits",
+        "key_documents"
+      ],
+      "notes": "Gates Grand Challenges explicitly reports no open grant opportunities. The partner-family directory shows Keystone conference support for scientists from low- and middle-income countries, not a matching general health/AI seed call. Historical USD 100,000 Phase I and individual/Australian access claims have been removed. No closure of the recurring programme is inferred.",
       "sources": [
         {
           "url": "https://www.grandchallenges.org/",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://gcgh.grandchallenges.org/grant-opportunities",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://www.grandchallenges.org/grant-opportunities",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -1299,48 +1550,106 @@
     "country": "United States (funds globally)",
     "city_region": "Remote / fieldwork worldwide",
     "source_url": "https://www.nationalgeographic.org/explore/grants-investments",
-    "status": "Specific RFPs are open; generic Level I and Level II applications have been replaced",
+    "status": "RFP-specific programme; Human Thread and Trebek remain listed. Closure of the October 21 ocean calls is not confirmed.",
     "status_class": "open",
     "category": "H",
-    "opens": "Current RFPs include ocean research, Southern Ocean science, Canadian projects and human-experience storytelling",
-    "closes": "Ocean and Southern Ocean RFPs: 2026-10-21; Trebek: 2026-10-28; Human Thread: 2026-12-01",
+    "opens": "Specific RFPs listed; exact opening dates not verified",
+    "closes": "Ocean Exploration and Southern Ocean: 2026-10-21; Trebek: 2026-10-28; Human Thread: 2026-12-01. Exact times and timezones unverified.",
     "recurring": true,
-    "eligibility": "Each RFP defines its own subject, geography, expertise and applicant conditions",
-    "au_eligible": "Conditional on the selected RFP; Australian nationality alone does not establish eligibility",
-    "requires_local": "No incorporation required; individual grants",
-    "stage": "Concept to project",
-    "themes": ["climate", "environment-monitoring", "indigenous", "immersive-media", "film-music", "island-biosecurity", "museums-archives"],
-    "funding_amount": "RFP-specific; historical Level I and Level II amounts are not current universal tiers",
+    "eligibility": "Individual project leader aged 18 or older; one proposal at a time and prior grant reporting complete. Project starts should be at least six months after submission deadline; additional RFP rules apply.",
+    "au_eligible": "Conditional on the selected RFP; nationality alone does not establish applicant or project eligibility",
+    "requires_local": "Individual project-leader grant route; any host, geography or fieldwork requirements must be checked in the selected RFP",
+    "stage": "RFP-specific science, conservation, storytelling, education or technology project; accepted maturity not universally verified",
+    "themes": [
+      "climate",
+      "environment-monitoring",
+      "indigenous",
+      "immersive-media",
+      "film-music",
+      "island-biosecurity",
+      "museums-archives"
+    ],
+    "funding_amount": "RFP-specific; no current universal grant tiers or amount verified",
     "funding_currency": "USD",
-    "support_type": "Grant (non-dilutive)",
-    "equity": "None",
-    "other_benefits": "Explorer network, storytelling platform, credibility, training",
-    "ip_conditions": "Founder-respecting; some storytelling and sharing expectations",
-    "matching_required": "No",
-    "key_documents": "Project proposal, budget, impact and dissemination plan",
+    "support_type": "Individual project grants",
+    "equity": "Grant programme; detailed award and participation conditions not verified",
+    "other_benefits": "Explorer community, connections, training and storytelling opportunities; specific entitlements vary",
+    "ip_conditions": "RFP and award rights, publication, licensing and publicity terms not verified; no blanket founder-friendly guarantee",
+    "matching_required": "Not verified for a selected RFP",
+    "key_documents": "Project, budget and collaborator information through the Funding Portal; additional requirements are RFP-specific",
     "difficulty": "Moderate",
-    "project_match": "Minjerribah storytelling / conservation, cultural archives, immersive media",
-    "why_relevant": "Funds individuals doing conservation, cultural-storytelling and tech projects, a strong route to fund a Minjerribah nature-and-culture story or archive with a globally respected name.",
-    "risks": "Storytelling / conservation framing needed; cultural work must be community-led and appropriate",
+    "project_match": "Human Thread is a potential storytelling lead within approved cultural or immersive-media areas, subject to detailed RFP and permission checks",
+    "why_relevant": "An individual-grant route for a precisely matched project. The Human Thread supports human-experience storytelling; the ocean calls concern specialist ship-based research and Trebek requires distinct Canadian impact.",
+    "risks": "Detailed RFPs require portal access. No project eligibility, cultural permissions or suitable storytelling portfolio is assumed. Do not treat the October 21 date as proof of closure before the closing instant is verified.",
     "confidence": "Partial source check",
-    "verify": "Confirm current grant levels, deadlines and eligible project types",
-    "scores": { "elig": 5, "value": 3, "align": 4, "early": 5, "infra": 3, "ip": 4, "reloc": 5, "cred": 4 },
+    "verify": "Read the selected RFP for deadline timezone, amount, applicant criteria, rights and budget rules; preserve ocean calls as unresolved until official closure is established.",
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 3,
+      "early": 3,
+      "infra": 3,
+      "ip": 2,
+      "reloc": 4,
+      "cred": 2
+    },
     "pitch": {
-      "project": "Minjerribah cultural archive / conservation storytelling (community-led)",
-      "framing": "A community-led immersive record of island Country, wildlife and story.",
-      "next_step": "Read one current RFP and its eligibility, budget and rights conditions before developing a matching proposal."
+      "project": "A community-led human-experience story within approved cultural or immersive-media work",
+      "framing": "A specific story with an evidenced community relationship, consent and a suitable storytelling portfolio.",
+      "next_step": "Review the Human Thread RFP before assessing fit or preparing a proposal; no account, application or cultural permission is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "funding_amount"],
-      "unverified_fields": ["requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "A local story must match an actual RFP; none of the listed calls is assumed to fund any Minjerribah proposal automatically.",
+      "confirmed_fields": [
+        "status",
+        "eligibility",
+        "support_type",
+        "other_benefits",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "opens",
+        "closes",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "equity",
+        "ip_conditions",
+        "matching_required"
+      ],
+      "notes": "Official overview still lists Ocean Exploration and Southern Ocean for October 21, Trebek for October 28 and Human Thread for December 1, without exact closing times/timezones. Dates are verified only to the day. The Ocean Exploration detail redirected to National Geographic Sign In in the cloud browser; other RFP detail pages yielded no readable text. No sign-in/account creation attempted and no ocean round archived. General eligibility and submission route are confirmed; call-specific terms remain unresolved.",
       "sources": [
         {
           "url": "https://www.nationalgeographic.org/explore/grants-investments",
           "checked_on": "2026-10-18",
           "access": "read"
+        },
+        {
+          "url": "https://www.nationalgeographic.org/explore/grants-investments",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+          "checked_on": "2026-10-22",
+          "access": "login-required"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+          "checked_on": "2026-10-22",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+          "checked_on": "2026-10-22",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+          "checked_on": "2026-10-22",
+          "access": "no-readable-text"
         }
       ]
     }
@@ -1511,47 +1820,93 @@
     "country": "Global",
     "city_region": "Remote",
     "source_url": "https://fil.org/grants",
-    "status": "Open Grants, FIL Builder Next Step Grants and RFP routes advertised; inspect their current repositories for intake dates",
-    "status_class": "recurring",
+    "status": "Open Grant submissions reviewed continuously; repository lists no open RFPs",
+    "status_class": "open",
     "category": "I",
-    "opens": "Current intake not confirmed",
-    "closes": "Current deadline not confirmed",
+    "opens": "Continuous Open Grant review",
+    "closes": "No fixed Open Grant deadline published",
     "recurring": true,
-    "eligibility": "Developers and teams building on decentralised storage, IPFS, Filecoin and open Web3 infrastructure",
-    "au_eligible": "Yes, global, individuals and teams",
-    "requires_local": "No; remote",
+    "eligibility": "Filecoin tooling, integrations, research, storage, retrieval or FVM work; exclusively IPFS/libp2p projects are de-emphasised",
+    "au_eligible": "Australian jurisdiction and payment eligibility not expressly established in reviewed grant instructions",
+    "requires_local": "Remote grant route appears possible; Australian applicant and payment eligibility not verified",
     "stage": "Concept to prototype",
-    "themes": ["blockchain", "iot", "privacy-data", "generative-ai", "civic-tech"],
-    "funding_amount": "FIL Builder Next Step: USD 5,000-10,000; Open Grants and RFP amounts vary",
+    "themes": [
+      "blockchain",
+      "iot",
+      "privacy-data",
+      "generative-ai",
+      "civic-tech"
+    ],
+    "funding_amount": "Open Grants up to USD 50,000; directory also lists USD 5,000-10,000 Next Step grants, whose current intake is unverified",
     "funding_currency": "USD (sometimes crypto)",
     "support_type": "Grant (non-dilutive)",
-    "equity": "None",
+    "equity": "Grant route; selected agreement equity terms not verified",
     "other_benefits": "Decentralised-tech community, technical support, ecosystem exposure",
-    "ip_conditions": "Open-source expectations for funded work",
-    "matching_required": "No",
-    "key_documents": "Proposal, technical plan, milestones",
+    "ip_conditions": "Funded projects require dual MIT and Apache-2.0 licensing; the retained Strange But True licence does not satisfy that condition.",
+    "matching_required": "Matching requirements not verified for the selected agreement",
+    "key_documents": "Public GitHub issue using the Open Grant template, work plan and funding milestones; signed agreement before work",
     "difficulty": "Low to moderate",
     "project_match": "Web3 Sensorium, decentralised data, blockchain-IoT-AI integration",
-    "why_relevant": "Non-dilutive funding for the decentralised-storage and Web3 parts of the Sensorium and personal-data sovereignty stack, with a remote, individual-friendly process.",
-    "risks": "Funded work is open-source; tied to the Web3 storage ecosystem; keep proprietary layers separate",
+    "why_relevant": "A possible Filecoin component route only if its actual technical purpose and licence fit; not generic personal-data funding.",
+    "risks": "No current open RFP listed. Open-licence conflict is material; no relicensing is authorised. Review timing differs between Foundation directory and repository.",
     "confidence": "Partial source check",
-    "verify": "Confirm current open rounds, RFP themes and terms",
-    "scores": { "elig": 5, "value": 3, "align": 4, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 4 },
+    "verify": "Resolve licensing, Australian payment eligibility and grant agreement before applying.",
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 4,
+      "early": 5,
+      "infra": 3,
+      "ip": 1,
+      "reloc": 5,
+      "cred": 2
+    },
     "pitch": {
       "project": "A decentralised-storage layer for sovereign personal data",
       "framing": "An open component that lets people store and control their own digital-twin data.",
-      "next_step": "Match a current RFP and submit a milestone-based proposal."
+      "next_step": "Check a genuinely Filecoin-specific work package and licensing permissions before using the public proposal template."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "funding_amount"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Foundation directory read. Repository-specific acceptance, open-source and payment conditions remain unverified.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "funding_amount",
+        "support_type",
+        "ip_conditions",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "equity",
+        "matching_required",
+        "other_benefits"
+      ],
+      "notes": "Repository-specific Open Grant instructions reviewed. No closed RFP is given an invented closure date or archived as a new round. Equity, applicant jurisdiction and payment/award agreement remain unverified.",
       "sources": [
         {
           "url": "https://fil.org/grants",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://fil.org/grants",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://github.com/filecoin-project/devgrants",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -2368,47 +2723,88 @@
     "country": "Global",
     "city_region": "Remote",
     "source_url": "https://esp.ethereum.foundation/",
-    "status": "ESP supports Ethereum public goods; specific application routes require current review",
+    "status": "Wishlist and RFP application process published; no project-matching dated call verified",
     "status_class": "recurring",
     "category": "I",
     "opens": "Current intake not confirmed",
     "closes": "Current deadline not confirmed",
     "recurring": true,
-    "eligibility": "Anyone worldwide regardless of legal-entity status, building open-source public goods for the Ethereum ecosystem",
-    "au_eligible": "Yes, individuals and teams worldwide",
-    "requires_local": "No; fully remote, no entity required",
+    "eligibility": "Ethereum infrastructure and builder public goods; for-profit applicants welcome but funded outputs are open or freely available",
+    "au_eligible": "Australian applicant/payment jurisdiction not expressly confirmed in reviewed instructions",
+    "requires_local": "Location and legal-entity requirements require confirmation for the selected item",
     "stage": "Concept to prototype (technical public goods)",
-    "themes": ["blockchain", "privacy-data", "iot", "civic-tech", "generative-ai"],
+    "themes": [
+      "blockchain",
+      "privacy-data",
+      "iot",
+      "civic-tech",
+      "generative-ai"
+    ],
     "funding_amount": "No universal current grant bands verified; use the selected call",
-    "funding_currency": "USD",
+    "funding_currency": "ETH by default; individual grant budget varies",
     "support_type": "Grant (non-dilutive)",
-    "equity": "None",
-    "other_benefits": "Deep decentralised-tech community, protocol research network, credibility",
-    "ip_conditions": "Free and open-source public goods aligned with Ethereum foundation requirements",
-    "matching_required": "No",
-    "key_documents": "Proposal against a Wishlist or RFP item, technical plan, milestones",
+    "equity": "Non-dilutive funding",
+    "other_benefits": "Grant evaluator and milestone reviews",
+    "ip_conditions": "Outputs open-source or otherwise freely available; grant-letter IP clauses not reviewed",
+    "matching_required": "No universal matching rule established; confirm selected support agreement",
+    "key_documents": "Methodology, timeline, deliverables and budget; identity verification and formal grant letter if selected",
     "difficulty": "Low to moderate",
     "project_match": "Web3 Sensorium, sovereign personal data, decentralised civic infrastructure",
-    "why_relevant": "Funds individuals with no entity to build open, decentralised public goods, a clean match for the sovereign-data and Sensorium layers. Now Wishlist-driven, so aim at a published need.",
-    "risks": "Funded work must be open-source public goods tied to Ethereum; keep proprietary layers separate; needs a fit with a current Wishlist or RFP",
+    "why_relevant": "Potential route for an approved Ethereum public-good component, not a general civic or AI application grant.",
+    "risks": "ETH payments by default; identity checks and milestones. Retained non-commercial project licence is not assumed compatible.",
     "confidence": "Partial source check",
     "verify": "Confirm current Wishlist and RFP items and whether direct applications are open",
-    "scores": { "elig": 5, "value": 3, "align": 4, "early": 5, "infra": 3, "ip": 3, "reloc": 5, "cred": 4 },
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 4,
+      "early": 5,
+      "infra": 3,
+      "ip": 2,
+      "reloc": 5,
+      "cred": 2
+    },
     "pitch": {
       "project": "An open, sovereign personal-data component of the Sensorium",
       "framing": "A public-good building block that lets people own and control their own digital-twin data.",
       "next_step": "Match a current ESP Wishlist or RFP item and submit a milestone-based proposal."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "funding_amount", "ip_conditions"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Current homepage confirms the public-goods remit. Old award bands and historical total funding are not treated as an active offer.",
+      "confirmed_fields": [
+        "status",
+        "eligibility",
+        "funding_amount",
+        "support_type",
+        "equity",
+        "other_benefits",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "opens",
+        "closes",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "ip_conditions",
+        "matching_required"
+      ],
+      "notes": "Applicant process read, including on-chain ETH payments. No universal amount, matching rule, Australian legal eligibility or current item deadline established.",
       "sources": [
         {
           "url": "https://esp.ethereum.foundation/",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://esp.ethereum.foundation/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://esp.ethereum.foundation/applicants",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -2908,8 +3304,8 @@
     "country": "United Kingdom",
     "city_region": "UK deployment",
     "source_url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
-    "status": "Announced application window; not open on 18 October 2026",
-    "status_class": "soon",
+    "status": "Published opening date has arrived, but official page still says not yet opened; application availability unconfirmed",
+    "status_class": "unknown",
     "category": "E",
     "opens": "2026-10-21",
     "closes": "2026-12-08 at 11:00 UK time",
@@ -2918,7 +3314,11 @@
     "au_eligible": "Conditional on eligible UK organisations and delivery; no direct Australian solo-applicant route established",
     "requires_local": "Eligible UK lead and UK deployer; do not assume a partnership exists",
     "stage": "Existing AI/ML solution at TRL 5-6 for real-world deployment",
-    "themes": ["ai-assistants", "privacy-data", "civic-tech"],
+    "themes": [
+      "ai-assistants",
+      "privacy-data",
+      "civic-tech"
+    ],
     "funding_amount": "Phase 1 grant request GBP 100,000-200,000 per consortium; competition pool up to GBP 5 million",
     "funding_currency": "GBP",
     "support_type": "Collaborative feasibility grant for deployment readiness, Phase 1 Define; not a procurement contract",
@@ -2933,22 +3333,52 @@
     "risks": "UK lead, deployer, maturity and co-funding are unresolved. No named partner or eligibility is assumed.",
     "confidence": "Partial source check",
     "verify": "Read scope and consortium rules before treating it as an application candidate.",
-    "scores": { "elig": 1, "value": 4, "align": 3, "early": 1, "infra": 4, "ip": 3, "reloc": 1, "cred": 1 },
+    "scores": {
+      "elig": 1,
+      "value": 4,
+      "align": 3,
+      "early": 1,
+      "infra": 4,
+      "ip": 3,
+      "reloc": 1,
+      "cred": 1
+    },
     "pitch": {
       "project": "A proven AI assurance component",
       "framing": "Test a defined assurance outcome with a real and willing deployer.",
       "next_step": "Check whether an eligible consortium and mature solution exist; no contact or application is authorised."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-22",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "matching_required"],
-      "unverified_fields": ["equity", "ip_conditions", "other_benefits", "key_documents"],
-      "notes": "Published dates, Phase 1 grant band and UK consortium gates checked. Award IP terms and detailed application documents still need review; later phases are conditional.",
+      "confirmed_fields": [
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "matching_required"
+      ],
+      "unverified_fields": [
+        "status",
+        "equity",
+        "ip_conditions",
+        "other_benefits",
+        "key_documents"
+      ],
+      "notes": "On 22 October Brisbane / 21 October UTC the live official page still says not yet opened despite its 21 October opening date. Do not infer an operational intake from the date alone; excluded from the executive shortlist until reconciled. No closure inferred.",
       "sources": [
         {
           "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
           "checked_on": "2026-10-18",
+          "access": "read"
+        },
+        {
+          "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]
@@ -3078,6 +3508,294 @@
         {
           "url": "https://frrr.org.au/funding/src-prepare-recover/",
           "checked_on": "2026-10-19",
+          "access": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stronger-communities-round-10",
+    "name": "Stronger Communities Programme Round 10",
+    "org": "Australian Government; administered by DISR",
+    "country": "Australia",
+    "city_region": "Federal electorates; Bowman EOI route for a proposed Minjerribah pilot",
+    "source_url": "https://business.gov.au/grants-and-programs/stronger-communities-programme-round-10",
+    "status": "Open through MP nomination and invitation only",
+    "status_class": "open",
+    "category": "G",
+    "opens": "2026-09-21 at 10:00 AEST",
+    "closes": "Bowman EOI: 2026-11-06 at 17:00, timezone unstated. MP nominations: 2026-11-30 at 17:00 AEDT (16:00 Brisbane). Invited applications: 2027-01-19 at 17:00 AEDT (16:00 Brisbane).",
+    "recurring": true,
+    "eligibility": "ABN and eligible incorporated nonprofit, community entity or local governing body; MP nomination and invitation required. Limited eligible project-sponsor route.",
+    "au_eligible": "Eligible Australian community entities; individuals and for-profit businesses excluded",
+    "requires_local": "Project must be in the nominating MP's electorate",
+    "stage": "Defined community capital project; no costs before application; finish by 2028-03-31",
+    "themes": [
+      "disaster-resilience",
+      "smart-communities",
+      "iot",
+      "civic-tech"
+    ],
+    "funding_amount": "A$2,500-20,000; total project cost capped at A$50,000",
+    "funding_currency": "AUD",
+    "support_type": "Community capital grant",
+    "equity": "Grant, not equity investment",
+    "other_benefits": "No dedicated laboratory or facilities package verified",
+    "ip_conditions": "Sample agreement licenses material supplied to Commonwealth: non-exclusive, irrevocable, royalty-free, with adaptation and sublicensing rights. Background IP and asset arrangements need review.",
+    "matching_required": "Up to 100% of eligible costs for non-council applicants; local governing bodies need at least 50% cash match",
+    "key_documents": "Nonprofit evidence, project scope/budget, applicable trust documents and partner letters; MP invitation",
+    "difficulty": "Moderate",
+    "project_match": "Community-owned Straddie Disaster Kiosks notice-screen or local-compute pilot",
+    "why_relevant": "Guidelines expressly include community-benefit ICT, audiovisual equipment and associated electrical works. This is an inferred pilot fit, not an award or procurement commitment.",
+    "risks": "No applicant, sponsor, venue or invitation established. Private/commercial ventures excluded. Confirm Bowman EOI timezone; starting before agreement is at applicant risk.",
+    "confidence": "Partial source check",
+    "verify": "Confirm eligible lead, venue consent, equipment ownership, official-information governance, maintenance and precise activity eligibility",
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 5,
+      "early": 3,
+      "infra": 3,
+      "ip": 2,
+      "reloc": 5,
+      "cred": 2
+    },
+    "pitch": {
+      "project": "One community notice-screen pilot",
+      "framing": "Accessible, locally maintained public information with demonstrable community benefit.",
+      "next_step": "Confirm a consenting eligible community lead before the Bowman EOI deadline."
+    },
+    "verification": {
+      "checked_on": "2026-10-22",
+      "result": "partial",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "equity",
+        "ip_conditions",
+        "matching_required",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "closes",
+        "other_benefits"
+      ],
+      "notes": "Federal dates and rules verified; closes remains partial because the earlier Bowman EOI page omits timezone. Grant-contract review is not complete.",
+      "sources": [
+        {
+          "url": "https://business.gov.au/grants-and-programs/stronger-communities-programme-round-10",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://business.gov.au/-/media/grants-and-programs/scp-round-10/stronger-communities-programme-round-10-grant-opportunity-guidelines-pdf.pdf",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://business.gov.au/-/media/grants-and-programs/scp-round-10/stronger-communities-programme-round-10-sample-approval-letter-grant-agreement-pdf.pdf",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://www.henrypike.com.au/scp10",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "redland-community-support",
+    "name": "Redland Community Support Grant",
+    "org": "Redland City Council",
+    "country": "Australia",
+    "city_region": "Redland City, including a proposed Minjerribah community activity",
+    "source_url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+    "status": "2026/27 Round 2 open",
+    "status_class": "open",
+    "category": "G",
+    "opens": "2026-10-12",
+    "closes": "2026-11-01 at midnight, end of day AEST (Brisbane)",
+    "recurring": true,
+    "eligibility": "Redland-based incorporated nonprofit or eligible auspice; ABN or supplier statement, financial viability, entity bank account and A$20m public liability cover",
+    "au_eligible": "Eligible local organisations; ordinary individual applicants and commercial businesses are excluded",
+    "requires_local": "Applicant and activity based in and delivered within Redland City",
+    "stage": "Community activity not begun before approval",
+    "themes": [
+      "disaster-resilience",
+      "smart-communities",
+      "civic-tech"
+    ],
+    "funding_amount": "Up to A$20,000",
+    "funding_currency": "AUD",
+    "support_type": "Community project grant",
+    "equity": "Grant rather than equity investment; final agreement not reviewed",
+    "other_benefits": "No facilities or hardware package verified",
+    "ip_conditions": "Not verified; review council agreement and any auspice terms",
+    "matching_required": "No fixed match found on reviewed page; confirm in funding agreement",
+    "key_documents": "Financial report, insurance, project plan, relevant risk assessment, quotes over A$5,000 and signed auspice agreement where needed",
+    "difficulty": "Moderate",
+    "project_match": "Straddie Disaster Kiosks community preparedness engagement, not verified hardware purchasing",
+    "why_relevant": "A possible community-led information-needs workshop and preparedness co-design activity, kept separate from kiosk engineering and installation.",
+    "risks": "Official page both allows essential-equipment consideration and excludes equipment purchases; hardware eligibility unresolved. Do not budget screens or capital works without clarification. No community lead assumed.",
+    "confidence": "Partial source check",
+    "verify": "Confirm community-engagement scope and any equipment expenditure directly with council before applying",
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 3,
+      "early": 4,
+      "infra": 1,
+      "ip": 2,
+      "reloc": 5,
+      "cred": 2
+    },
+    "pitch": {
+      "project": "Community preparedness and information co-design",
+      "framing": "Test who needs which information and how a local group would maintain it.",
+      "next_step": "Secure eligible lead or documented auspice and confirm non-equipment scope."
+    },
+    "verification": {
+      "checked_on": "2026-10-22",
+      "result": "partial",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "equity",
+        "ip_conditions",
+        "matching_required",
+        "other_benefits"
+      ],
+      "notes": "Live portal confirms open status despite an outdated opening-soon heading. Equipment guidance conflicts, so only a non-equipment community-engagement route is proposed. Form PDF fetch failed; no submission made.",
+      "sources": [
+        {
+          "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "openai-researcher-access",
+    "name": "OpenAI Researcher Access Program",
+    "org": "OpenAI",
+    "country": "International, including Australia",
+    "city_region": "Remote API access from supported countries",
+    "source_url": "https://openai.com/form/researcher-access-program/",
+    "status": "Year-round applications; quarterly review",
+    "status_class": "open",
+    "category": "E",
+    "opens": "Applications accepted throughout the year",
+    "closes": "No fixed application deadline; reviews in March, June, September and December",
+    "recurring": true,
+    "eligibility": "Active affiliation with an academic institution or research organisation, or a nonprofit conducting research; responsible-AI research proposal",
+    "au_eligible": "Australia is API-supported; affiliation and research-purpose gates still apply",
+    "requires_local": "No overseas incorporation or relocation requirement identified; eligible research affiliation required",
+    "stage": "Defined research question; early-career researchers encouraged",
+    "themes": [
+      "ai-assistants",
+      "privacy-data",
+      "digital-twin",
+      "compute"
+    ],
+    "funding_amount": "Up to $1,000 in API credits, not cash; grant page does not specify dollar denomination",
+    "funding_currency": "Not explicitly stated",
+    "support_type": "Research API credits",
+    "equity": "No equity requirement identified; award terms not reviewed",
+    "other_benefits": "Credits usable on publicly available OpenAI models for 12 months",
+    "ip_conditions": "Publication and usage policies apply; no grant-specific IP assurance verified",
+    "matching_required": "No matching requirement found; excess usage and non-API research costs are not covered",
+    "key_documents": "Research question, proposed API use and evidence of applicant/research affiliation",
+    "difficulty": "Low to moderate after affiliation is established",
+    "project_match": "Aura Genesis Protocol human-AI interaction and participant-led self-reflection interface research",
+    "why_relevant": "Could support a bounded consent, explanation or usability study. Not HBOT provision, validated treatment, chamber hardware or general startup operating support.",
+    "risks": "Not an unaffiliated-founder offer. Credits expire and cannot transfer between affiliations. Next review month is December, not a guaranteed decision date; allow roughly 4-6 weeks after review for accepted awards.",
+    "confidence": "Partial source check",
+    "verify": "Confirm research host, ethics/consent and privacy design, API data handling, denomination and final award terms",
+    "scores": {
+      "elig": 2,
+      "value": 1,
+      "align": 5,
+      "early": 4,
+      "infra": 3,
+      "ip": 2,
+      "reloc": 5,
+      "cred": 2
+    },
+    "pitch": {
+      "project": "Genesis human-AI self-reflection research",
+      "framing": "Measure usability, consent comprehension and participant control without making clinical claims.",
+      "next_step": "Confirm legitimate research affiliation, then define a small API-based study and credit budget."
+    },
+    "verification": {
+      "checked_on": "2026-10-22",
+      "result": "partial",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "other_benefits",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "equity",
+        "ip_conditions",
+        "matching_required"
+      ],
+      "notes": "Current FAQ explicitly requires research affiliation and permits year-round applications. Programme is credits only. Older portal timing says up to four weeks; current FAQ and landing page say around four to six weeks. Currency label and full award terms remain unresolved.",
+      "sources": [
+        {
+          "url": "https://openai.com/form/researcher-access-program/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://grants.openai.com/prog/openai_researcher_access_program/",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/supported-countries",
+          "checked_on": "2026-10-22",
+          "access": "read"
+        },
+        {
+          "url": "https://openai.com/policies/sharing-publication-policy/",
+          "checked_on": "2026-10-22",
           "access": "read"
         }
       ]

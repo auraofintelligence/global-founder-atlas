@@ -1,9 +1,9 @@
 {
-  "checked_on": "2026-10-19",
+  "checked_on": "2026-10-22",
   "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
   "programmes_before": 49,
-  "programmes_after": 56,
-  "active_programmes": 54,
+  "programmes_after": 59,
+  "active_programmes": 57,
   "new_ids": [
     "emergent-ventures",
     "awesome-foundation",
@@ -11,7 +11,10 @@
     "innovate-uk-efficient-ai-2026",
     "innovate-uk-bridgeai-assurance-2026",
     "csiro-kick-start",
-    "frrr-prepare-recover"
+    "frrr-prepare-recover",
+    "stronger-communities-round-10",
+    "redland-community-support",
+    "openai-researcher-access"
   ],
   "archived_round_ids": [
     "epic-megagrants-2026-cycle-2",
@@ -23,24 +26,23 @@
     "canada-startup-visa",
     "ehf-giv"
   ],
-  "scope": "Targeted follow-up of unresolved sources and approved Genesis, Geode and disaster kiosk routes; not a full re-verification of every programme.",
+  "scope": "Targeted follow-up of unresolved sources, revised AI policies and approved research/community routes; all existing dates screened, not a full re-verification of every programme.",
   "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry.",
   "latest_new_ids": [
-    "csiro-kick-start",
-    "frrr-prepare-recover"
+    "stronger-communities-round-10",
+    "redland-community-support",
+    "openai-researcher-access"
   ],
-  "latest_archived_round_ids": [
-    "msca-postdoctoral-2026",
-    "wellcome-discovery-september-2026"
-  ],
+  "latest_archived_round_ids": [],
   "reviewed_ids": [
-    "start-qatar",
-    "difc-innovation-hub",
-    "gef-sgp",
-    "neom",
-    "astera-residency",
-    "wellcome-trust",
-    "horizon-msca",
-    "nlnet-ngi"
+    "nlnet-ngi",
+    "mozilla-technology-fund",
+    "halcyon-incubator",
+    "undp-unleash-sdg",
+    "grand-challenges",
+    "natgeo-grants",
+    "protocol-labs-grants",
+    "ethereum-esp",
+    "innovate-uk-bridgeai-assurance-2026"
   ]
 }

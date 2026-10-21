@@ -43,7 +43,8 @@
       ],
       "ids": [
         "wellcome-trust",
-        "horizon-msca"
+        "horizon-msca",
+        "openai-researcher-access"
       ],
       "stage": "Published process and research design; no validated clinical programme or participant study is established.",
       "funding_types": [
@@ -144,7 +145,9 @@
       ],
       "ids": [
         "frrr-prepare-recover",
-        "awesome-foundation"
+        "awesome-foundation",
+        "stronger-communities-round-10",
+        "redland-community-support"
       ],
       "stage": "Public planning pages and pitch material. No operational kiosk network, venue agreement or emergency-warning service is established.",
       "funding_types": [
@@ -211,14 +214,14 @@
       "title": "Best for G.A.J.R.A. Earth or a nonprofit",
       "blurb": "Mission-driven, regenerative and social-enterprise work aligned to the SDGs.",
       "themes": ["sustainable-dev", "disaster-resilience", "indigenous", "climate"],
-      "ids": ["halcyon-incubator", "undp-unleash-sdg", "gef-sgp", "ehf-giv", "earthshot-prize", "natgeo-grants"]
+      "ids": ["undp-unleash-sdg", "gef-sgp", "ehf-giv", "earthshot-prize", "natgeo-grants"]
     },
     {
       "key": "minjerribah",
       "title": "Could fund an on-island Minjerribah pilot",
       "blurb": "Programs that could support a pilot or research facility on North Stradbroke Island / Minjerribah through a community-led, culturally appropriate vehicle.",
       "themes": ["island-biosecurity", "environment-monitoring", "indigenous", "climate"],
-      "ids": ["frrr-prepare-recover", "natgeo-grants", "earthshot-prize", "undp-unleash-sdg", "xprize"]
+      "ids": ["stronger-communities-round-10", "redland-community-support", "frrr-prepare-recover", "natgeo-grants", "earthshot-prize", "xprize"]
     }
   ]
 }
