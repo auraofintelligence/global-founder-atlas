@@ -1,9 +1,9 @@
 {
-  "checked_on": "2026-10-22",
+  "checked_on": "2026-10-26",
   "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
   "programmes_before": 49,
-  "programmes_after": 59,
-  "active_programmes": 57,
+  "programmes_after": 61,
+  "active_programmes": 59,
   "new_ids": [
     "emergent-ventures",
     "awesome-foundation",
@@ -14,7 +14,9 @@
     "frrr-prepare-recover",
     "stronger-communities-round-10",
     "redland-community-support",
-    "openai-researcher-access"
+    "openai-researcher-access",
+    "regional-university-industry-collaboration",
+    "traces-art-science"
   ],
   "archived_round_ids": [
     "epic-megagrants-2026-cycle-2",
@@ -26,23 +28,17 @@
     "canada-startup-visa",
     "ehf-giv"
   ],
-  "scope": "Targeted follow-up of unresolved sources, revised AI policies and approved research/community routes; all existing dates screened, not a full re-verification of every programme.",
+  "scope": "Targeted review of four unresolved programme sources plus new engineering and creative research routes; all existing dates screened, not full programme verification.",
   "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry.",
   "latest_new_ids": [
-    "stronger-communities-round-10",
-    "redland-community-support",
-    "openai-researcher-access"
+    "regional-university-industry-collaboration",
+    "traces-art-science"
   ],
   "latest_archived_round_ids": [],
   "reviewed_ids": [
-    "nlnet-ngi",
-    "mozilla-technology-fund",
-    "halcyon-incubator",
-    "undp-unleash-sdg",
-    "grand-challenges",
+    "wellcome-trust",
     "natgeo-grants",
-    "protocol-labs-grants",
-    "ethereum-esp",
+    "mit-solve",
     "innovate-uk-bridgeai-assurance-2026"
   ]
 }

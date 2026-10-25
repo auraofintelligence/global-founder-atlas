@@ -731,13 +731,18 @@
     "status_class": "recurring",
     "category": "E",
     "opens": "Discovery rolling intake from 23 September 2026; other scheme dates vary",
-    "closes": "Discovery has no fixed deadline; lead-host location rules change on 29 October 2026",
+    "closes": "Discovery has no fixed deadline. Lead-host location rules change on 29 October 2026; submissions at or before midnight GMT on 28 October use current location rules.",
     "recurring": true,
     "eligibility": "Discovery: established research leader at an eligible administering organisation; coapplicants and collaborators have distinct rules",
     "au_eligible": "Discovery: an Australian institution is not an eligible lead administering host under the published location list. Australian-based coapplicants may participate subject to organisational and contribution rules; other schemes require separate checks",
     "requires_local": "Discovery requires an eligible administering host. From 29 October 2026 lead hosts are limited to UK and eligible low/middle-income countries in Africa, South Asia and South-East Asia",
     "stage": "Research-stage",
-    "themes": ["health", "dementia", "ai-assistants", "privacy-data"],
+    "themes": [
+      "health",
+      "dementia",
+      "ai-assistants",
+      "privacy-data"
+    ],
     "funding_amount": "Scheme-dependent; no universal award amount",
     "funding_currency": "GBP",
     "support_type": "Grant (research)",
@@ -748,7 +753,7 @@
     "key_documents": "Research proposal, host support, ethics, team",
     "difficulty": "High",
     "project_match": "Dementia support, preventative health, mental health, measured self-development",
-    "why_relevant": "A premier funder for your health, ageing and dementia interests, including digital mental-health tools. Turns a wellbeing idea into serious funded research.",
+    "why_relevant": "Potential host-led research route for a defined health or human-AI question. A fit with the actual scheme and qualified research team remains to be established.",
     "risks": "No Australian university lead-host eligibility established. Funded IP ownership and the 29 October location change are material conditions.",
     "confidence": "Partial source check",
     "verify": "Choose the actual scheme, eligible lead host and research role before preparing a proposal",
@@ -768,19 +773,72 @@
       "next_step": "Check the named scheme, eligible overseas lead host and any Australian coapplicant role; no partnership is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-19",
+      "checked_on": "2026-10-26",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes", "eligibility", "au_eligible", "requires_local", "ip_conditions"],
-      "unverified_fields": ["stage", "funding_amount", "support_type", "equity", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Discovery scheme conditions reviewed, not all Wellcome funding. Rolling applications and 29 October host-location change confirmed. Australian coapplicant participation is conditional; funded IP belongs to the administering organisation.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "ip_conditions"
+      ],
+      "unverified_fields": [
+        "equity",
+        "funding_amount",
+        "key_documents",
+        "matching_required",
+        "other_benefits",
+        "stage",
+        "support_type"
+      ],
+      "notes": "Discovery rolling intake, host-location transition and administering-organisation IP ownership rechecked. The source states at or before midnight GMT on 28 October for current location rules. Australian lead-host eligibility is not established; coapplicants remain conditional. This is not a review of every Wellcome scheme.",
       "sources": [
         {
           "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
           "checked_on": "2026-10-19",
           "access": "read"
+        },
+        {
+          "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+          "checked_on": "2026-10-26",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-19",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "ip_conditions"
+        ],
+        "unverified_fields": [
+          "stage",
+          "funding_amount",
+          "support_type",
+          "equity",
+          "matching_required",
+          "other_benefits",
+          "key_documents"
+        ],
+        "notes": "Discovery scheme conditions reviewed, not all Wellcome funding. Rolling applications and 29 October host-location change confirmed. Australian coapplicant participation is conditional; funded IP belongs to the administering organisation.",
+        "sources": [
+          {
+            "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+            "checked_on": "2026-10-19",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "dubai-future-accelerators",
@@ -1550,11 +1608,11 @@
     "country": "United States (funds globally)",
     "city_region": "Remote / fieldwork worldwide",
     "source_url": "https://www.nationalgeographic.org/explore/grants-investments",
-    "status": "RFP-specific programme; Human Thread and Trebek remain listed. Closure of the October 21 ocean calls is not confirmed.",
+    "status": "RFP-specific programme; current directory lists Trebek and Human Thread. October ocean calls are no longer listed; detailed closure evidence remains unresolved.",
     "status_class": "open",
     "category": "H",
     "opens": "Specific RFPs listed; exact opening dates not verified",
-    "closes": "Ocean Exploration and Southern Ocean: 2026-10-21; Trebek: 2026-10-28; Human Thread: 2026-12-01. Exact times and timezones unverified.",
+    "closes": "Trebek: 2026-10-28; Human Thread: 2026-12-01. Exact times and timezones unverified. Ocean calls previously listed 2026-10-21 are no longer in the current directory.",
     "recurring": true,
     "eligibility": "Individual project leader aged 18 or older; one proposal at a time and prior grant reporting complete. Project starts should be at least six months after submission deadline; additional RFP rules apply.",
     "au_eligible": "Conditional on the selected RFP; nationality alone does not establish applicant or project eligibility",
@@ -1580,9 +1638,9 @@
     "difficulty": "Moderate",
     "project_match": "Human Thread is a potential storytelling lead within approved cultural or immersive-media areas, subject to detailed RFP and permission checks",
     "why_relevant": "An individual-grant route for a precisely matched project. The Human Thread supports human-experience storytelling; the ocean calls concern specialist ship-based research and Trebek requires distinct Canadian impact.",
-    "risks": "Detailed RFPs require portal access. No project eligibility, cultural permissions or suitable storytelling portfolio is assumed. Do not treat the October 21 date as proof of closure before the closing instant is verified.",
+    "risks": "Detailed RFPs remain unreadable or sign-in-dependent. No project eligibility, cultural permissions or suitable storytelling portfolio is assumed. Removal from the directory alone is not treated as confirmed round closure.",
     "confidence": "Partial source check",
-    "verify": "Read the selected RFP for deadline timezone, amount, applicant criteria, rights and budget rules; preserve ocean calls as unresolved until official closure is established.",
+    "verify": "Read the selected RFP for deadline timezone, amount, applicant criteria, rights and budget rules; retain ocean closure uncertainty until official evidence is available.",
     "scores": {
       "elig": 2,
       "value": 3,
@@ -1599,7 +1657,7 @@
       "next_step": "Review the Human Thread RFP before assessing fit or preparing a proposal; no account, application or cultural permission is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-26",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -1609,17 +1667,17 @@
         "key_documents"
       ],
       "unverified_fields": [
-        "opens",
-        "closes",
         "au_eligible",
-        "requires_local",
-        "stage",
-        "funding_amount",
+        "closes",
         "equity",
+        "funding_amount",
         "ip_conditions",
-        "matching_required"
+        "matching_required",
+        "opens",
+        "requires_local",
+        "stage"
       ],
-      "notes": "Official overview still lists Ocean Exploration and Southern Ocean for October 21, Trebek for October 28 and Human Thread for December 1, without exact closing times/timezones. Dates are verified only to the day. The Ocean Exploration detail redirected to National Geographic Sign In in the cloud browser; other RFP detail pages yielded no readable text. No sign-in/account creation attempted and no ocean round archived. General eligibility and submission route are confirmed; call-specific terms remain unresolved.",
+      "notes": "Current official directory contains Trebek and Human Thread, with October ocean entries removed. Ocean detail URLs yielded no readable content or access error. No explicit official closure notice or exact deadline timezone was obtained; no archive created from disappearance alone. Detailed RFP and award terms remain unresolved.",
       "sources": [
         {
           "url": "https://www.nationalgeographic.org/explore/grants-investments",
@@ -1650,9 +1708,81 @@
           "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
           "checked_on": "2026-10-22",
           "access": "no-readable-text"
+        },
+        {
+          "url": "https://www.nationalgeographic.org/explore/grants-investments",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+          "checked_on": "2026-10-26",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+          "checked_on": "2026-10-26",
+          "access": "unavailable"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "eligibility",
+          "support_type",
+          "other_benefits",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "opens",
+          "closes",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "funding_amount",
+          "equity",
+          "ip_conditions",
+          "matching_required"
+        ],
+        "notes": "Official overview still lists Ocean Exploration and Southern Ocean for October 21, Trebek for October 28 and Human Thread for December 1, without exact closing times/timezones. Dates are verified only to the day. The Ocean Exploration detail redirected to National Geographic Sign In in the cloud browser; other RFP detail pages yielded no readable text. No sign-in/account creation attempted and no ocean round archived. General eligibility and submission route are confirmed; call-specific terms remain unresolved.",
+        "sources": [
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+            "checked_on": "2026-10-22",
+            "access": "login-required"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "immersive-festival-labs",
@@ -2352,51 +2482,135 @@
     "country": "United States (global entrants)",
     "city_region": "Cambridge, Massachusetts (remote apply)",
     "source_url": "https://solve.mit.edu/challenges",
-    "status": "Challenge directory available, but no matching dated open application verified",
-    "status_class": "unknown",
+    "status": "2027 Global Climate and Health Challenges accepting solutions",
+    "status_class": "open",
     "category": "G",
-    "opens": "Not confirmed in this source check",
-    "closes": "Not confirmed; no expiry inferred",
+    "opens": "2026-09-22 at 09:00 EDT",
+    "closes": "2026-11-06 at 12:00 EST (2026-11-07 at 03:00 Brisbane)",
     "recurring": true,
-    "eligibility": "Tech innovators worldwide; anyone can submit a solution to a Global Challenge",
-    "au_eligible": "Yes, open globally",
-    "requires_local": "No; remote application, no incorporation required",
-    "stage": "Concept to early venture",
-    "themes": ["health", "climate", "civic-tech", "generative-ai", "sustainable-dev", "dementia"],
-    "funding_amount": "Challenge-specific; historical 2026 partner-prize figures are not a current offer",
-    "funding_currency": "USD",
-    "support_type": "Prize (non-dilutive) plus fellowship-style support",
-    "equity": "None",
-    "other_benefits": "Nine-month Solver support, MIT network of experts, investors and partners, Solve at MIT event",
-    "ip_conditions": "You keep your IP",
-    "matching_required": "No",
-    "key_documents": "Solution application aligned to a Global Challenge",
+    "eligibility": "Worldwide applicants with a technology-based solution matching a specific challenge; ordinary Global Challenges require a functioning prototype or later. Concepts are considered only through the separate Indigenous Communities Fellowship.",
+    "au_eligible": "Australians may apply under the global access rule, subject to challenge, stage and legal requirements",
+    "requires_local": "Online application; selected-team event attendance is described. Incorporation, travel funding and award administration requirements are not fully verified.",
+    "stage": "Functioning prototype, pilot, growth or scale; no general concept-stage route",
+    "themes": [
+      "health",
+      "climate",
+      "civic-tech",
+      "generative-ai",
+      "sustainable-dev",
+      "dementia"
+    ],
+    "funding_amount": "Each selected Solver receives $10,000; selected Health teams receive at least $25,000 total. Other prizes are competitive. Reviewed pages do not explicitly identify the dollar denomination.",
+    "funding_currency": "Not explicitly stated",
+    "support_type": "Selected-team grant and competitive prizes, plus programme support",
+    "equity": "No equity request identified in reviewed call pages; detailed award agreement unverified",
+    "other_benefits": "Networking, coaching and in-kind support. Specific 2027 call pages describe nine months, while the general Solver page says six; duration and travel support need reconciliation.",
+    "ip_conditions": "Contributors retain copyright, but posted materials default to CC BY-NC-SA 3.0 US and grant MIT broad perpetual, royalty-free, sublicensable reuse rights. Detailed award terms remain unreviewed.",
+    "matching_required": "No matching requirement identified in reviewed pages; award conditions not fully reviewed",
+    "key_documents": "Online challenge application; current call links a reference PDF. Prototype, impact, team and community-fit evidence are relevant to assessment.",
     "difficulty": "Moderate",
-    "project_match": "AI for health/dementia, climate, civic tech, community systems",
-    "why_relevant": "Anyone can apply, it is non-dilutive, and the MIT network is real. The AI for Humanity Prize fits a human-centred AI story; health and climate challenges suit your other work.",
-    "risks": "Must match a specific Global Challenge theme; selective; prize funding via partners varies",
+    "project_match": "A functioning climate-resilience kiosk prototype or a defined health technology solution within approved project areas",
+    "why_relevant": "Current challenges address essential-service resilience and equitable care. These are conditional routes for working solutions, not funding eligibility for an unbuilt kiosk or a conceptual Genesis protocol.",
+    "risks": "Prototype and challenge-fit gates apply. Posted-material licensing needs review against existing rights. Some partner prizes require US-based teams. No eligible Indigenous Fellowship route, clinical validation or community partnership is assumed.",
     "confidence": "Partial source check",
-    "verify": "Confirm the current open challenge, its themes and deadline",
-    "scores": { "elig": 5, "value": 4, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 5, "cred": 3 },
+    "verify": "Check working-prototype evidence, selected challenge, application-material rights, award terms and event costs before application work",
+    "scores": {
+      "elig": 5,
+      "value": 4,
+      "align": 4,
+      "early": 2,
+      "infra": 4,
+      "ip": 2,
+      "reloc": 5,
+      "cred": 2
+    },
     "pitch": {
-      "project": "Aura human-centred AI, or an AI-for-dementia solution",
-      "framing": "A human-centred AI solution to a defined global challenge, with measurable impact.",
-      "next_step": "Match Aura to the AI for Humanity Prize brief and submit a solution."
+      "project": "A working community-resilience or human-centred health technology prototype",
+      "framing": "Evidence of a specific community need, functioning technology and practical impact.",
+      "next_step": "Assess prototype readiness, challenge fit and submission rights; no application or partnership is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-26",
       "result": "partial",
-      "confirmed_fields": ["status", "funding_amount"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Homepage and challenge directory do not expose enough current call detail. Not expired and not archived; excluded from open-only and executive shortlist views.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "ip_conditions"
+      ],
+      "unverified_fields": [
+        "equity",
+        "key_documents",
+        "matching_required",
+        "other_benefits",
+        "requires_local"
+      ],
+      "notes": "Specific 2027 Climate and Health calls resolve the prior unknown window. Prototype threshold and publication-licensing conditions correct earlier broad assurances. General and call-specific support durations conflict. Award agreement, matching and travel funding remain unreviewed.",
       "sources": [
         {
           "url": "https://solve.mit.edu/challenges",
           "checked_on": "2026-10-18",
           "access": "read"
+        },
+        {
+          "url": "https://solve.mit.edu/challenges/2027-global-climate-challenge",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://solve.mit.edu/challenges/2027-global-health-challenge",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://solve.mit.edu/innovators/become-a-solver",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://solve.mit.edu/terms-of-service",
+          "checked_on": "2026-10-26",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-18",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "funding_amount"
+        ],
+        "unverified_fields": [
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "support_type",
+          "equity",
+          "ip_conditions",
+          "matching_required",
+          "other_benefits",
+          "key_documents"
+        ],
+        "notes": "Homepage and challenge directory do not expose enough current call detail. Not expired and not archived; excluded from open-only and executive shortlist views.",
+        "sources": [
+          {
+            "url": "https://solve.mit.edu/challenges",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "hello-tomorrow",
@@ -3304,8 +3518,8 @@
     "country": "United Kingdom",
     "city_region": "UK deployment",
     "source_url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
-    "status": "Published opening date has arrived, but official page still says not yet opened; application availability unconfirmed",
-    "status_class": "unknown",
+    "status": "Current application window open; official overview displays Start new application",
+    "status_class": "open",
     "category": "E",
     "opens": "2026-10-21",
     "closes": "2026-12-08 at 11:00 UK time",
@@ -3349,7 +3563,7 @@
       "next_step": "Check whether an eligible consortium and mature solution exist; no contact or application is authorised."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-26",
       "result": "partial",
       "confirmed_fields": [
         "opens",
@@ -3360,16 +3574,16 @@
         "stage",
         "funding_amount",
         "support_type",
-        "matching_required"
+        "matching_required",
+        "status"
       ],
       "unverified_fields": [
-        "status",
         "equity",
         "ip_conditions",
-        "other_benefits",
-        "key_documents"
+        "key_documents",
+        "other_benefits"
       ],
-      "notes": "On 22 October Brisbane / 21 October UTC the live official page still says not yet opened despite its 21 October opening date. Do not infer an operational intake from the date alone; excluded from the executive shortlist until reconciled. No closure inferred.",
+      "notes": "Official overview now displays Start new application, resolving the prior operational-window uncertainty. Published dates, UK consortium, maturity, grant size and cost-share conditions remain as recorded. No application started; full award/IP terms not reviewed.",
       "sources": [
         {
           "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
@@ -3380,9 +3594,51 @@
           "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
           "checked_on": "2026-10-22",
           "access": "read"
+        },
+        {
+          "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
+          "checked_on": "2026-10-26",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "matching_required"
+        ],
+        "unverified_fields": [
+          "status",
+          "equity",
+          "ip_conditions",
+          "other_benefits",
+          "key_documents"
+        ],
+        "notes": "On 22 October Brisbane / 21 October UTC the live official page still says not yet opened despite its 21 October opening date. Do not infer an operational intake from the date alone; excluded from the executive shortlist until reconciled. No closure inferred.",
+        "sources": [
+          {
+            "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://apply-for-innovation-funding.service.gov.uk/competition/2597/overview/7ec02a95-73e5-4928-8104-67a9f1b279e3",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "csiro-kick-start",
@@ -3796,6 +4052,197 @@
         {
           "url": "https://openai.com/policies/sharing-publication-policy/",
           "checked_on": "2026-10-22",
+          "access": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "regional-university-industry-collaboration",
+    "name": "Regional University Industry Collaboration (RUIC)",
+    "org": "CSIRO, funded by the Queensland Government",
+    "country": "Australia",
+    "city_region": "Queensland; JCU, CQU, UniSQ or UniSC research collaboration",
+    "source_url": "https://www.csiro.au/en/work-with-us/funding-programs/sme/ruic/smes",
+    "status": "Year-round applications advertised open; submission portal not tested",
+    "status_class": "open",
+    "category": "E",
+    "opens": "Year-round",
+    "closes": "No fixed round deadline",
+    "recurring": true,
+    "eligibility": "Current main page and October 2025 guidelines: ABN plus ACN, ICN or ACNC registration; GST; Queensland operations; at least six months operating; turnover/expenditure below A$20m, or A$100m for regional businesses. Older FAQ still says one year and narrower entity/turnover criteria; confirm the applicable rules. Nonprofits and social enterprises need commercial project outcomes.",
+    "au_eligible": "Conditional Australian-entity route with Queensland operations; no eligible applicant is established for these projects",
+    "requires_local": "Queensland operations and research delivered by JCU, CQU, UniSQ or UniSC",
+    "stage": "Defined STEM R&D, including new ideas, product development, prototyping and testing; projects under 12 months",
+    "themes": [
+      "health",
+      "iot",
+      "compute",
+      "digital-twin"
+    ],
+    "funding_amount": "A$10,000-50,000 per voucher; up to two consecutive vouchers, subject to approval and available funds",
+    "funding_currency": "AUD",
+    "support_type": "Cash-matched university research voucher; paid to the university, not unrestricted cash to the business",
+    "equity": "Research voucher, not advertised as equity investment; executed agreement unreviewed",
+    "other_benefits": "Facilitation, research matching and agreed university facilities access; a researcher match is not guaranteed",
+    "ip_conditions": "Negotiated project by project with the university. FAQ says new IP is usually assigned to the business, but university background IP may change terms. No guaranteed ownership.",
+    "matching_required": "1:1 cash match, not in-kind; businesses aged six to twelve months may need to pay upfront",
+    "key_documents": "Initial business eligibility and research outline; facilitated research brief, university proposal, budget and final voucher application; accountant confirmation of turnover noted in FAQ",
+    "difficulty": "Moderate",
+    "project_match": "A bounded Aura Geode materials, sensing or accessibility engineering study; possible Straddie Disaster Kiosk hardware research",
+    "why_relevant": "Adds a regional-university laboratory route distinct from CSIRO Kick-Start. Project fit is an inference, not an approved research partnership.",
+    "risks": "No eligible entity, cash match or university partner is assumed. Equipment purchases are ineligible. This is not funding for a complete chamber purchase or proof of clinical efficacy. Official eligibility pages conflict.",
+    "confidence": "Partial source check",
+    "verify": "Resolve the age/entity/turnover discrepancy, available university expertise, cash contribution and project IP contract before applying.",
+    "scores": {
+      "elig": 2,
+      "value": 3,
+      "align": 4,
+      "early": 4,
+      "infra": 5,
+      "ip": 3,
+      "reloc": 5,
+      "cred": 2
+    },
+    "pitch": {
+      "project": "One Geode engineering work package",
+      "framing": "A specific technical uncertainty, measured test and commercial research outcome.",
+      "next_step": "Check the applicant and cash-match gates, then identify a suitable university capability."
+    },
+    "verification": {
+      "checked_on": "2026-10-26",
+      "result": "partial",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "ip_conditions",
+        "matching_required",
+        "other_benefits",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "eligibility",
+        "equity"
+      ],
+      "notes": "Main page, October 2025 v1.2 guidelines and older FAQ reviewed. Eligibility is marked unverified because official pages differ on business age, entity types and turnover limits. The grant portal returned a JavaScript shell; no application was tested. No applicant, partnership, award or clinical validation is assumed. Final contract terms remain unreviewed.",
+      "sources": [
+        {
+          "url": "https://www.csiro.au/en/work-with-us/funding-programs/sme/ruic/smes",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://www.csiro.au/-/media/SME-Connect/RUIC/RUIC-Program-Eligibility-Guidelines.pdf",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://www.csiro.au/en/work-with-us/funding-programs/SME/RUIC/Frequently-Asked-Questions",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://ruicprogram.grantplatform.com/",
+          "checked_on": "2026-10-26",
+          "access": "JavaScript shell; submission not tested"
+        }
+      ]
+    }
+  },
+  {
+    "id": "traces-art-science",
+    "name": "TRACES Art & Science residency",
+    "org": "FDDM with EPFL-Valais and Energypolis",
+    "country": "Switzerland",
+    "city_region": "Sion",
+    "source_url": "https://www.traces-opencall.ch/",
+    "status": "2027 pilot call open",
+    "status_class": "open",
+    "category": "H",
+    "opens": "2026-10-05",
+    "closes": "2026-11-22 at 23:59 CET (2026-11-23 at 08:59 Brisbane)",
+    "recurring": false,
+    "eligibility": "International professional visual artists aged 25+, two years of practice and completed studies at least two years earlier; specialised training or equivalent experience and public recognition required",
+    "au_eligible": "International call includes Australians; professional criteria still apply",
+    "requires_local": "Full attendance, 11 January-18 April 2027; travel documents and insurance required",
+    "stage": "Artistic proposal may be exploratory",
+    "themes": [
+      "creative-tech",
+      "immersive-media",
+      "environment-monitoring",
+      "climate"
+    ],
+    "funding_amount": "CHF 6,000 stipend; accommodation; travel capped at CHF 1,500; separate negotiated production budget",
+    "funding_currency": "CHF",
+    "support_type": "Artist residency and stipend",
+    "equity": "No equity offer identified; contract unreviewed",
+    "other_benefits": "Studio and agreed laboratory access; scientific collaboration; public presentation",
+    "ip_conditions": "IP, use of work and obligations negotiated in a specific contract",
+    "matching_required": "Living/local costs and travel beyond the cap remain personal expenses",
+    "key_documents": "Cover letter, intent statement, recent portfolio and artistic CV via https://www.traces-opencall.ch/postuler",
+    "difficulty": "Moderate; professional portfolio gate",
+    "project_match": "Existing immersive-media and creative-technology work, potentially an Infinity Engine visual study",
+    "why_relevant": "An inferred route for translating light, materials and energy research into an original public artwork. This is not Geode engineering procurement or Genesis clinical research.",
+    "risks": "Competitive single-artist pilot; actual portfolio eligibility, availability and contract suitability unestablished.",
+    "confidence": "Partial source check",
+    "verify": "Assess portfolio, total travel cost and contract before any application.",
+    "scores": {
+      "elig": 3,
+      "value": 3,
+      "align": 3,
+      "early": 4,
+      "infra": 4,
+      "ip": 2,
+      "reloc": 1,
+      "cred": 2
+    },
+    "pitch": {
+      "project": "Immersive art informed by energy materials",
+      "framing": "Develop a visual encounter between scientific phenomena and public imagination.",
+      "next_step": "Check professional eligibility and a focused artistic concept."
+    },
+    "verification": {
+      "checked_on": "2026-10-26",
+      "result": "partial",
+      "confirmed_fields": [
+        "au_eligible",
+        "closes",
+        "eligibility",
+        "funding_amount",
+        "ip_conditions",
+        "key_documents",
+        "matching_required",
+        "opens",
+        "other_benefits",
+        "requires_local",
+        "stage",
+        "status",
+        "support_type"
+      ],
+      "unverified_fields": [
+        "equity"
+      ],
+      "notes": "Official call, English PDF and submission page reviewed. Contract outcome remains unknown; no application or partnership assumed.",
+      "sources": [
+        {
+          "url": "https://www.traces-opencall.ch/",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://www.traces-opencall.ch/web/content/750?download=true&unique=94c58622fac1340b03156003735ffbc7b087e004",
+          "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://www.traces-opencall.ch/postuler",
+          "checked_on": "2026-10-26",
           "access": "read"
         }
       ]
