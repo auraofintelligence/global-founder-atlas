@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-26",
+  "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
+  "programmes_before": 49,
+  "programmes_after": 61,
+  "active_programmes": 59,
+  "new_ids": [
+    "emergent-ventures",
+    "awesome-foundation",
+    "transformative-ai-fund",
+    "innovate-uk-efficient-ai-2026",
+    "innovate-uk-bridgeai-assurance-2026",
+    "csiro-kick-start",
+    "frrr-prepare-recover",
+    "stronger-communities-round-10",
+    "redland-community-support",
+    "openai-researcher-access",
+    "regional-university-industry-collaboration",
+    "traces-art-science"
+  ],
+  "archived_round_ids": [
+    "epic-megagrants-2026-cycle-2",
+    "canada-startup-visa-2025-certificate-intake",
+    "msca-postdoctoral-2026",
+    "wellcome-discovery-september-2026"
+  ],
+  "closed_programme_ids": [
+    "canada-startup-visa",
+    "ehf-giv"
+  ],
+  "scope": "Targeted review of four unresolved programme sources plus new engineering and creative research routes; all existing dates screened, not full programme verification.",
+  "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry.",
+  "latest_new_ids": [
+    "regional-university-industry-collaboration",
+    "traces-art-science"
+  ],
+  "latest_archived_round_ids": [],
+  "reviewed_ids": [
+    "wellcome-trust",
+    "natgeo-grants",
+    "mit-solve",
+    "innovate-uk-bridgeai-assurance-2026"
+  ]
+}

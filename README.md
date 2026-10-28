@@ -43,7 +43,7 @@ A Luke x Claude build.
 
 ## Honesty stance
 
-Funding source catch-up: **18 October 2026**; targeted follow-up: **26 October 2026**. Each opportunity distinguishes confirmed fields from unverified terms. Closed dated intakes are preserved in the [round archive](archive.html); recurring programmes remain available between rounds. See the [source audit and remaining checks](docs/FUNDING-REFRESH-2026-10-26.md).
+Funding source catch-up: **18 October 2026**; targeted follow-up: **29 October 2026**. Each opportunity distinguishes confirmed fields from unverified terms. Closed dated intakes are preserved in the [round archive](archive.html); recurring programmes remain available between rounds. See the [source audit and remaining checks](docs/FUNDING-REFRESH-2026-10-29.md).
 
 ## Pages
 

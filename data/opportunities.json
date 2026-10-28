@@ -675,28 +675,35 @@
     "au_eligible": "Verify international eligibility; historically open to strong global applicants",
     "requires_local": "In-person Emeryville hub; Australian work authorisation and relocation arrangements unverified",
     "stage": "Concept to prototype; idea-led",
-    "themes": ["ai-assistants", "generative-ai", "privacy-data", "health", "civic-tech", "iot"],
+    "themes": [
+      "ai-assistants",
+      "generative-ai",
+      "privacy-data",
+      "health",
+      "civic-tech",
+      "iot"
+    ],
     "funding_amount": "Annual salary USD 125,000-250,000 plus negotiated project expenses from USD 0 to 1.5 million",
     "funding_currency": "USD",
     "support_type": "Funded research residency",
     "equity": "Residency employment and research funding; detailed agreement unverified",
     "other_benefits": "Funded time to build, engineering and scientific community, public-good mandate",
-    "ip_conditions": "Open-first outputs expected; commercial-interest terms may be negotiated during application. No compatibility with the retained licence is assumed.",
+    "ip_conditions": "Default Open Science Policy assigns IP and work product created during employment or contract to Astera. Code uses MIT or more open, data CC0, text/protocols CC BY or more open. Residency page allows commercial-interest terms to be negotiated; any exception requires a specific agreement. No retained-licence compatibility or relicensing is assumed.",
     "matching_required": "Not specified on the programme page",
     "key_documents": "Project proposal, track record, impact thesis",
     "difficulty": "High (selective, vision-led)",
     "project_match": "Aura research or a defined Geode hardware/component study within deep-tech or open-science scope",
     "why_relevant": "A research residency for an early-stage public-good hardware or AI component within the funder focus. Relevant expertise, openness and relocation conditions apply.",
-    "risks": "Very selective; public-good / openness leanings may conflict with proprietary plans; confirm eligibility for non-US applicants",
+    "risks": "Default Astera ownership and open-output requirements are material gates. Sensitive/private data exceptions require individual discussion. Current intake dates and Australian work authorisation remain unverified.",
     "confidence": "Partial source check",
-    "verify": "Confirm current residency call, stipend, IP terms and international eligibility",
+    "verify": "Confirm next intake, Australian eligibility and work authorisation, and negotiate any necessary background-IP, sensitive-data or commercial exceptions before committing.",
     "scores": {
       "elig": 3,
       "value": 4,
       "align": 5,
       "early": 5,
       "infra": 3,
-      "ip": 2,
+      "ip": 1,
       "reloc": 2,
       "cred": 3
     },
@@ -706,19 +713,72 @@
       "next_step": "Write a crisp impact proposal and apply in the next residency window."
     },
     "verification": {
-      "checked_on": "2026-10-19",
+      "checked_on": "2026-10-29",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes", "funding_amount", "support_type", "ip_conditions", "requires_local"],
-      "unverified_fields": ["eligibility", "au_eligible", "stage", "equity", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Current page explicitly describes an in-person Emeryville hub, salary range and negotiated project budget. No current application dates or Australian immigration entitlement established.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "funding_amount",
+        "support_type",
+        "ip_conditions",
+        "requires_local"
+      ],
+      "unverified_fields": [
+        "eligibility",
+        "au_eligible",
+        "stage",
+        "equity",
+        "matching_required",
+        "other_benefits",
+        "key_documents"
+      ],
+      "notes": "Residency terms remain published without next-cycle dates. Separate Open Science Policy expressly assigns employment/contract IP to Astera; residency page permits negotiation for commercial interests. This records published defaults, not an agreed exception or permission to relicense existing work. Australian access, exact contract, matching and immigration remain unresolved.",
       "sources": [
         {
           "url": "https://astera.org/residency/",
-          "checked_on": "2026-10-19",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://astera.org/open-science-policy/",
+          "checked_on": "2026-10-29",
           "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-19",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "funding_amount",
+          "support_type",
+          "ip_conditions",
+          "requires_local"
+        ],
+        "unverified_fields": [
+          "eligibility",
+          "au_eligible",
+          "stage",
+          "equity",
+          "matching_required",
+          "other_benefits",
+          "key_documents"
+        ],
+        "notes": "Current page explicitly describes an in-person Emeryville hub, salary range and negotiated project budget. No current application dates or Australian immigration entitlement established.",
+        "sources": [
+          {
+            "url": "https://astera.org/residency/",
+            "checked_on": "2026-10-19",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "wellcome-trust",
@@ -966,7 +1026,7 @@
     "status_class": "open",
     "category": "G",
     "opens": "Restack first call opened 2026-09-03; select the applicable fund",
-    "closes": "2026-11-03 at 12:00 CET (noon)",
+    "closes": "2026-11-03 at 12:00 CET (21:00 Brisbane)",
     "recurring": true,
     "eligibility": "Technical development under open licences; EU-supported funds require a strong European dimension",
     "au_eligible": "Conditional: an Australian applicant outside Horizon Europe-eligible countries must explain the required European dimension",
@@ -1010,7 +1070,7 @@
       "next_step": "Read the revised AI policy and check the actual component and licence before any proposal work. No relicensing or application is authorised."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-29",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -1030,7 +1090,7 @@
         "key_documents",
         "opens"
       ],
-      "notes": "Deadline and form rechecked. New 20 October official policy notice materially tightens AI use. The policy page itself returned no readable body; the linked official announcement is the evidence, not a complete agreement review. Historical opening date was not rechecked.",
+      "notes": "Form and policy announcement rechecked. Restack and CodeSupply remain open, deadline 3 November noon CET. Announcement clarifies pre-20-October AI-written submissions need not be rewritten solely for that reason; update date unspecified. New proposal writing remains restricted and project development limited to read-only LLM/diffusion usage. Full policy page still has no readable body. No application or licence change.",
       "sources": [
         {
           "url": "https://nlnet.nl/propose/",
@@ -1056,9 +1116,76 @@
           "url": "https://nlnet.nl/foundation/policies/generativeAI/",
           "checked_on": "2026-10-22",
           "access": "no readable content"
+        },
+        {
+          "url": "https://nlnet.nl/propose/",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+          "checked_on": "2026-10-29",
+          "access": "no readable content"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "funding_amount",
+          "ip_conditions"
+        ],
+        "unverified_fields": [
+          "requires_local",
+          "stage",
+          "support_type",
+          "equity",
+          "matching_required",
+          "other_benefits",
+          "key_documents",
+          "opens"
+        ],
+        "notes": "Deadline and form rechecked. New 20 October official policy notice materially tightens AI use. The policy page itself returned no readable body; the linked official announcement is the evidence, not a complete agreement review. Historical opening date was not rechecked.",
+        "sources": [
+          {
+            "url": "https://nlnet.nl/propose/",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/restack/",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/propose/",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+            "checked_on": "2026-10-22",
+            "access": "no readable content"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mozilla-technology-fund",
@@ -1611,11 +1738,11 @@
     "status": "RFP-specific programme; current directory lists Trebek and Human Thread. October ocean calls are no longer listed; detailed closure evidence remains unresolved.",
     "status_class": "open",
     "category": "H",
-    "opens": "Specific RFPs listed; exact opening dates not verified",
-    "closes": "Trebek: 2026-10-28; Human Thread: 2026-12-01. Exact times and timezones unverified. Ocean calls previously listed 2026-10-21 are no longer in the current directory.",
+    "opens": "Trebek portal opened 2026-09-01; other RFP opening dates not verified",
+    "closes": "Trebek: 2026-10-28 at 23:59 ET (2026-10-29 at 13:59 Brisbane). Human Thread: 2026-12-01, exact time and timezone unverified. Ocean calls previously listed 2026-10-21 are no longer in the directory; detailed closure evidence unresolved.",
     "recurring": true,
     "eligibility": "Individual project leader aged 18 or older; one proposal at a time and prior grant reporting complete. Project starts should be at least six months after submission deadline; additional RFP rules apply.",
-    "au_eligible": "Conditional on the selected RFP; nationality alone does not establish applicant or project eligibility",
+    "au_eligible": "RFP-specific. Trebek does not require Canadian citizenship or permanent residency, though residency is preferred and distinctly Canadian impact is required. Human Thread nationality eligibility remains unverified.",
     "requires_local": "Individual project-leader grant route; any host, geography or fieldwork requirements must be checked in the selected RFP",
     "stage": "RFP-specific science, conservation, storytelling, education or technology project; accepted maturity not universally verified",
     "themes": [
@@ -1627,8 +1754,8 @@
       "island-biosecurity",
       "museums-archives"
     ],
-    "funding_amount": "RFP-specific; no current universal grant tiers or amount verified",
-    "funding_currency": "USD",
+    "funding_amount": "RFP-specific. Trebek: up to CAD75,000, budget submitted in USD without exceeding the CAD cap. Human Thread amount unverified; no universal tiers assumed.",
+    "funding_currency": "RFP-specific (Trebek cap CAD; budget USD)",
     "support_type": "Individual project grants",
     "equity": "Grant programme; detailed award and participation conditions not verified",
     "other_benefits": "Explorer community, connections, training and storytelling opportunities; specific entitlements vary",
@@ -1638,9 +1765,9 @@
     "difficulty": "Moderate",
     "project_match": "Human Thread is a potential storytelling lead within approved cultural or immersive-media areas, subject to detailed RFP and permission checks",
     "why_relevant": "An individual-grant route for a precisely matched project. The Human Thread supports human-experience storytelling; the ocean calls concern specialist ship-based research and Trebek requires distinct Canadian impact.",
-    "risks": "Detailed RFPs remain unreadable or sign-in-dependent. No project eligibility, cultural permissions or suitable storytelling portfolio is assumed. Removal from the directory alone is not treated as confirmed round closure.",
+    "risks": "Human Thread and ocean detailed RFPs remain unreadable or inaccessible. No eligibility, cultural permissions or suitable portfolio assumed. Trebek requires distinctly Canadian impact; its deadline has not elapsed at this review. Directory disappearance alone does not establish closure.",
     "confidence": "Partial source check",
-    "verify": "Read the selected RFP for deadline timezone, amount, applicant criteria, rights and budget rules; retain ocean closure uncertainty until official evidence is available.",
+    "verify": "Review Human Thread detailed RFP for cutoff, amount, criteria, rights and budget rules; retain ocean closure uncertainty. Trebek award/IP terms remain unverified.",
     "scores": {
       "elig": 2,
       "value": 3,
@@ -1657,7 +1784,7 @@
       "next_step": "Review the Human Thread RFP before assessing fit or preparing a proposal; no account, application or cultural permission is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-26",
+      "checked_on": "2026-10-29",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -1677,7 +1804,7 @@
         "requires_local",
         "stage"
       ],
-      "notes": "Current official directory contains Trebek and Human Thread, with October ocean entries removed. Ocean detail URLs yielded no readable content or access error. No explicit official closure notice or exact deadline timezone was obtained; no archive created from disappearance alone. Detailed RFP and award terms remain unresolved.",
+      "notes": "Official partner RFP and FAQ resolve Trebek cutoff, cap and conditional non-Canadian eligibility. Cutoff 29 October 03:59 UTC is future at this review (28 October 22:43 UTC). Human Thread detail remains unreadable; ocean detail unavailable or unreadable. Directory disappearance alone is not closure evidence. Programme-level dates and eligibility remain partial.",
       "sources": [
         {
           "url": "https://www.nationalgeographic.org/explore/grants-investments",
@@ -1722,6 +1849,41 @@
         {
           "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
           "checked_on": "2026-10-26",
+          "access": "unavailable"
+        },
+        {
+          "url": "https://www.trebekinitiative.com/2026rfp",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://www.trebekinitiative.com/faq",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://www.trebekinitiative.com/",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://www.nationalgeographic.org/explore/grants-investments",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+          "checked_on": "2026-10-29",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+          "checked_on": "2026-10-29",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+          "checked_on": "2026-10-29",
           "access": "unavailable"
         }
       ]
@@ -1779,6 +1941,76 @@
             "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
             "checked_on": "2026-10-22",
             "access": "no-readable-text"
+          }
+        ]
+      },
+      {
+        "checked_on": "2026-10-26",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "eligibility",
+          "support_type",
+          "other_benefits",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "au_eligible",
+          "closes",
+          "equity",
+          "funding_amount",
+          "ip_conditions",
+          "matching_required",
+          "opens",
+          "requires_local",
+          "stage"
+        ],
+        "notes": "Current official directory contains Trebek and Human Thread, with October ocean entries removed. Ocean detail URLs yielded no readable content or access error. No explicit official closure notice or exact deadline timezone was obtained; no archive created from disappearance alone. Detailed RFP and award terms remain unresolved.",
+        "sources": [
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+            "checked_on": "2026-10-22",
+            "access": "login-required"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-26",
+            "access": "read"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+            "checked_on": "2026-10-26",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+            "checked_on": "2026-10-26",
+            "access": "unavailable"
           }
         ]
       }
@@ -1956,10 +2188,10 @@
     "opens": "Continuous Open Grant review",
     "closes": "No fixed Open Grant deadline published",
     "recurring": true,
-    "eligibility": "Filecoin tooling, integrations, research, storage, retrieval or FVM work; exclusively IPFS/libp2p projects are de-emphasised",
+    "eligibility": "Filecoin-specific tooling, integrations, research, storage, retrieval or FVM work. Next Step requires an on-chain Filecoin/FVM project, proof of concept and/or strong Web3 record, and delivery to calibration testnet and mainnet within 1-3 months.",
     "au_eligible": "Australian jurisdiction and payment eligibility not expressly established in reviewed grant instructions",
     "requires_local": "Remote grant route appears possible; Australian applicant and payment eligibility not verified",
-    "stage": "Concept to prototype",
+    "stage": "Route-dependent: Next Step requires a proof of concept and/or strong Web3 development track record, with testnet and mainnet delivery; do not treat this as generic idea funding.",
     "themes": [
       "blockchain",
       "iot",
@@ -1967,14 +2199,14 @@
       "generative-ai",
       "civic-tech"
     ],
-    "funding_amount": "Open Grants up to USD 50,000; directory also lists USD 5,000-10,000 Next Step grants, whose current intake is unverified",
+    "funding_amount": "Open Grants up to USD 50,000 (previously verified 22 October); current Next Step instructions offer USD 5,000-10,000 for qualifying Filecoin/FVM work.",
     "funding_currency": "USD (sometimes crypto)",
     "support_type": "Grant (non-dilutive)",
     "equity": "Grant route; selected agreement equity terms not verified",
     "other_benefits": "Decentralised-tech community, technical support, ecosystem exposure",
-    "ip_conditions": "Funded projects require dual MIT and Apache-2.0 licensing; the retained Strange But True licence does not satisfy that condition.",
+    "ip_conditions": "Open Grants require dual MIT/Apache-2.0 code licensing. Next Step requires dual MIT/Apache-2.0 for code/software and CC-BY-SA-4.0 for other content. The retained Strange But True licence does not satisfy these conditions; no relicensing is authorised.",
     "matching_required": "Matching requirements not verified for the selected agreement",
-    "key_documents": "Public GitHub issue using the Open Grant template, work plan and funding milestones; signed agreement before work",
+    "key_documents": "Public GitHub proposal, clear work plan and funding milestones; Next Step also requires monthly public updates and final deployment/demo evidence. Both parties must sign the agreement before work begins.",
     "difficulty": "Low to moderate",
     "project_match": "Web3 Sensorium, decentralised data, blockchain-IoT-AI integration",
     "why_relevant": "A possible Filecoin component route only if its actual technical purpose and licence fit; not generic personal-data funding.",
@@ -1997,50 +2229,87 @@
       "next_step": "Check a genuinely Filecoin-specific work package and licensing permissions before using the public proposal template."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-29",
       "result": "partial",
       "confirmed_fields": [
-        "status",
-        "opens",
-        "closes",
         "eligibility",
-        "funding_amount",
-        "support_type",
+        "stage",
         "ip_conditions",
         "key_documents"
       ],
       "unverified_fields": [
+        "status",
+        "opens",
+        "closes",
+        "funding_amount",
         "au_eligible",
         "requires_local",
-        "stage",
         "equity",
         "matching_required",
-        "other_benefits"
+        "other_benefits",
+        "support_type"
       ],
-      "notes": "Repository-specific Open Grant instructions reviewed. No closed RFP is given an invented closure date or archived as a new round. Equity, applicant jurisdiction and payment/award agreement remain unverified.",
+      "notes": "Current directory and Next Step instructions checked. No fixed Next Step deadline is published; submission instructions are live, but applicant jurisdiction/payment eligibility and final award terms are not established. Next Step review aims differ from directory-wide timing. Open Grant cap and no-open-RFP finding retain their 22 October provenance and were not independently rechecked in this pass. Existing licence conflict remains.",
       "sources": [
         {
           "url": "https://fil.org/grants",
-          "checked_on": "2026-10-18",
+          "checked_on": "2026-10-29",
           "access": "read"
         },
         {
-          "url": "https://fil.org/grants",
-          "checked_on": "2026-10-22",
-          "access": "read"
-        },
-        {
-          "url": "https://github.com/filecoin-project/devgrants",
-          "checked_on": "2026-10-22",
-          "access": "read"
-        },
-        {
-          "url": "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md",
-          "checked_on": "2026-10-22",
+          "url": "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Builder%20Next%20Step%20Grants.md",
+          "checked_on": "2026-10-29",
           "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "funding_amount",
+          "support_type",
+          "ip_conditions",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "equity",
+          "matching_required",
+          "other_benefits"
+        ],
+        "notes": "Repository-specific Open Grant instructions reviewed. No closed RFP is given an invented closure date or archived as a new round. Equity, applicant jurisdiction and payment/award agreement remain unverified.",
+        "sources": [
+          {
+            "url": "https://fil.org/grants",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://fil.org/grants",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://github.com/filecoin-project/devgrants",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://github.com/filecoin-project/devgrants/blob/master/Program%20Resources/Open%20Grants%20README.md",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "neom",
@@ -3822,7 +4091,7 @@
       "next_step": "Confirm a consenting eligible community lead before the Bowman EOI deadline."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-29",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -3842,7 +4111,7 @@
         "closes",
         "other_benefits"
       ],
-      "notes": "Federal dates and rules verified; closes remains partial because the earlier Bowman EOI page omits timezone. Grant-contract review is not complete.",
+      "notes": "Bowman EOI remains due 6 November 2026 at 17:00, timezone still omitted. Federal page reconfirms nomination/invitation route, MP nominations 30 November 17:00 AEDT and invited applications 19 January 2027 17:00 AEDT. Existing agreement/IP assessment retained from 22 October, not newly re-reviewed.",
       "sources": [
         {
           "url": "https://business.gov.au/grants-and-programs/stronger-communities-programme-round-10",
@@ -3863,9 +4132,66 @@
           "url": "https://www.henrypike.com.au/scp10",
           "checked_on": "2026-10-22",
           "access": "read"
+        },
+        {
+          "url": "https://www.henrypike.com.au/scp10",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://business.gov.au/grants-and-programs/stronger-communities-programme-round-10",
+          "checked_on": "2026-10-29",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "equity",
+          "ip_conditions",
+          "matching_required",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "closes",
+          "other_benefits"
+        ],
+        "notes": "Federal dates and rules verified; closes remains partial because the earlier Bowman EOI page omits timezone. Grant-contract review is not complete.",
+        "sources": [
+          {
+            "url": "https://business.gov.au/grants-and-programs/stronger-communities-programme-round-10",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://business.gov.au/-/media/grants-and-programs/scp-round-10/stronger-communities-programme-round-10-grant-opportunity-guidelines-pdf.pdf",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://business.gov.au/-/media/grants-and-programs/scp-round-10/stronger-communities-programme-round-10-sample-approval-letter-grant-agreement-pdf.pdf",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://www.henrypike.com.au/scp10",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "redland-community-support",
@@ -3919,7 +4245,7 @@
       "next_step": "Secure eligible lead or documented auspice and confirm non-equipment scope."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-10-29",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -3939,7 +4265,7 @@
         "matching_required",
         "other_benefits"
       ],
-      "notes": "Live portal confirms open status despite an outdated opening-soon heading. Equipment guidance conflicts, so only a non-equipment community-engagement route is proposed. Form PDF fetch failed; no submission made.",
+      "notes": "Council page and live portal rechecked; Round 2 accepting submissions until midnight end-of-day 1 November AEST. Essential-equipment allowance conflicts with equipment-purchase exclusion, so non-equipment community engagement remains the cautious fit. Public preview requires acknowledgement of council funding; full IP/agreement terms remain unverified.",
       "sources": [
         {
           "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
@@ -3950,9 +4276,61 @@
           "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
           "checked_on": "2026-10-22",
           "access": "read"
+        },
+        {
+          "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2/507069/view",
+          "checked_on": "2026-10-29",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "equity",
+          "ip_conditions",
+          "matching_required",
+          "other_benefits"
+        ],
+        "notes": "Live portal confirms open status despite an outdated opening-soon heading. Equipment guidance conflicts, so only a non-equipment community-engagement route is proposed. Form PDF fetch failed; no submission made.",
+        "sources": [
+          {
+            "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "openai-researcher-access",
@@ -4243,6 +4621,105 @@
         {
           "url": "https://www.traces-opencall.ch/postuler",
           "checked_on": "2026-10-26",
+          "access": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mozilla-fellowship-2027",
+    "name": "Mozilla Foundation 2027 Fellowship",
+    "org": "Mozilla Foundation",
+    "country": "Global, subject to US charitable-grant eligibility",
+    "city_region": "Distributed; Embedded host timezone requirements apply",
+    "source_url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+    "status": "Letters of Intent open; concept-stage eligibility conflicts between official FAQ and full RFP",
+    "status_class": "open",
+    "category": "G",
+    "opens": "2026-10-20 (LOI portal opening in RFP)",
+    "closes": "2026-12-17 at 23:59 PST (UTC-8); 2026-12-18 at 17:59 Brisbane AEST",
+    "recurring": true,
+    "eligibility": "Individual technical builders with a charitable public-benefit project. Independent track targets senior recognised innovators with independent leadership; Embedded track targets experienced builders working with an advertised host. FAQ says working technology/users are not required, while RFP excludes idea-only projects except Creative Advocacy; clarification is required before claiming concept eligibility.",
+    "au_eligible": "Global individual applicant route, including Australians in principle, subject to legal ability to receive US charitable funds, banking, grant review and programme-specific conditions. No individual eligibility determination is assumed.",
+    "requires_local": "Independent track has no local residency requirement identified. Embedded applicants must accommodate their selected host timezones. Paid travel to kickoff and MozFest is described; individual travel/visa feasibility is unverified.",
+    "stage": "Evidence of ability to build and deliver within 12 months; official FAQ/RFP conflict on idea-only projects remains unresolved.",
+    "themes": [
+      "ai-assistants",
+      "privacy-data",
+      "civic-tech",
+      "compute",
+      "creative-tech"
+    ],
+    "funding_amount": "Independent: USD 125,000 total (100,000 stipend + 25,000 project budget). Embedded: USD 100,000 total (75,000 stipend + 25,000 project budget). Twelve months from 1 June 2027.",
+    "funding_currency": "USD",
+    "support_type": "Individual fellowship stipend and project grant",
+    "equity": "Fellowship/grant, not an advertised equity investment; detailed award agreement unreviewed.",
+    "other_benefits": "Cohort, coaching, programme support and advertised all-expenses-paid travel to Fellowship kickoff and MozFest.",
+    "ip_conditions": "Fellow owns created IP, but funded code and non-confidential content must be released under open licences determined with Mozilla. Working openly is expected. Exact licence and background-IP agreement remain unreviewed; existing project licence unchanged.",
+    "matching_required": "No cash-match requirement identified in reviewed call, RFP or FAQ; final grant agreement unreviewed.",
+    "key_documents": "English Letter of Intent: individual experience and builder evidence, project scope, public-benefit case, target users, traction/stage, quarterly milestones, open-work plan and AI-use disclosure. Shortlisted full application follows.",
+    "difficulty": "High; ten fellowships advertised with proven-builder and leadership expectations",
+    "project_match": "A bounded technical consent or owner-controlled-data component associated with Genesis, or community-controlled local AI/public infrastructure associated with Straddie Disaster Kiosks; not clinical HBOT evidence or full hardware funding.",
+    "why_relevant": "Sovereign AI/public infrastructure and human-agency themes offer a conditional research/build route for existing approved projects. Thematic fit does not establish maturity, applicant capability, host agreement or licence compatibility.",
+    "risks": "Official sources conflict on idea-only eligibility. Pure philosophical reflection is not eligible outside Creative Advocacy. Senior-track record, charitable benefit, technical deliverability and open licensing are substantive gates. No clinical programme, operational kiosk, partner or eligible entity is assumed.",
+    "confidence": "Partial source check; official eligibility conflict recorded",
+    "verify": "Resolve FAQ/RFP concept-stage conflict; assess actual builder evidence, track and host/timezone fit, public benefit, background-IP/open-licence permission and award terms before preparing any application.",
+    "scores": {
+      "elig": 2,
+      "value": 4,
+      "align": 5,
+      "early": 2,
+      "infra": 2,
+      "ip": 2,
+      "reloc": 4,
+      "cred": 2
+    },
+    "pitch": {
+      "project": "A bounded community-controlled AI or consent tool",
+      "framing": "Demonstrate a technically deliverable public-benefit component that puts control in users’ hands, without claiming unbuilt deployments or clinical findings.",
+      "next_step": "Check project maturity and builder evidence, clarify contradictory eligibility guidance and review licence compatibility before deciding whether to apply."
+    },
+    "verification": {
+      "checked_on": "2026-10-29",
+      "result": "partial",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "funding_amount",
+        "support_type",
+        "other_benefits",
+        "key_documents"
+      ],
+      "unverified_fields": [
+        "eligibility",
+        "au_eligible",
+        "requires_local",
+        "stage",
+        "equity",
+        "ip_conditions",
+        "matching_required"
+      ],
+      "notes": "Separate from existing Mozilla Human-Scale AI Incubator. Official FAQ updated 25 October says working technology/users are unnecessary; full RFP pp7-8 excludes idea-only projects except Creative Advocacy. Retain both without resolving by assumption. Independent track has senior leadership expectations; Embedded needs advertised host alignment/timezone compatibility. Funding, deadline and default IP terms verified, but individual eligibility and final agreement are not. AI use must be supportive rather than generating complete application responses.",
+      "sources": [
+        {
+          "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/faqs/",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://assets.mofoprod.net/network/documents/PUBLIC_2027_2028_Fellowship_RFP-2.pdf",
+          "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://www.mozillafoundation.org/documents/501/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf",
+          "checked_on": "2026-10-29",
           "access": "read"
         }
       ]

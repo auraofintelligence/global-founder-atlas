@@ -1,9 +1,9 @@
 {
-  "checked_on": "2026-10-26",
+  "checked_on": "2026-10-29",
   "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
   "programmes_before": 49,
-  "programmes_after": 61,
-  "active_programmes": 59,
+  "programmes_after": 62,
+  "active_programmes": 60,
   "new_ids": [
     "emergent-ventures",
     "awesome-foundation",
@@ -16,7 +16,8 @@
     "redland-community-support",
     "openai-researcher-access",
     "regional-university-industry-collaboration",
-    "traces-art-science"
+    "traces-art-science",
+    "mozilla-fellowship-2027"
   ],
   "archived_round_ids": [
     "epic-megagrants-2026-cycle-2",
@@ -28,17 +29,18 @@
     "canada-startup-visa",
     "ehf-giv"
   ],
-  "scope": "Targeted review of four unresolved programme sources plus new engineering and creative research routes; all existing dates screened, not full programme verification.",
+  "scope": "Targeted source review of six existing records plus one new fellowship; all retained deadlines screened, not full programme verification.",
   "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry.",
   "latest_new_ids": [
-    "regional-university-industry-collaboration",
-    "traces-art-science"
+    "mozilla-fellowship-2027"
   ],
   "latest_archived_round_ids": [],
   "reviewed_ids": [
-    "wellcome-trust",
     "natgeo-grants",
-    "mit-solve",
-    "innovate-uk-bridgeai-assurance-2026"
+    "nlnet-ngi",
+    "redland-community-support",
+    "stronger-communities-round-10",
+    "astera-residency",
+    "protocol-labs-grants"
   ]
 }
