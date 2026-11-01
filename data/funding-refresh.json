@@ -1,9 +1,9 @@
 {
-  "checked_on": "2026-10-29",
+  "checked_on": "2026-11-02",
   "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
   "programmes_before": 49,
-  "programmes_after": 62,
-  "active_programmes": 60,
+  "programmes_after": 63,
+  "active_programmes": 61,
   "new_ids": [
     "emergent-ventures",
     "awesome-foundation",
@@ -17,30 +17,38 @@
     "openai-researcher-access",
     "regional-university-industry-collaboration",
     "traces-art-science",
-    "mozilla-fellowship-2027"
+    "mozilla-fellowship-2027",
+    "cities-deliver-ai-2026"
   ],
   "archived_round_ids": [
     "epic-megagrants-2026-cycle-2",
     "canada-startup-visa-2025-certificate-intake",
     "msca-postdoctoral-2026",
-    "wellcome-discovery-september-2026"
+    "wellcome-discovery-september-2026",
+    "natgeo-trebek-2027",
+    "redland-community-support-2026-27-round-2"
   ],
   "closed_programme_ids": [
     "canada-startup-visa",
     "ehf-giv"
   ],
-  "scope": "Targeted source review of six existing records plus one new fellowship; all retained deadlines screened, not full programme verification.",
+  "scope": "Targeted source review of eight existing profiles and one new city-partner grant; all retained deadline fields screened, not full programme or agreement verification.",
   "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry.",
   "latest_new_ids": [
-    "mozilla-fellowship-2027"
+    "cities-deliver-ai-2026"
   ],
-  "latest_archived_round_ids": [],
+  "latest_archived_round_ids": [
+    "natgeo-trebek-2027",
+    "redland-community-support-2026-27-round-2"
+  ],
   "reviewed_ids": [
-    "natgeo-grants",
+    "wellcome-trust",
     "nlnet-ngi",
-    "redland-community-support",
-    "stronger-communities-round-10",
-    "astera-residency",
-    "protocol-labs-grants"
+    "halcyon-incubator",
+    "natgeo-grants",
+    "eic-accelerator",
+    "yc",
+    "mit-solve",
+    "redland-community-support"
   ]
 }

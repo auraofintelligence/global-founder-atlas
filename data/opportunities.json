@@ -791,11 +791,11 @@
     "status_class": "recurring",
     "category": "E",
     "opens": "Discovery rolling intake from 23 September 2026; other scheme dates vary",
-    "closes": "Discovery has no fixed deadline. Lead-host location rules change on 29 October 2026; submissions at or before midnight GMT on 28 October use current location rules.",
+    "closes": "Discovery applications have no fixed deadline; revised lead-host location rules apply from 29 October 2026.",
     "recurring": true,
     "eligibility": "Discovery: established research leader at an eligible administering organisation; coapplicants and collaborators have distinct rules",
     "au_eligible": "Discovery: an Australian institution is not an eligible lead administering host under the published location list. Australian-based coapplicants may participate subject to organisational and contribution rules; other schemes require separate checks",
-    "requires_local": "Discovery requires an eligible administering host. From 29 October 2026 lead hosts are limited to UK and eligible low/middle-income countries in Africa, South Asia and South-East Asia",
+    "requires_local": "Discovery lead host must be an eligible nonprofit in the UK or an eligible low/middle-income country in Africa, South Asia or South-East Asia, excluding mainland China.",
     "stage": "Research-stage",
     "themes": [
       "health",
@@ -814,7 +814,7 @@
     "difficulty": "High",
     "project_match": "Dementia support, preventative health, mental health, measured self-development",
     "why_relevant": "Potential host-led research route for a defined health or human-AI question. A fit with the actual scheme and qualified research team remains to be established.",
-    "risks": "No Australian university lead-host eligibility established. Funded IP ownership and the 29 October location change are material conditions.",
+    "risks": "Australian institutions are not eligible Discovery lead hosts under the current location rules. Coapplicant access is conditional; funded IP belongs to the administering organisation.",
     "confidence": "Partial source check",
     "verify": "Choose the actual scheme, eligible lead host and research role before preparing a proposal",
     "scores": {
@@ -833,7 +833,7 @@
       "next_step": "Check the named scheme, eligible overseas lead host and any Australian coapplicant role; no partnership is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-26",
+      "checked_on": "2026-11-02",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -853,7 +853,7 @@
         "stage",
         "support_type"
       ],
-      "notes": "Discovery rolling intake, host-location transition and administering-organisation IP ownership rechecked. The source states at or before midnight GMT on 28 October for current location rules. Australian lead-host eligibility is not established; coapplicants remain conditional. This is not a review of every Wellcome scheme.",
+      "notes": "Post-29-October host-location rules are now in effect. Rolling Discovery applications continue; a host-eligibility change is not a closed funding round. Australian lead-host eligibility is excluded by the location list. This is not verification of every Wellcome scheme or contract.",
       "sources": [
         {
           "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
@@ -863,6 +863,11 @@
         {
           "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
           "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+          "checked_on": "2026-11-02",
           "access": "read"
         }
       ]
@@ -894,6 +899,41 @@
           {
             "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
             "checked_on": "2026-10-19",
+            "access": "read"
+          }
+        ]
+      },
+      {
+        "checked_on": "2026-10-26",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "ip_conditions"
+        ],
+        "unverified_fields": [
+          "equity",
+          "funding_amount",
+          "key_documents",
+          "matching_required",
+          "other_benefits",
+          "stage",
+          "support_type"
+        ],
+        "notes": "Discovery rolling intake, host-location transition and administering-organisation IP ownership rechecked. The source states at or before midnight GMT on 28 October for current location rules. Australian lead-host eligibility is not established; coapplicants remain conditional. This is not a review of every Wellcome scheme.",
+        "sources": [
+          {
+            "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+            "checked_on": "2026-10-19",
+            "access": "read"
+          },
+          {
+            "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+            "checked_on": "2026-10-26",
             "access": "read"
           }
         ]
@@ -1053,7 +1093,7 @@
     "why_relevant": "A possible open infrastructure component route, only after the European-dimension, licensing and revised AI-development rules are satisfied.",
     "risks": "Policy version 2.0, announced 20 October 2026, bars generative-AI proposal writing except accessibility support and limits LLM/diffusion-model project development to read-only use. It applies to the 3 November calls. European-dimension and open-licence requirements also apply.",
     "confidence": "Partial source check",
-    "verify": "Confirm current NGI Zero fund themes and next deadline",
+    "verify": "Resolve full generative-AI policy, European dimension and component licensing before any applicant-authored proposal.",
     "scores": {
       "elig": 2,
       "value": 3,
@@ -1070,7 +1110,7 @@
       "next_step": "Read the revised AI policy and check the actual component and licence before any proposal work. No relicensing or application is authorised."
     },
     "verification": {
-      "checked_on": "2026-10-29",
+      "checked_on": "2026-11-02",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -1090,7 +1130,7 @@
         "key_documents",
         "opens"
       ],
-      "notes": "Form and policy announcement rechecked. Restack and CodeSupply remain open, deadline 3 November noon CET. Announcement clarifies pre-20-October AI-written submissions need not be rewritten solely for that reason; update date unspecified. New proposal writing remains restricted and project development limited to read-only LLM/diffusion usage. Full policy page still has no readable body. No application or licence change.",
+      "notes": "Restack and CodeSupply deadline reconfirmed: 3 November noon CET / 21:00 Brisbane. Full generative-AI policy returned no readable body again; the official announcement remains the available policy evidence. Prior-submission clarification is not permission for new AI-written proposals. European dimension and open-licensing gates remain; no application or relicensing.",
       "sources": [
         {
           "url": "https://nlnet.nl/propose/",
@@ -1131,6 +1171,21 @@
           "url": "https://nlnet.nl/foundation/policies/generativeAI/",
           "checked_on": "2026-10-29",
           "access": "no readable content"
+        },
+        {
+          "url": "https://nlnet.nl/propose/",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+          "checked_on": "2026-11-02",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "checked_on": "2026-11-02",
+          "access": "read"
         }
       ]
     },
@@ -1181,6 +1236,71 @@
           {
             "url": "https://nlnet.nl/foundation/policies/generativeAI/",
             "checked_on": "2026-10-22",
+            "access": "no readable content"
+          }
+        ]
+      },
+      {
+        "checked_on": "2026-10-29",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "funding_amount",
+          "ip_conditions"
+        ],
+        "unverified_fields": [
+          "requires_local",
+          "stage",
+          "support_type",
+          "equity",
+          "matching_required",
+          "other_benefits",
+          "key_documents",
+          "opens"
+        ],
+        "notes": "Form and policy announcement rechecked. Restack and CodeSupply remain open, deadline 3 November noon CET. Announcement clarifies pre-20-October AI-written submissions need not be rewritten solely for that reason; update date unspecified. New proposal writing remains restricted and project development limited to read-only LLM/diffusion usage. Full policy page still has no readable body. No application or licence change.",
+        "sources": [
+          {
+            "url": "https://nlnet.nl/propose/",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/restack/",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/propose/",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+            "checked_on": "2026-10-22",
+            "access": "no readable content"
+          },
+          {
+            "url": "https://nlnet.nl/propose/",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+            "checked_on": "2026-10-29",
             "access": "no readable content"
           }
         ]
@@ -1302,7 +1422,7 @@
     "country": "International; programme-specific geography",
     "city_region": "Hybrid; residency cities depend on the programme",
     "source_url": "https://halcyonaccelerator.org/applicants/",
-    "status": "Year-round eligibility form open; invitations depend on venture fit. Featured Africa 2027 call is geographically restricted.",
+    "status": "Year-round eligibility form remains available; featured Africa 2027 published October dates have passed, but precise cutoff and closure notice are unverified.",
     "status_class": "recurring",
     "category": "G",
     "opens": "General eligibility form accepted year-round",
@@ -1349,7 +1469,7 @@
       "next_step": "Check MVP, users, founder commitment and an eligible cohort before considering the initial form; no application is being sent."
     },
     "verification": {
-      "checked_on": "2026-10-22",
+      "checked_on": "2026-11-02",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -1369,7 +1489,7 @@
         "matching_required",
         "other_benefits"
       ],
-      "notes": "General applicant FAQ confirms year-round screening, for-profit/MVP/user and full-time founder gates, and hybrid delivery. Africa 2027 source confirms its own dates, Sub-Saharan Africa base, paid-pilot/post-revenue stage, stipend, credits and Accra/Nairobi residencies. Exact deadline times and all terms of a suitable Australian-accessible cohort remain unresolved. Scores are editorial assessments, not official eligibility decisions.",
+      "notes": "Applicant FAQ and Africa 2027 page rechecked. October 23/30 dates are past; timezones and explicit closure notice remain unverified, so no archive is manufactured. General rolling eligibility screening continues. Sub-Saharan Africa base and paid-pilot/post-revenue requirements do not establish an Australian-based route.",
       "sources": [
         {
           "url": "https://halcyonaccelerator.org/",
@@ -1395,9 +1515,71 @@
           "url": "https://halcyonaccelerator.org/insights/why-climate-adaptation-resilience/",
           "checked_on": "2026-10-22",
           "access": "read"
+        },
+        {
+          "url": "https://halcyonaccelerator.org/applicants/",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/",
+          "checked_on": "2026-11-02",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-22",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "eligibility",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "closes",
+          "au_eligible",
+          "requires_local",
+          "equity",
+          "ip_conditions",
+          "matching_required",
+          "other_benefits"
+        ],
+        "notes": "General applicant FAQ confirms year-round screening, for-profit/MVP/user and full-time founder gates, and hybrid delivery. Africa 2027 source confirms its own dates, Sub-Saharan Africa base, paid-pilot/post-revenue stage, stipend, credits and Accra/Nairobi residencies. Exact deadline times and all terms of a suitable Australian-accessible cohort remain unresolved. Scores are editorial assessments, not official eligibility decisions.",
+        "sources": [
+          {
+            "url": "https://halcyonaccelerator.org/",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://halcyonaccelerator.org/applicants/",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://halcyonaccelerator.org/programs/",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://halcyonaccelerator.org/insights/why-climate-adaptation-resilience/",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "undp-unleash-sdg",
@@ -1735,14 +1917,14 @@
     "country": "United States (funds globally)",
     "city_region": "Remote / fieldwork worldwide",
     "source_url": "https://www.nationalgeographic.org/explore/grants-investments",
-    "status": "RFP-specific programme; current directory lists Trebek and Human Thread. October ocean calls are no longer listed; detailed closure evidence remains unresolved.",
+    "status": "Human Thread remains listed; Trebek 2027 call has closed and its original record is archived. Ocean closure evidence remains unresolved.",
     "status_class": "open",
     "category": "H",
-    "opens": "Trebek portal opened 2026-09-01; other RFP opening dates not verified",
-    "closes": "Trebek: 2026-10-28 at 23:59 ET (2026-10-29 at 13:59 Brisbane). Human Thread: 2026-12-01, exact time and timezone unverified. Ocean calls previously listed 2026-10-21 are no longer in the directory; detailed closure evidence unresolved.",
+    "opens": "Human Thread opening date not verified",
+    "closes": "Human Thread: 2026-12-01; exact time and timezone unverified. Trebek closed 2026-10-28 at 23:59 ET. Ocean detailed closure evidence remains unresolved.",
     "recurring": true,
     "eligibility": "Individual project leader aged 18 or older; one proposal at a time and prior grant reporting complete. Project starts should be at least six months after submission deadline; additional RFP rules apply.",
-    "au_eligible": "RFP-specific. Trebek does not require Canadian citizenship or permanent residency, though residency is preferred and distinctly Canadian impact is required. Human Thread nationality eligibility remains unverified.",
+    "au_eligible": "Human Thread Australian nationality eligibility remains unverified; check the detailed RFP. Closed Trebek terms are preserved in the archive.",
     "requires_local": "Individual project-leader grant route; any host, geography or fieldwork requirements must be checked in the selected RFP",
     "stage": "RFP-specific science, conservation, storytelling, education or technology project; accepted maturity not universally verified",
     "themes": [
@@ -1754,8 +1936,8 @@
       "island-biosecurity",
       "museums-archives"
     ],
-    "funding_amount": "RFP-specific. Trebek: up to CAD75,000, budget submitted in USD without exceeding the CAD cap. Human Thread amount unverified; no universal tiers assumed.",
-    "funding_currency": "RFP-specific (Trebek cap CAD; budget USD)",
+    "funding_amount": "Human Thread amount unverified; no universal grant tiers assumed. The closed Trebek cap is preserved in the archive.",
+    "funding_currency": "RFP-specific; current Human Thread currency unverified",
     "support_type": "Individual project grants",
     "equity": "Grant programme; detailed award and participation conditions not verified",
     "other_benefits": "Explorer community, connections, training and storytelling opportunities; specific entitlements vary",
@@ -1764,8 +1946,8 @@
     "key_documents": "Project, budget and collaborator information through the Funding Portal; additional requirements are RFP-specific",
     "difficulty": "Moderate",
     "project_match": "Human Thread is a potential storytelling lead within approved cultural or immersive-media areas, subject to detailed RFP and permission checks",
-    "why_relevant": "An individual-grant route for a precisely matched project. The Human Thread supports human-experience storytelling; the ocean calls concern specialist ship-based research and Trebek requires distinct Canadian impact.",
-    "risks": "Human Thread and ocean detailed RFPs remain unreadable or inaccessible. No eligibility, cultural permissions or suitable portfolio assumed. Trebek requires distinctly Canadian impact; its deadline has not elapsed at this review. Directory disappearance alone does not establish closure.",
+    "why_relevant": "Human Thread is a possible individual storytelling lead within approved cultural and immersive-media work, subject to its detailed call, community consent and portfolio requirements.",
+    "risks": "Human Thread and ocean detailed RFPs remain unreadable or inaccessible. No eligibility, cultural permissions or suitable portfolio assumed. Trebek has closed; directory disappearance alone does not establish closure of other calls.",
     "confidence": "Partial source check",
     "verify": "Review Human Thread detailed RFP for cutoff, amount, criteria, rights and budget rules; retain ocean closure uncertainty. Trebek award/IP terms remain unverified.",
     "scores": {
@@ -1784,7 +1966,7 @@
       "next_step": "Review the Human Thread RFP before assessing fit or preparing a proposal; no account, application or cultural permission is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-29",
+      "checked_on": "2026-11-02",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -1804,7 +1986,7 @@
         "requires_local",
         "stage"
       ],
-      "notes": "Official partner RFP and FAQ resolve Trebek cutoff, cap and conditional non-Canadian eligibility. Cutoff 29 October 03:59 UTC is future at this review (28 October 22:43 UTC). Human Thread detail remains unreadable; ocean detail unavailable or unreadable. Directory disappearance alone is not closure evidence. Programme-level dates and eligibility remain partial.",
+      "notes": "Trebek official cutoff has elapsed and its full pre-refresh programme record is archived as a dated round. Current directory lists Human Thread for 1 December; detailed terms and exact cutoff remain unresolved. Ocean source access failures are not treated as closure.",
       "sources": [
         {
           "url": "https://www.nationalgeographic.org/explore/grants-investments",
@@ -1884,6 +2066,31 @@
         {
           "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
           "checked_on": "2026-10-29",
+          "access": "unavailable"
+        },
+        {
+          "url": "https://www.trebekinitiative.com/2026rfp",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.nationalgeographic.org/explore/grants-investments",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+          "checked_on": "2026-11-02",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+          "checked_on": "2026-11-02",
+          "access": "no-readable-text"
+        },
+        {
+          "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+          "checked_on": "2026-11-02",
           "access": "unavailable"
         }
       ]
@@ -2013,6 +2220,111 @@
             "access": "unavailable"
           }
         ]
+      },
+      {
+        "checked_on": "2026-10-29",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "eligibility",
+          "support_type",
+          "other_benefits",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "au_eligible",
+          "closes",
+          "equity",
+          "funding_amount",
+          "ip_conditions",
+          "matching_required",
+          "opens",
+          "requires_local",
+          "stage"
+        ],
+        "notes": "Official partner RFP and FAQ resolve Trebek cutoff, cap and conditional non-Canadian eligibility. Cutoff 29 October 03:59 UTC is future at this review (28 October 22:43 UTC). Human Thread detail remains unreadable; ocean detail unavailable or unreadable. Directory disappearance alone is not closure evidence. Programme-level dates and eligibility remain partial.",
+        "sources": [
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+            "checked_on": "2026-10-22",
+            "access": "login-required"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+            "checked_on": "2026-10-22",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-26",
+            "access": "read"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+            "checked_on": "2026-10-26",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+            "checked_on": "2026-10-26",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.trebekinitiative.com/2026rfp",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://www.trebekinitiative.com/faq",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://www.trebekinitiative.com/",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://www.nationalgeographic.org/explore/grants-investments",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+            "checked_on": "2026-10-29",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+            "checked_on": "2026-10-29",
+            "access": "no-readable-text"
+          },
+          {
+            "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+            "checked_on": "2026-10-29",
+            "access": "unavailable"
+          }
+        ]
       }
     ]
   },
@@ -2129,51 +2441,125 @@
     "country": "European Union (plus associated countries)",
     "city_region": "EU-based company required",
     "source_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
-    "status": "Short proposals and the 2026 full-proposal process advertised; next listed batching date is 4 November 2026",
+    "status": "2026 short-proposal call and final full-proposal batch close 4 November at 17:00 Brussels; 2027 short-proposal opening announced for November without an exact date",
     "status_class": "open",
     "category": "I",
-    "opens": "Short proposal first; a GO is required to enter the full-proposal stage",
-    "closes": "Next 2026 full-proposal batching date: 2026-11-04",
+    "opens": "2026 short-proposal route open; 2027 call announced for November, exact opening date not published",
+    "closes": "2026-11-04 at 17:00 CET (2026-11-05 at 02:00 Brisbane AEST): short-proposal call closure and full-proposal batching deadline",
     "recurring": true,
     "eligibility": "Startups and SMEs with innovations at TRL 6-8; third-country applicants must establish eligibility before the full proposal",
-    "au_eligible": "Only via an EU (or associated country) entity, for example an Estonian or Portuguese company",
+    "au_eligible": "Third-country applicants may enter the short-proposal stage, conditional on eligible establishment or relocation before the full proposal; Australian residence alone is insufficient",
     "requires_local": "Eligible EU or associated-country company requirements apply before full proposal; digital e-Residency alone is insufficient",
     "stage": "Prototype to scale (TRL-based)",
-    "themes": ["generative-ai", "ai-assistants", "health", "climate", "privacy-data", "iot"],
+    "themes": [
+      "generative-ai",
+      "ai-assistants",
+      "health",
+      "climate",
+      "privacy-data",
+      "iot"
+    ],
     "funding_amount": "Grant component below EUR 2.5 million; optional investment EUR 1 million to EUR 10 million",
     "funding_currency": "EUR",
     "support_type": "Grant plus optional equity (blended finance)",
     "equity": "Only if you take the investment component; the grant portion is non-dilutive",
     "other_benefits": "Business acceleration services, EU market access, follow-on investment",
-    "ip_conditions": "You keep your IP",
+    "ip_conditions": "Award-agreement IP conditions remain unverified; no unconditional ownership guarantee",
     "matching_required": "Current grant cost-sharing and capacity-to-scale conditions require the work programme and award terms; not verified as zero match",
     "key_documents": "Full proposal, business plan, pitch, due diligence",
     "difficulty": "Very high (rigorous, multi-stage)",
     "project_match": "Deep-tech AI, digital twins, health, climate",
-    "why_relevant": "The largest realistic non-dilutive cheque here (millions), keeping IP, if you first hold an EU entity (pair with Estonia e-Residency). A genuine growth-scale target.",
+    "why_relevant": "A potential later-stage Geode or AI component route once technology maturity and eligible applicant structure are demonstrated; not concept-stage funding.",
     "risks": "Requires an EU entity and a mature deep-tech case; extremely competitive and slow; not concept-stage",
     "confidence": "Partial source check",
     "verify": "Confirm current cut-off dates, thematic priorities and entity requirements",
-    "scores": { "elig": 2, "value": 5, "align": 4, "early": 2, "infra": 4, "ip": 5, "reloc": 3, "cred": 2 },
+    "scores": {
+      "elig": 2,
+      "value": 5,
+      "align": 4,
+      "early": 2,
+      "infra": 4,
+      "ip": 2,
+      "reloc": 3,
+      "cred": 2
+    },
     "pitch": {
       "project": "A matured Aura deep-tech component with an EU entity behind it",
       "framing": "A high-impact European deep-tech company advancing sovereign personal AI.",
-      "next_step": "First establish an EU entity, build TRL evidence, then target a cut-off."
+      "next_step": "Check completed TRL 5 evidence, eligible applicant route and short-proposal requirements before any incorporation or application decision. A GO precedes the full proposal."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-11-02",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes", "eligibility", "requires_local", "funding_amount", "matching_required"],
-      "unverified_fields": ["au_eligible", "stage", "support_type", "equity", "ip_conditions", "other_benefits", "key_documents"],
-      "notes": "The full-proposal date is not an entry deadline for someone without a GO. Registration and grant eligibility are separate.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "requires_local",
+        "funding_amount",
+        "matching_required"
+      ],
+      "unverified_fields": [
+        "au_eligible",
+        "stage",
+        "support_type",
+        "equity",
+        "ip_conditions",
+        "other_benefits",
+        "key_documents"
+      ],
+      "notes": "Official short-proposal topic update adds 4 November 17:00 Brussels closure and November reopening under the 2027 call, without an exact opening date. Full-proposal batch at the same cutoff still requires a prior GO. Third-country eligibility applies before Step 2, not automatically before Step 1. Detailed IP agreement remains unreviewed.",
       "sources": [
         {
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
           "checked_on": "2026-10-18",
           "access": "read"
+        },
+        {
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+          "checked_on": "2026-11-02",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-18",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "requires_local",
+          "funding_amount",
+          "matching_required"
+        ],
+        "unverified_fields": [
+          "au_eligible",
+          "stage",
+          "support_type",
+          "equity",
+          "ip_conditions",
+          "other_benefits",
+          "key_documents"
+        ],
+        "notes": "The full-proposal date is not an entry deadline for someone without a GO. Registration and grant eligibility are separate.",
+        "sources": [
+          {
+            "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "protocol-labs-grants",
@@ -2543,47 +2929,125 @@
     "status_class": "open",
     "category": "A",
     "opens": "Winter 2027 and future-batch applications advertised",
-    "closes": "On-time deadline: 2026-11-02 at 20:00 Pacific time; late applications still considered",
+    "closes": "On-time deadline: 2026-11-02 at 20:00 PST (2026-11-03 at 14:00 Brisbane AEST); late applications still considered",
     "recurring": true,
     "eligibility": "Startups at almost any early stage, including idea-stage with a strong team",
-    "au_eligible": "Yes, global; many Australian alumni",
-    "requires_local": "In-person batch in the Bay Area; company restructures under US parent typically",
+    "au_eligible": "Yes; startups worldwide may apply before incorporation, subject to acceptance and required corporate structure",
+    "requires_local": "In-person San Francisco batch; participating company needs a US, Canadian, Cayman or Singapore corporation or parent",
     "stage": "Idea to early traction (team-led)",
-    "themes": ["generative-ai", "ai-assistants", "health", "civic-tech", "iot"],
-    "funding_amount": "Standard deal (historically USD 500k across two instruments)",
+    "themes": [
+      "generative-ai",
+      "ai-assistants",
+      "health",
+      "civic-tech",
+      "iot"
+    ],
+    "funding_amount": "US$500,000 across two SAFEs",
     "funding_currency": "USD",
     "support_type": "Investment (dilutive)",
-    "equity": "Yes (takes equity)",
+    "equity": "US$125,000 for 7%, plus US$375,000 on an uncapped MFN SAFE; additional dilution applies",
     "other_benefits": "Elite network, investor access at demo day, brand, alumni",
-    "ip_conditions": "You keep your IP; standard investment and restructuring terms",
+    "ip_conditions": "Parent ultimately owns startup IP and assets; IP may be held at subsidiary or parent level. Review actual investment agreements.",
     "matching_required": "No",
     "key_documents": "Application, short video, team, idea",
     "difficulty": "High (very selective)",
     "project_match": "A single high-growth AI venture from the portfolio",
     "why_relevant": "The benchmark early-stage program; accepts idea-stage with a strong founder. Dilutive and US-centred, so it scores low on your non-dilutive and low-relocation priorities, but included as a reference point.",
-    "risks": "Takes equity and expects a US-parent restructure and relocation for the batch; single-company focus, not an ecosystem",
+    "risks": "Dilutive investment, in-person attendance and potential corporate restructuring; not a general non-dilutive portfolio grant.",
     "confidence": "Partial source check",
     "verify": "Confirm current batch dates and deal terms",
-    "scores": { "elig": 4, "value": 1, "align": 3, "early": 5, "infra": 4, "ip": 3, "reloc": 1, "cred": 2 },
+    "scores": {
+      "elig": 4,
+      "value": 1,
+      "align": 3,
+      "early": 5,
+      "infra": 4,
+      "ip": 3,
+      "reloc": 1,
+      "cred": 2
+    },
     "pitch": {
       "project": "One flagship AI venture, sharply defined",
       "framing": "A focused, fast-growing AI company with an exceptional founder story.",
       "next_step": "Only if pursuing venture scale: apply with one crisp company thesis."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-11-02",
       "result": "partial",
-      "confirmed_fields": ["status", "opens", "closes"],
-      "unverified_fields": ["eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "equity", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "Late consideration means the on-time deadline must not automatically archive the whole programme.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "au_eligible",
+        "requires_local",
+        "funding_amount",
+        "equity",
+        "ip_conditions",
+        "support_type"
+      ],
+      "unverified_fields": [
+        "eligibility",
+        "stage",
+        "matching_required",
+        "other_benefits",
+        "key_documents"
+      ],
+      "notes": "Winter 2027 deadline and late consideration rechecked. Pacific time is PST on 2 November, giving 3 November 14:00 Brisbane. Current deal clarifies two SAFEs, additional equity and four eligible incorporation jurisdictions. Contract review remains necessary.",
       "sources": [
         {
           "url": "https://www.ycombinator.com/apply",
           "checked_on": "2026-10-18",
           "access": "read"
+        },
+        {
+          "url": "https://www.ycombinator.com/apply",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.ycombinator.com/deal",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.ycombinator.com/faq",
+          "checked_on": "2026-11-02",
+          "access": "read"
         }
       ]
-    }
+    },
+    "verification_history": [
+      {
+        "checked_on": "2026-10-18",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes"
+        ],
+        "unverified_fields": [
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "equity",
+          "ip_conditions",
+          "matching_required",
+          "other_benefits",
+          "key_documents"
+        ],
+        "notes": "Late consideration means the on-time deadline must not automatically archive the whole programme.",
+        "sources": [
+          {
+            "url": "https://www.ycombinator.com/apply",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nvidia-inception",
@@ -2799,7 +3263,7 @@
       "next_step": "Assess prototype readiness, challenge fit and submission rights; no application or partnership is assumed."
     },
     "verification": {
-      "checked_on": "2026-10-26",
+      "checked_on": "2026-11-02",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -2819,7 +3283,7 @@
         "other_benefits",
         "requires_local"
       ],
-      "notes": "Specific 2027 Climate and Health calls resolve the prior unknown window. Prototype threshold and publication-licensing conditions correct earlier broad assurances. General and call-specific support durations conflict. Award agreement, matching and travel funding remain unreviewed.",
+      "notes": "Health call and FAQ reconfirm 6 November noon EST / 7 November 03:00 Brisbane and functioning-prototype threshold. This targeted deadline/stage recheck does not reverify the earlier grant/IP agreement review or resolve previously recorded programme-duration discrepancy.",
       "sources": [
         {
           "url": "https://solve.mit.edu/challenges",
@@ -2844,6 +3308,11 @@
         {
           "url": "https://solve.mit.edu/terms-of-service",
           "checked_on": "2026-10-26",
+          "access": "read"
+        },
+        {
+          "url": "https://solve.mit.edu/challenges/2027-global-health-challenge?tab=faq",
+          "checked_on": "2026-11-02",
           "access": "read"
         }
       ]
@@ -2875,6 +3344,56 @@
           {
             "url": "https://solve.mit.edu/challenges",
             "checked_on": "2026-10-18",
+            "access": "read"
+          }
+        ]
+      },
+      {
+        "checked_on": "2026-10-26",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "ip_conditions"
+        ],
+        "unverified_fields": [
+          "equity",
+          "key_documents",
+          "matching_required",
+          "other_benefits",
+          "requires_local"
+        ],
+        "notes": "Specific 2027 Climate and Health calls resolve the prior unknown window. Prototype threshold and publication-licensing conditions correct earlier broad assurances. General and call-specific support durations conflict. Award agreement, matching and travel funding remain unreviewed.",
+        "sources": [
+          {
+            "url": "https://solve.mit.edu/challenges",
+            "checked_on": "2026-10-18",
+            "access": "read"
+          },
+          {
+            "url": "https://solve.mit.edu/challenges/2027-global-climate-challenge",
+            "checked_on": "2026-10-26",
+            "access": "read"
+          },
+          {
+            "url": "https://solve.mit.edu/challenges/2027-global-health-challenge",
+            "checked_on": "2026-10-26",
+            "access": "read"
+          },
+          {
+            "url": "https://solve.mit.edu/innovators/become-a-solver",
+            "checked_on": "2026-10-26",
+            "access": "read"
+          },
+          {
+            "url": "https://solve.mit.edu/terms-of-service",
+            "checked_on": "2026-10-26",
             "access": "read"
           }
         ]
@@ -4200,11 +4719,11 @@
     "country": "Australia",
     "city_region": "Redland City, including a proposed Minjerribah community activity",
     "source_url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
-    "status": "2026/27 Round 2 open",
-    "status_class": "open",
+    "status": "2026/27 Round 2 closed; Round 3 announced for 8-28 February 2027",
+    "status_class": "soon",
     "category": "G",
-    "opens": "2026-10-12",
-    "closes": "2026-11-01 at midnight, end of day AEST (Brisbane)",
+    "opens": "Round 3: 2027-02-08; opening time not published",
+    "closes": "Round 3: 2027-02-28; closing time and timezone not published. Round 2 closed at midnight end-of-day 1 November 2026 AEST.",
     "recurring": true,
     "eligibility": "Redland-based incorporated nonprofit or eligible auspice; ABN or supplier statement, financial viability, entity bank account and A$20m public liability cover",
     "au_eligible": "Eligible local organisations; ordinary individual applicants and commercial businesses are excluded",
@@ -4242,10 +4761,10 @@
     "pitch": {
       "project": "Community preparedness and information co-design",
       "framing": "Test who needs which information and how a local group would maintain it.",
-      "next_step": "Secure eligible lead or documented auspice and confirm non-equipment scope."
+      "next_step": "Use the interval before Round 3 to establish an eligible lead or documented auspice and check the next round guidelines; no application is being submitted."
     },
     "verification": {
-      "checked_on": "2026-10-29",
+      "checked_on": "2026-11-02",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -4265,7 +4784,7 @@
         "matching_required",
         "other_benefits"
       ],
-      "notes": "Council page and live portal rechecked; Round 2 accepting submissions until midnight end-of-day 1 November AEST. Essential-equipment allowance conflicts with equipment-purchase exclusion, so non-equipment community engagement remains the cautious fit. Public preview requires acknowledgement of council funding; full IP/agreement terms remain unverified.",
+      "notes": "Round 2 portal explicitly confirms closure despite stale Open Now wording on the council page. Council lists Round 3 for 8-28 February 2027 and Round 4 for 5-25 April 2027, without times. Future-round terms and the prior equipment-guidance conflict require rechecking; no new award or IP agreement reviewed.",
       "sources": [
         {
           "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
@@ -4290,6 +4809,16 @@
         {
           "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2/507069/view",
           "checked_on": "2026-10-29",
+          "access": "read"
+        },
+        {
+          "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+          "checked_on": "2026-11-02",
           "access": "read"
         }
       ]
@@ -4326,6 +4855,56 @@
           {
             "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
             "checked_on": "2026-10-22",
+            "access": "read"
+          }
+        ]
+      },
+      {
+        "checked_on": "2026-10-29",
+        "result": "partial",
+        "confirmed_fields": [
+          "status",
+          "opens",
+          "closes",
+          "eligibility",
+          "au_eligible",
+          "requires_local",
+          "stage",
+          "funding_amount",
+          "support_type",
+          "key_documents"
+        ],
+        "unverified_fields": [
+          "equity",
+          "ip_conditions",
+          "matching_required",
+          "other_benefits"
+        ],
+        "notes": "Council page and live portal rechecked; Round 2 accepting submissions until midnight end-of-day 1 November AEST. Essential-equipment allowance conflicts with equipment-purchase exclusion, so non-equipment community engagement remains the cautious fit. Public preview requires acknowledgement of council funding; full IP/agreement terms remain unverified.",
+        "sources": [
+          {
+            "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+            "checked_on": "2026-10-22",
+            "access": "read"
+          },
+          {
+            "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+            "checked_on": "2026-10-29",
+            "access": "read"
+          },
+          {
+            "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2/507069/view",
+            "checked_on": "2026-10-29",
             "access": "read"
           }
         ]
@@ -4720,6 +5299,100 @@
         {
           "url": "https://www.mozillafoundation.org/documents/501/Mozilla_Foundation_Grant_Eligibility_Guidelines_tNhKrgM.pdf",
           "checked_on": "2026-10-29",
+          "access": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cities-deliver-ai-2026",
+    "name": "Cities Deliver: AI Solutions for Public Services",
+    "org": "The Rockefeller Foundation and OpenAI Foundation; managed by RF Catalytic Capital",
+    "country": "Global, including Oceania",
+    "city_region": "Qualifying municipal partner required; Minjerribah/Redland eligibility unestablished",
+    "source_url": "https://www.rockefellerfoundation.org/cities-deliver-ai-solutions-for-public-services/",
+    "status": "Open; conditional partnership-development lead, not application-ready",
+    "status_class": "open",
+    "category": "G",
+    "opens": "2026-10-14",
+    "closes": "Round 1: 2026-11-29 23:59 US Eastern (2026-11-30 14:59 Brisbane); invited Round 2: 2027-03-01 23:59 US Eastern",
+    "recurring": false,
+    "eligibility": "Eligible nonprofit, university, fiscal sponsor, mission-locked corporation or conditionally charitable for-profit, with committed municipal partner. Individuals and government leads excluded. City definition requires 50,000+ population and contiguous dense urban settlement.",
+    "au_eligible": "Oceania expressly included; Australian organisation eligibility remains conditional on legal receipt, organisational and city-partner requirements",
+    "requires_local": "Municipal collaboration required, not US incorporation; no relocation package established",
+    "stage": "Seed: concept ready for first city pilot; Scale: previously piloted with results",
+    "themes": [
+      "civic-tech",
+      "smart-communities",
+      "disaster-resilience",
+      "generative-ai",
+      "climate"
+    ],
+    "funding_amount": "Seed $500,000 to below $1 million; Scale $1-2 million over 24 months, paid 50% initially and 50% at milestone",
+    "funding_currency": "Dollar denomination; currency not explicitly stated in reviewed award passages",
+    "support_type": "Grant plus cohort and technical support",
+    "equity": "None; terms exclude equity, revenue share and royalties",
+    "other_benefits": "Peer learning, conditional technical assistance, networks and convening; no guaranteed follow-on funding",
+    "ip_conditions": "Funded software, models and documentation require acceptable open licensing. Partner agreements determine ownership; funders acquire none. Pre-existing IP and specified sensitive/security material excluded. Application reuse/publicity licence applies; final grant terms govern scope and release.",
+    "matching_required": "No match identified; final agreement unreviewed",
+    "key_documents": "Round 1 eligibility screen, legal-status documentation, proposal, short video and municipal LOI; later budget, financials, biographies, evidence, compliance and municipal MOU; sponsorship agreement if applicable",
+    "difficulty": "High: organisation, municipal demand and delivery capability required",
+    "project_match": "Conditional Straddie Disaster Kiosks public-information AI component; fit is an inference",
+    "why_relevant": "Could support a bounded civic/resilience pilot if its actual municipal context qualifies. Not generic kiosk hardware funding, a Genesis study or Geode chamber engineering grant.",
+    "risks": "Frontier AI must be meaningful; city-only scope excludes national-scale projects. Commercial benefit must be incidental. Minjerribah alone must not be treated as a qualifying city; Redland acceptance, partner consent and applicant readiness are unknown. Existing project licensing must not be changed by assumption.",
+    "confidence": "Primary sources reviewed; applicant and geographic fit conditional",
+    "verify": "Resolve city definition, eligible lead, partner commitment, charitable boundary, licence compatibility, currency and agreement. Revised FAQs expected 4 November; recurrence unannounced.",
+    "scores": {
+      "elig": 2,
+      "value": 5,
+      "align": 3,
+      "early": 4,
+      "infra": 4,
+      "ip": 2,
+      "reloc": 5,
+      "cred": 1
+    },
+    "pitch": {
+      "project": "Straddie Disaster Kiosks, only within a qualifying city-service pilot",
+      "framing": "Trusted accessible public information with a justified AI function and measured community benefit, not invented operational deployment.",
+      "next_step": "Assess municipal definition, legal vehicle and separable open-licensed work package before any application or contact."
+    },
+    "verification": {
+      "checked_on": "2026-11-02",
+      "result": "partial",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "eligibility",
+        "au_eligible",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "equity",
+        "ip_conditions",
+        "key_documents",
+        "other_benefits"
+      ],
+      "unverified_fields": [
+        "requires_local",
+        "matching_required"
+      ],
+      "notes": "Checked 2 November Brisbane / 1 November UTC. No established applicant or partner; project fit inferred. False recurring flag means no repeat round established, not confirmed one-off. FAQ and terms reviewed without submitting or accepting anything.",
+      "sources": [
+        {
+          "url": "https://www.rockefellerfoundation.org/cities-deliver-ai-solutions-for-public-services/",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/10/Cities-Deliver-AI-Solutions-for-Public-Services-FAQs-Final.pdf",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/10/Cities-Deliver-AI-Solutions-for-Public-Services-Terms-and-Conditions-Final.pdf",
+          "checked_on": "2026-11-02",
           "access": "read"
         }
       ]

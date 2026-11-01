@@ -340,6 +340,465 @@
           ]
         }
       }
+    },
+    {
+      "id": "natgeo-trebek-2027",
+      "programme_id": "natgeo-grants",
+      "round_name": "Trebek Initiative 2027 project call",
+      "closed_on": "2026-10-28 23:59 America/Toronto",
+      "archived_on": "2026-11-02",
+      "reason": "Official Trebek RFP deadline elapsed: 28 October 23:59 Eastern Daylight Time, equivalent to 29 October 13:59 Brisbane. Archive only this dated call; National Geographic and other calls remain.",
+      "snapshot_commit": "3a80753979931f5c525bc18107fadd768778b392",
+      "sources": [
+        {
+          "url": "https://www.trebekinitiative.com/2026rfp",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "natgeo-grants",
+        "name": "National Geographic Society Grants",
+        "org": "National Geographic Society",
+        "country": "United States (funds globally)",
+        "city_region": "Remote / fieldwork worldwide",
+        "source_url": "https://www.nationalgeographic.org/explore/grants-investments",
+        "status": "RFP-specific programme; current directory lists Trebek and Human Thread. October ocean calls are no longer listed; detailed closure evidence remains unresolved.",
+        "status_class": "open",
+        "category": "H",
+        "opens": "Trebek portal opened 2026-09-01; other RFP opening dates not verified",
+        "closes": "Trebek: 2026-10-28 at 23:59 ET (2026-10-29 at 13:59 Brisbane). Human Thread: 2026-12-01, exact time and timezone unverified. Ocean calls previously listed 2026-10-21 are no longer in the directory; detailed closure evidence unresolved.",
+        "recurring": true,
+        "eligibility": "Individual project leader aged 18 or older; one proposal at a time and prior grant reporting complete. Project starts should be at least six months after submission deadline; additional RFP rules apply.",
+        "au_eligible": "RFP-specific. Trebek does not require Canadian citizenship or permanent residency, though residency is preferred and distinctly Canadian impact is required. Human Thread nationality eligibility remains unverified.",
+        "requires_local": "Individual project-leader grant route; any host, geography or fieldwork requirements must be checked in the selected RFP",
+        "stage": "RFP-specific science, conservation, storytelling, education or technology project; accepted maturity not universally verified",
+        "themes": [
+          "climate",
+          "environment-monitoring",
+          "indigenous",
+          "immersive-media",
+          "film-music",
+          "island-biosecurity",
+          "museums-archives"
+        ],
+        "funding_amount": "RFP-specific. Trebek: up to CAD75,000, budget submitted in USD without exceeding the CAD cap. Human Thread amount unverified; no universal tiers assumed.",
+        "funding_currency": "RFP-specific (Trebek cap CAD; budget USD)",
+        "support_type": "Individual project grants",
+        "equity": "Grant programme; detailed award and participation conditions not verified",
+        "other_benefits": "Explorer community, connections, training and storytelling opportunities; specific entitlements vary",
+        "ip_conditions": "RFP and award rights, publication, licensing and publicity terms not verified; no blanket founder-friendly guarantee",
+        "matching_required": "Not verified for a selected RFP",
+        "key_documents": "Project, budget and collaborator information through the Funding Portal; additional requirements are RFP-specific",
+        "difficulty": "Moderate",
+        "project_match": "Human Thread is a potential storytelling lead within approved cultural or immersive-media areas, subject to detailed RFP and permission checks",
+        "why_relevant": "An individual-grant route for a precisely matched project. The Human Thread supports human-experience storytelling; the ocean calls concern specialist ship-based research and Trebek requires distinct Canadian impact.",
+        "risks": "Human Thread and ocean detailed RFPs remain unreadable or inaccessible. No eligibility, cultural permissions or suitable portfolio assumed. Trebek requires distinctly Canadian impact; its deadline has not elapsed at this review. Directory disappearance alone does not establish closure.",
+        "confidence": "Partial source check",
+        "verify": "Review Human Thread detailed RFP for cutoff, amount, criteria, rights and budget rules; retain ocean closure uncertainty. Trebek award/IP terms remain unverified.",
+        "scores": {
+          "elig": 2,
+          "value": 3,
+          "align": 3,
+          "early": 3,
+          "infra": 3,
+          "ip": 2,
+          "reloc": 4,
+          "cred": 2
+        },
+        "pitch": {
+          "project": "A community-led human-experience story within approved cultural or immersive-media work",
+          "framing": "A specific story with an evidenced community relationship, consent and a suitable storytelling portfolio.",
+          "next_step": "Review the Human Thread RFP before assessing fit or preparing a proposal; no account, application or cultural permission is assumed."
+        },
+        "verification": {
+          "checked_on": "2026-10-29",
+          "result": "partial",
+          "confirmed_fields": [
+            "status",
+            "eligibility",
+            "support_type",
+            "other_benefits",
+            "key_documents"
+          ],
+          "unverified_fields": [
+            "au_eligible",
+            "closes",
+            "equity",
+            "funding_amount",
+            "ip_conditions",
+            "matching_required",
+            "opens",
+            "requires_local",
+            "stage"
+          ],
+          "notes": "Official partner RFP and FAQ resolve Trebek cutoff, cap and conditional non-Canadian eligibility. Cutoff 29 October 03:59 UTC is future at this review (28 October 22:43 UTC). Human Thread detail remains unreadable; ocean detail unavailable or unreadable. Directory disappearance alone is not closure evidence. Programme-level dates and eligibility remain partial.",
+          "sources": [
+            {
+              "url": "https://www.nationalgeographic.org/explore/grants-investments",
+              "checked_on": "2026-10-18",
+              "access": "read"
+            },
+            {
+              "url": "https://www.nationalgeographic.org/explore/grants-investments",
+              "checked_on": "2026-10-22",
+              "access": "read"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+              "checked_on": "2026-10-22",
+              "access": "login-required"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+              "checked_on": "2026-10-22",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+              "checked_on": "2026-10-22",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+              "checked_on": "2026-10-22",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://www.nationalgeographic.org/explore/grants-investments",
+              "checked_on": "2026-10-26",
+              "access": "read"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+              "checked_on": "2026-10-26",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+              "checked_on": "2026-10-26",
+              "access": "unavailable"
+            },
+            {
+              "url": "https://www.trebekinitiative.com/2026rfp",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://www.trebekinitiative.com/faq",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://www.trebekinitiative.com/",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://www.nationalgeographic.org/explore/grants-investments",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+              "checked_on": "2026-10-29",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+              "checked_on": "2026-10-29",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+              "checked_on": "2026-10-29",
+              "access": "unavailable"
+            }
+          ]
+        },
+        "verification_history": [
+          {
+            "checked_on": "2026-10-22",
+            "result": "partial",
+            "confirmed_fields": [
+              "status",
+              "eligibility",
+              "support_type",
+              "other_benefits",
+              "key_documents"
+            ],
+            "unverified_fields": [
+              "opens",
+              "closes",
+              "au_eligible",
+              "requires_local",
+              "stage",
+              "funding_amount",
+              "equity",
+              "ip_conditions",
+              "matching_required"
+            ],
+            "notes": "Official overview still lists Ocean Exploration and Southern Ocean for October 21, Trebek for October 28 and Human Thread for December 1, without exact closing times/timezones. Dates are verified only to the day. The Ocean Exploration detail redirected to National Geographic Sign In in the cloud browser; other RFP detail pages yielded no readable text. No sign-in/account creation attempted and no ocean round archived. General eligibility and submission route are confirmed; call-specific terms remain unresolved.",
+            "sources": [
+              {
+                "url": "https://www.nationalgeographic.org/explore/grants-investments",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              },
+              {
+                "url": "https://www.nationalgeographic.org/explore/grants-investments",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+                "checked_on": "2026-10-22",
+                "access": "login-required"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+                "checked_on": "2026-10-22",
+                "access": "no-readable-text"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+                "checked_on": "2026-10-22",
+                "access": "no-readable-text"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+                "checked_on": "2026-10-22",
+                "access": "no-readable-text"
+              }
+            ]
+          },
+          {
+            "checked_on": "2026-10-26",
+            "result": "partial",
+            "confirmed_fields": [
+              "status",
+              "eligibility",
+              "support_type",
+              "other_benefits",
+              "key_documents"
+            ],
+            "unverified_fields": [
+              "au_eligible",
+              "closes",
+              "equity",
+              "funding_amount",
+              "ip_conditions",
+              "matching_required",
+              "opens",
+              "requires_local",
+              "stage"
+            ],
+            "notes": "Current official directory contains Trebek and Human Thread, with October ocean entries removed. Ocean detail URLs yielded no readable content or access error. No explicit official closure notice or exact deadline timezone was obtained; no archive created from disappearance alone. Detailed RFP and award terms remain unresolved.",
+            "sources": [
+              {
+                "url": "https://www.nationalgeographic.org/explore/grants-investments",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              },
+              {
+                "url": "https://www.nationalgeographic.org/explore/grants-investments",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+                "checked_on": "2026-10-22",
+                "access": "login-required"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+                "checked_on": "2026-10-22",
+                "access": "no-readable-text"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohhIAC/2027-trebek-initiative-rfp",
+                "checked_on": "2026-10-22",
+                "access": "no-readable-text"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+                "checked_on": "2026-10-22",
+                "access": "no-readable-text"
+              },
+              {
+                "url": "https://www.nationalgeographic.org/explore/grants-investments",
+                "checked_on": "2026-10-26",
+                "access": "read"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CnneIAC/ocean-exploration-and-discovery-2026",
+                "checked_on": "2026-10-26",
+                "access": "no-readable-text"
+              },
+              {
+                "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohXIAS",
+                "checked_on": "2026-10-26",
+                "access": "unavailable"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "redland-community-support-2026-27-round-2",
+      "programme_id": "redland-community-support",
+      "round_name": "Redland Community Support Grant 2026/27 Round 2",
+      "closed_on": "2026-11-01 midnight (end of day) Australia/Brisbane",
+      "archived_on": "2026-11-02",
+      "reason": "Official application portal explicitly confirms submissions closed at midnight end of day 1 November 2026 AEST. Recurring programme and announced future rounds remain.",
+      "snapshot_commit": "3a80753979931f5c525bc18107fadd768778b392",
+      "sources": [
+        {
+          "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+          "checked_on": "2026-11-02",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "redland-community-support",
+        "name": "Redland Community Support Grant",
+        "org": "Redland City Council",
+        "country": "Australia",
+        "city_region": "Redland City, including a proposed Minjerribah community activity",
+        "source_url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+        "status": "2026/27 Round 2 open",
+        "status_class": "open",
+        "category": "G",
+        "opens": "2026-10-12",
+        "closes": "2026-11-01 at midnight, end of day AEST (Brisbane)",
+        "recurring": true,
+        "eligibility": "Redland-based incorporated nonprofit or eligible auspice; ABN or supplier statement, financial viability, entity bank account and A$20m public liability cover",
+        "au_eligible": "Eligible local organisations; ordinary individual applicants and commercial businesses are excluded",
+        "requires_local": "Applicant and activity based in and delivered within Redland City",
+        "stage": "Community activity not begun before approval",
+        "themes": [
+          "disaster-resilience",
+          "smart-communities",
+          "civic-tech"
+        ],
+        "funding_amount": "Up to A$20,000",
+        "funding_currency": "AUD",
+        "support_type": "Community project grant",
+        "equity": "Grant rather than equity investment; final agreement not reviewed",
+        "other_benefits": "No facilities or hardware package verified",
+        "ip_conditions": "Not verified; review council agreement and any auspice terms",
+        "matching_required": "No fixed match found on reviewed page; confirm in funding agreement",
+        "key_documents": "Financial report, insurance, project plan, relevant risk assessment, quotes over A$5,000 and signed auspice agreement where needed",
+        "difficulty": "Moderate",
+        "project_match": "Straddie Disaster Kiosks community preparedness engagement, not verified hardware purchasing",
+        "why_relevant": "A possible community-led information-needs workshop and preparedness co-design activity, kept separate from kiosk engineering and installation.",
+        "risks": "Official page both allows essential-equipment consideration and excludes equipment purchases; hardware eligibility unresolved. Do not budget screens or capital works without clarification. No community lead assumed.",
+        "confidence": "Partial source check",
+        "verify": "Confirm community-engagement scope and any equipment expenditure directly with council before applying",
+        "scores": {
+          "elig": 2,
+          "value": 3,
+          "align": 3,
+          "early": 4,
+          "infra": 1,
+          "ip": 2,
+          "reloc": 5,
+          "cred": 2
+        },
+        "pitch": {
+          "project": "Community preparedness and information co-design",
+          "framing": "Test who needs which information and how a local group would maintain it.",
+          "next_step": "Secure eligible lead or documented auspice and confirm non-equipment scope."
+        },
+        "verification": {
+          "checked_on": "2026-10-29",
+          "result": "partial",
+          "confirmed_fields": [
+            "status",
+            "opens",
+            "closes",
+            "eligibility",
+            "au_eligible",
+            "requires_local",
+            "stage",
+            "funding_amount",
+            "support_type",
+            "key_documents"
+          ],
+          "unverified_fields": [
+            "equity",
+            "ip_conditions",
+            "matching_required",
+            "other_benefits"
+          ],
+          "notes": "Council page and live portal rechecked; Round 2 accepting submissions until midnight end-of-day 1 November AEST. Essential-equipment allowance conflicts with equipment-purchase exclusion, so non-equipment community engagement remains the cautious fit. Public preview requires acknowledgement of council funding; full IP/agreement terms remain unverified.",
+          "sources": [
+            {
+              "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+              "checked_on": "2026-10-22",
+              "access": "read"
+            },
+            {
+              "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+              "checked_on": "2026-10-22",
+              "access": "read"
+            },
+            {
+              "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2/507069/view",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            }
+          ]
+        },
+        "verification_history": [
+          {
+            "checked_on": "2026-10-22",
+            "result": "partial",
+            "confirmed_fields": [
+              "status",
+              "opens",
+              "closes",
+              "eligibility",
+              "au_eligible",
+              "requires_local",
+              "stage",
+              "funding_amount",
+              "support_type",
+              "key_documents"
+            ],
+            "unverified_fields": [
+              "equity",
+              "ip_conditions",
+              "matching_required",
+              "other_benefits"
+            ],
+            "notes": "Live portal confirms open status despite an outdated opening-soon heading. Equipment guidance conflicts, so only a non-equipment community-engagement route is proposed. Form PDF fetch failed; no submission made.",
+            "sources": [
+              {
+                "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://redland.smartygrants.com.au/CommunitySupport26-27-R2",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
