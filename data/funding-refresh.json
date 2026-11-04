@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-11-02",
+  "checked_on": "2026-11-05",
   "baseline_commit": "037a72d11362fa61445680b1fc74cc62819c111a",
   "programmes_before": 49,
   "programmes_after": 63,
@@ -26,29 +26,28 @@
     "msca-postdoctoral-2026",
     "wellcome-discovery-september-2026",
     "natgeo-trebek-2027",
-    "redland-community-support-2026-27-round-2"
+    "redland-community-support-2026-27-round-2",
+    "nlnet-2026-november",
+    "eic-accelerator-2026-final"
   ],
   "closed_programme_ids": [
     "canada-startup-visa",
     "ehf-giv"
   ],
-  "scope": "Targeted source review of eight existing profiles and one new city-partner grant; all retained deadline fields screened, not full programme or agreement verification.",
+  "scope": "Targeted review of seven existing profiles, all deadline fields screened, and new-call search; not full programme or agreement verification.",
   "verification_policy": "A source check is not confirmation of every term. Each record lists confirmed and unverified fields. Source access failure never means expiry.",
-  "latest_new_ids": [
-    "cities-deliver-ai-2026"
-  ],
+  "latest_new_ids": [],
   "latest_archived_round_ids": [
-    "natgeo-trebek-2027",
-    "redland-community-support-2026-27-round-2"
+    "nlnet-2026-november",
+    "eic-accelerator-2026-final"
   ],
   "reviewed_ids": [
-    "wellcome-trust",
+    "startup-chile",
     "nlnet-ngi",
-    "halcyon-incubator",
-    "natgeo-grants",
     "eic-accelerator",
-    "yc",
+    "cities-deliver-ai-2026",
     "mit-solve",
-    "redland-community-support"
+    "stronger-communities-round-10",
+    "natgeo-grants"
   ]
 }

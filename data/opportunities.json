@@ -58,49 +58,111 @@
     "org": "CORFO (Chilean Economic Development Agency)",
     "country": "Chile",
     "city_region": "Santiago",
-    "source_url": "https://startupchile.org/",
-    "status": "Equity-free programme remains advertised; next dated intake not confirmed",
-    "status_class": "recurring",
+    "source_url": "https://startupchile.org/en/apply/",
+    "status": "BIG 13 applications open; track-specific terms require confirmation",
+    "status_class": "open",
     "category": "D",
-    "opens": "Current intake not confirmed",
-    "closes": "Current deadline not confirmed",
+    "opens": "2026-11-03 at 13:00 Chile time (GMT-3)",
+    "closes": "2026-11-24 at 13:00 GMT-3 (2026-11-25 at 02:00 Brisbane AEST)",
     "recurring": true,
-    "eligibility": "Founders worldwide, tracks by stage: Build (pre-acceleration), Ignite (with an MVP), Growth",
-    "au_eligible": "Yes, open to Australian founders",
-    "requires_local": "Requires forming or operating a Chilean entity during the program and time in Chile",
-    "stage": "Seed / early, some pre-revenue tracks",
-    "themes": ["ai-assistants", "civic-tech", "climate", "health", "generative-ai", "iot"],
-    "funding_amount": "Equity-free: Build about US$12k, Ignite about US$31k, Growth larger (verify current amounts)",
-    "funding_currency": "USD (paid in CLP)",
+    "eligibility": "Technology-based, scalable ventures from worldwide founders; track-specific eligibility and current BIG 13 legal terms must be checked",
+    "au_eligible": "Foreign founders are welcomed; Australian nationality is not excluded by the public programme pages. Individual BIG 13 eligibility remains subject to its legal terms.",
+    "requires_local": "Chile-based programme participation; current incorporation, residency and time-in-country conditions require the BIG 13 terms",
+    "stage": "Build: early prototype to validated MVP; Ignite: functional product and early validation; Growth: expansion-stage venture",
+    "themes": [
+      "ai-assistants",
+      "civic-tech",
+      "climate",
+      "health",
+      "generative-ai",
+      "iot"
+    ],
+    "funding_amount": "Advertised track grants: Build CLP 15 million; Ignite CLP 25 million, with a possible CLP 20 million extension; Growth CLP 75 million. Confirm BIG 13 award terms.",
+    "funding_currency": "CLP",
     "support_type": "Grant (equity-free)",
     "equity": "Equity-free programme",
     "other_benefits": "Work visa support, soft-landing, mentor network, Latin American market access",
-    "ip_conditions": "You keep your IP",
-    "matching_required": "No (some tracks require the program to be a share of activity)",
-    "key_documents": "Pitch, team, product, traction, use-of-funds",
+    "ip_conditions": "Current BIG 13 IP agreement not verified; no licence change is authorised",
+    "matching_required": "Track-specific co-financing must be confirmed; do not assume a full-cost grant",
+    "key_documents": "Application form and track-specific evidence; current BIG 13 requirements not fully verified",
     "difficulty": "Moderate",
     "project_match": "Aura assistants, civic-tech, climate/island systems",
-    "why_relevant": "One of the most founder-friendly government programs on earth: real equity-free cash, open to foreigners, apply before incorporating. A genuine relocation-optional treasure.",
-    "risks": "Requires meaningful time in Chile and local incorporation during the program; batch timing may not suit",
+    "why_relevant": "An equity-free international development route for an Aura prototype or adaptable civic-technology venture, if a genuine Chile-based work programme and applicant conditions fit. Not remote funding for an Australian-only pilot.",
+    "risks": "Public English terms link still points to BIG 11. Current legal conditions, contribution, incorporation, residency, expenses and IP need confirmation before a BIG 13 application.",
     "confidence": "Partial source check",
-    "verify": "Confirm current track amounts, residency-days requirement and next batch dates",
-    "scores": { "elig": 5, "value": 4, "align": 4, "early": 4, "infra": 4, "ip": 5, "reloc": 2, "cred": 4 },
+    "verify": "Read the current Spanish BIG 13 legal documents and compare track, applicant, co-financing and Chile participation requirements before preparing an application.",
+    "scores": {
+      "elig": 5,
+      "value": 4,
+      "align": 4,
+      "early": 4,
+      "infra": 4,
+      "ip": 3,
+      "reloc": 2,
+      "cred": 4
+    },
     "pitch": {
       "project": "Aura personal AI or a decentralised civic infrastructure prototype",
       "framing": "A working prototype with a clear Latin American public-sector or community use case.",
-      "next_step": "Watch the next Build/Ignite call, prepare a 3-minute demo and a Chile pilot idea."
+      "next_step": "Choose the track supported by actual prototype evidence, then verify current BIG 13 terms and the Chile-based delivery plan before the 24 November deadline."
     },
     "verification": {
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-11-05",
       "result": "partial",
-      "confirmed_fields": ["equity", "status"],
-      "unverified_fields": ["opens", "closes", "eligibility", "au_eligible", "requires_local", "stage", "funding_amount", "support_type", "ip_conditions", "matching_required", "other_benefits", "key_documents"],
-      "notes": "The official homepage confirms equity-free support. The former 2-23 November 2026 BIG 7 dates and track amounts could not be verified and are no longer presented as current.",
+      "confirmed_fields": [
+        "status",
+        "opens",
+        "closes",
+        "stage",
+        "funding_amount",
+        "support_type",
+        "equity",
+        "other_benefits"
+      ],
+      "unverified_fields": [
+        "au_eligible",
+        "eligibility",
+        "ip_conditions",
+        "key_documents",
+        "matching_required",
+        "requires_local"
+      ],
+      "notes": "BIG 13 opening/deadline resolved using official application page and CORFO indexed Build 13 notice. Track pages advertise CLP grants and maturity gates; English terms still link to BIG 11 (October 2025), not verified BIG 13 contracts. No automatic Australian eligibility, remote participation, full-cost funding or IP promise is inferred. CORFO direct page retrieval failed after its official search excerpt was read.",
       "sources": [
         {
           "url": "https://startupchile.org/",
           "checked_on": "2026-10-18",
           "access": "read"
+        },
+        {
+          "url": "https://startupchile.org/en/apply/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://startupchile.org/en/apply/build/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://startupchile.org/en/apply/ignite/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://startupchile.org/en/apply/growth/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://startupchile.org/content/uploads/terms-conditions-big-11.pdf",
+          "checked_on": "2026-11-05",
+          "access": "read; prior round reference only"
+        },
+        {
+          "url": "https://www.corfo.gob.cl/sites/cpp/convocatoria/start-up-chile-build-13/",
+          "checked_on": "2026-11-05",
+          "access": "official search excerpt read; direct page inaccessible"
         }
       ]
     }
@@ -1057,19 +1119,19 @@
   },
   {
     "id": "nlnet-ngi",
-    "name": "NLnet open internet grants (Restack and CodeSupply)",
+    "name": "NLnet open internet grants (Restack, CodeSupply and GeoCommons)",
     "org": "NLnet Foundation (with European Commission NGI)",
     "country": "Netherlands (funds globally)",
     "city_region": "Amsterdam (remote / distributed)",
     "source_url": "https://nlnet.nl/propose/",
-    "status": "Restack and CodeSupply are listed as open for proposals",
-    "status_class": "open",
+    "status": "Next calls announced; submission form temporarily unavailable",
+    "status_class": "soon",
     "category": "G",
-    "opens": "Restack first call opened 2026-09-03; select the applicable fund",
-    "closes": "2026-11-03 at 12:00 CET (21:00 Brisbane)",
+    "opens": "Second Restack/CodeSupply and first GeoCommons calls announced 3 November 2026; submission form currently says proposals cannot be submitted",
+    "closes": "Next deadline: 2027-01-03 at 12:00 CET (21:00 Brisbane AEST); previous round closed 2026-11-03 at 12:00 CET",
     "recurring": true,
     "eligibility": "Technical development under open licences; EU-supported funds require a strong European dimension",
-    "au_eligible": "Conditional: an Australian applicant outside Horizon Europe-eligible countries must explain the required European dimension",
+    "au_eligible": "Conditional: NLnet lists Australia, but controlling EC guidance limits its transitional eligibility to Pillar II and 2027-onward budgets. Confirm applicability to the selected fund and round.",
     "requires_local": "No; fully remote, no incorporation required",
     "stage": "Concept to prototype",
     "themes": [
@@ -1089,15 +1151,15 @@
     "matching_required": "No",
     "key_documents": "Short technical proposal, budget, milestones",
     "difficulty": "Low to moderate (refreshingly light application)",
-    "project_match": "Privacy-preserving personal data, decentralised municipal AI, Sensorium",
-    "why_relevant": "A possible open infrastructure component route, only after the European-dimension, licensing and revised AI-development rules are satisfied.",
-    "risks": "Policy version 2.0, announced 20 October 2026, bars generative-AI proposal writing except accessibility support and limits LLM/diffusion-model project development to read-only use. It applies to the 3 November calls. European-dimension and open-licence requirements also apply.",
+    "project_match": "Eligible non-GenAI open infrastructure for Aura; separately scoped open geospatial tools for Straddie Disaster Kiosks",
+    "why_relevant": "Potential support for a discrete open infrastructure or disaster-map component, not a generic generative-AI assistant or full kiosk rollout. Recognised open licensing must fit the specific component; the existing project licence is unchanged.",
+    "risks": "Submission form currently unavailable. At least 60% of funds normally must go to eligible-country people; Australian fund/budget-year applicability needs confirmation. Restack and GeoCommons exclude GenAI except directly relevant projects already serving over one million active human users. Proposal AI rules and open-licensing gates apply.",
     "confidence": "Partial source check",
-    "verify": "Resolve full generative-AI policy, European dimension and component licensing before any applicant-authored proposal.",
+    "verify": "Confirm submission availability, selected fund geography/budget-year rules, non-GenAI scope, recognised open licence and full AI-use policy before applicant-led proposal work.",
     "scores": {
       "elig": 2,
       "value": 3,
-      "align": 5,
+      "align": 3,
       "early": 5,
       "infra": 3,
       "ip": 3,
@@ -1105,32 +1167,32 @@
       "cred": 2
     },
     "pitch": {
-      "project": "An open, privacy-preserving component of Aura or the Sensorium",
-      "framing": "A self-contained open-source module for sovereign personal data or decentralised civic infrastructure.",
-      "next_step": "Read the revised AI policy and check the actual component and licence before any proposal work. No relicensing or application is authorised."
+      "project": "A separately scoped open infrastructure or community geospatial component",
+      "framing": "A concrete non-GenAI public-interest technical component with relevant expertise, an eligible team and an acceptable open licence.",
+      "next_step": "Check submission availability and fund-specific eligibility first; verify licensing and AI rules without drafting an AI-written proposal."
     },
     "verification": {
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-05",
       "result": "partial",
       "confirmed_fields": [
         "status",
+        "opens",
         "closes",
         "eligibility",
-        "au_eligible",
         "funding_amount",
         "ip_conditions"
       ],
       "unverified_fields": [
-        "requires_local",
-        "stage",
-        "support_type",
+        "au_eligible",
         "equity",
+        "key_documents",
         "matching_required",
         "other_benefits",
-        "key_documents",
-        "opens"
+        "requires_local",
+        "stage",
+        "support_type"
       ],
-      "notes": "Restack and CodeSupply deadline reconfirmed: 3 November noon CET / 21:00 Brisbane. Full generative-AI policy returned no readable body again; the official announcement remains the available policy evidence. Prior-submission clarification is not permission for new AI-written proposals. European dimension and open-licensing gates remain; no application or relicensing.",
+      "notes": "New January deadline and three funds announced; form still says unavailable, so not labelled open. GeoCommons stays within the existing NLnet profile to avoid duplication. Australia is listed by NLnet but controlling EC V4.2 guidance is limited to Pillar II and 2027-onward budgets; no unconditional eligibility. Restack/GeoCommons GenAI scope restriction is distinct from the no-GenAI proposal-writing rule. Full AI policy again had no readable text.",
       "sources": [
         {
           "url": "https://nlnet.nl/propose/",
@@ -1186,6 +1248,61 @@
           "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
           "checked_on": "2026-11-02",
           "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/propose/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261103-call.html",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/restack/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/codesupply/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/geocommons/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/geocommons/eligibility/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/restack/guideforapplicants/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/OIS/european-dimension/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+          "checked_on": "2026-11-05",
+          "access": "no readable text"
         }
       ]
     },
@@ -2441,11 +2558,11 @@
     "country": "European Union (plus associated countries)",
     "city_region": "EU-based company required",
     "source_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
-    "status": "2026 short-proposal call and final full-proposal batch close 4 November at 17:00 Brussels; 2027 short-proposal opening announced for November without an exact date",
-    "status_class": "open",
+    "status": "2026 short-proposal call and final full-proposal batch elapsed; 2027 short call announced for November, exact opening unconfirmed",
+    "status_class": "soon",
     "category": "I",
-    "opens": "2026 short-proposal route open; 2027 call announced for November, exact opening date not published",
-    "closes": "2026-11-04 at 17:00 CET (2026-11-05 at 02:00 Brisbane AEST): short-proposal call closure and full-proposal batching deadline",
+    "opens": "2027 short-proposal call announced for November 2026; exact date not confirmed",
+    "closes": "Next deadline unconfirmed. The 2026 short call and final full-proposal batch closed 4 November 2026 at 17:00 CET (5 November at 02:00 Brisbane AEST).",
     "recurring": true,
     "eligibility": "Startups and SMEs with innovations at TRL 6-8; third-country applicants must establish eligibility before the full proposal",
     "au_eligible": "Third-country applicants may enter the short-proposal stage, conditional on eligible establishment or relocation before the full proposal; Australian residence alone is insufficient",
@@ -2489,7 +2606,7 @@
       "next_step": "Check completed TRL 5 evidence, eligible applicant route and short-proposal requirements before any incorporation or application decision. A GO precedes the full proposal."
     },
     "verification": {
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-05",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -2509,7 +2626,7 @@
         "other_benefits",
         "key_documents"
       ],
-      "notes": "Official short-proposal topic update adds 4 November 17:00 Brussels closure and November reopening under the 2027 call, without an exact opening date. Full-proposal batch at the same cutoff still requires a prior GO. Third-country eligibility applies before Step 2, not automatically before Step 1. Detailed IP agreement remains unreviewed.",
+      "notes": "Final 2026 cutoff elapsed. Main page confirms batch and prior GO gate; official indexed topic notice confirms short-call closure and November reopening without an exact date. Direct topic returned only a shell. Australian Horizon Pillar II transitional arrangements do not establish EIC eligibility. Detailed IP agreement remains unreviewed.",
       "sources": [
         {
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
@@ -2525,6 +2642,16 @@
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
           "checked_on": "2026-11-02",
           "access": "read"
+        },
+        {
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+          "checked_on": "2026-11-05",
+          "access": "official indexed notice read; direct topic shell"
         }
       ]
     },
@@ -5358,7 +5485,7 @@
       "next_step": "Assess municipal definition, legal vehicle and separable open-licensed work package before any application or contact."
     },
     "verification": {
-      "checked_on": "2026-11-02",
+      "checked_on": "2026-11-05",
       "result": "partial",
       "confirmed_fields": [
         "status",
@@ -5378,7 +5505,7 @@
         "requires_local",
         "matching_required"
       ],
-      "notes": "Checked 2 November Brisbane / 1 November UTC. No established applicant or partner; project fit inferred. False recurring flag means no repeat round established, not confirmed one-off. FAQ and terms reviewed without submitting or accepting anything.",
+      "notes": "Checked 2 November Brisbane / 1 November UTC. No established applicant or partner; project fit inferred. False recurring flag means no repeat round established, not confirmed one-off. FAQ and terms reviewed without submitting or accepting anything. Rechecked before the FAQ revision deadline: publisher specifies 4 November 20:00 EST, equivalent to 5 November 01:00 UTC / 11:00 Brisbane. At this review the deadline remains future; no revised FAQ version verified. City population/contiguity, municipal letter and open-output licensing gates remain. Grant currency still not explicit.",
       "sources": [
         {
           "url": "https://www.rockefellerfoundation.org/cities-deliver-ai-solutions-for-public-services/",
@@ -5393,6 +5520,21 @@
         {
           "url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/10/Cities-Deliver-AI-Solutions-for-Public-Services-Terms-and-Conditions-Final.pdf",
           "checked_on": "2026-11-02",
+          "access": "read"
+        },
+        {
+          "url": "https://www.rockefellerfoundation.org/cities-deliver-ai-solutions-for-public-services/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/10/Cities-Deliver-AI-Solutions-for-Public-Services-FAQs-Final.pdf",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/10/Cities-Deliver-AI-Solutions-for-Public-Services-Terms-and-Conditions-Final.pdf",
+          "checked_on": "2026-11-05",
           "access": "read"
         }
       ]

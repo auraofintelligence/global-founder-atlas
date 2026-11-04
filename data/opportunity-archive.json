@@ -799,6 +799,427 @@
           }
         ]
       }
+    },
+    {
+      "id": "nlnet-2026-november",
+      "programme_id": "nlnet-ngi",
+      "round_name": "NLnet Restack / CodeSupply November 2026 round",
+      "closed_on": "2026-11-03 12:00 Europe/Amsterdam",
+      "archived_on": "2026-11-05",
+      "reason": "Official deadline elapsed and submission form explicitly reports it missed; next recurring calls retained.",
+      "snapshot_commit": "79a90a4a1f0e01064ee658e328bb831a5f9abc08",
+      "sources": [
+        {
+          "url": "https://nlnet.nl/propose/",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://nlnet.nl/news/2026/20261103-call.html",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        }
+      ],
+      "record": {
+        "id": "nlnet-ngi",
+        "name": "NLnet open internet grants (Restack and CodeSupply)",
+        "org": "NLnet Foundation (with European Commission NGI)",
+        "country": "Netherlands (funds globally)",
+        "city_region": "Amsterdam (remote / distributed)",
+        "source_url": "https://nlnet.nl/propose/",
+        "status": "Restack and CodeSupply are listed as open for proposals",
+        "status_class": "open",
+        "category": "G",
+        "opens": "Restack first call opened 2026-09-03; select the applicable fund",
+        "closes": "2026-11-03 at 12:00 CET (21:00 Brisbane)",
+        "recurring": true,
+        "eligibility": "Technical development under open licences; EU-supported funds require a strong European dimension",
+        "au_eligible": "Conditional: an Australian applicant outside Horizon Europe-eligible countries must explain the required European dimension",
+        "requires_local": "No; fully remote, no incorporation required",
+        "stage": "Concept to prototype",
+        "themes": [
+          "privacy-data",
+          "blockchain",
+          "iot",
+          "ai-assistants",
+          "civic-tech",
+          "generative-ai"
+        ],
+        "funding_amount": "EUR 5,000 to EUR 50,000 for a first grant",
+        "funding_currency": "EUR",
+        "support_type": "Grant (non-dilutive, milestone-based)",
+        "equity": "None",
+        "other_benefits": "Technical and security mentoring, accessibility and standards support, EU network",
+        "ip_conditions": "Software, hardware and content must use open licences and preferably open standards; the existing Strange But True licence is not automatically compatible",
+        "matching_required": "No",
+        "key_documents": "Short technical proposal, budget, milestones",
+        "difficulty": "Low to moderate (refreshingly light application)",
+        "project_match": "Privacy-preserving personal data, decentralised municipal AI, Sensorium",
+        "why_relevant": "A possible open infrastructure component route, only after the European-dimension, licensing and revised AI-development rules are satisfied.",
+        "risks": "Policy version 2.0, announced 20 October 2026, bars generative-AI proposal writing except accessibility support and limits LLM/diffusion-model project development to read-only use. It applies to the 3 November calls. European-dimension and open-licence requirements also apply.",
+        "confidence": "Partial source check",
+        "verify": "Resolve full generative-AI policy, European dimension and component licensing before any applicant-authored proposal.",
+        "scores": {
+          "elig": 2,
+          "value": 3,
+          "align": 5,
+          "early": 5,
+          "infra": 3,
+          "ip": 3,
+          "reloc": 5,
+          "cred": 2
+        },
+        "pitch": {
+          "project": "An open, privacy-preserving component of Aura or the Sensorium",
+          "framing": "A self-contained open-source module for sovereign personal data or decentralised civic infrastructure.",
+          "next_step": "Read the revised AI policy and check the actual component and licence before any proposal work. No relicensing or application is authorised."
+        },
+        "verification": {
+          "checked_on": "2026-11-02",
+          "result": "partial",
+          "confirmed_fields": [
+            "status",
+            "closes",
+            "eligibility",
+            "au_eligible",
+            "funding_amount",
+            "ip_conditions"
+          ],
+          "unverified_fields": [
+            "requires_local",
+            "stage",
+            "support_type",
+            "equity",
+            "matching_required",
+            "other_benefits",
+            "key_documents",
+            "opens"
+          ],
+          "notes": "Restack and CodeSupply deadline reconfirmed: 3 November noon CET / 21:00 Brisbane. Full generative-AI policy returned no readable body again; the official announcement remains the available policy evidence. Prior-submission clarification is not permission for new AI-written proposals. European dimension and open-licensing gates remain; no application or relicensing.",
+          "sources": [
+            {
+              "url": "https://nlnet.nl/propose/",
+              "checked_on": "2026-10-18",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/restack/",
+              "checked_on": "2026-10-18",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+              "checked_on": "2026-10-22",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/propose/",
+              "checked_on": "2026-10-22",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+              "checked_on": "2026-10-22",
+              "access": "no readable content"
+            },
+            {
+              "url": "https://nlnet.nl/propose/",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+              "checked_on": "2026-10-29",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+              "checked_on": "2026-10-29",
+              "access": "no readable content"
+            },
+            {
+              "url": "https://nlnet.nl/propose/",
+              "checked_on": "2026-11-02",
+              "access": "read"
+            },
+            {
+              "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+              "checked_on": "2026-11-02",
+              "access": "no-readable-text"
+            },
+            {
+              "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+              "checked_on": "2026-11-02",
+              "access": "read"
+            }
+          ]
+        },
+        "verification_history": [
+          {
+            "checked_on": "2026-10-22",
+            "result": "partial",
+            "confirmed_fields": [
+              "status",
+              "closes",
+              "eligibility",
+              "au_eligible",
+              "funding_amount",
+              "ip_conditions"
+            ],
+            "unverified_fields": [
+              "requires_local",
+              "stage",
+              "support_type",
+              "equity",
+              "matching_required",
+              "other_benefits",
+              "key_documents",
+              "opens"
+            ],
+            "notes": "Deadline and form rechecked. New 20 October official policy notice materially tightens AI use. The policy page itself returned no readable body; the linked official announcement is the evidence, not a complete agreement review. Historical opening date was not rechecked.",
+            "sources": [
+              {
+                "url": "https://nlnet.nl/propose/",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/restack/",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/propose/",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+                "checked_on": "2026-10-22",
+                "access": "no readable content"
+              }
+            ]
+          },
+          {
+            "checked_on": "2026-10-29",
+            "result": "partial",
+            "confirmed_fields": [
+              "status",
+              "closes",
+              "eligibility",
+              "au_eligible",
+              "funding_amount",
+              "ip_conditions"
+            ],
+            "unverified_fields": [
+              "requires_local",
+              "stage",
+              "support_type",
+              "equity",
+              "matching_required",
+              "other_benefits",
+              "key_documents",
+              "opens"
+            ],
+            "notes": "Form and policy announcement rechecked. Restack and CodeSupply remain open, deadline 3 November noon CET. Announcement clarifies pre-20-October AI-written submissions need not be rewritten solely for that reason; update date unspecified. New proposal writing remains restricted and project development limited to read-only LLM/diffusion usage. Full policy page still has no readable body. No application or licence change.",
+            "sources": [
+              {
+                "url": "https://nlnet.nl/propose/",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/restack/",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/propose/",
+                "checked_on": "2026-10-22",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+                "checked_on": "2026-10-22",
+                "access": "no readable content"
+              },
+              {
+                "url": "https://nlnet.nl/propose/",
+                "checked_on": "2026-10-29",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/news/2026/20261020-AI-policy.html",
+                "checked_on": "2026-10-29",
+                "access": "read"
+              },
+              {
+                "url": "https://nlnet.nl/foundation/policies/generativeAI/",
+                "checked_on": "2026-10-29",
+                "access": "no readable content"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "eic-accelerator-2026-final",
+      "programme_id": "eic-accelerator",
+      "round_name": "EIC Accelerator 2026 final short-call and full-proposal cutoff",
+      "closed_on": "2026-11-04 17:00 Europe/Brussels",
+      "archived_on": "2026-11-05",
+      "reason": "Published final cutoff elapsed; November 2027-call reopening announcement retained without inventing an exact date.",
+      "snapshot_commit": "79a90a4a1f0e01064ee658e328bb831a5f9abc08",
+      "sources": [
+        {
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "checked_on": "2026-11-05",
+          "access": "read"
+        },
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+          "checked_on": "2026-11-05",
+          "access": "official indexed notice read; direct topic shell"
+        }
+      ],
+      "record": {
+        "id": "eic-accelerator",
+        "name": "EIC Accelerator",
+        "org": "European Innovation Council (European Commission)",
+        "country": "European Union (plus associated countries)",
+        "city_region": "EU-based company required",
+        "source_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+        "status": "2026 short-proposal call and final full-proposal batch close 4 November at 17:00 Brussels; 2027 short-proposal opening announced for November without an exact date",
+        "status_class": "open",
+        "category": "I",
+        "opens": "2026 short-proposal route open; 2027 call announced for November, exact opening date not published",
+        "closes": "2026-11-04 at 17:00 CET (2026-11-05 at 02:00 Brisbane AEST): short-proposal call closure and full-proposal batching deadline",
+        "recurring": true,
+        "eligibility": "Startups and SMEs with innovations at TRL 6-8; third-country applicants must establish eligibility before the full proposal",
+        "au_eligible": "Third-country applicants may enter the short-proposal stage, conditional on eligible establishment or relocation before the full proposal; Australian residence alone is insufficient",
+        "requires_local": "Eligible EU or associated-country company requirements apply before full proposal; digital e-Residency alone is insufficient",
+        "stage": "Prototype to scale (TRL-based)",
+        "themes": [
+          "generative-ai",
+          "ai-assistants",
+          "health",
+          "climate",
+          "privacy-data",
+          "iot"
+        ],
+        "funding_amount": "Grant component below EUR 2.5 million; optional investment EUR 1 million to EUR 10 million",
+        "funding_currency": "EUR",
+        "support_type": "Grant plus optional equity (blended finance)",
+        "equity": "Only if you take the investment component; the grant portion is non-dilutive",
+        "other_benefits": "Business acceleration services, EU market access, follow-on investment",
+        "ip_conditions": "Award-agreement IP conditions remain unverified; no unconditional ownership guarantee",
+        "matching_required": "Current grant cost-sharing and capacity-to-scale conditions require the work programme and award terms; not verified as zero match",
+        "key_documents": "Full proposal, business plan, pitch, due diligence",
+        "difficulty": "Very high (rigorous, multi-stage)",
+        "project_match": "Deep-tech AI, digital twins, health, climate",
+        "why_relevant": "A potential later-stage Geode or AI component route once technology maturity and eligible applicant structure are demonstrated; not concept-stage funding.",
+        "risks": "Requires an EU entity and a mature deep-tech case; extremely competitive and slow; not concept-stage",
+        "confidence": "Partial source check",
+        "verify": "Confirm current cut-off dates, thematic priorities and entity requirements",
+        "scores": {
+          "elig": 2,
+          "value": 5,
+          "align": 4,
+          "early": 2,
+          "infra": 4,
+          "ip": 2,
+          "reloc": 3,
+          "cred": 2
+        },
+        "pitch": {
+          "project": "A matured Aura deep-tech component with an EU entity behind it",
+          "framing": "A high-impact European deep-tech company advancing sovereign personal AI.",
+          "next_step": "Check completed TRL 5 evidence, eligible applicant route and short-proposal requirements before any incorporation or application decision. A GO precedes the full proposal."
+        },
+        "verification": {
+          "checked_on": "2026-11-02",
+          "result": "partial",
+          "confirmed_fields": [
+            "status",
+            "opens",
+            "closes",
+            "eligibility",
+            "requires_local",
+            "funding_amount",
+            "matching_required"
+          ],
+          "unverified_fields": [
+            "au_eligible",
+            "stage",
+            "support_type",
+            "equity",
+            "ip_conditions",
+            "other_benefits",
+            "key_documents"
+          ],
+          "notes": "Official short-proposal topic update adds 4 November 17:00 Brussels closure and November reopening under the 2027 call, without an exact opening date. Full-proposal batch at the same cutoff still requires a prior GO. Third-country eligibility applies before Step 2, not automatically before Step 1. Detailed IP agreement remains unreviewed.",
+          "sources": [
+            {
+              "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+              "checked_on": "2026-10-18",
+              "access": "read"
+            },
+            {
+              "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+              "checked_on": "2026-11-02",
+              "access": "read"
+            },
+            {
+              "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+              "checked_on": "2026-11-02",
+              "access": "read"
+            }
+          ]
+        },
+        "verification_history": [
+          {
+            "checked_on": "2026-10-18",
+            "result": "partial",
+            "confirmed_fields": [
+              "status",
+              "opens",
+              "closes",
+              "eligibility",
+              "requires_local",
+              "funding_amount",
+              "matching_required"
+            ],
+            "unverified_fields": [
+              "au_eligible",
+              "stage",
+              "support_type",
+              "equity",
+              "ip_conditions",
+              "other_benefits",
+              "key_documents"
+            ],
+            "notes": "The full-proposal date is not an entry deadline for someone without a GO. Registration and grant eligibility are separate.",
+            "sources": [
+              {
+                "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+                "checked_on": "2026-10-18",
+                "access": "read"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
